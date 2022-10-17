@@ -20,6 +20,8 @@
         "template--14681911951430__d4407a18-d7bd-4fc2-a5c9-0924ba454b62-16660006580e3c963c-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_4607.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/iphone-pico-new.png",
             "bg_position": "center-center",
             "overlay_opacity": 15,
             "overlay_color": "#000",
