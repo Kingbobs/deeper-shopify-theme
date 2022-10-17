@@ -27,14 +27,15 @@
               <img  src="{{ 'icon_Router.png'  | asset_url }}" >
               <p>Router</p>
             </li>
+             <li class="one-seventh">
+              <img  src="{{ 'icon_Smart_TV.png'  | asset_url }}" >
+              <p>Smart TV</p>
+            </li>
             <li class="one-seventh">
               <img  src="{{ 'icon_Game_Consoles.png'  | asset_url }}" >
               <p>Game Consoles</p>
             </li>
-            <li class="one-seventh">
-              <img  src="{{ 'icon_Smart_TV.png'  | asset_url }}" >
-              <p>Smart TV</p>
-            </li>
+           
           </ul>
            <ul class="mobile--show small-down--show small-show medium--hide large--hide widescreen--hide">
             <li class="one-quarter">
@@ -58,13 +59,14 @@
               <p>Router</p>
             </li>
             <li class="one-quarter">
-              <img  src="{{ 'icon_Game_Consoles.png'  | asset_url }}" >
-              <p>Game Consoles</p>
-            </li>
-            <li class="one-quarter">
               <img  src="{{ 'icon_Smart_TV.png'  | asset_url }}" >
               <p>Smart TV</p>
             </li>
+            <li class="one-quarter">
+              <img  src="{{ 'icon_Game_Consoles.png'  | asset_url }}" >
+              <p>Game Consoles</p>
+            </li>
+           
           </ul>
         </div>
       </div>
@@ -90,6 +92,9 @@
   }
 
   #supports ul li img { 
+    width: 30% !important;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #supports ul li p {
@@ -104,7 +109,12 @@
     text-align: center;
     /* Text/强调、正文标题 */
     color: #170F49;
-
+  }
+  .one-quarter ul li {
+    margin-bottom: 10px !important;
+  } 
+  .one-quarter p {
+    font-size: 12px !important;
   }
 </style>
 
