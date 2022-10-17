@@ -1,0 +1,123 @@
+{% schema %}
+  {
+    "name": "Home Pay Once",
+    "settings": [
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 0
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Section width",
+        "default": "wrapper--none",
+        "options": [
+          { "value": "wrapper--none", "label": "Full width" },
+          { "value": "wrapper--full", "label": "Full width padded" },
+          { "value": "wrapper", "label": "Page width" },
+          { "value": "wrapper--narrow", "label": "Page width narrow" }
+        ]
+      }
+	  ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type":"url",
+            "id":"image_link",
+            "label":"Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+          "name": "Home Pay Once",
+          "category": "My Sections"
+      }
+    ]
+  } 
+{% endschema %}
+
+
+<div
+  id="pay-once"
+  data-section-id="{{ section.id }}" 
+  data-section-type="section-collection" 
+  style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px; "
+>
+ 
+
+  <div class="{{ section.settings.width }} section-padding" style="background-color: #F7F7FB;padding-top:2em;">
+    <div class="standard__rte payOnceHeading h5 text-center mobile--hide small--hide  {{ font_size_class }} {{ text_columns_class }}" {{ block.shopify_attributes }}>
+      <p style="color: #170F49;">Deeper Connect<br />The unique cybersecurity and decentralized VPN (DPN) hardware</p>
+    </div>
+    <div class="standard__rte payOnceHeading text-center mobile--show  medium--hide large--hide widescreen--hide h6 {{ font_size_class }} {{ text_columns_class }}" {{ block.shopify_attributes }}>
+      <h2 class="h5" style="color: #170F49;">Deeper Connect<br />The unique cybersecurity and decentralized VPN (DPN) hardware</h2>
+    </div>
+    <div class="standard__rte text-center mobile--hide small--hide h4-body payOnceDesc">
+      This Layer 7 Firewall & Decentralized VPN Hardware Protects All Your Devices and Online Data. It is the powerful cybersecurity
+      hardware device, with the plug-and-play setup and all the familiar features while providing convenience for people who travel 
+      frequently. With an included Wi-Fi Adapter, users can enjoy a safe and fast private network anytime and anywhere, whether at 
+      home or on the go.
+    </div>
+    <div class="standard__rte text-center mobile--show payOnceDesc medium--hide large--hide widescreen--hide">
+      This Layer 7 Firewall & Decentralized VPN Hardware Protects All Your Devices and Online Data. It is the powerful cybersecurity 
+      hardware device, with the plug-and-play setup and all the familiar features while providing convenience for people who travel 
+      frequently. With an included Wi-Fi Adapter, users can enjoy a safe and fast private network anytime and anywhere, whether at 
+      home or on the go.
+    </div>
+    <div class="text-center mobile--hide small--hide">
+      <a href="#plug-and-play-zero-configuration"><img class="one-seventh" src="https://cdn.shopify.com/s/files/1/0256/1038/7504/files/payonce-00001.png" alt="deeper connect device, deeper network, Decentralized VPN DPN, Home Gateway cybersecurity Hardware, VPN router device, Blockchain Mining, Web 3.0 gateway, icon, plug N play with zero configuration" /></a>
+      <a href="https://shop-dev.deeper.network/dpn" target="_blank"><img class="one-seventh" src="https://cdn.shopify.com/s/files/1/0256/1038/7504/files/payonce-00002.png" alt="deeper connect device, deeper network, Decentralized VPN DPN, Home Gateway cybersecurity Hardware, VPN router device, Blockchain Mining, Web 3.0 gateway icon decentralized VPN(DPN)" /></a>
+      <a href="https://shop-dev.deeper.network/blockads" target="_blank"><img class="one-seventh" src="https://cdn.shopify.com/s/files/1/0256/1038/7504/files/payonce-00003.png" alt="deeper connect device, deeper network, Decentralized VPN DPN, Home Gateway cybersecurity Hardware, VPN router device, Blockchain Mining, Web 3.0 gateway, icon, block all ads including youTube Ads" /></a>
+      <a href="https://shop-dev.deeper.network/cybersecurity" target="_blank"><img class="one-seventh" src="https://cdn.shopify.com/s/files/1/0256/1038/7504/files/payonce-00004.png" alt="deeper connect device, deeper network, Decentralized VPN DPN, Home Gateway cybersecurity Hardware, VPN router device, Blockchain Mining, Web 3.0 gateway, icon, enterprise-level security"/></a>
+      <a href="https://shop-dev.deeper.network/#Parent" target="_blank"><img class="one-seventh" src="https://cdn.shopify.com/s/files/1/0256/1038/7504/files/payonce-00005.png" alt="deeper connect device, deeper network, Decentralized VPN DPN, Home Gateway cybersecurity Hardware, VPN router device, Blockchain Mining, Web 3.0 gateway, icon, one-click parental control" /></a>
+      <a href="https://shop.deeper.network/pages/blockchain-mining" target="_blank"><img class="one-seventh" src="https://cdn.shopify.com/s/files/1/0256/1038/7504/files/payonce-00006.png" alt="deeper connect device, deeper network, Decentralized VPN DPN, Home Gateway cybersecurity Hardware, VPN router device, Blockchain Mining, Web 3.0 gateway, icon, blockchain mining" /></a>
+    </div>
+    <div class="text-center mobile--show  medium--hide large--hide widescreen--hide">
+      <a href="#plug-and-play-zero-configuration" target="_blank"><img style="width:32%" src="https://cdn.shopify.com/s/files/1/0256/1038/7504/files/payonce-00001.png" alt="deeper connect device, deeper network, Decentralized VPN DPN, Home Gateway cybersecurity Hardware, VPN router device, Blockchain Mining, Web 3.0 gateway, icon, plug N play with zero configuration" /></a>
+      <a href="https://shop-dev.deeper.network/dpn" target="_blank"><img style="width:32%" src="https://cdn.shopify.com/s/files/1/0256/1038/7504/files/payonce-00002.png" alt="deeper connect device, deeper network, Decentralized VPN DPN, Home Gateway cybersecurity Hardware, VPN router device, Blockchain Mining, Web 3.0 gateway icon decentralized VPN(DPN)" /></a>
+      <a href="https://shop-dev.deeper.network/blockads" target="_blank"><img style="width:32%" src="https://cdn.shopify.com/s/files/1/0256/1038/7504/files/payonce-00003.png" alt="deeper connect device, deeper network, Decentralized VPN DPN, Home Gateway cybersecurity Hardware, VPN router device, Blockchain Mining, Web 3.0 gateway, icon, block all ads including youTube Ads" /></a>
+      <a href="https://shop-dev.deeper.network/cybersecurity" target="_blank"><img style="width:32%" src="https://cdn.shopify.com/s/files/1/0256/1038/7504/files/payonce-00004.png" alt="deeper connect device, deeper network, Decentralized VPN DPN, Home Gateway cybersecurity Hardware, VPN router device, Blockchain Mining, Web 3.0 gateway, icon, enterprise-level security" /></a>
+      <a href="https://shop-dev.deeper.network/#Parent" target="_blank"><img style="width:32%" src="https://cdn.shopify.com/s/files/1/0256/1038/7504/files/payonce-00005.png" alt="deeper connect device, deeper network, Decentralized VPN DPN, Home Gateway cybersecurity Hardware, VPN router device, Blockchain Mining, Web 3.0 gateway, icon, one-click parental control" /></a>
+      <a href="https://shop.deeper.network/pages/blockchain-mining" target="_blank"><img style="width:32%" src="https://cdn.shopify.com/s/files/1/0256/1038/7504/files/payonce-00006.png" alt="deeper connect device, deeper network, Decentralized VPN DPN, Home Gateway cybersecurity Hardware, VPN router device, Blockchain Mining, Web 3.0 gateway, icon, blockchain mining" /></a>
+
+    </div>
+  </div>
+</div>
+</div>
+
+{% stylesheet %}
+.payOnceDesc{
+  padding-left: 92px;
+  padding-right: 92px;
+  font-weight:400;
+}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

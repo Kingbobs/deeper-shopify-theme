@@ -1,0 +1,224 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-default",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "aboutusmenu",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16589964425ea6b8dc": {
+      "type": "section-text",
+      "blocks": {
+        "1658996442abf3f098-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>About<\/p>",
+            "text_size": 9
+          }
+        },
+        "1658996442abf3f098-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Deeper Network represents the world's first decentralized blockchain network for building a truly private, secure and fair Internet.Deeper Network Inc. was founded in Silicon Valley in <strong>2018<\/strong> with the vision of leveraging blockchain technology to empower the everyday users of the internet by building both the <strong>WEB 3.0<\/strong> infrastructure of the future and an accessible gateway for everyone to join the revolution.We have world class talent working on the project. Most of our team members held important positions at Google, IBM, Alibaba, etc. Our technical core team members are from Palo Alto, Fortinet, and other companies that are world leaders in cybersecurity.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "1658996442abf3f098-1",
+        "1658996442abf3f098-2"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1653563344bddedd8f": {
+      "type": "section-hero",
+      "blocks": {
+        "16535633441bbb7de5-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "text_size": 10
+          }
+        },
+        "16535633441bbb7de5-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>This area is used to describe your store<\/p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "16535633441bbb7de5-0",
+        "16535633441bbb7de5-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-banner_cd73cb3a-bdee-4243-b512-bdc71a0db26e.png",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-left",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1653651367a9c08e61": {
+      "type": "section-text",
+      "blocks": {
+        "1653651367f845c423-0": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "<p>Overview<\/p>",
+            "enable_caps": false,
+            "text_size": 5
+          }
+        },
+        "1653651367f845c423-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Overview<\/p>",
+            "text_size": 9
+          }
+        },
+        "1653651367f845c423-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        },
+        "1653651367f845c423-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn More",
+            "button_url": "",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn--soft",
+            "button_color": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "1653651367f845c423-0",
+        "1653651367f845c423-1",
+        "1653651367f845c423-2",
+        "1653651367f845c423-3"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16536513323533afce": {
+      "type": "section-timeline-tree",
+      "blocks": {
+        "1653651332e6567a44-0": {
+          "type": "episode",
+          "settings": {
+            "title": "2022",
+            "date": "",
+            "story": "<p>Launched offline Deeper Connect promotions. Integrated EVM and WASM dual-contract platform. Added $DPR burn mechanism to grow credit score. Added API-sidecar\/archive\/blockscout on-chain utilities. Added Wi-Fi transceiver support for Wi-Fi relay mode. <\/p><p>Implemented Basic Mining 2.0 mining rules. Released Deeper Chain NFT series. Added support for Wi-Fi router mode. Continued growth of Deeper Chain nodes by 200%. Deeper Network reached over 80,000 nodes in more than 150+ countries and successfully raised over $2.72 million+USD on Indiegogo and Kickstarter.<\/p><p>Launched EZC stablecoin credit, Deeper Network decentralized Oracle, and Decentralized Edge Computing Platform (DEP) public framework for Web2\/Web3 applications in the Deeper Network ecosystem. Upgraded Point-to-Point Protocol over Ethernet (PPPoE) to support Wi-Fi routers. Develop the new network intrusion detection engine.<\/p><p>Developed subscription-based DPN mobile apps for iOS and Android. Launched the Decentralized Edge Computing Platform (DEP) governance module.<\/p>",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        },
+        "1653651332e6567a44-1": {
+          "type": "episode",
+          "settings": {
+            "title": "2021",
+            "date": "",
+            "story": "<p>Established strategic partnerships with SevenX, Spark Digital Capital, Brilliance Ventures, Loopring, Polka Defy Alliance, and Spec-Rationality. Launched DPR test net with Deeper’s PoCr framework. Port AtomOS to ARM platform. Released 5th-generation Deeper Connect Nano.<\/p><p>Finished development for 6th-generation Deeper Connect Pico. Over-the-air update for Wi-Fi support across all devices.<\/p><p>Finished development on a mobile app to connect to the DPN network.<\/p><p>Finished the development of Ethereum & BSC to Deeper Chain cross-chain bridges. Resumed liquidity staking for DPR markets. PICO hit crowdfunding. Prepared for basic mining & pro-mining to join the Deeper Chain. Released encrypted ads filter function. Optimized platform appearance and functionality.<\/p>",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        },
+        "1653651332e6567a44-2": {
+          "type": "episode",
+          "settings": {
+            "title": "2020",
+            "date": "",
+            "story": "<p>Completed Pre-A round financing backed by Gobi China, YOUBI Capital, and UVA.<\/p><p>Developed Deeper Connect Mini, 1\/4th the size of Deeper Connect Lite. Attended CES 2020 showcasing Deeper Connect Mini to the public for the first time.<\/p><p>Established strategic alliances with Republic incubator, NKN, and China Mobile to jointly research and develop cybersecurity products for the smart home.<\/p><p>Deeper Connect Mini launched on Indiegogo to great fanfare: 10,000+ backers from 120+ countries. $1.45M+ USD in sales to date.<\/p><p>Accepted into the Substrate Builders Program (Infrastructure Track) and became a part of the Polkadot ecosystem. Finished developing Deeper Connect Nano, an even more cost-effective and smaller device than the Deeper Connect Mini.<\/p>",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        },
+        "1653651332e6567a44-3": {
+          "type": "episode",
+          "settings": {
+            "title": "2019",
+            "date": "",
+            "story": "<p>Launched public testnet with PoCr consensus algorithm that enables fair participation in blockchain mining; 1000+ users and 200+ paying nodes participated.<\/p><p>Partnered with top organizations across traditional and blockchain industries, including Harmony, NKN, and SWFT.<\/p><p>Completed seed round financing. Released Deeper Connect Lite.<\/p><p>Established strategic alliances with Consensus Labs and Canaan Creative.<\/p>",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        },
+        "43e50839-6d1c-4588-9342-ed559ea1bc9c": {
+          "type": "episode",
+          "settings": {
+            "title": "2018",
+            "date": "",
+            "story": "<p>Leadership and technical team founded in Silicon Valley.<\/p><p>Finished developing several core technologies including AtomOS, the world’s first lock-free network operating OS, and Trident Protocol, a decentralized, shared communications protocol based on blockchain technology.<\/p><p>Deeper Connect prototype was developed: the world’s first blockchain-based home security gateway equipped with AtomOS and plug-and-play setup feature.<\/p>",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653651332e6567a44-0",
+        "1653651332e6567a44-1",
+        "1653651332e6567a44-2",
+        "1653651332e6567a44-3",
+        "43e50839-6d1c-4588-9342-ed559ea1bc9c"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "1658996067bd50e0a7": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n#shopify-section-template--14549251719238__16589964425ea6b8dc p strong {\n color: #495AF5 !important;\n}\n\n#shopify-section-template--14549251719238__16589964425ea6b8dc p {\n margin-bottom: 10px;\n line-hgith: 22px;\n}\n\n#shopify-section-template--14596490035270__16589964425ea6b8dc .standard__rte p {\nline-height: 22px !important;\n}\n#shopify-section-template--14596490035270__16589964425ea6b8dc .standard__rte strong{\n color:#495AF5;\n font-weigth: 400;\n}\n.timeline__placemark{\ntop: 6px !important;\n}\n.timeline__title {\n color: #495AF5;\n font-weight:600;\n}\n.timeline__story {\n  padding-left: 22px;\n}\n.timeline__story p {\npadding-bottom: 8px;\nfont-size:14px !important;\ntext-indent: -13px;\n}\n.timeline__story p::before {\ncontent: '';\nborder: 1px solid #000;\nbackground-color: #000;\ndisplay: inline-block;\nwidth: 3px;\nheight: 3px;\nborder-radius: 50%;\nmargin-right: 10px;\nmargin-bottom: 3px;\n}\n<\/style>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16589964425ea6b8dc",
+    "1653563344bddedd8f",
+    "1653651367a9c08e61",
+    "16536513323533afce",
+    "1658996067bd50e0a7"
+  ]
+}

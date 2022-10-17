@@ -1,0 +1,216 @@
+<!-- /sections/section-row.liquid -->
+
+<div class="section-row {{ section.settings.color_bg }}" 
+  style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px;">
+  <div class="{{ section.settings.width }} section-padding">
+
+    <div class="overlap">
+      <div class="overlap__item overlap__image">
+        {% if section.settings.left_image != blank %}
+          {%- render 'image-fill', img_object: section.settings.left_image, bg_position: section.settings.bg_position, aspect_ratio: section.settings.aspect_ratio -%}
+        {% else %}
+          <span class="image__fill fade-in-image" style="padding-top: {{ section.settings.aspect_ratio | times: 100 }}%;">
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          </span>
+        {% endif %}
+      </div>
+
+      <div class="overlap__item overlap__image">
+        {% if section.settings.right_image != blank %}
+          {%- render 'image-fill', img_object: section.settings.right_image, bg_position: section.settings.bg_position, aspect_ratio: section.settings.aspect_ratio -%}
+        {% else %}
+          <span class="image__fill fade-in-image" style="padding-top: {{ section.settings.aspect_ratio | times: 100 }}%;">
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          </span>
+        {% endif %}
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Image Sets",
+    "class": "section-section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "left_image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "right_image",
+        "label": "Image"
+      },
+      {
+        "type": "select",
+        "id": "bg_position",
+        "label": "Position",
+        "default": "center-center",
+        "options": [
+          { "label": "Top", "value": "center-top" },
+          { "label": "Right", "value": "right-center" },
+          { "label": "Center", "value": "center-center" },
+          { "label": "Left", "value": "left-center" },
+          { "label": "Bottom", "value": "center-bottom" }
+        ]
+      }, 
+      {
+        "type": "range",
+        "id": "aspect_ratio",
+        "min": 0.5,
+        "max": 1.5,
+        "step": 0.1,
+        "unit": ":1",
+        "label": "Photo aspect ratio",
+        "info": "Wide to tall",
+        "default": 1
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "label": "Image placement",
+        "default": "left",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Text"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Image with text"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+      },
+      {
+        "type": "select",
+        "id": "color_text_bg",
+        "label": "Background color",
+        "default": "palette--light bg--accent",
+        "options": [
+          { "value": "palette--light bg--neutral", "label": "Default"},
+          { "value": "palette--light bg--accent", "label": "Light"},
+          { "value": "palette--dark bg--invert", "label": "Dark"},
+          { "value": "palette--dark bg--invert--accent", "label": "Dark accent"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Button"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button label"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link"
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Button style",
+        "default": "btn",
+        "options": [
+          { "value": "btn", "label": "Solid button"},
+          { "value": "btn--soft", "label": "Soft button"},
+          { "value": "btn--outline", "label": "Outlined button"}
+        ]
+      },
+      {
+        "type": "select",
+        "id": "button_color",
+        "label": "Color",
+        "default": "btn--neutral",
+        "options": [
+          { "value": "btn--primary", "label": "Primary accent" },
+          { "value": "btn--secondary", "label": "Secondary accent" },
+          { "value": "btn--neutral", "label": "Text color" },
+          { "value": "btn--black", "label": "Black" },
+          { "value": "btn--white", "label": "White" }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Style"
+      },
+      {
+        "type": "select",
+        "id": "color_bg",
+        "label": "Background color",
+        "default": "palette--light bg--neutral",
+        "options": [
+          { "value": "palette--light bg--neutral", "label": "Default"},
+          { "value": "palette--light bg--accent", "label": "Light"},
+          { "value": "palette--dark bg--invert", "label": "Dark"},
+          { "value": "palette--dark bg--invert--accent", "label": "Dark accent"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Section spacing"
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wrapper",
+        "options": [
+          { "value": "wrapper--full", "label": "Full width padded" },
+          { "value": "wrapper", "label": "Page width" },
+          { "value": "wrapper--narrow", "label": "Page width narrow" }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 36
+      }
+    ],
+    "presets": [
+      {
+        "name": "Image Sets",
+        "category": "Image"
+      }
+    ]
+  }
+{% endschema %}

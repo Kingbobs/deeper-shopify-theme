@@ -1,0 +1,214 @@
+<!-- /sections/section-blog.liquid -->
+
+
+
+{%- assign grid_strings = 'large-up--one-whole medium--one-whole small--one-whole mobile--one-whole' -%}  
+{% assign blog_indexes = "news,newsletters,tutorials" | split: ',' %}
+
+<div class="section-blog {{ section.settings.color_bg }}" 
+  data-section-id="{{ section.id }}" 
+  data-section-type="section-blog" style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px;">
+  <div class="{{ section.settings.width }} section-padding">
+    <div class="section-blog__head">
+      <!-- {% if section.settings.title != blank %}
+        {% endif %} -->
+      {% for blog_index in blog_indexes %}
+        <a style="font-weight:600;" href="#" id="{{ blog_index }}" onclick="blogIndex('{{ blog_index }}')">{{ blog_index | capitalize }}</a>
+      {% endfor %}
+    </div>
+
+    
+
+    {% for blog_index in blog_indexes %}
+      {%- assign blog = blogs[blog_index] -%}
+      <div id="section__blog__id-{{ blog_index }}" style="display: none;" class="section__blog__grid grid grid--uniform">
+        {% for article in blog.articles  %}
+          {% if article.title == "A 101 on DPN" %}
+            {% render 'article-grid-item', article: article, grid_strings: grid_strings, show_excerpt: section.settings.show_excerpt, show_tags: section.settings.show_tags, show_meta: section.settings.show_meta, aspect_ratio: section.settings.aspect_ratio, blog: blog %}
+          {% endif %}
+        {% endfor %}
+        {% for article in blog.articles  %}
+          {% if article.title != "A 101 on DPN" %}
+            {% render 'article-grid-item', article: article, grid_strings: grid_strings, show_excerpt: section.settings.show_excerpt, show_tags: section.settings.show_tags, show_meta: section.settings.show_meta, aspect_ratio: section.settings.aspect_ratio, blog: blog %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endfor %}
+    
+   
+
+    <!-- <div class="custom-scrollbar small-down--show" data-custom-scrollbar>
+      <div class="custom-scrollbar__track" data-custom-scrollbar-track></div>
+    </div> -->
+    <!-- {% if section.settings.show_view_all %}
+      <div class="text-center">
+        <a href="{{ blog.url }}" class="btn">
+          {{ 'blogs.general.view_all' | t }}
+        </a>
+      </div>
+    {% endif %} -->
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Blog Posts List",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "News"
+    },
+    {
+      "type": "blog",
+      "id": "index_blog",
+      "label": "Blog"
+    },
+    {
+      "type":    "range",
+      "id":      "limit",
+      "min":     3,
+      "max":     15,
+      "step":    3,
+      "label":   "Number of articles",
+      "default": 6
+    },
+    {
+      "type": "range",
+      "id": "aspect_ratio",
+      "min": 0.5,
+      "max": 1.5,
+      "step": 0.1,
+      "unit": ":1",
+      "label": "Photo aspect ratio",
+      "info": "Wide to tall",
+      "default": 1
+    },
+    {
+      "type": "checkbox",
+      "id": "show_meta",
+      "label": "Show date and author",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_excerpt",
+      "default": false,
+      "label": "Show article excerpt"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_tags",
+      "default": false,
+      "label": "Show article tags"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_view_all",
+      "label": "Show 'View all' button",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "color_bg",
+      "label": "Background color",
+      "default": "palette--light bg--neutral",
+      "options": [
+        { "value": "palette--light bg--neutral", "label": "Default"},
+        { "value": "palette--light bg--accent", "label": "Light"},
+        { "value": "palette--dark bg--invert", "label": "Dark"},
+        { "value": "palette--dark bg--invert--accent", "label": "Dark accent"}
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Section spacing"
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper",
+      "options": [
+        { "value": "wrapper--full", "label": "Full width padded" },
+        { "value": "wrapper", "label": "Page width" },
+        { "value": "wrapper--narrow", "label": "Page width narrow" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 180,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 180,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "Blog Post List",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  .section-blog__head{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    box-shadow: inset 0px -1px 0px #D9DBE9;
+    height: 70px;
+  }
+  
+  .section-blog__head a{
+    margin-top:22.5px;
+    margin-bottom:25.5px;
+    margin-right: 32px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #514F6E;
+  }
+
+  .blog__header-selected {
+    border-spacing: 10px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #495AF5;
+  }
+
+  .section__blog__grid:first-child{
+    display: block !important;
+  }
+  
+</style>
+<script>
+  setTimeout(function(){
+    $('.section__blog__grid').hide();
+    $('#section__blog__id-tutorials').show();
+    $('#news').addClass('blog__header-selected');
+    blogIndex('news');
+  },1000)
+  function blogIndex(index){
+    $('.section__blog__grid').hide();
+    $('#section__blog__id-'+index).show();
+    $('.section-blog__head a').removeClass('blog__header-selected');
+    $('#'+index).addClass('blog__header-selected');
+  }
+</script>

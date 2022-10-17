@@ -1,0 +1,411 @@
+<!-- /sections/section-collection-grid.liquid -->
+
+<div class="section-collection-grid {{ section.settings.color_bg }}" 
+  data-section-id="{{ section.id }}" 
+  data-section-type="section-collection-grid" 
+  data-minimum="{{ section.settings.grid }}"
+  style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px;">
+  <div class="{{ section.settings.width }} section-padding">
+    <div class="section-collection__foreground">
+      <div class="section-collection-grid__inner">
+        <div class="section-collection-grid__head">
+          {% if section.settings.title != blank %}
+            <h2 class="index__collection__title h3">{{ section.settings.title | escape }}</h2>
+          {% endif %}
+          {% if section.settings.description != blank %}
+            <div class="index__collection__subtitle subtitle--decorated">{{ section.settings.description }}</div>
+          {% endif %}
+        </div>
+      </div>
+       <div class="mobile--show small--show medium--hide large--hide widescreen--hide">
+        <div class="faq-selector faq-selector-mobile">
+          <ul>
+            <li class="faqSelected">Shipping</li>
+            <li>Function & Feature</li>
+            <li>Product</li>
+            <li>Staking</li>
+            <li>Charges and Fees</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mobile--hide small--hide medium--show large--show widescreen--show">
+        <div class="faq-selector">
+          <ul>
+            <li class="faqSelected">Shipping</li>
+            <li>Function & Feature</li>
+            <li>Product</li>
+            <li>Staking</li>
+            <li>Charges and Fees</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="faq-grid">
+        <div id="faq-Shipping">
+          <ul>
+
+              <li>
+                <h2>Which countries do you ship to?</h2>
+                <p>Deeper Connect Pico and Mini are shipping worldwide except to Mainland China.</p>
+              </li>
+              
+              <li>
+                <h2>How long will I receive the products?</h2>
+                <p>
+                  The shipping time of the product will vary depending on the delivery address. <br />
+                  We will provide the tracking number within <b>2-7</b> business days. <br />
+                  A confirmation email will be sent once the order has shipped.
+                </p>
+              </li>
+              <li>
+                <h2>How about the shipping fee? Do you offer free shipping?</h2>
+                <p>Please refer to our <a href="/pages/shipping-policy" target="_blank">shipping policy</a>. </p>
+              </li>            
+              <!-- <li>
+                <h2>Do you offer free shipping?</h2>
+                <p>Please refer to our <a href="/pages/shipping-policy" target="_blank">shipping policy</a>. </p>
+              </li> -->
+              <!-- <li>
+                <h2>When will I receive the package?</h2>
+                <p>Delivery times may vary according to location. Generally devices will be delivered within 5 business days if located in the US. For the rest of the world, the waiting time may be slightly longer.</p>
+              </li> -->
+              <li>
+                <h2>What should I do if the package is lost?</h2>
+                <p>Please create a follow request on Zendesk at <a href="https://support.deeper.network" target="_blank">support.deeper.network</a> providing order number and the email associated with this transaction. </p>
+              </li>
+          </ul>
+        </div>
+        <div id="faq-Function_Feature" style="display:none ;">
+          <ul>
+            <li>
+              <h2>What is DPN and what are its advantages?</h2>
+              <p>
+                The Deeper Connect enables a fully Decentralized VPN (DPN) which comes with the following advantages:  <br />
+                1. Data security: You are the true owner of your data with DPN technology, your data can’t be accessed by VPN corporations. <br />
+                2. Pocket the Earth’s Network Source: With Deeper Connect,  bypass your region’s online restrictions and enjoy free access to the internet.<br />
+                3. Lifetime Zero Subscription Fee: With 80,000+ nodes around the world, you can always get the fastest tunnel intelligently,  Never pay expensive VPN subscription fees again.
+              </p>
+            </li>
+             
+            <li>
+              <h2>What is the difference between DPN and VPN?</h2>
+              <p>
+                DPN is the latest innovation using blockchain technology. Here are the main differences between DPN and VPN: <br />
+                1. Data Transmission Method: Decentralized VPN (DPN) transfers data securely through 80,000+ nodes (1,000,000+ nodes by 2024) while VPN transfers data through centralized servers. Your data can easily be decoded and you are relying on the morality of your VPN provider to not sell your data to third-parties. With DPN, user data operates on a decentralized network and can never be accessed, collected, or sold.<br />
+                2. Cybersecurity: Deeper Connect enables an enterprise-grade 7-layer firewall to protect your data transmission; VPN doesn’t take any other tech to protect your data for further security. <br />
+                3. Additional Deeper Connect features not offered by VPN: AD Blocking, Internet Parent Control, IoT Protection, crypto minning, and more!.
+              </p>
+            </li>
+             
+            <li>
+              <h2>How does DPN hardware ensure my data security?</h2>
+              <p>
+                We attach great importance to our customer's data security. You can rest assured that your sensitive information is secure with the following technology: <br />
+                1. Seven-layer firewall: This level of firewall security is usually only used by corporations and military, and was developed by leading cybersecurity experts from Silicon Valley.<br />
+                2. DPN Data Transmission: With over 80,000 nodes around the world, it is infinitely close to impossible to catch your data; but in the traditional VPN way, catch it - decode it - sell it may happen, it depends on your VPN provider’s morality.<br />
+              </p>
+            </li>
+             
+            <li>
+              <h2>Why am I still using the real IP?</h2>
+              <p>
+                Please be informed the “Smart route” mode will use your real IP unless you are unable to access the site with your real IP. <br />
+                Please use the “Full Route” mode if you want to change your IP address. 
+              </p>
+            </li>
+             
+            <li>
+              <h2>Why did the ads filter not work?</h2>
+              <p>Please check the ads filter setting and follow the instructions to install the certificate.</p>
+            </li>
+             
+            <li>
+              <h2>How to reset the Log-in and wifi password?</h2>
+              <p>Please keep your device online and reach us via <a href="https://support.deeper.network" target="_blank">support.deeper.network</a>.</p>
+            </li>
+            
+          </ul>
+        </div>
+        <div id="faq-Product" style="display:none ;">
+          <ul>
+            
+            <li>
+              <h2>What is the difference between the Mini and Pico?</h2>
+              <p>
+                The hardware specifications of the Mini and Pico are different (details can be found on the project page). <br />
+                In addition, Pico supports wireless relay mode while the Mini is designed for at home use.
+              </p>
+            </li>
+            
+            <li>
+              <h2>Can a Deeper Connect be used with any router or modem?</h2>
+              <p>
+                Yes, Deeper Connect can be set up in three ways that are introduced in the story section on the project page. <br />
+                (1) Virtual Wire mode: Modem --(cable)-- Deeper Connect --(cable)-- Router --(wifi)-- Laptop/ Phones/ TV, etc<br />
+                (2) AP Router mode: Modem/ Router --(cable)-- Deeper Connect --(wifi)-- Laptop/ Phones/ TV, etc<br />
+                (3) Wireless Relay mode: Other AP Hotspots --(wifi)-- Deeper Connect --(wifi)-- Laptop/ Phones/ TV, etc<br />
+              </p>
+            </li>
+            
+            <li>
+              <h2>How do I use Deeper Connect with an All-in-One Modem/Router?</h2>
+              <p>
+                You need a 2nd router. <br />
+                All-in-One --(cable)-- Deeper Device --(cable)-- 2nd router. <br />
+              </p>
+            </li>
+            
+            <li>
+              <h2>What if there is someone using torrents on my IP address or potentially illegal activities which might trace back to my IP?</h2>
+              <p>
+                Protocols such as torrent blocking, adult content blocking, and a preset list of blacklisted websites prevent others from using your device for malicious activities. <br />
+                In the rare case your device is used for malicious activities, internal logs are in place to prove you are not responsible for any wrongdoing.
+              </p>
+            </li>
+
+            <li>
+              <h2>Which OS does your device run?</h2>
+              <p>It runs AtomOS, the world’s first lock-free operating system, designed exclusively to run on Deeper Connect. </p>
+            </li>
+
+            
+            <li>
+              <h2>Why there is no Internet after using the Mini/Pico?</h2>
+              <p>
+                Please refer to this video for the first-time setup. <br />
+                If you still have the connection issue, please reach us via <a href="https://support.deeper.network" target="_blank">support.deeper.network</a>.
+                <a href="https://www.youtube.com/watch?v=82IqmUw4g-E" target="_blank">Deeper Connect - Proper Setup & Reboot Sequence for Troubleshooting</a>
+              </p>
+            </li>
+
+            <li>
+              <h2>Why can't I find the Deeper WIFI after using the wifi adapter?</h2>
+              <p>
+                Please check the firmware version first and ensure it is higher than 1.1.17. <br />
+                If your problem persists, please reach us via <a href="https://support.deeper.network" target="_blank">support.deeper.network</a>.<br />
+                Does the Wi-Fi name change after using a Deeper Connect?<br />
+                Yes, a new Wi-Fi will be available for you to connect to. 
+              </p>
+            </li>
+
+            
+          </ul>
+        </div>
+        <div id="faq-Staking" style="display:none ;">
+          <ul>
+            <li>
+              <h2>Where can I stake?</h2>
+              <p>
+                You need to register an account at <a href="https://device-bsc.deeper.network/register" target="_blank">https://device-bsc.deeper.network/register</a> first and follow the tutorial <a href="https://support.deeper.network/hc/en-us/articles/4423613516955-BSC-BEP20-Staking-Tutorial" target="_blank">here</a> to stake. <br />
+                If you need further assistance, please submit a ticket at <a href="https://support.deeper.network" target="_blank">support.deeper.network</a> and customer support will help you out. </p>
+            </li>
+            <li>
+              <h2>How much should I stake? What are the rules?</h2>
+              <p>
+                It really depends on how you want to invest. We have eight different staking tiers you can choose from. <br />
+                Please visit <a href="https://support.deeper.network/hc/en-us/articles/4460627914395-Basic-Mining-Rules-and-Rewards" target="_blank">here</a> for more information. You are always welcome to submit a ticket at <a href="https://support.deeper.network" target="_blank">support.deeper.network</a> for further assistance. 
+              </p>
+            </li>
+            <li>
+              <h2>I need help on staking.</h2>
+              <p>
+                Please make sure you have DPR and BNB token in your Metamask wallet. <br />
+                You can find more information about mining rewards & rules <a href="https://support.deeper.network/hc/en-us/articles/4460627914395-Basic-Mining-Rules-and-Rewards" target="_blank">here</a> and <a href="https://support.deeper.network/hc/en-us/articles/4423613516955-BSC-BEP20-Staking-Tutorial" target="_blank">the staking tutorial</a>. 
+                <br />You are always welcome to submit a ticket at <a href="https://support.deeper.network" target="_blank">support.deeper.network</a> for further assistance. 
+              </p>
+            </li>
+            <li>
+              <h2>My credit score didn’t grow.</h2>
+              <p>
+                Please check if: <br />
+                1) your device is consistently connected,<br />
+                2) your device has been online for over 12 hours, <br />
+                3) your On-chain status is “Yes” under the Mining/Wallet/Wallet Balance page at AtomOS, <br />
+                4) your DPR balance is over 0.21DPR.<br />
+                If you need further assistance, please submit a ticket at <a href="https://support.deeper.network" target="_blank">support.deeper.network</a>.
+              </p>
+            </li>
+            <li>
+              <h2>I am losing my credit score.</h2>
+              <p>
+                Please make sure you meet the following criteria:<br />
+                1) System uptime is at least 12 consecutive hours each day,<br />
+                2) Share more than 10MB each day, <br />
+                3) Pass 3 random heartbeat checks each day. <br />
+                <a href="https://support.deeper.network/hc/en-us/articles/4423727560859-Organic-Credit-Score-Rules" target="_blank">Here</a> are credit score rules.
+              </p>
+            </li>
+            <li>
+              <h2>How do I burn DPR for credits?</h2>
+              <p>Please follow this <a href="/pages/blog" target="_blank">tutorial</a> to complete the burning process.</p>
+            </li>
+            <li>
+              <h2>How do I withdraw my rewards?</h2>
+              <p>
+                Please visit <a href="https://support.deeper.network/hc/en-us/articles/4423676780571-DPR-Withdrawal-to-BSC-BEP20-Wallet-Tutorial-PC-Version-" target="_blank">here</a> for the withdrawal <a href="/pages/blog" target="_blank">tutorial</a>, and submit a ticket at <a href="https://support.deeper.network" target="_blank">support.deeper.network</a> if you need further assistance.</p>
+            </li>
+            <li>
+              <h2>Where do I check/view my NFT?</h2>
+              <p>
+                There are two ways you can check your NFT: <br />
+                1) Click the Deeper Chain <a href="https://apps.deeper.network/#/nfts/my-nfts" target="_blank">mainnet</a> and connect your Deeper wallet. You need to have your Deeper wallet imported to the Polkadot extension on your browser in advance.<br />
+                2) Log into your AtomOS, it is located at the top right corner of your avatar.<br />
+                Please visit <a href="/blogs/newsletter/the-deeper-chain-nft-collection-launch" target="_blank">here</a> to get more information about NFT.
+              </p>
+            </li>
+            <li>
+              <h2>How do I burn NFTs for credits?</h2>
+              <p>Please follow this <a href="/pages/blog" target="_blank">tutorial</a> to complete the burning process for NFTs.</p>
+            </li>
+          </ul>
+        </div>
+        <div id="faq-Charges_and_Fees" style="display:none ;">
+          <ul>
+            <li>
+              <h2>Is free lifetime VPN guaranteed?</h2>
+              <p>Yes, pay once, $0 Subscription for life.</p>
+            </li>
+            <li>
+              <h2>Do I need to pay import duty and taxes?</h2>
+              <p>Import duty and taxes may apply to certain countries and areas. All duties and taxes are to be paid by the customer.</p>
+            </li>
+            <li>
+              <h2>How about the shipping fee? Does Deeper Network offer free shipping?</h2>
+              <p>Please refer to our <a href="/pages/shipping-policy" target="_blank">shipping policy</a>. </p>
+            </li>
+            <li>
+              <h2>How can I get discounts when shopping?</h2>
+              <p>We will hold some discounted marketing campaigns, please follow our website and social media accounts.</p>
+              <p>At the same time, we will also send coupons to email subscribers at irregular times, so please subscribe to the email, you can’t miss it.</p>
+              <p>Participate in our <a href="https://shop.deeper.network/pages/affiliate" target="_blank">affiliate events</a> and earn money while helping your friends get great deals.</p>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "FAQ Module",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Collection list"
+      },
+      {
+        "type": "richtext",
+        "id": "description",
+        "label": "Text",
+        "default": "<p>Use this area to describe the collection.</p>"
+      },
+      {
+        "type": "select",
+        "id": "color_bg",
+        "label": "Background color",
+        "default": "palette--light bg--neutral",
+        "options": [
+          { "value": "palette--light bg--neutral", "label": "Default"},
+          { "value": "palette--light bg--accent", "label": "Light"},
+          { "value": "palette--dark bg--invert", "label": "Dark"},
+          { "value": "palette--dark bg--invert--accent", "label": "Dark accent"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Block style"
+      },
+      {
+        "type": "range",
+        "id": "aspect_ratio",
+        "min": 0.3,
+        "max": 1.5,
+        "step": 0.1,
+        "unit": ":1",
+        "label": "Image scaling ratio",
+        "info": "Wide to tall",
+        "default": 0.6
+      },
+      {
+        "type": "select",
+        "id": "place_text",
+        "label": "Text placement",
+        "default": "flex-column",
+        "options": [
+          {"value": "flex-column","label": "Below"},
+          {"value": "flex-column-reverse","label": "Above"},
+          {"value": "flex-row","label": "Right"},
+          {"value": "flex-row-reverse","label": "Left"}
+        ]
+      },
+      {
+        "type": "select",
+        "id": "align_text",
+        "label": "Text alignment",
+        "default": "text-center",
+        "options": [
+          {"value": "text-left","label": "Left"},
+          {"value": "text-center","label": "Centered"},
+          {"value": "text-right","label": "Right"}
+        ]
+      },
+      {
+        "type": "select",
+        "id": "use_font",
+        "label": "Font",
+        "default": "font-heading",
+        "options": [
+          {"value": "font-heading","label": "Heading"},
+          {"value": "font-body","label": "Body"},
+          {"value": "font-accent","label": "Accent"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Section spacing"
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wrapper",
+        "options": [
+          { "value": "wrapper--full", "label": "Full width padded" },
+          { "value": "wrapper", "label": "Page width" },
+          { "value": "wrapper--narrow", "label": "Page width narrow" }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 36
+      }
+    ],
+    
+    "presets": [
+      {
+        "name": "FAQ Module",
+        "category": "Collection"
+      }
+    ]
+  }
+{% endschema %}

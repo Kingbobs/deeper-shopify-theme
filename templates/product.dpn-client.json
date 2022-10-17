@@ -1,0 +1,176 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_show_vendor": false,
+            "show_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "auto",
+            "show_quantity": true,
+            "show_remaining": true,
+            "enable_payment_button": true,
+            "subscriptions_enable_selectors": true,
+            "info_page": ""
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "icon-recycled",
+            "icon_color": "#5d9386",
+            "text": "<p>Made with recycled fabrics<\/p>"
+          }
+        },
+        "icon-2": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "icon-sewing-machine",
+            "icon_color": "#5d9386",
+            "text": "<p>Certified fair trade product<\/p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "read_more": false,
+            "style": "accordions",
+            "description_icon": "",
+            "title_1": "Specification",
+            "icon_name_1": "",
+            "raw_content_1": "<p>{{ product.metafields.my_fields.datasize | metafield_tag }}<\/p>",
+            "title_2": "Warranty & Return Policy",
+            "icon_name_2": "",
+            "raw_content_2": "<p>1-Year limited warranty.<br\/>7-Day return or exchange guarantee.<br\/>Orders are eligible for same-business-day cancellation.<br\/>This product can't ship to China Mainland.<br\/>*Return,Cancellation and Warranty Policy.<\/p>",
+            "title_3": "",
+            "icon_name_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "icon_name_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": ""
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "product": ""
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "41a0eb11-62d6-472e-a511-d70791deedad": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "form",
+        "icon-1",
+        "icon-2",
+        "description",
+        "upsell",
+        "pickup",
+        "sharing",
+        "41a0eb11-62d6-472e-a511-d70791deedad"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "16528824138c8e8ccc": {
+      "type": "section-row",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pico_page_VPN_DPN_1499ee8e-6d2f-465b-af43-8fb6cfd39ae3.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "It is not VPN, it is the better DPN",
+        "text": "<p>The worldwide network of Deeper Connect devices enables a fully decentralized VPN experience (DPN) with Multi-Routing, Smart Routing, and unrestricted access to content from any country without sacrificing Internet speed.<br\/>DPN offer the benefits of VPNs, but with additional advantages that exclude a central point of control.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16528824717c9814e8": {
+      "type": "section-row",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pico_page_Enterprise-grade_Cybersecurity.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "Enterprise-grade Cybersecurity",
+        "text": "<p>Deeper Connect comes with a fully-featured suite of enterprise-grade security functions to keep you safe while online and protect all your IoT devices. <\/p><p>The most unique lock-free operating system running on Deeper Connect, AtomOS, provides a 7-layer firewall with deep packet inspection, anti-tracking, intrusion prevention, and more.<br\/><\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related": {
+      "type": "related",
+      "disabled": true,
+      "settings": {
+        "related_products_enable": true,
+        "limit": 1,
+        "product_recommendations_heading": "You may also like",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16528824138c8e8ccc",
+    "16528824717c9814e8",
+    "related"
+  ]
+}

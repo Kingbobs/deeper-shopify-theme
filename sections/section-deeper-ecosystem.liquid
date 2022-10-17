@@ -1,0 +1,340 @@
+{% schema %}
+  {
+    "name": "Deeper Eco System",
+    "settings": [
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 0
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Section width",
+        "default": "wrapper--none",
+        "options": [
+          { "value": "wrapper--none", "label": "Full width" },
+          { "value": "wrapper--full", "label": "Full width padded" },
+          { "value": "wrapper", "label": "Page width" },
+          { "value": "wrapper--narrow", "label": "Page width narrow" }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "flex_align",
+        "label": "Alignment",
+        "default": "align--middle-left",
+        "options": [
+          { "value": "align--top-left", "label": "Top left"},
+          { "value": "align--top-center", "label": "Top center"},
+          { "value": "align--top-right", "label": "Top right"},
+          { "value": "align--middle-left", "label": "Middle left"},
+          { "value": "align--middle-center", "label": "Absolute center"},
+          { "value": "align--middle-right", "label": "Middle right"},
+          { "value": "align--bottom-left", "label": "Bottom left"},
+          { "value": "align--bottom-center", "label": "Bottom center"},
+          { "value": "align--bottom-right", "label": "Bottom right"}
+        ]
+      }
+	  ],
+    "presets": [
+      {
+          "name": "Deeper Eco System",
+          "category": "My Sections"
+      }
+    ]
+  }
+{% endschema %}
+
+<div
+  data-section-id="{{ section.id }}" 
+  data-section-type="section-collection" style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px;">
+  <div class="{{ section.settings.width }} section-padding">
+    
+    
+    <div style="display: flex; flex-direction: row;justify-content: space-around; flex-wrap: wrap;">
+        <div class="one-whole widescreen--show large--show medium--show small--hide mobile--hide "> 
+          <img loading="lazy"  width="100%" src="{{ 'eco_system_header.png' | asset_url }}" sizes="(min-width: 768px), 90vw, 100vw"/> 
+        </div>
+
+        <div class="one-whole widescreen--hide large--hide medium--hide small--show mobile--show "> 
+          <img loading="lazy"  width="100%" src="{{ 'eco_system_header-mobile.png' | asset_url }}" sizes="(min-width: 768px), 90vw, 100vw"/> 
+        </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row;justify-content: space-around; flex-wrap: wrap; margin-top:24px;">
+      <div class="widescreen--one-quarter large--one-quarter medium--one-half small--one-half mobile--one-whole ">
+        <div class="ecoItem" style="margin: 10px;border: 1px solid #F7F7FB;padding: 16px;border-radius: 20px;height: 342px;background-color: #F7F7FB;display: flex;flex-direction: column;justify-content: space-between;">
+          <div>
+            <h6><b>1</b>10,000 Nodes</h6>
+            <p>Attract early users and supporters through the powerful functions of Deeper Connect and provide decentralized network applications: DPN (Decentralized Private Network).</p>
+          </div>
+          <img
+              loading="lazy" 
+              width="100%"
+              src="{{ '10000-nodes.png' | asset_url }}"/>
+        </div>
+      </div>
+      <div class="widescreen--one-quarter large--one-quarter medium--one-half small--one-half mobile--one-whole ">
+        <div class="ecoItem" style="margin: 10px;border: 1px solid #F7F7FB;padding: 16px;border-radius: 20px;height: 342px;background-color: #F7F7FB;display: flex;flex-direction: column;justify-content: space-between;">
+          <div>
+            <h6><b>2</b>1,000,000 Nodes</h6>
+            <p>Provide decentralized network applications: DEP (Decentralized Edge-Computing Platform) and deliver free mobile apps to tens of millions of users to freely access the DPN network.</p>
+          </div>
+          <img
+              loading="lazy" 
+              width="100%"
+              src="{{ '1000000-nodes.png' | asset_url }}"/>
+        </div>
+      </div>
+      <div class="widescreen--one-quarter large--one-quarter medium--one-half small--one-half mobile--one-whole ">
+        <div class="ecoItem" style="margin: 10px;border: 1px solid #F7F7FB;padding: 16px;border-radius: 20px;height: 342px;background-color: #F7F7FB;display: flex;flex-direction: column;justify-content: space-between;">
+          <div>
+            <h6><b>3</b>100,000,000 Nodes</h6>
+            <p>Provide free products: Open SoC design based on RiscV, and open source for AtomOS to attract more decentralized web applications by third parties such as D-Oracle, D-Mail, D-Blog, D-CDN,  D-Ads, D-Chat,  D-Tube.</p>
+          </div>
+          <img
+                loading="lazy" 
+                width="100%"
+                src="{{ '100000000-nodes.png' | asset_url }}"/>
+        </div>
+      </div>
+      <div class="widescreen--one-quarter large--one-quarter medium--one-half mobile--one-whole ">
+        <div class="ecoItem" style="margin: 10px;border: 1px solid #F7F7FB;padding: 16px;border-radius: 20px;height: 342px;background-color: #F7F7FB;display: flex;flex-direction: column;justify-content: space-between;">
+          <div>
+            <h6><b>4</b>1,000,000,000 Nodes</h6>
+            <p>Drastically growing our user base to achieve the network's full potential and reach ecosystem maturity. Our goal is complete when the number of users of Web 3.0 infrastructure fully surpasses that of Web 2.0.</p>
+          </div>
+          <img
+              loading="lazy" 
+              width="100%"
+              src="{{ '1000000000-nodes.png' | asset_url }}"/>
+        </div>
+      </div>
+  </div>
+
+  <div class="{{ section.settings.width }} section-padding mobile--show small--show medium--show large--show widescreen--hide" style="margin-top: 22px;">
+    <div class="h2 standard__heading heading-size-9" style="font-size:22px"><p>Ecosystem composition</p></div>
+    <div class="composition--mobile ">
+      <div><b style="background-color:#F7BA1E;">Access</b></div>
+      <p>
+        Several tools enable access to Web 3 activities: 
+        The wallet allows for holding tokens or logging in;
+        Bridge enables token transfer and information interaction;
+        D-App store as an aggregator for application discovery.
+      </p>
+    </div>
+    <div class="composition--mobile">
+      <div><b style="background-color:#FF5502;">Applications</b></div>
+      <p>
+        Through Deeper's subversive technological advantages, developers can develop on Deeper's platform more conveniently,
+        efficiently, and securely; users can obtain rich and easy-to-operate decentralized applications in a secure, private and fair
+        network.
+      </p>
+    </div>
+    <div class="composition--mobile">
+      <div>
+        <b style="background-color:#00BAA9;">Framework</b>
+      </div>
+      <p>
+        Deeper uses a decentralized network application - DEP (Decentralized Edge-Computing Platform) to develop and deploy D-apps, and closely monitor, maintain, analyze and optimize the D-apps.
+      </p>
+    </div>
+    <div class="composition--mobile">
+      <div> 
+        <b style="background-color:#495AF5;">Protocols</b>
+      </div>
+      <p>
+        Underlying blockchain architecture defining the consensus mechanism:
+        Trident Protocol: A network sharing protocol with a strong penetration, high performance, and encryption;
+        NPoW (Next-gen Proof of Work) consensus: The income distribution is based on the real work provided by the miners in the
+        Deeper Network, which not only solves the shortcomings of the PoW Consensus with their high energy usage, but also is a
+        much fairer and more decentralized option.
+      </p>
+    </div>
+    <div class="composition--mobile">
+      <div>
+        <b style="background-color:#7200C9;">Infrastructure</b>
+      </div>
+      <p>
+        Deeper Connect hardware running on the AtomOS - Deeper self-developed network security operating system, to validate the
+        powerful capabilities of AtomOS and the great potential of Deeper Network.
+      </p>
+    </div>
+  </div>
+
+  <div class="{{ section.settings.width }} section-padding   widescreen--show large--hide medium--hide small--hide mobile--hide " style="margin-top: 22px;">
+    <div class="h2 standard__heading heading-size-9" style="font-size:22px"><p>Ecosystem composition</p></div>
+    <div class="composition">
+      <h2 style="background-color:#F7BA1E;">Access</h2>
+      <p>
+        Several tools enable access to Web 3 activities: <br />
+        The wallet allows for holding tokens or logging in;<br />
+        Bridge enables token transfer and information interaction;<br />
+        D-App store as an aggregator for application discovery.
+      </p>
+    </div>
+    <div class="composition">
+      <h2 style="background-color:#FF5502;">Applications</h2>
+      <p>
+        Through Deeper's subversive technological advantages, developers can develop on Deeper's platform more conveniently, 
+        efficiently, and securely; users can obtain rich and easy-to-operate decentralized applications in a secure, private and fair 
+        network.
+      </p>
+    </div>
+    <div class="composition">
+      <h2 style="background-color:#00BAA9;">Framework</h2>
+      <p>
+        Deeper uses a decentralized network application - DEP (Decentralized Edge-Computing Platform) to develop and deploy D-
+        apps, and closely monitor, maintain, analyze and optimize the D-apps.
+      </p>
+    </div>
+    <div class="composition">
+      <h2 style="background-color:#495AF5;">Protocols</h2>
+      <p>
+        Underlying blockchain architecture defining the consensus mechanism:
+        Trident Protocol: A network sharing protocol with a strong penetration, high performance, and encryption;
+        NPoW (Next-gen Proof of Work) consensus: 
+        The income distribution is based on the real work provided by the miners in the Deeper Network,
+        which not only solves the shortcomings of the PoW Consensus with their high energy usage, but also is a 
+        much fairer and more decentralized option.
+      </p>
+    </div>
+    <div class="composition">
+      <h2 style="background-color:#7200C9;">Infrastructure</h2>
+      <p>
+        Deeper Connect hardware running on the AtomOS - Deeper self-developed network security operating system, to validate the
+        powerful capabilities of AtomOS and the great potential of Deeper Network.
+      </p>
+    </div>
+  </div>
+  </div>
+</div>
+
+{% stylesheet %}
+.ecoItem h6{
+  margin-bottom: 10px !important;
+}
+.ecoItem h6 b {
+  border: 2px solid #495AF5;
+  border-radius: 12px !important;
+  display:inline-block;
+  color: #495AF5 !important;
+  font-weight:600 !important;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  font-size: 15px;
+  margin-right: 10px !important;
+} 
+
+.ecoItem p {
+  margin: 0px !important;
+  font-size: 14px;hyphens:auto
+}
+
+.ppImage { 
+  background-color: #F7F7FB;
+  padding: 10px; 
+}
+
+.ppImage img {
+  border: 1px solid rgba(73, 90, 245, 0.05);
+  border-radius: 10px;
+}
+
+.composition{
+  background-color:#F7F7FB;
+  border: 1px solid #F7F7FB;
+  height: 160px;
+  margin-bottom: 24px;
+  border-radius: 200px;
+  display:flex;
+  flex-direction: row;
+  font-size: 14px;
+  justify-content: flex-start;
+  flex-wrap:wrap;
+}
+
+.composition--mobile {
+  margin-top:30px;
+  margin-bottom:30px;
+  display:flex;
+  flex-direction: column;
+}
+.composition--mobile div{
+  display: block;
+  width: 100%;
+}
+
+.composition--mobile p {
+  background-color:#F7F7FB;
+  border: 1px solid #F7F7FB;
+  color: #514F6E;
+  padding: 12px 16px;
+  font-size:14px;
+  word-break: break-all;
+  margin: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.composition--mobile b {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  font-weight: 600;
+  font-size:16px;
+  display: block;
+  width: 140px;
+  text-align: center;
+  padding:5px 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.composition h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  border-radius: 80px;
+  width: 160px;
+  height: 160px;
+  line-height:160px;
+  display:block;
+  text-align: center;
+  align-self: center;
+}
+
+.composition p {
+  color: #514F6E;
+  padding: 25px 48px;
+  max-width:70%;
+  align-self: center;
+}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

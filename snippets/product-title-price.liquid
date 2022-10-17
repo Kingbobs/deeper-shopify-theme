@@ -1,0 +1,191 @@
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+
+<div class="product__headline {{ classes }}" {{ block.shopify_attributes }}>
+  {% if block.settings.product_show_vendor %}
+    <div class="product__subheading">
+      <p>
+        <a href="{{ product.vendor | url_for_vendor }}">{{ product.vendor }}</a>
+      </p>
+    </div>
+  {% endif %}
+
+  <div class="product__title__wrapper">
+    {% if template contains 'product' %}
+      <h3 class="product__title">{{ product.title | strip_html }}</h3>
+    {% else %}
+      <h3 class="product__title">
+        <a href="{{ product.url }}">{{ product.title | strip_html }}</a>
+      </h3>
+    {% endif %}
+    
+    {%- if block.settings.show_rating and product.metafields.reviews.rating.value != blank -%}
+      <div class="rating__wrapper__title">
+        {% render 'product-rating', product: product, show_rating_count: block.settings.show_rating_count %}
+      </div>
+    {%- endif -%}
+  </div>
+   {% if  product.metafields.custom.bundle_sale.value ==0  -%}
+   <style>
+    .pico-sale{display: block !important;padding-bottom: 20px;}
+     .product__price__wrap{margin-bottom: 0 !important;}
+     @media (max-width:767px){.pico-sale{padding-top:20px;}}
+   </style>
+     {%- endif -%}
+
+  {%- if product.metafields.theme.cutline != blank and product.metafields.theme.cutline.type == 'single_line_text_field' -%}
+    <p class="product__cutline">{{ product.metafields.theme.cutline.value }}</p>
+  {%- endif -%}
+
+  <div class="product__price__wrap">
+    <div class="product__price__main" data-price-wrapper>
+      <span class="product__price">
+  {% if product.metafields.custom.bundle_sale != blank -%}
+    {% if product.metafields.custom.bundle_sale.value ==0 -%}
+     <span class="product__price_sale_off" >-{{ current_variant.compare_at_price | minus: current_variant.price | times: 100 | divided_by:current_variant.compare_at_price }}%</span>
+    {%- else -%}
+        <span class="product__price_sale_off" >-{{ product.metafields.custom.bundle_sale.value | append: "%" }}</span>
+    {%- endif -%}
+  {%- endif -%}
+        <!-- <span style="text-decoration:line-through" {% if current_variant.compare_at_price > current_variant.price %} class="product__price--sale"{% endif %}> -->
+<!--           {%- if settings.currency_code_enable -%}
+            {{ current_variant.price | money_with_currency }}
+          {%- else -%}
+            {{ current_variant.price | money }}
+          {%- endif -%} 
+ -->
+<!--           <b class="product__price_sale_off" style="display:none ;">-30%</b> -->
+          &nbsp;
+        <span class="product__price_sale_price">
+            {% if product.metafields.custom.bundle_sale != blank  and product.metafields.custom.bundle_sale.value !=0 -%}
+              {{ current_variant.compare_at_price | times: product.metafields.custom.bundle_sale.value | divided_by: 100 | minus: current_variant.compare_at_price | abs | money }}</span>
+              {%- else -%}
+              {{ current_variant.price | money }}
+            {%- endif -%}
+        </span>
+        &nbsp; 
+          <span class="product__price_sale_compare_price" style="margin:0 10px;">
+          {% if product.metafields.custom.bundle_sale != blank and product.metafields.custom.bundle_sale.value !=0 -%}
+           {{ current_variant.compare_at_price | money }}
+              {%- else -%}
+              {{ current_variant.compare_at_price | money  }}
+            {%- endif -%}
+          </span>
+        
+          {% if product.metafields.custom.bundle_sale != blank -%}
+            {% if product.metafields.custom.bundle_sale.value ==0 -%}
+              <span style="color:#F53F3F; font-size:14px;">
+          Save:   {{ current_variant.compare_at_price | minus: current_variant.price |  money }}
+           </span>
+    {%- else -%}
+            <span style="color:#F53F3F; font-size:14px;">
+         Save:   {{ current_variant.price | times: product.metafields.custom.bundle_sale.value | divided_by: 100 | money }}
+           </span>
+            {%- endif -%}
+          {%- endif -%}
+          <script>
+            setTimeout(()=>{
+              var showDiscount = false;
+              // var discount_rate = 0.65;
+
+            //  if('{{product.title}}' === 'Deeper Connect Pico + Wi-Fi Adapter') {
+            //    $('.product__price_sale_off').html("-30%")
+             //   $('.product__price_sale_off').show();
+             // } else if('{{product.title}}' === '3-Port USB Cooling Base for Deeper Connect Mini') {
+             //   $('.product__price_sale_compare_price').hide();
+            //  } 
+
+
+              // if(document.cookie.indexOf("DPR202209")!==-1  && '{{product.title}}' !== '3-Port USB Cooling Base for Deeper Connect Mini') {
+              //   discount_rate = 0.9;
+              //   $('.product__price_sale_off').html("-10%")
+              //   showDiscount = true;
+              // }
+
+
+              var price = {{ current_variant.price }};
+              
+              if(showDiscount){
+               var priceTxt = (Number(price) / 100.00 * (showDiscount ? discount_rate : 1 )).toFixed(2).split('.');
+               $('.product__price_sale_off').html(`-${(1-discount_rate) * 100}%`);
+               $('.product__price_sale_price').html('$'+priceTxt[0]+"<span style='font-size:12px'>."+priceTxt[1]+"</span>");
+                var compare_price = '{{ current_variant.price | money }}';
+                var comparePriceTxt = compare_price.split('.');
+                $('.product__price_sale_compare_price').html(comparePriceTxt[0]+"<span style='font-size:12px'>."+comparePriceTxt[1]+"</span>");
+
+                // $('.product__price_sale_off').show();
+                $('.product__price_sale_compare_price').show();
+              }
+
+            },1000); 
+          </script>
+          <!--            -->
+        </span>
+      </span>
+      
+      <!-- <span data-price-off class="product__price--off hide">
+        <span data-price-off-type>{{ 'products.product.sale' | t }}</span>
+        <em>•</em>
+        {{ 'products.product.save' | t }}
+        <span data-price-off-amount></span>
+      </span> -->
+
+      {% liquid
+        assign units = product.variants | map: 'unit_price' | compact
+        if units[0]
+          assign has_units = true
+        else
+          assign has_units = false
+        endif
+      %}
+      {% if has_units %}
+        {% capture show_units %}
+          {%- unless current_variant.unit_price -%}style="display: none;"{%- endunless -%}
+        {% endcapture %}
+        {% capture unit_price_separator %}
+          <span aria-hidden="true">/</span><span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
+        {% endcapture %}
+        {% capture unit_price_base_unit %}
+          <span>
+            {% if current_variant.unit_price_measurement %}
+              {% if current_variant.unit_price_measurement.reference_value != 1 %}
+                {{ current_variant.unit_price_measurement.reference_value }}
+              {%- endif -%}
+              {{ current_variant.unit_price_measurement.reference_unit }}
+            {% endif %}
+          </span>
+        {% endcapture %}
+        <div class="product__price--unit">
+          <span data-product-unit {{ show_units }}>
+            <span class="visually-hidden visually-hidden--inline">{{ 'products.product.unit_price_label' | t }}</span>
+            <span data-product-unit-price id="unit-price-{{ block.id }}">
+              {%- if settings.currency_code_enable -%}
+                {{ current_variant.unit_price | money_with_currency }}
+              {%- else -%}
+                {{ current_variant.unit_price | money }}
+              {%- endif -%}
+            </span>
+            {{ unit_price_separator }}
+            <span data-product-base id="unit-price-base-{{ block.id }}">{{ unit_price_base_unit }}</span>
+          </span>
+          <span data-price-each class="hide">
+            {{ 'products.product.each' | t }}
+            <span data-price-each-amount></span>
+          </span>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if product.title == "Deeper Connect Mini + Wi-Fi Adapter" %}
+    <div class="mini-sale mobile--show  medium--hide large--hide widescreen--hide" style="color:#F53F3F; font-size:14px">
+        Happy Halloween 35% OFF ends on 11/05
+    </div>
+  {% endif %}
+  <div class="product__button__meta">
+    <!-- <p class="variant__countdown count-is-in" data-remaining-wrapper="">
+      <span class="variant__countdown--low" style="display: block;">Less than <span data-remaining-max="10" data-remaining-count="">10 </span>units left in stock</span>
+    </p> -->
+  </div>
+  <!-- <div class="product__free_shippng">Free Shipping</div> -->
+</div>
+

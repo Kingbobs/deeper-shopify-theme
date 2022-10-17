@@ -1,0 +1,73 @@
+{% schema %}
+  {
+    "name": "Pico Port Connections",
+    "settings": [
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 0
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Section width",
+        "default": "wrapper--none",
+        "options": [
+          { "value": "wrapper--none", "label": "Full width" },
+          { "value": "wrapper--full", "label": "Full width padded" },
+          { "value": "wrapper", "label": "Page width" },
+          { "value": "wrapper--narrow", "label": "Page width narrow" }
+        ]
+      }
+	  ],
+    "presets": [
+      {
+          "name": "Pico Port Connections",
+          "category": "My Sections"
+      }
+    ]
+  }
+{% endschema %}
+
+<div class="section-row" 
+  style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px;">
+  <div class="{{ section.settings.width }} section-padding">
+    <div class="overlap">
+
+      <div class="overlap__item overlap__image">
+          <img src="{{ 'pico-port-connections.png' | asset_url }}" alt="deeper connect Pico, deeper network, Decentralized VPN DPN, Home Gateway cybersecurity Hardware, Web 3.0 gateway, VPN router device, Connection diagram" />
+      </div>
+
+      <div class="overlap__item overlap__text {{ section.settings.color_text_bg }}" style="background-color:#f2f5fa ;order: 1;" >
+        <div class="overlap__content__wrapper">
+          <h2 class="h3">Deeper Device Port Connections</h2>
+          <div class="rte-setting section--rte overlap__rte">
+            Be sure when plugging your Pico in to power up, it is in the correct power port. You don't want to cause any harm to your devices.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

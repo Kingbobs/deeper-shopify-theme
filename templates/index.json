@@ -1,0 +1,828 @@
+{
+  "sections": {
+    "165305279976bef1ea": {
+      "type": "section-slideshow",
+      "blocks": {
+        "a2c96330-f222-469f-ba45-2e2f678a6fc5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Halloween_banner-1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Halloween_banner-2.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "title": "halloween-1",
+            "richtext": "<p>Protect your friends and family from internet<br\/>spooks this Halloween!<\/p>",
+            "color_bg": "hero__content--transparent",
+            "text_align": "align--bottom-left",
+            "text_color": "text--white",
+            "link_text": "Buy now",
+            "link": "shopify:\/\/products\/deeper-connect-mini",
+            "button_size": "",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--primary"
+          }
+        },
+        "0aa4ab41-0922-4de0-bab1-632942de1d64": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bundle_Deals-banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/Bundle_Deals-2.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "title": "A caring plug & play gift",
+            "richtext": "",
+            "color_bg": "hero__content--transparent",
+            "text_align": "align--bottom-left",
+            "text_color": "text--white",
+            "link_text": "Buy now",
+            "link": "shopify:\/\/pages\/bundle-deals",
+            "button_size": "",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--primary"
+          }
+        },
+        "1653052799599a52f8-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5821663763467_.pic_hd_ba20507d-ad72-4626-aa13-8ecbbedbf07b.png",
+            "mobile_image": "shopify:\/\/shop_images\/last_smmer_day.png",
+            "bg_position": "center-bottom",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "Deeper Connect Pico + Wi-Fi Adapter",
+            "richtext": "<p> <\/p>",
+            "color_bg": "hero__content--transparent",
+            "text_align": "align--bottom-left",
+            "text_color": "text--white",
+            "link_text": "Buy Now",
+            "link": "shopify:\/\/products\/deeper-connect-pico-wi-fi-adapter",
+            "button_size": "",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--primary"
+          }
+        },
+        "1653052799599a52f8-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/web-mini-new.png",
+            "mobile_image": "shopify:\/\/shop_images\/iphone-mini-new_02387e38-5ca4-4738-8e21-b3eb16c4b7e2.png",
+            "bg_position": "left-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "Deeper Connect Mini + Wi-Fi Adapter",
+            "richtext": "<p>  <\/p>",
+            "color_bg": "hero__content--transparent",
+            "text_align": "align--bottom-left",
+            "text_color": "text--white",
+            "link_text": "Buy Now",
+            "link": "shopify:\/\/products\/deeper-connect-mini",
+            "button_size": "",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--primary"
+          }
+        },
+        "ca3ba1ab-d658-41ed-bc42-d92c97706219": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/turntable-banner-pc_7cb19e5b-1468-44a5-809b-173eda0e09bb.png",
+            "mobile_image": "shopify:\/\/shop_images\/turntable-banner-phone_288c67db-e368-444a-85f7-7a46ee12e115.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "title": "Feeling lucky? Spin the Wheel!",
+            "richtext": "",
+            "color_bg": "hero__content--transparent",
+            "text_align": "align--bottom-left",
+            "text_color": "text--white",
+            "link_text": "Try Now",
+            "link": "",
+            "button_size": "",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--primary"
+          }
+        },
+        "8caa6896-106c-4be0-a11e-e58996dd7a52": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/web-pico-new.png",
+            "mobile_image": "shopify:\/\/shop_images\/iphone-pico-new.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "title": "Deeper Connect Pico+ Wi-Fi Adapter",
+            "richtext": "<p> <\/p>",
+            "color_bg": "hero__content--transparent",
+            "text_align": "align--bottom-left",
+            "text_color": "text--white",
+            "link_text": "Buy Now",
+            "link": "shopify:\/\/products\/deeper-connect-pico-wi-fi-adapter",
+            "button_size": "",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "a2c96330-f222-469f-ba45-2e2f678a6fc5",
+        "0aa4ab41-0922-4de0-bab1-632942de1d64",
+        "1653052799599a52f8-1",
+        "1653052799599a52f8-0",
+        "ca3ba1ab-d658-41ed-bc42-d92c97706219",
+        "8caa6896-106c-4be0-a11e-e58996dd7a52"
+      ],
+      "settings": {
+        "autoplay": true,
+        "autoplay_speed": 3,
+        "dots_position": "dots--center",
+        "height": "use_image",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "165332318422f9656b": {
+      "type": "section-home-pay-once",
+      "blocks": {
+        "b6ca6879-f13a-44cf-86f3-1eb379fc5037": {
+          "type": "image",
+          "settings": {
+            "image_link": ""
+          }
+        },
+        "f71abbb0-2574-4d86-ba6f-eb9907ad5f65": {
+          "type": "image",
+          "settings": {
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b6ca6879-f13a-44cf-86f3-1eb379fc5037",
+        "f71abbb0-2574-4d86-ba6f-eb9907ad5f65"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "width": "wrapper"
+      }
+    },
+    "default-collection-grid": {
+      "type": "section-collection-grid",
+      "disabled": true,
+      "blocks": {
+        "default-collection-grid-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p><strong>Deeper Connect Pico + Wi-Fi<br\/>Adapter<\/strong><\/p><p>&nbsp;&nbsp;<strong>30%OFF<\/strong>&nbsp;&nbsp;<span><b>$173.6<\/b><\/span>&nbsp;&nbsp;<em>$248.0<\/em><\/p>",
+            "collection_image": "shopify:\/\/shop_images\/pico.b7106b34.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-pico-wi-fi-adapter",
+            "content_color": "#323945",
+            "content_bg": "#ffffff"
+          }
+        },
+        "default-collection-grid-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p><strong>Deeper Connect Mini + Wi-Fi<br\/>Adapter<\/strong><\/p><p>$359.00<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/mini.bcc15209.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-mini",
+            "content_color": "#323945",
+            "content_bg": "#ffffff"
+          }
+        },
+        "default-collection-grid-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p><strong>Deeper Connect Wi-Fi<br\/>Adapter<\/strong><\/p><p>$49.00<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/adapter.097739fb.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-wi-fi-adapter",
+            "content_color": "#323945",
+            "content_bg": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "default-collection-grid-0",
+        "default-collection-grid-1",
+        "default-collection-grid-2"
+      ],
+      "settings": {
+        "title": "Top Collections",
+        "description": "",
+        "grid": 3,
+        "color_bg": "bg--neutral",
+        "enable_slider": true,
+        "aspect_ratio": 1,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1664432125ac4903fe": {
+      "type": "section-collection-product-grid",
+      "blocks": {
+        "1664432125195aca53-0": {
+          "type": "featured_collection",
+          "settings": {
+            "heading": "<p>Deeper Connect Pico + Wi-Fi <br\/>Adapter<\/p>",
+            "text": "<p><strong>-20%<\/strong> $198.40 <em>$248.00<\/em><\/p>",
+            "bandwidth": "100Mbps",
+            "cpu": "Quad-Core",
+            "memory": "512MB",
+            "powerconsumption": "1W",
+            "tips": "Limited time deal",
+            "interface": "",
+            "applicable": "",
+            "collection_image": "shopify:\/\/shop_images\/pico.b7106b34.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-pico-wi-fi-adapter",
+            "content_color": "#333333"
+          }
+        },
+        "1664432125195aca53-1": {
+          "type": "featured_collection",
+          "settings": {
+            "heading": "<p>Deeper Connect Mini + Wi-Fi<br\/>Adapter<\/p>",
+            "text": "<p><strong>-35%<\/strong> $233.35 <em>$359.00<\/em><\/p>",
+            "bandwidth": "1Gbps",
+            "cpu": "Quad-Core",
+            "memory": "2GB",
+            "powerconsumption": "10W",
+            "tips": "Limited time deal",
+            "interface": "",
+            "applicable": "",
+            "collection_image": "shopify:\/\/shop_images\/mini.bcc15209.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-mini",
+            "content_color": "#333333"
+          }
+        },
+        "76dc3f18-ed77-4e05-a887-504377a3a81b": {
+          "type": "featured_collection",
+          "settings": {
+            "heading": "<p>Deeper Connect Wi-Fi<br\/>Adapter<\/p>",
+            "text": "<p>$29.00<\/p>",
+            "bandwidth": "",
+            "cpu": "",
+            "memory": "",
+            "powerconsumption": "",
+            "tips": "",
+            "interface": "USB Type-C",
+            "applicable": "Deeper Connect Mini, Pico, Nano",
+            "collection_image": "shopify:\/\/shop_images\/adapter.097739fb.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-wi-fi-adapter",
+            "content_color": "#333333"
+          }
+        }
+      },
+      "block_order": [
+        "1664432125195aca53-0",
+        "1664432125195aca53-1",
+        "76dc3f18-ed77-4e05-a887-504377a3a81b"
+      ],
+      "settings": {
+        "title": "Hot DPN Devices",
+        "description": "",
+        "grid": 3,
+        "color_bg": "palette--light bg--neutral",
+        "enable_slider": false,
+        "aspect_ratio": 1,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1664468210720f7d9c": {
+      "type": "section-collection-bunding-sale-grid",
+      "blocks": {
+        "1664468209e6fd3f24-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Deeper Connect Pico+Wi-Fi Adapter <br\/>Deeper Connect Mini+Wi-Fi Adapter <\/p>",
+            "price": "<p><strong>-35%<\/strong> $394.55<\/p>",
+            "save": "<p>Save $212.45<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/pico_mini_512d0610-c00d-467c-8ec3-951111489da8.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-mini-pico-wi-fi-adapter",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "1664468209e6fd3f24-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Deeper Connect Pico + <br\/>Wi-Fi Adapter * 10<\/p>",
+            "price": "<p><strong>-50%<\/strong> $1240.00<\/p>",
+            "save": "<p>Save $1240.00<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/pico_10_f26d5a8f-3495-4636-bf9d-bee0e893fba3.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-pico-wi-fi-adapter-10",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "cd451d0d-13ba-47c0-990a-772c642b66f2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Deeper Connect Mini + <br\/>Wi-Fi Adapter * 10<\/p>",
+            "price": "<p><strong>-50%<\/strong> $1795.00<\/p>",
+            "save": "<p>Save $1795.00<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/mini_10_db36c1eb-6f93-4cc4-8253-b0279bcfbe13.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-mini-wi-fi-adapter-10",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "2b464ad4-0eea-4db0-a769-76c1d97ae031": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Deeper Connect Pico + <br\/>Wi-Fi Adapter * 3<\/p>",
+            "price": "<p><strong>-40%<\/strong> $446.40<\/p>",
+            "save": "<p>Save $297.60<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/piao_3_fcbda668-a8e3-41d0-9f9b-002be7847612.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-pico-wi-fi-adapter-3",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "99781e9d-eb30-43a0-a8eb-9b4af13da7a1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Deeper Connect Mini + <br\/>Wi-Fi Adapter * 3<\/p>",
+            "price": "<p><strong>-40%<\/strong> $646.20<\/p>",
+            "save": "<p>Save $430.80<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/mini_3_6ea5c08f-7c9d-42c0-bc1b-36337a7e5f39.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-mini-wi-fi-adapter-3",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1664468209e6fd3f24-0",
+        "1664468209e6fd3f24-1",
+        "cd451d0d-13ba-47c0-990a-772c642b66f2",
+        "2b464ad4-0eea-4db0-a769-76c1d97ae031",
+        "99781e9d-eb30-43a0-a8eb-9b4af13da7a1"
+      ],
+      "settings": {
+        "title": "Bundle Deals",
+        "description": "",
+        "grid": 3,
+        "color_bg": "palette--light bg--neutral",
+        "enable_slider": false,
+        "show_button": false,
+        "aspect_ratio": 1,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "default-row": {
+      "type": "section-row",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Product_pico_layout.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "DEEPER Connect Pico + Wi-Fi Adapter",
+        "text": "<p>Max Bandwidth <strong>100Mbps<\/strong><\/p><p>CPU <strong>Quad-Core<\/strong><\/p><p>Memory <strong>512MB<\/strong><\/p><p>Power Consumption <strong>1W<\/strong><\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "Buy Now",
+        "button_link": "shopify:\/\/products\/deeper-connect-pico-wi-fi-adapter",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16529285553c7872d6": {
+      "type": "section-row",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Product_mini_layout.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "Deeper Connect Mini",
+        "text": "<p>Max Bandwidth <strong>1Gbps<\/strong><\/p><p>CPU <strong>Quad-Core<\/strong><\/p><p>Memory <strong>2GB<\/strong><\/p><p>Power Consumption <strong>10W<\/strong><\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "Buy Now",
+        "button_link": "shopify:\/\/products\/deeper-connect-mini",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "16529289311b345b44": {
+      "type": "section-row",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Product_wifi_layout.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Deeper Connect Wi-Fi Adapter",
+        "text": "<p>Interface <strong>USB Type-C<\/strong><\/p><p>Applicable to <strong>Deeper Connect Pico,  Mini<\/strong><\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "Buy Now",
+        "button_link": "shopify:\/\/products\/deeper-connect-wi-fi-adapter",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "1664468206d47d2904": {
+      "type": "section-collection-talking-aboutus-grid",
+      "blocks": {
+        "166446820697da7054-0": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "<p>NFTtokens<\/p>",
+            "from": "Twitter",
+            "text": "<p>Reasons why I love my<a href=\"https:\/\/twitter.com\/deeper_network\"> @deeper_network<\/a> mining operating:<\/p><p>- Initial set-up is relatively easy <br\/>- Operation has 0 maintenance <br\/>- Guaranteed mining rewards <br\/>- Runs off Wifi not electricity<br\/>- Web 3 technology <br\/>- DPR miner costs less than $400<\/p>"
+          }
+        },
+        "166446820697da7054-1": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "<p>SlevinScott<\/p>",
+            "from": "Twitter",
+            "text": "<p>I second this statement, amazing device. <\/p><p>Been up and running since 2nd September and not touched it since. <\/p><p>Earned 60 DPR daily and tomorrow move up to tier 3 genesis gold and start earning 120 DPR a day.<\/p>"
+          }
+        },
+        "a126bd53-0890-4ea7-8dcd-a5d597479b8e": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "<p>Jatin Kot<\/p>",
+            "from": "IGG",
+            "text": "<p>Just ordered the Pico and Mini combo. <\/p><p>Excited to be part of this new and liberating concept of decentralized networks and the future is bright.<\/p>"
+          }
+        },
+        "c97eeb18-d45d-4ba9-8c43-a091058567bb": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "<p>Robert Mulhall<\/p>",
+            "from": "KS",
+            "text": "<p>Amazing! Simple to use and pretty cool looking. <\/p><p>I did not notice any slowing down when using it but I don't have a particularly fast internet anyway. <\/p><p>Very Pleased!<\/p>"
+          }
+        },
+        "b5b7e3fd-eca1-4906-9d84-1582314aad38": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "<p>Daniel<\/p>",
+            "from": "KS",
+            "text": "<p>I recieved mine an had it in use on a business trip to Africa. <\/p><p>It works great and solves problems like country blocking, easy sharing of internet and so on.<\/p><p>Thanks - great product.<\/p>"
+          }
+        },
+        "6517bb0d-3810-4347-8847-ab68786ac33d": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "<p>Miro<\/p>",
+            "from": "KS",
+            "text": "<p>Two weeks of Pico usage. Everything works perfectly. <\/p><p>I love how the box has 4 USB-C slots. <\/p><p>The support helped me with the setup and I've found all important information on their clearly laid out support website as well. <\/p><p>There are easy to follow tutorials for DPR mining\/staking too....<\/p>"
+          }
+        },
+        "5e510907-a741-4a41-ab85-af4dc68946c3": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "title": "<p>Alex Ruhl<\/p>",
+            "from": "KS",
+            "text": "<p>One week after usage, the Pico works like a charm. <\/p><p>The support helped me with an only-wired setup, so that I don't need to connect via wi-fi at all, but just use the ethernet-cable directly with the PC. <\/p><p>I am very happy with the product and don't regret having backed this project. <\/p><p>Thank You!<\/p>"
+          }
+        },
+        "c87e0f26-28e7-483a-aced-4cbd6d36569d": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "<p>TechyInvestor<\/p>",
+            "from": "Twitter",
+            "text": "<p>The more I think about it, PoCr is such a genius incentive to build out a solid network 🧠 .<\/p><p>The fact that the practical application is executed perfectly using the hardware and AtomOS is nothing short of amazing! <\/p><p>… Oh yeah, then there’s the coming Web 3 ecosystem as well 💎🚀<\/p><p>- The Techy Investor.<\/p>"
+          }
+        },
+        "02bf9860-9858-4176-8672-25d3eb9b61fb": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "<p>Dan<\/p>",
+            "from": "Youtube",
+            "text": "<p>I have had my deeper device running and contributing to the network\/project for almost 6 months now. <\/p><p>It is great, no issues. You can log into the AtomOs software and literally see all the negative things it is blocking from entering your network. <\/p><p>There are so many positive attributes about this project. <\/p><p>I personally do not invest in just anything, I did my due dilligence and I'm sooo glad I have invested in the great project...<\/p>"
+          }
+        },
+        "e61c1fc2-69bc-4461-b61a-2a744dccdd7b": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "<p>Nezbit Smythe<\/p>",
+            "from": "Youtube",
+            "text": "<p>I've got the mini version and it does a super job blocking Ads and adult sites on my home network. <\/p><p>I rarely use the DPN, but it performs well when I do. <\/p><p>Action Crypto, your videos helped me to set up the mining functionality, cheers!<\/p>"
+          }
+        },
+        "3a71878c-9b6d-4f28-b02f-90de3c363266": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "<p>Arnold B<\/p>",
+            "from": "Youtube",
+            "text": "<p>I have the mini since the whole project launched (mine is good as I was an early adopter and does earn a lot more dpr than the ones you can buy now ). <\/p><p>Nothing but good experience with the company, Eric and the device is fast, reliable and keeps my home network safe seamlessly. <\/p><p>The fact that it earns 60 dpr per day for me is a bonus. Love it.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "166446820697da7054-0",
+        "166446820697da7054-1",
+        "a126bd53-0890-4ea7-8dcd-a5d597479b8e",
+        "c97eeb18-d45d-4ba9-8c43-a091058567bb",
+        "b5b7e3fd-eca1-4906-9d84-1582314aad38",
+        "6517bb0d-3810-4347-8847-ab68786ac33d",
+        "5e510907-a741-4a41-ab85-af4dc68946c3",
+        "c87e0f26-28e7-483a-aced-4cbd6d36569d",
+        "02bf9860-9858-4176-8672-25d3eb9b61fb",
+        "e61c1fc2-69bc-4461-b61a-2a744dccdd7b",
+        "3a71878c-9b6d-4f28-b02f-90de3c363266"
+      ],
+      "settings": {
+        "title": "They talk about us",
+        "description": "",
+        "grid": 3,
+        "color_bg": "palette--light bg--neutral",
+        "enable_slider": true,
+        "aspect_ratio": 1,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1653057495bc8e242d": {
+      "type": "section-home-plug-and-play",
+      "blocks": {
+        "16530574957649c41b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pico-_-mode1.gif",
+            "image_link": ""
+          }
+        },
+        "16530574957649c41b-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pico-_-mode2.gif",
+            "image_link": ""
+          }
+        },
+        "16530574957649c41b-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Total_product_page__pico__connect03.gif",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16530574957649c41b-0",
+        "16530574957649c41b-1",
+        "16530574957649c41b-2"
+      ],
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "width": "wrapper",
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-left",
+        "color_bg": "hero__content--transparent"
+      }
+    },
+    "1652929141ae5debd0": {
+      "type": "section-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pico_page_lifetime.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "Absolutely No Annual Fees or Subscriptions",
+        "text": "<p>Coming fully loaded with DPN (Decentralized VPN), Ad blocking and Cybersecurity features.<br\/>Deeper Connect Pico can save you over $600USD a year compared to subscribing to similar individual services.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "#",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 36
+      }
+    },
+    "1652929473fc354603": {
+      "type": "section-collection-grid",
+      "blocks": {
+        "165292947337f714d7-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Unbox Therapy<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/2_Unbox_Therapy_f87e3e47-2f30-4baf-ad0d-24f8d9dd1c9c.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=J-aSuNYmTlk&t=263s",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "165292947337f714d7-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Jon Rettinger<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/2_Jon_Rettinger.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=Y0tr1eZvGeg",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "49e6982a-e1a6-4576-af9f-bef51564dfdf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Jabber Tech<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/3_Jabber_Tech_8ec8db34-5f7b-493b-b470-f57880b26116.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=SDWMvdLoe6Y",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "a25c0ccf-6b92-4dee-b102-8f988ab24e0a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Full Value Dan<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/4_Full_Value_Dan_69048984-72be-4c1f-bb59-053aed324cf5.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=rieMyHv43zk",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "db3bea90-0277-45d5-b013-65cf95de5298": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Smart Tech<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/5_Smart_Tech_cc57f92a-1e63-47a7-aa6d-b8ba7ef2d557.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=4RoFj4XJV20",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "2ebf21a4-0780-46ba-ab46-aaea43add273": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Action Crypto<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/6_Action_Crypto_156f0fe5-399e-4001-bc77-ac1f7b35bfd4.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=d2b4yAb9KmQ",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "74445f99-e4d1-4e55-8f16-457759c64ddb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Next Time Tech<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/7_NextTimeTech_f30be63b-50da-4ffd-ab09-94727f2a476b.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=Ox3EHqQ7p5Q&t=17s",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "e3ff424d-ccbc-4aec-ac25-4a3df9138873": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>JS 神技能<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/8_JS_e8021b9e-a6b6-400c-abc5-abe3143e119f.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=Ra-xbqynEKQ&t=401s",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "5ac9a9f6-a672-4213-862d-de2a942ce82d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Your Friend Andy<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/9_Your_Friend_Andy_be3c98a0-320d-4d67-af83-7404a554488f.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=jys0zx9NQUQ&t=71s",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "165292947337f714d7-1",
+        "165292947337f714d7-0",
+        "49e6982a-e1a6-4576-af9f-bef51564dfdf",
+        "a25c0ccf-6b92-4dee-b102-8f988ab24e0a",
+        "db3bea90-0277-45d5-b013-65cf95de5298",
+        "2ebf21a4-0780-46ba-ab46-aaea43add273",
+        "74445f99-e4d1-4e55-8f16-457759c64ddb",
+        "e3ff424d-ccbc-4aec-ac25-4a3df9138873",
+        "5ac9a9f6-a672-4213-862d-de2a942ce82d"
+      ],
+      "settings": {
+        "title": "Take Their Words, Not Ours",
+        "description": "",
+        "grid": 3,
+        "color_bg": "palette--light bg--neutral",
+        "enable_slider": true,
+        "aspect_ratio": 0.6,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "165305347057e7d7b3": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
+    "16644680684ba41a4f": {
+      "type": "section-collection-faq-grid",
+      "settings": {
+        "title": "Frequently asked questions",
+        "description": "<p> <\/p>",
+        "color_bg": "palette--light bg--neutral",
+        "aspect_ratio": 0.6,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "165305279976bef1ea",
+    "165332318422f9656b",
+    "default-collection-grid",
+    "1664432125ac4903fe",
+    "1664468210720f7d9c",
+    "default-row",
+    "16529285553c7872d6",
+    "16529289311b345b44",
+    "1664468206d47d2904",
+    "1653057495bc8e242d",
+    "1652929141ae5debd0",
+    "1652929473fc354603",
+    "165305347057e7d7b3",
+    "16644680684ba41a4f"
+  ]
+}

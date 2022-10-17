@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-default",
+      "settings": {
+      }
+    },
+    "lookbook-0": {
+      "type": "section-lookbook",
+      "settings": {
+      }
+    },
+    "lookbook-1": {
+      "type": "section-lookbook",
+      "settings": {
+      }
+    },
+    "lookbook-2": {
+      "type": "section-lookbook",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "lookbook-0",
+    "lookbook-1",
+    "lookbook-2"
+  ]
+}

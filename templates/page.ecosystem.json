@@ -1,0 +1,54 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-default",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1659106031d4c7e763": {
+      "type": "section-text",
+      "blocks": {
+        "165910603018fd6027-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Deeper's Ecosystem<\/p>",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "165910603018fd6027-1"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1659500454abda9d94": {
+      "type": "section-deeper-ecosystem",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "width": "wrapper",
+        "flex_align": "align--middle-left"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1659106031d4c7e763",
+    "1659500454abda9d94"
+  ]
+}

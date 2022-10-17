@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "main": {
+      "type": "cart",
+      "settings": {
+      }
+    },
+    "16546975847d56725c": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16546975847d56725c"
+  ]
+}

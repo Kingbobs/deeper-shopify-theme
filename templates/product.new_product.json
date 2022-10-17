@@ -1,0 +1,154 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_show_vendor": false,
+            "show_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "auto",
+            "show_quantity": true,
+            "show_remaining": true,
+            "enable_payment_button": true,
+            "subscriptions_enable_selectors": true,
+            "info_page": ""
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "icon-recycled",
+            "icon_color": "#5d9386",
+            "text": "<p>Made with recycled fabrics<\/p>"
+          }
+        },
+        "icon-2": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "icon-sewing-machine",
+            "icon_color": "#5d9386",
+            "text": "<p>Certified fair trade product<\/p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "read_more": true,
+            "style": "accordions",
+            "description_icon": "",
+            "title_1": "Information",
+            "icon_name_1": "",
+            "raw_content_1": "<p>This content type will accept <strong>rich text<\/strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.<\/p>",
+            "title_2": "Details",
+            "icon_name_2": "",
+            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.<\/p>",
+            "title_3": "",
+            "icon_name_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "icon_name_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": ""
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "product": ""
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "form",
+        "icon-1",
+        "icon-2",
+        "description",
+        "upsell",
+        "pickup",
+        "sharing"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image-right": {
+      "type": "section-row",
+      "settings": {
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "recent": {
+      "type": "section-recent-products",
+      "settings": {
+        "product_recently_heading": "Recently viewed",
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "related_products_enable": false,
+        "limit": 6,
+        "product_recommendations_heading": "Related products",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image-right",
+    "recent",
+    "related"
+  ]
+}

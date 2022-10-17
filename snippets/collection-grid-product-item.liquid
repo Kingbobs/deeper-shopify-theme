@@ -1,0 +1,102 @@
+{% case section.settings.grid %}
+  {% when 2 %}
+    {%- assign grid_item_width = 'medium-up--one-half small--one-half mobile--nine-tenths' -%}
+  {% when 3 %}
+    {%- assign grid_item_width = 'large-up--one-third medium--one-half small--one-half mobile--nine-tenths' -%}
+  {% when 4 %}
+    {%- assign grid_item_width = 'large-up--one-quarter medium--one-half small--one-half mobile--nine-tenths' -%}  
+  {% when 5 %}
+    {%- assign grid_item_width = 'large-up--one-fifth medium--one-half small--one-half mobile--nine-tenths' -%}
+  {% when 6 %}
+    {%- assign grid_item_width = 'large-up--one-sixth medium--one-half small--one-half mobile--nine-tenths' -%}
+  {% when 7 %}
+    {%- assign grid_item_width = 'large-up--one-seventh medium--one-half small--one-half mobile--nine-tenths' -%}
+  {% when 8 %}
+    {%- assign grid_item_width = 'large-up--one-eighth medium--one-half small--one-half mobile--nine-tenths' -%}  
+{% endcase %}
+
+<div 
+  class="grid__item {{ grid_item_width }}" 
+  {{ block.shopify_attributes }} 
+  {% if block.settings.content_color %} style="--block-text:{{ block.settings.content_color }}"{% endif %}
+  {% if section.settings.enable_slider %}data-slide="{{ block.id }}" data-slide-index="{{ forloop.index0 }}"{% endif %} 
+>
+  <div class="collection-grid-item section--image {{ section.settings.place_text }} {{ section.settings.align_text }}">
+    {%- liquid
+      assign collection = collections[block.settings.collection]
+      if block.settings.collection_image
+        assign img_object = block.settings.collection_image
+      elsif collection.image
+        assign img_object = collection.image
+      elsif collection.products.first
+        assign img_object = collection.products.first.featured_media.preview_image
+      endif
+
+      assign collection_link = collection.url | default: '#'
+      if block.settings.link_override != blank
+          assign collection_link = block.settings.link_override
+      endif
+      
+      assign collection_def_title =  'homepage.onboarding.collection_title' | t
+
+      assign collection_title = collection.title | default: collection_def_title
+      if block.settings.text != '' and block.settings.text != '<p></p>' and block.settings.text != blank
+        assign collection_title = block.settings.text
+      endif 
+
+      assign aspect_ratio = section.settings.aspect_ratio | default: 0.6 
+    -%}
+
+    <a href="{{ collection_link }}" class="link-over-image" aria-label="{{ collection_title | strip_html | escape }}">
+    </a>
+    
+    {%- if img_object != blank -%}
+      {%- render 'image-fill', img_object: img_object, aspect_ratio: aspect_ratio, bg_position: block.settings.bg_position -%}
+    {%- else -%}
+      <div class="image__fill" style="padding-top: {{ aspect_ratio | times: 100 }}%">
+        <div class="background-size-cover">
+          <span> 
+            {% capture svg_name %}collection-{{ forloop.index | modulo: 7 | at_least: 1 }}{% endcapture %}
+            {{ svg_name | placeholder_svg_tag: 'placeholder-svg' }}
+          </span>
+        </div>
+      </div>
+    {%- endif -%}
+
+    <div class="collection-grid-item__content__wrapper">
+      <div class="collection-grid-item__content">
+        <div class="collection-grid-item__title {{ section.settings.use_font }}">{{ block.settings.heading }}</div>
+        <div class="collection-grid-item__price">{{ block.settings.text }}</div>
+        <div class="collection-grid-item__tips">
+          {%- if block.settings.tips != blank -%}
+            <span class="product-limited-time-deal">{{block.settings.tips}}</span>
+          {%- endif -%}
+        </div> 
+        <div class="collection-grid-item__spec">
+          <ul>
+            {%- if block.settings.bandwidth != blank -%}
+              <li><img src="{{ "bandwidth-ico.png" | asset_url }}"/> Max Bandwidth <b>{{block.settings.bandwidth}}</b></li>
+            {%- endif -%}
+            {%- if block.settings.cpu != blank -%}
+              <li><img src="{{ "cpu-ico.png" | asset_url }}"/> CPU  <b>{{block.settings.cpu}}</b></li>
+            {%- endif -%}
+            {%- if block.settings.memory != blank -%}
+              <li><img src="{{ "memory-ico.png" | asset_url }}"/> Memory  <b>{{block.settings.memory}}</b></li>
+            {%- endif -%}
+            {%- if block.settings.powerconsumption != blank -%}
+              <li><img src="{{ "power-ico.png" | asset_url }}"/> Power Consumption  <b>{{block.settings.powerconsumption}}</b></li>
+            {%- endif -%}
+            {%- if block.settings.interface != blank -%}
+              <li><img src="{{ "interface-ico.png" | asset_url }}"/> Interface  <b>{{block.settings.interface}}</b></li>
+            {%- endif -%}
+            {%- if block.settings.applicable != blank -%}
+              <li><img src="{{ "applicable-ico.png" | asset_url }}"/> Applicable to <b>{{block.settings.applicable}}</b></li>
+            {%- endif -%}
+          </ul>
+          <a href="{{collection_link}}" class="overlap__button btn btn--min btn--primary">Buy Now</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

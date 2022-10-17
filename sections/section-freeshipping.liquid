@@ -1,0 +1,171 @@
+{% schema %}
+  {
+    "name": "Free Shipping",
+    "settings": [
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 0
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Section width",
+        "default": "wrapper--none",
+        "options": [
+          { "value": "wrapper--none", "label": "Full width" },
+          { "value": "wrapper--full", "label": "Full width padded" },
+          { "value": "wrapper", "label": "Page width" },
+          { "value": "wrapper--narrow", "label": "Page width narrow" }
+        ]
+      }
+	  ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type":"url",
+            "id":"image_link",
+            "label":"Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+          "name": "Free Shipping",
+          "category": "My Sections"
+      }
+    ]
+  } 
+{% endschema %}
+
+<div
+  id="free-shipping"
+  data-section-id="{{ section.id }}" 
+  data-section-type="section-collection" 
+  class="grid"
+  style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px; "> 
+  <div class="{{ section.settings.width }} section-padding section-contact-us">
+    <div class="grid__item large-up--one-quarter mobile--one-whole">
+      <div class="section--image {{ section.settings.place_text }} {{ section.settings.align_text }}">
+        <div class="contactUsItem">
+          <div class="shippingItem_title">Warehouses</div>
+          <div class="shippingItem_intro">
+            <p>For in-stock orders, we arrange the shipment from six warehouses: <b>United States, Canada, United Kingdom, Germany, Hong Kong and Taiwan</b>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid__item large-up--one-quarter mobile--one-whole">
+      <div class="section--image {{ section.settings.place_text }} {{ section.settings.align_text }}">
+        <div class="contactUsItem">
+          <div class="shippingItem_title">Tracking number</div>
+          <div class="shippingItem_intro">
+            <p>We'll provide tracking number within <b>2-7 business days</b>. A shipping confirmation email will be sent to your email once the order has shipped.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid__item large-up--one-quarter mobile--one-whole">
+      <div class="section--image {{ section.settings.place_text }} {{ section.settings.align_text }}">
+        <div class="contactUsItem">
+          <div class="shippingItem_title">Recieving goods</div>
+          <div class="shippingItem_intro">
+            <p>It may take <b>3-10 days</b> for your shipment to be scanned by the carrier. For any third-party shipping, we cannot provide any additional shipping information or documentation. Any delivery dates provided by Deeper Network are estimates.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid__item large-up--one-quarter mobile--one-whole">
+      <div class="section--image {{ section.settings.place_text }} {{ section.settings.align_text }}">
+        <div class="contactUsItem">
+          <div class="shippingItem_title">Pre-orders</div>
+          <div class="shippingItem_intro">
+            <p>For pre-orders/backorders, please refer to the shiping date on the pruduct page.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% stylesheet %}
+  .section-contact-us{}
+
+  .contactUsItem{
+    margin-top:24px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px;
+    width: 100%;
+    height: 396px;
+    /* Fill/浅、禁用 */
+    background: #F7F7FB;
+    border-radius: 8px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .shippingItem_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 26px;
+    margin-top:16px;
+    color: #170F49 !important;
+  }
+
+  .shippingItem_intro{ 
+    margin-top:0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 157% */
+    /* Text/强调、正文标题 */
+    color: #170F49;
+  }
+ 
+  .contactButton{
+    margin-top: 40px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #170F49;
+    color: #170F49 !important;
+  }
+
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

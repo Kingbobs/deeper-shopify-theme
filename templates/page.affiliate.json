@@ -1,0 +1,402 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-default",
+      "settings": {
+        "show_title": false,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "affiliate-page-menu",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1653563344bddedd8f": {
+      "type": "section-hero",
+      "blocks": {
+        "16535633441bbb7de5-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "text_size": 10
+          }
+        },
+        "16535633441bbb7de5-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>This area is used to describe your store<\/p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "16535633441bbb7de5-0",
+        "16535633441bbb7de5-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Affiliate-new-01.png",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-left",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "165356351257bf77be": {
+      "type": "section-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_1087176.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "Affiliate Program",
+        "text": "<p>Do you like sharing good news with others? Are you an influencer on social media or other platforms? Are you looking forward to all the amazing things Web 3.0 will bring?<br\/>If you said yes to any of these questions,<br\/>Please join our Affiliate Program and earn <strong>15%<\/strong> commission for each device sold.<br\/>Join us today and help to spread the amazing tech Deeper Network is building!<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "Join Now",
+        "button_link": "https:\/\/af.uppromote.com\/deepernetwork",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165356390361ff6f46": {
+      "type": "section-team",
+      "blocks": {
+        "1653563903cd1b032c-0": {
+          "type": "person",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_1660_9fb73811-6274-480e-bdf2-1cd8d36cc485.png",
+            "title": "Jabber Tech",
+            "job": "",
+            "text": "<p>I have been a tech enthusiast for so many years, so I've decided to bring you my thoughts on technology, customizing you device, fun electronics, and so much more! I'll take the initial leap, making your decisions easier! <br\/><br\/><br\/><br\/><\/p>",
+            "social_instagram_link": "",
+            "social_tiktok_link": "",
+            "social_snapchat_link": "",
+            "social_twitter_link": "https:\/\/twitter.com\/TheJabberTech",
+            "social_facebook_link": "",
+            "social_pinterest_link": "",
+            "social_linkedin_link": "",
+            "social_tumblr_link": "",
+            "social_youtube_link": "https:\/\/www.youtube.com\/watch?v=SDWMvdLoe6Y",
+            "social_vimeo_link": "",
+            "custom_social_link_1": "",
+            "custom_social_link_2": "",
+            "custom_social_link_3": ""
+          }
+        },
+        "1653563903cd1b032c-1": {
+          "type": "person",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_1661_3b5e031c-33dc-4360-b5b9-f565e0532c7b.png",
+            "title": "Full Value Dan",
+            "job": "",
+            "text": "<p>I started learning about finance through travel hacking. My best deal was a mistake price on the AMEX travel site for $2.33\/night USD in the Ambassador suite Grand Hyatt in Santiago, Chile. I styed for 6 nights for $14.00 USD.<br\/><br\/><br\/><br\/><\/p>",
+            "social_instagram_link": "",
+            "social_tiktok_link": "",
+            "social_snapchat_link": "",
+            "social_twitter_link": "https:\/\/twitter.com\/fullvaluedan",
+            "social_facebook_link": "",
+            "social_pinterest_link": "",
+            "social_linkedin_link": "",
+            "social_tumblr_link": "",
+            "social_youtube_link": "https:\/\/www.youtube.com\/watch?v=rieMyHv43zk",
+            "social_vimeo_link": "",
+            "custom_social_link_1": "",
+            "custom_social_link_2": "",
+            "custom_social_link_3": ""
+          }
+        },
+        "1653563903cd1b032c-2": {
+          "type": "person",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Affiliate-Tactical_Investing-img.png",
+            "title": "Tactical Investing",
+            "job": "",
+            "text": "<p>As an avid investor and crypto enthusiast, I love to share my journey in order to help and learn along with others. As active military, we have many opportunities to succeed financially, and I'd like to be help not only military, but also others on their financially free journey. With risks and rewards, and the highs and lows: we're in for a fun ride!<\/p>",
+            "social_instagram_link": "",
+            "social_tiktok_link": "",
+            "social_snapchat_link": "",
+            "social_twitter_link": "https:\/\/twitter.com\/tacticalinvest_",
+            "social_facebook_link": "",
+            "social_pinterest_link": "",
+            "social_linkedin_link": "",
+            "social_tumblr_link": "",
+            "social_youtube_link": "https:\/\/www.youtube.com\/watch?v=ncmwRX_1tPw&t=9s",
+            "social_vimeo_link": "",
+            "custom_social_link_1": "",
+            "custom_social_link_2": "",
+            "custom_social_link_3": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653563903cd1b032c-0",
+        "1653563903cd1b032c-1",
+        "1653563903cd1b032c-2"
+      ],
+      "settings": {
+        "title": "Brand Ambassador",
+        "description": "<p>Our ambassadors influence their communities through their respected opinions and expertise. <br\/>Their knowledge influences other people’s decisions. <br\/>Become a brand ambassador for Deeper Network and help share our vision with your community! <\/p>",
+        "grid": 3,
+        "bg": "palette--light bg--neutral",
+        "enable_slider": true,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1653580335f11de6b1": {
+      "type": "section-text",
+      "blocks": {
+        "1653580335c85526f0-0": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "<p>Introducing<\/p>",
+            "enable_caps": false,
+            "text_size": 5
+          }
+        },
+        "1653580335c85526f0-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>How we work together<\/p>",
+            "text_size": 9
+          }
+        },
+        "1653580335c85526f0-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn More",
+            "button_url": "",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn--soft",
+            "button_color": "btn--primary"
+          }
+        },
+        "a67f652e-fa57-43c4-92db-bab49bf0d7a7": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Information<\/strong><\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "cd49d5e1-d119-4e85-9bac-c3311a6af442": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our ambassadors actively inform their communities with news and updates regarding Deeper Network developments.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "bcbb219c-283c-494f-8f8e-72d1fc193d66": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Leadership<\/strong><\/p>",
+            "text_size": 2,
+            "text_columns": 1
+          }
+        },
+        "35da300f-53ef-401c-b250-f5d44d2a46b6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our ambassadors take on leadership roles for important Deeper Network campaigns and events.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "c596a890-0a1f-472b-8143-df9f126a9fee": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Feedback<\/strong><\/p>",
+            "text_size": 2,
+            "text_columns": 1
+          }
+        },
+        "f39728e7-2160-48f9-9583-accac23c6c85": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our ambassadors gather and provide feedback from their communities to the Deeper Network team regarding our products and services.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "1653580335c85526f0-0",
+        "1653580335c85526f0-1",
+        "1653580335c85526f0-3",
+        "a67f652e-fa57-43c4-92db-bab49bf0d7a7",
+        "cd49d5e1-d119-4e85-9bac-c3311a6af442",
+        "bcbb219c-283c-494f-8f8e-72d1fc193d66",
+        "35da300f-53ef-401c-b250-f5d44d2a46b6",
+        "c596a890-0a1f-472b-8143-df9f126a9fee",
+        "f39728e7-2160-48f9-9583-accac23c6c85"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1653580613cbde3246": {
+      "type": "section-text",
+      "blocks": {
+        "16535806135bc916f7-0": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "<p>Introducing<\/p>",
+            "enable_caps": false,
+            "text_size": 5
+          }
+        },
+        "16535806135bc916f7-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>How to be selected as a brand ambassador<\/p>",
+            "text_size": 9
+          }
+        },
+        "16535806135bc916f7-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn More",
+            "button_url": "",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn--soft",
+            "button_color": "btn--primary"
+          }
+        },
+        "0862655a-f521-4420-a532-eb5780449940": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Quantitative Standard<\/strong><\/p>",
+            "text_size": 2,
+            "text_columns": 1
+          }
+        },
+        "42cbfd2c-2b6d-4cca-a77f-0db454762ba9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each ambassador's Indiegogo and\/or official shop website referral sales performance will be evaluated at the end of each month. Those that meet our standards will be chosen.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        },
+        "d5693976-5210-40af-9e76-ebe61c436cd5": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Qualitative Standard<\/strong><\/p>",
+            "text_size": 2,
+            "text_columns": 1
+          }
+        },
+        "e89c1066-3529-463e-9eeb-e62646c7d48b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Creating comprehensive, creative, informative and engaging content on any popular platform will help you become a brand ambassador. Followers and subscriber numbers could also influence your chances of becoming a brand ambassador.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "16535806135bc916f7-0",
+        "16535806135bc916f7-1",
+        "16535806135bc916f7-3",
+        "0862655a-f521-4420-a532-eb5780449940",
+        "42cbfd2c-2b6d-4cca-a77f-0db454762ba9",
+        "d5693976-5210-40af-9e76-ebe61c436cd5",
+        "e89c1066-3529-463e-9eeb-e62646c7d48b"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1653580739910bb11b": {
+      "type": "section-text",
+      "blocks": {
+        "16535807393d8f89f1-0": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "<p>Introducing<\/p>",
+            "enable_caps": false,
+            "text_size": 5
+          }
+        },
+        "16535807393d8f89f1-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Contact us<\/p>",
+            "text_size": 9
+          }
+        },
+        "16535807393d8f89f1-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"mailto:marketing@deeper.network\" title=\"mailto:marketing@deeper.network\">marketing@deeper.network<\/a><\/p>",
+            "text_size": 2,
+            "text_columns": 1
+          }
+        },
+        "16535807393d8f89f1-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn More",
+            "button_url": "",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn--soft",
+            "button_color": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "16535807393d8f89f1-0",
+        "16535807393d8f89f1-1",
+        "16535807393d8f89f1-2",
+        "16535807393d8f89f1-3"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1653563344bddedd8f",
+    "165356351257bf77be",
+    "165356390361ff6f46",
+    "1653580335f11de6b1",
+    "1653580613cbde3246",
+    "1653580739910bb11b"
+  ]
+}

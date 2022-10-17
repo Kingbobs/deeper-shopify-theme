@@ -1,0 +1,510 @@
+var qs = (function (a) {
+  if (a == "") return {};
+  var b = {};
+  for (var i = 0; i < a.length; ++i) {
+    var p = a[i].split('=', 2);
+    if (p.length == 1)
+      b[p[0]] = "";
+    else
+      b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+  }
+  return b;
+})(window.location.search.substr(1).split('&'));
+
+
+
+window.FBID = ""
+
+
+// if (qs['fb']) {
+//   var from = qs['fb']
+//   window.localStorage.setItem('$$from$$', from || "")
+//   window.FBID = from
+// } else {
+//   if (window.localStorage.getItem('$$from$$')) {
+//     window.FBID = window.localStorage.getItem('$$from$$')
+//   }
+// }
+
+// for record source users
+if (qs['_deeper_users']) {
+  var from = qs['_deeper_users']
+  window.localStorage.setItem('$$from$$', from || "")
+} 
+
+
+function _set_var(key, value) {
+  if (value) {
+    var queryData = value;
+    window.localStorage.setItem('$$' + key + '$$', queryData || "");
+    //     window[key] = queryData;
+    Object.assign(window, {
+      [key]: queryData
+    })
+  } else {
+    if (window.localStorage.getItem('$$' + key + '$$')) {
+      //       window[key] = window.localStorage.getItem('$$'+key+'$$');
+      Object.assign(window, {
+        [key]: window.localStorage.getItem('$$' + key + '$$')
+      })
+    }
+  }
+}
+
+
+_set_var('gb_utm_source', qs['utm_source']);
+_set_var('gb_utm_medium', qs['utm_medium']);
+_set_var('gb_utm_campaign', qs['utm_campaign']);
+
+
+function getGa() {
+  console.log('getGA')
+  try {
+    var storageGa = window.localStorage.getItem('$$_ga$$')
+    var cookieGa = document.cookie.split(';').filter(it => it.match('_ga='))[0].split('=')[1]
+    window.gb_ga = cookieGa || storageGa
+    window.localStorage.setItem('$$_ga$$', window.gb_ga)
+  } catch (e) {
+    window.gb_ga = 'noGa_' + Date.now() + '_' + String.prototype.slice.apply(Math.random(), [-12])
+    window.localStorage.setItem('$$_ga$$', window.gb_ga)
+  }
+}
+
+
+function pageView() {
+
+  console.log('track.js')
+  var session_id = window.gb_ga
+  var utm_campaign = window.gb_utm_campaign
+  if (!window.gb_ga) {
+    session_id = window.location.href
+    utm_campaign = window.navigator.userAgent
+  }
+
+  console.log('session_id', session_id)
+  fetch('https://dsa.deeper.network/d?' + [
+    'utm_source=' + window.gb_utm_source,
+    'session_id=' + session_id,
+    'utm_medium=' + window.gb_utm_medium,
+    'utm_campaign=' + utm_campaign,
+    'event_name=page_view_' + encodeURIComponent(window.location.href),
+    'from=deeper'
+  ].join('&'))
+
+
+  if (window.location.pathname.indexOf('/products') !== -1) {
+
+    let pathname = window.location.pathname.split('/');
+
+    fetch('https://dsa.deeper.network/d?' + [
+      'utm_source=' + window.gb_utm_source,
+      'session_id=' + window.gb_ga,
+      'utm_medium=' + window.gb_utm_medium,
+      'utm_campaign=' + window.gb_utm_campaign,
+      'event_name=' + pathname[pathname.length - 1],
+      'from=deeper'
+    ].join('&'))
+  }
+
+  if (window.location.href.match(/step=payment_method/)) {
+    console.log('start payment')
+    var email = $('bdo').text()
+    var address = $('address').text().replace(/\n/g, '').trim()
+    if (email) {
+      window.localStorage.setItem('$$email$$', email)
+    } else {
+      email = window.localStorage.getItem('$$email$$') || ''
+    }
+    if (address) {
+      window.localStorage.setItem('$$address$$', address)
+    } else {
+      address = window.localStorage.getItem('$$address$$') || ''
+    }
+    fetch('https://dsa.deeper.network/d?' + [
+      'utm_source=' + window.gb_utm_source,
+      'session_id=' + window.gb_ga,
+      'utm_medium=' + window.gb_utm_medium,
+      'utm_campaign=' + window.gb_utm_campaign,
+      'event_value=' + email + ':' + address,
+      'event_name=payment_method',
+      'from=deeper'
+    ].join('&'))
+
+  } else if (window.location.href.match(/step=shipping_method/)) {
+    console.log('start shipping')
+    var email = $('bdo').text()
+    var address = $('address').text().replace(/\n/g, '').trim()
+    if (email) {
+      window.localStorage.setItem('$$email$$', email)
+    } else {
+      email = window.localStorage.getItem('$$email$$') || ''
+    }
+    if (address) {
+      window.localStorage.setItem('$$address$$', address)
+    } else {
+      address = window.localStorage.getItem('$$address$$') || ''
+    }
+    fetch('https://dsa.deeper.network/d?' + [
+      'utm_source=' + window.gb_utm_source,
+      'session_id=' + window.gb_ga,
+      'utm_medium=' + window.gb_utm_medium,
+      'utm_campaign=' + window.gb_utm_campaign,
+      'event_value=' + email + ':' + address,
+      'event_name=shipping_method',
+      'from=deeper'
+    ].join('&'))
+
+  }
+
+  // https://dsa.deeper.network/d?utm_source={{utm_source}}&session_id={{gb_ga}}&utm_medium={{utm_medium}}&utm_campaign={{utm_campaign}}&event_name=purchase&event_value={{Ecommerce Transaction ID}}:{{Ecommerce Value}}:{{Ecommerce Products}}
+  if (window.location.pathname.indexOf('/thank_you') !== -1) {
+    try {
+      var dataLayerLatest = window.dataLayer.filter(function (it) {
+        return it.event == 'purchase'
+      })[0]
+      window.gb_purchase_track_url = "https://dsa.deeper.network/d?from=deeper&utm_source=" + window.gb_utm_source +
+        "&session_id=" + window.gb_ga +
+        "&utm_medium=" + window.gb_utm_medium +
+        "&utm_campaign=" + window.gb_utm_campaign +
+        "&event_name=purchase&event_value=" + dataLayerLatest.ecommerce.transaction_id + ":" + dataLayerLatest.ecommerce.value + ":" + dataLayerLatest.ecommerce.products
+
+      fetch(window.gb_purchase_track_url)
+    } catch (e) {
+      console.log(e)
+    }
+
+
+  }
+  $(document).on('click', function (e) {
+    if (e.target.innerText == 'Pay now') {
+      console.log('start pay now')
+      fetch('https://dsa.deeper.network/d?' + [
+        'utm_source=' + window.gb_utm_source,
+        'session_id=' + window.gb_ga,
+        'utm_medium=' + window.gb_utm_medium,
+        'utm_campaign=' + window.gb_utm_campaign,
+        'event_name=paynow',
+        'from=deeper'
+      ].join('&'))
+    }
+
+    if (e.target.tagName == 'svg') {
+      console.log('click svg')
+      try {
+        if ($(e.target).prev()[0].innerText == 'Pay now') {
+          console.log('start pay now')
+          fetch('https://dsa.deeper.network/d?' + [
+            'utm_source=' + window.gb_utm_source,
+            'session_id=' + window.gb_ga,
+            'utm_medium=' + window.gb_utm_medium,
+            'utm_campaign=' + window.gb_utm_campaign,
+            'event_name=paynow',
+            'from=deeper'
+          ].join('&'))
+        }
+      } catch (e) {
+        console.log(e)
+      }
+      try {
+        if ($(e.target).parent().prev().text() == ' GooglePay') {
+          console.log('start google pay')
+          fetch('https://dsa.deeper.network/d?' + [
+            'utm_source=' + window.gb_utm_source,
+            'session_id=' + window.gb_ga,
+            'utm_medium=' + window.gb_utm_medium,
+            'utm_campaign=' + window.gb_utm_campaign,
+            'event_name=google-pay',
+            'from=deeper'
+          ].join('&'))
+        }
+      } catch (e) {
+        console.log(e)
+      }
+      try {
+        if ($(e.target).next().text() == 'Shopping Cart') {
+          console.log('click shopping cart')
+          couponCheck()
+
+        }
+      } catch (e) {
+        console.log(e)
+      }
+
+    }
+
+    if (e.target.innerText == 'Add to Cart') {
+      console.log('start add to cart')
+      couponCheck()
+      fetch('https://dsa.deeper.network/d?' + [
+        'utm_source=' + window.gb_utm_source,
+        'session_id=' + window.gb_ga,
+        'utm_medium=' + window.gb_utm_medium,
+        'utm_campaign=' + window.gb_utm_campaign,
+        'event_name=add-to-cart',
+        'from=deeper'
+      ].join('&'))
+    }
+
+    if (e.target.innerText == ' ShopPay') {
+      console.log('start shoppay')
+      fetch('https://dsa.deeper.network/d?' + [
+        'utm_source=' + window.gb_utm_source,
+        'session_id=' + window.gb_ga,
+        'utm_medium=' + window.gb_utm_medium,
+        'utm_campaign=' + window.gb_utm_campaign,
+        'event_name=shop-pay',
+        'from=deeper'
+      ].join('&'))
+    }
+
+    if (e.target.innerText == ' GooglePay') {
+      console.log('start googlepay')
+      fetch('https://dsa.deeper.network/d?' + [
+        'utm_source=' + window.gb_utm_source,
+        'session_id=' + window.gb_ga,
+        'utm_medium=' + window.gb_utm_medium,
+        'utm_campaign=' + window.gb_utm_campaign,
+        'event_name=google-pay',
+        'from=deeper'
+      ].join('&'))
+    }
+
+    if (e.target.innerText.match('Checkout') && !window.$haveClickCheckout) {
+      console.log('start fetch checkouts')
+      window.$haveClickCheckout = true
+      fetch('https://dsa.deeper.network/d?' + [
+        'utm_source=' + window.gb_utm_source,
+        'session_id=' + window.gb_ga,
+        'utm_medium=' + window.gb_utm_medium,
+        'utm_campaign=' + window.gb_utm_campaign,
+        'event_name=checkout',
+        'from=deeper'
+      ].join('&'))
+    }
+  })
+
+  if (window.location.href.match(/checkouts/)) {
+    console.log('in checkouts match')
+    var storeCouponCode = window.localStorage.getItem('$$couponCode$$')
+
+    
+
+    if (storeCouponCode && storeCouponCode.split("|") && storeCouponCode.split("|")[1]) {
+      $(document).on('click', '#checkout_submit', function (e) {
+        console.log('click apply coupon')
+
+        var email = $('bdo').text()
+        if (email) {
+          window.localStorage.setItem('$$email$$', email)
+        } else {
+          email = window.localStorage.getItem('$$email$$') || ''
+        }
+
+        fetch('https://dsa.deeper.network/c_f?' + [
+          'email=' + email,
+          'session_id=' + window.gb_ga,
+          'code=' + storeCouponCode.split("|")[0]
+        ].join('&')).then(function () {
+          window.localStorage.setItem('$$couponCode$$', '')
+        })
+      })
+    }
+
+  }
+
+  $(document).on('click', '#couponCode', function (e) {
+    console.log('click copy coupon')
+    var currentCouponCode = $('#couponCode').text();
+    copyToClipboard($('#couponCode').text())
+    selectText("couponCode")
+    $("#copiedSpan").remove()
+    $("#couponCode").css("position", "relative")
+    $("#couponCode").append("<span style='margin: 0 10px;font-weight: bold; position: absolute; bottom: 110%;left: 50%;transform: translateX(-50%);background: #333;border: 1px solid #000;border-radius: 10px;color: #fff;padding: 5px 10px;font-size: 14px;box-shadow: 0 3px 5px #999;' id='copiedSpan'>Copied</span>")
+    setTimeout(function() {
+    	$("#copiedSpan").remove()
+    }, 5000)
+    fetch('https://dsa.deeper.network/c_a?' + [
+      'email=' + email,
+      'session_id=' + window.gb_ga,
+      'code=' + currentCouponCode
+    ].join('&'))
+
+  })
+  $(document).on('click', '.navlink--cart', function (e) {
+    console.log('click cart link')
+    couponCheck()
+
+  })
+  if (window.location.href.match(/\/cart/)) {
+    console.log('open cart link')
+    couponCheck()
+  }
+}
+
+function showCouponModal(code, email) {
+
+  console.log('showCoupon')
+  console.log(code, email)
+  if (!code) {
+    return
+  }
+  var codeData = code.split("|")
+  if (!codeData[1]) {
+    window.localStorage.setItem('$$couponCode$$', '')
+    return
+  }
+
+  $("#couponOff").text(codeData[1])
+  $("#couponCode").text(codeData[0])
+  $("#couponBox").show()
+  
+
+}
+
+function couponCheck() {
+//   console.log('close coupon check')
+//   return
+  console.log('start coupon check')
+  var email = $('bdo').text()
+  if (email) {
+    window.localStorage.setItem('$$email$$', email)
+  } else {
+    email = window.localStorage.getItem('$$email$$') || ''
+  }
+
+//   var storeCouponCode = window.localStorage.getItem('$$couponCode$$')
+//   if (storeCouponCode) {
+//     showCouponModal(storeCouponCode, email)
+//     return
+//   }
+
+  if(location.href.indexOf('cooling-base') === -1){
+    
+    setTimeout(function(){
+      $('#couponBox').show()
+    },3000);
+
+    fetch('https://dsa.deeper.network/c_g?' + [
+      'email=' + email,
+      'session_id=' + window.gb_ga
+    ].join('&'),{
+      headers:{
+        'Content-Type': 'application/json'
+      }
+    }).then(function (res) {
+      return res.json()
+    }).then(function (res) {
+      console.log(res)
+      var resData = res.code + '|' + res.off
+      if (res.code) {
+        window.localStorage.setItem('$$couponCode$$', resData)
+        // showCouponModal(resData, email)
+      }
+    })
+  } else {
+    $('#couponBox').hide()
+  }
+
+
+}
+
+getGa()
+
+$(function () {
+  console.log('ready getFrom')
+  getGa()
+  pageView()
+  
+  
+  if(window.location.href.split('#').length=== 2) {
+
+    setTimeout(function(){
+      if(window.location.href.split('#')[1]){
+        document.querySelector("[id="+window.location.href.split('#')[1]+"]").scrollIntoView(true);
+      }
+    },2000);
+    
+  }
+  
+  
+})
+
+function getCookie(cname){
+  var name = cname + "=";
+  var ca = document.cookie.split(';');
+  for(var i=0; i<ca.length; i++) 
+  {
+    var c = ca[i].trim();
+    if (c.indexOf(name)==0) return c.substring(name.length,c.length);
+  }
+  return "";
+}
+
+function setCookie(cname,cvalue,exdays)
+{
+  var d = new Date();
+  d.setTime(d.getTime()+(exdays*24*60*60*1000));
+  var expires = "expires="+d.toGMTString();
+  document.cookie = cname + "=" + cvalue + "; " + expires;
+}
+
+function listenCookieChange(key, callback, interval = 1000) {
+  let lastCookie = getCookie(key);
+  setInterval(()=> {
+    let cookie = getCookie(key);
+    if (cookie !== lastCookie) {
+      try {
+        callback({oldValue: lastCookie, newValue: cookie});
+      } finally {
+        lastCookie = cookie;
+      }
+    }
+  }, interval);
+}
+
+listenCookieChange('discount_code', ({oldValue, newValue})=> {
+  console.log(`Cookie changed from "${oldValue}" to "${newValue}"`);
+  var codes = oldValue.split('+%7C+');
+  codes.push(newValue);
+  setCookie('localcoupons',Array.from(new Set(codes)).join(','),1);
+}, 1000);
+ 
+
+$(function() {
+
+  $('.talk-from-selector').on('click','li',function(){
+    var from = $(this).text();
+    $('.talkfromSelected').removeClass('talkfromSelected');
+    $(this).addClass('talkfromSelected');
+
+    $('.collection-grid-talking-aboutus').addClass('hide');
+    $('#talking-aboutus-'+from).removeClass('hide');
+  })
+
+
+  $('.faq-selector').on('click','li',function(){
+    var from = $(this).text();
+    if(from ==='Function & Feature'){
+      from = 'Function_Feature';
+    }
+
+    if(from === 'Charges and Fees'){
+      from = 'Charges_and_Fees';
+    }
+
+    $('.faqSelected').removeClass('faqSelected');
+    $(this).addClass('faqSelected');
+    $('.faq-grid div').css('display','none');
+    $('#faq-'+from).css('display','block');
+  })
+
+  $('.faq-grid li h2').on('click',function(){
+    
+    $(this).parent().find('p').fadeToggle("slow");
+    $(this).toggleClass('showed');
+    // $(this).find('p').fadeToggle("slow");
+  });
+
+ 
+  
+});

@@ -1,0 +1,677 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_show_vendor": false,
+            "show_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "0b432e82-f158-42e6-9ea2-c561a90370c0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "<p><strong>50% OFF<br\/>Save $24.5 each<\/strong><\/p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "auto",
+            "show_quantity": true,
+            "show_remaining": true,
+            "enable_payment_button": true,
+            "subscriptions_enable_selectors": true,
+            "info_page": ""
+          }
+        },
+        "1dbfa060-cde0-468b-a738-e200678e9d4d": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<h6 style=\"margin-top:24px;margin-bottom:12px;font-size:14px;font-weight:500\">Guaranteed Safe Checkout:<\/h6>\n{% assign enabled_payment_types = 'visa,master,american_express,discover,diners_club,shopify_pay,apple_pay,metapay,google_pay' | remove: ' ' | split: ',' %}\n\n<div style=\"display:flex; flex-direction: row; justify-content: space-between;\">\n{% for type in enabled_payment_types %}\n    <div class=\"price--payment\">{{ type | payment_type_svg_tag: class: 'payment-icon' }}<span class=\"visually-hidden\">{{ type | capitalize | replace: '_', ' ' }}<\/span><\/div>\n{% endfor %}\n<div class=\"price--payment\"><img  src=\"{{ 'alipay.png'  | asset_url }}\" width=\"38\" height=\"24\"><\/div>\n<div class=\"price--payment\"><img  src=\"{{ 'unionPay.png'  | asset_url }}\" width=\"38\" height=\"24\" ><\/div>\n<div class=\"price--payment\"><img  src=\"{{ 'wire_transfer.png'  | asset_url }}\" width=\"38\" height=\"24\" ><\/div>\n<\/div>"
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "icon-recycled",
+            "icon_color": "#5d9386",
+            "text": "<p>Made with recycled fabrics<\/p>"
+          }
+        },
+        "icon-2": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "icon-sewing-machine",
+            "icon_color": "#5d9386",
+            "text": "<p>Certified fair trade product<\/p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "read_more": false,
+            "style": "accordions",
+            "description_icon": "",
+            "title_1": "Specification",
+            "icon_name_1": "",
+            "raw_content_1": "<p>{{ product.metafields.my_fields.datasize | metafield_tag }}<\/p>",
+            "title_2": "Warranty & Return Policy",
+            "icon_name_2": "",
+            "raw_content_2": "<p>1-Year limited warranty.<br\/>7-Day return or exchange guarantee.<br\/>Orders are eligible for same-business-day cancellation.<br\/>Custom duties are to be paid by the recipient. Duties levied differ across regions.<br\/>This product ships to every country (except Mainland China).<br\/><br\/><a href=\"\/pages\/return-cancellation-and-warranty-policy\" target=\"_blank\" title=\"Return, Cancellation and Warranty Policy\">*Return,Cancellation and Warranty Policy.<\/a><\/p><p>Please keep an accurate personal record of the official order information as our customer service team needs to authenticate the order information in order to provide better after-sales service, including tech support, warranty and\/ or replacement.<\/p>",
+            "title_3": "",
+            "icon_name_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "icon_name_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": ""
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "product": ""
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "41a0eb11-62d6-472e-a511-d70791deedad": {
+          "type": "text",
+          "settings": {
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "0b432e82-f158-42e6-9ea2-c561a90370c0",
+        "form",
+        "1dbfa060-cde0-468b-a738-e200678e9d4d",
+        "icon-1",
+        "icon-2",
+        "description",
+        "upsell",
+        "pickup",
+        "sharing",
+        "41a0eb11-62d6-472e-a511-d70791deedad"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image-left": {
+      "type": "section-row",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pico_page_lifetime.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "Absolutely No Annual Fees or Subscriptions",
+        "text": "<p>Coming fully loaded with DPN (Decentralized VPN), Ad blocking and Cybersecurity features,<br\/>Deeper Connect Mini can save you over $600 USD a year compared to subscribing to similar individual services.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "1653058411ad948df0": {
+      "type": "section-home-plug-and-play",
+      "disabled": true,
+      "blocks": {
+        "16530584115a3cb8a2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pico-_-mode1.gif",
+            "image_link": ""
+          }
+        },
+        "16530584115a3cb8a2-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pico-_-mode2.gif",
+            "image_link": ""
+          }
+        },
+        "16530584115a3cb8a2-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Total_product_page__pico__connect03.gif",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16530584115a3cb8a2-0",
+        "16530584115a3cb8a2-1",
+        "16530584115a3cb8a2-2"
+      ],
+      "settings": {
+        "padding_top": 140,
+        "padding_bottom": 0,
+        "width": "wrapper",
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-left",
+        "color_bg": "hero__content--transparent"
+      }
+    },
+    "16528824138c8e8ccc": {
+      "type": "section-row",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pico_page_VPN_DPN_1499ee8e-6d2f-465b-af43-8fb6cfd39ae3.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "It is not VPN, it is the better DPN",
+        "text": "<p>The worldwide network of Deeper Connect devices enables a fully decentralized VPN experience (DPN) with Multi-Routing, Smart Routing, and unrestricted access to content from any country without sacrificing Internet speed.<br\/>DPN offer the benefits of VPNs, but with additional advantages that exclude a central point of control.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16528824717c9814e8": {
+      "type": "section-row",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pico_page_Enterprise-grade_Cybersecurity.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "Enterprise-grade Cybersecurity",
+        "text": "<p>Deeper Connect comes with a fully-featured suite of enterprise-grade security functions to keep you safe while online and protect all your IoT devices. <\/p><p>The most unique lock-free operating system running on Deeper Connect, AtomOS, provides a 7-layer firewall with deep packet inspection, anti-tracking, intrusion prevention, and more.<br\/><\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165288288513d4f103": {
+      "type": "section-columns",
+      "disabled": true,
+      "blocks": {
+        "165288288553e62ddf-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/mini-page_Blocking-All-Ads_8f988332-fa30-4ac9-ae1a-3bd540235fea.gif",
+            "title": "Blocking All Ads",
+            "text": "<p>Deeper Connect is capable of blocking ALL ads, even including pesky YouTube ads (save $144\/year). Never again deal with annoying interruptions while you are browsing or watching videos.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "165288288553e62ddf-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Pico_page_One-click_Parental_Control.png",
+            "title": "One-click Parental Control",
+            "text": "<p>Keep your children safe from inappropriate or dangerous content on the internet with a single click. Enable filtering to block these websites and even set up your own custom lists to control what content can be accessed.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165288288553e62ddf-0",
+        "165288288553e62ddf-1"
+      ],
+      "settings": {
+        "title": "",
+        "color_bg": "palette--light bg--neutral",
+        "align_text": "text-left",
+        "grid": 2,
+        "aspect_ratio": 0.5,
+        "width": "wrapper",
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    },
+    "16530596145abf441e": {
+      "type": "section-text",
+      "disabled": true,
+      "blocks": {
+        "16530596148d82640d-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Blockchain Mining<\/p>",
+            "text_size": 6
+          }
+        },
+        "16530596148d82640d-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We do not own any centralized servers as every Deeper Connect is in essence a server and a client. All these devices distribute around the world to communicate and share bandwidth with each other.<\/p><p>Mining as you surf the web, get passive income for sharing your extra bandwidth.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "16530596148d82640d-1",
+        "16530596148d82640d-2"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "1652883730a47dcabd": {
+      "type": "section-video-player",
+      "disabled": true,
+      "settings": {
+        "video_link": "https:\/\/www.youtube.com\/watch?v=J-aSuNYmTlk",
+        "ratio": "0.5626",
+        "show_image_placeholder": false,
+        "button_width": 122,
+        "button_color": "text--primary",
+        "bg_position": "center-center",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "video_link_bg": "",
+        "object_position": "center-center",
+        "flex_align": "align--top-left",
+        "color": "text--neutral",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165288373502f6f73c": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "{{ product.metafields.my_fields.indegogo.value }}",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-left",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "1653060019b2169265": {
+      "type": "section-text",
+      "disabled": true,
+      "blocks": {
+        "d21cb463-6a8b-40c9-9117-601473adbf0f": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>What's in the box<\/strong><\/p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "d21cb463-6a8b-40c9-9117-601473adbf0f"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "165288402691f6bdea": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "{{ product.metafields.my_fields.inbox.value }}",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "flex_align": "align--top-left",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 30
+      }
+    },
+    "16530365415e0f047f": {
+      "type": "section-collection-grid",
+      "disabled": true,
+      "blocks": {
+        "1653036541134d5dbe-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Setup Guide <\/p>",
+            "collection_image": "shopify:\/\/shop_images\/11101653034298_.pic.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=8MABZWV0MrE",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "1653036541134d5dbe-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Function Test<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/11091653034297_.pic.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=wRrpnndq9Zc",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1653036541134d5dbe-0",
+        "1653036541134d5dbe-1"
+      ],
+      "settings": {
+        "title": "Set-up Guide & Function Test",
+        "description": "",
+        "grid": 2,
+        "color_bg": "palette--light bg--neutral",
+        "enable_slider": true,
+        "aspect_ratio": 0.5,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related": {
+      "type": "related",
+      "disabled": true,
+      "settings": {
+        "related_products_enable": false,
+        "limit": 1,
+        "product_recommendations_heading": "You may also like",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1653058690f2ac5c33": {
+      "type": "section-collection-grid",
+      "disabled": true,
+      "blocks": {
+        "16530586909cb3b57a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Jon Rettinger<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/1_Jon_Rettinger.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=Y0tr1eZvGeg",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "16530586909cb3b57a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Unbox Therapy<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/2_Unbox_Therapy.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=J-aSuNYmTlk&t=263s",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "4817fccd-4fb1-485c-b6f9-d7a8d70fdced": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Jabber Tech<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/3_Jabber_Tech.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=SDWMvdLoe6Y",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "265d6f12-d529-4b2f-8f6a-f606571e0ef1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Full Value Dan<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/4_Full_Value_Dan.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=rieMyHv43zk",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "238fa630-d699-4df6-bddf-fe82ccf69fb2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Smart Tech<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/5_Smart_Tech.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=4RoFj4XJV20",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "19cb67a8-eb74-4f8a-a710-1e4215f46232": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Action Crypto<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/6_Action_Crypto.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=d2b4yAb9KmQ",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "16530586909cb3b57a-0",
+        "16530586909cb3b57a-1",
+        "4817fccd-4fb1-485c-b6f9-d7a8d70fdced",
+        "265d6f12-d529-4b2f-8f6a-f606571e0ef1",
+        "238fa630-d699-4df6-bddf-fe82ccf69fb2",
+        "19cb67a8-eb74-4f8a-a710-1e4215f46232"
+      ],
+      "settings": {
+        "title": "Take Their Words, Not Ours",
+        "description": "",
+        "grid": 3,
+        "color_bg": "palette--light bg--neutral",
+        "enable_slider": true,
+        "aspect_ratio": 0.5,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "16530607853bab5ab1": {
+      "type": "section-collection-grid",
+      "blocks": {
+        "16530607850c7c299b-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Deeper Connect Pico<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/Total_product_page__pico_b9279d04-1349-4662-8c7c-172a22538d08.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-pico-wi-fi-adapter",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "16530607850c7c299b-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Deeper Connect Mini<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/21751653485504_.pic_hd.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-mini",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "16530607850c7c299b-0",
+        "16530607850c7c299b-1"
+      ],
+      "settings": {
+        "title": "Applicable to Deeper Connect Pico,Mini",
+        "description": "",
+        "grid": 4,
+        "color_bg": "palette--light bg--neutral",
+        "enable_slider": true,
+        "aspect_ratio": 1,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16530594264c2079fc": {
+      "type": "section-text",
+      "blocks": {
+        "7769eff7-bc79-4035-9ef5-964df854987c": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>You may also like<\/strong><\/p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "7769eff7-bc79-4035-9ef5-964df854987c"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "165305873775242256": {
+      "type": "section-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Deeper_Connect_Pico_Wi-Fi_Adapter_Deeper_Network_1.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "Deeper Connect Mini",
+        "text": "<p>Max Bandwidth <strong>1Gbps<\/strong><\/p><p>CPU <strong>Quad-Core<\/strong><\/p><p>Memory <strong>2GB<\/strong><\/p><p>Power Consumption <strong>10W<\/strong><\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "Buy Now",
+        "button_link": "shopify:\/\/products\/deeper-connect-mini",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "1653060688f03684db": {
+      "type": "section-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner-pico_2450x_4405ca9b-82be-4972-9f96-fcb83860bc8e.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Deeper Connect Pico + Wi-Fi Adapter",
+        "text": "<p>Max Bandwidth <strong>100Mbps<\/strong><\/p><p>CPU <strong>Quad-Core<\/strong><\/p><p>Memory<strong> 512MB<\/strong><\/p><p>Power Consumption<strong> 1W<\/strong><\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "Buy Now",
+        "button_link": "shopify:\/\/products\/deeper-connect-pico-wi-fi-adapter",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image-left",
+    "1653058411ad948df0",
+    "16528824138c8e8ccc",
+    "16528824717c9814e8",
+    "165288288513d4f103",
+    "16530596145abf441e",
+    "1652883730a47dcabd",
+    "165288373502f6f73c",
+    "1653060019b2169265",
+    "165288402691f6bdea",
+    "16530365415e0f047f",
+    "related",
+    "1653058690f2ac5c33",
+    "16530607853bab5ab1",
+    "16530594264c2079fc",
+    "165305873775242256",
+    "1653060688f03684db"
+  ]
+}

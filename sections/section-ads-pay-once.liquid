@@ -1,0 +1,124 @@
+{% schema %}
+  {
+    "name": "Ads Pay Once",
+    "settings": [
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 0
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Section width",
+        "default": "wrapper--none",
+        "options": [
+          { "value": "wrapper--none", "label": "Full width" },
+          { "value": "wrapper--full", "label": "Full width padded" },
+          { "value": "wrapper", "label": "Page width" },
+          { "value": "wrapper--narrow", "label": "Page width narrow" }
+        ]
+      }
+	  ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type":"url",
+            "id":"image_link",
+            "label":"Link"
+          }
+        ]
+      }
+    ], 
+    "presets": [
+      {
+          "name": "Ads Pay Once",
+          "category": "My Sections"
+      }
+    ]
+  } 
+{% endschema %}
+
+<div
+  id="pay-once"
+  data-section-id="{{ section.id }}" 
+  data-section-type="section-collection" 
+  style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px; "
+>
+  <div class="{{ section.settings.width }} section-padding" style="background-color: #F7F7FB;padding-top:2em;padding-bottom: 2em;">
+    <div class="standard__rte payOnceHeading h5 text-center mobile--hide small--hide  {{ font_size_class }} {{ text_columns_class }}" {{ block.shopify_attributes }}>
+      <p>
+        Next-Gen Decentralized Hardware VPN <br />
+        Comes fully loaded with the world's first and only hardware decentralized VPN <br />
+        (dVPN or DPN). Connect to your modem and router with zero configuration
+      </p>
+    </div>
+    <div class="standard__rte payOnceHeading text-center mobile--show  medium--hide large--hide widescreen--hide h6 {{ font_size_class }} {{ text_columns_class }}" {{ block.shopify_attributes }}>
+      <h2 class="h3">Next-Gen Decentralized Hardware VPN <br />
+        Comes fully loaded with <br />the world's first and only <br />hardware decentralized VPN 
+        (dVPN or DPN). Connect to your modem and router with zero configuration</h2>
+    </div>
+    <div class="standard__rte text-center mobile--hide small--hide h4-body payOnceDesc">
+      To enjoy enterprise-class cybersecurity, privacy protection, ad-blocking (the first hardware to block YouTube ads!) and <br />
+      cryptocurrency mining. This is the thinnest, lightest, smallest, yet smartest and most powerful decentralized hardward VPN to <br />
+      protect your entire network. 
+    </div>
+    <div class="standard__rte text-center mobile--show payOnceDesc medium--hide large--hide widescreen--hide">
+      To enjoy enterprise-class cybersecurity, privacy protection, ad-blocking (the first hardware to block YouTube ads!) and 
+      cryptocurrency mining. This is the thinnest, lightest, smallest, yet smartest and most powerful decentralized hardward VPN to 
+      protect your entire network. 
+    </div>
+    <div class="text-center mobile--hide small--hide">
+      <a href="#" target="_blank"><img class="one-seventh" src="{{ 'ads-p-and-p00001.png' | asset_url }}" /></a>
+      <a href="#" target="_blank"><img class="one-seventh" src="{{ 'ads-p-and-p00002.png' | asset_url }}" /></a>
+      <a href="#" target="_blank"><img class="one-seventh" src="{{ 'ads-p-and-p00003.png' | asset_url }}" /></a>
+      <a href="#" target="_blank"><img class="one-seventh" src="{{ 'ads-p-and-p00004.png' | asset_url }}" /></a>
+      <a href="#" target="_blank"><img class="one-seventh" src="{{ 'ads-p-and-p00005.png' | asset_url }}" /></a>
+      <a href="https://shop.deeper.network/pages/blockchain-mining" target="_blank"><img class="one-seventh" src="{{  'ads-p-and-p00006.png' | asset_url }}" /></a>
+    </div>
+    <div class="text-center mobile--show  medium--hide large--hide widescreen--hide">
+      <a href="#" target="_blank"><img style="width:32%" src="{{  'ads-p-and-p00001.png' | asset_url }}" /></a>
+      <a href="#" target="_blank"><img style="width:32%" src="{{  'ads-p-and-p00002.png' | asset_url }}" /></a>
+      <a href="#" target="_blank"><img style="width:32%" src="{{  'ads-p-and-p00003.png' | asset_url }}" /></a>
+      <a href="#" target="_blank"><img style="width:32%" src="{{  'ads-p-and-p00004.png' | asset_url }}" /></a>
+      <a href="#" target="_blank"><img style="width:32%" src="{{  'ads-p-and-p00005.png' | asset_url }}" /></a>
+      <a href="https://shop.deeper.network/pages/blockchain-mining" target="_blank"><img style="width:32%" src="{{  'ads-p-and-p00006.png' | asset_url }}" /></a>
+
+    </div>
+  </div>
+</div>
+</div>
+
+{% stylesheet %}
+.payOnceDesc{
+  padding-left: 92px;
+  padding-right: 92px;
+  font-weight:400;
+}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,91 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-default",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "aboutusmenu",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1659002715cba92c11": {
+      "type": "section-hero",
+      "blocks": {
+        "1659002714a26057a5-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "text_size": 10
+          }
+        },
+        "1659002714a26057a5-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>This area is used to describe your store<\/p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        },
+        "1659002714a26057a5-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn More",
+            "button_url": "",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "1659002714a26057a5-0",
+        "1659002714a26057a5-1",
+        "1659002714a26057a5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame.png",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "rgba(0,0,0,0)",
+        "flex_align": "align--middle-left",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1657729553e9ffc215": {
+      "type": "section-blog-list",
+      "settings": {
+        "title": "News",
+        "index_blog": "",
+        "limit": 6,
+        "aspect_ratio": 1,
+        "show_meta": true,
+        "show_excerpt": false,
+        "show_tags": false,
+        "show_view_all": false,
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1659002715cba92c11",
+    "1657729553e9ffc215"
+  ]
+}

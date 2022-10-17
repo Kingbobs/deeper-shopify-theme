@@ -1,0 +1,54 @@
+{% case section.settings.grid %}
+  {% when 2 %}
+    {%- assign grid_item_width = 'medium-up--one-half small--one-half mobile--nine-tenths' -%}
+  {% when 3 %}
+    {%- assign grid_item_width = 'large-up--one-third medium--one-half small--one-half mobile--nine-tenths' -%}
+  {% when 4 %}
+    {%- assign grid_item_width = 'large-up--one-quarter medium--one-half small--one-half mobile--nine-tenths' -%}  
+  {% when 5 %}
+    {%- assign grid_item_width = 'large-up--one-fifth medium--one-half small--one-half mobile--nine-tenths' -%}
+  {% when 6 %}
+    {%- assign grid_item_width = 'large-up--one-sixth medium--one-half small--one-half mobile--nine-tenths' -%}
+  {% when 7 %}
+    {%- assign grid_item_width = 'large-up--one-seventh medium--one-half small--one-half mobile--nine-tenths' -%}
+  {% when 8 %}
+    {%- assign grid_item_width = 'large-up--one-eighth medium--one-half small--one-half mobile--nine-tenths' -%}  
+{% endcase %}
+
+<div 
+  class="grid__item {{ grid_item_width }}" 
+  {{ block.shopify_attributes }} 
+  {% if block.settings.content_color %} style="--block-text:{{ block.settings.content_color }}"{% endif %}
+  {% if section.settings.enable_slider %}data-slide="{{ block.id }}" data-slide-index="{{ forloop.index0 }}"{% endif %} 
+>
+  <div class="talking-aboutus-item collection-grid-item section--image {{ section.settings.place_text }} {{ section.settings.align_text }}">
+    {%- liquid
+      assign collection = collections[block.settings.collection]
+      if block.settings.collection_image
+        assign img_object = block.settings.collection_image
+      elsif collection.image
+        assign img_object = collection.image
+      elsif collection.products.first
+        assign img_object = collection.products.first.featured_media.preview_image
+      endif
+
+      assign collection_link = collection.url | default: '#'
+      if block.settings.link_override != blank
+          assign collection_link = block.settings.link_override
+      endif
+  
+
+      assign aspect_ratio = section.settings.aspect_ratio | default: 0.6 
+    -%}
+
+    <a href="{{ collection_link }}" class="link-over-image" aria-label="{{ collection_title | strip_html | escape }}">
+    </a>
+    <div class="collection-grid-item__content__wrapper" style="background-color:#F7F7FB ;">
+      <div class="collection-grid-item__talk-about-us__content">
+        <div><img style="width:40px;height:40px;" src="{{  'yonghu.png' | asset_url }}" /></div>
+        <div class="collection-grid-item__talk-about-us__content__title">{{ block.settings.title }}</div>
+        <div class="collection-grid-item__talk-about-us__content__text">{{ block.settings.text }}</div>
+      </div>
+    </div>
+  </div>
+</div>

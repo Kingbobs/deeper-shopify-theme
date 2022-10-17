@@ -1,0 +1,190 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "blocks": {
+        "collections": {
+          "type": "heading",
+          "settings": {
+            "text_size": 9
+          }
+        },
+        "filters": {
+          "type": "text",
+          "settings": {
+            "text_size": 5
+          }
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "settings": {
+        "flex_align": "align--middle-left",
+        "show_title_below": false,
+        "show_description_below": false,
+        "show_image": true,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "disabled": true,
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "pagination_count": 12,
+        "grid_setting_large": 3,
+        "grid_setting_medium": 2,
+        "grid_setting_small": 2,
+        "show_collection_nav": true,
+        "collection_custom_nav_list": "",
+        "align_nav": "inline-nav",
+        "collection_sorting": true,
+        "filters": true,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 64
+      }
+    },
+    "1660801136c11961ff": {
+      "type": "section-custom-content",
+      "blocks": {
+        "22bbedcc-b5be-4b39-a156-b447bd5e8038": {
+          "type": "text",
+          "settings": {
+            "kicker": "Decentralized Blockchain Network",
+            "title": "A Truly Private, Secure and Fair Internet",
+            "text": "<p>Pay once, $0 Subscription FOR LIFE.Plug-and-play.<\/p><p>Fast, Secure, Zero Configuration.<\/p>",
+            "text_size": 4,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "placement_text": "middle",
+            "button_text": "",
+            "button_url": "",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn--soft",
+            "button_color": "btn--primary",
+            "text_color": "text--neutral",
+            "bg_color": "#f2f5fa"
+          }
+        }
+      },
+      "block_order": [
+        "22bbedcc-b5be-4b39-a156-b447bd5e8038"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": true,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16607919199714a5e5": {
+      "type": "section-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Product_mini_layout.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Deeper Connect Mini + Wi-Fi Adapter",
+        "text": "<p>$359.00<\/p><p>Max Bandwidth <strong>1Gbps<\/strong><\/p><p>CPU <strong>Quad-Core<\/strong><\/p><p>Memory <strong>2GB<\/strong><\/p><p>Power Consumption <strong>10W<\/strong><\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "BUY NOW",
+        "button_link": "shopify:\/\/products\/deeper-connect-mini",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "166079192922701924": {
+      "type": "section-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Product_pico_layout.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "Deeper Connect Pico + Wi-Fi Adapter",
+        "text": "<p>$248.00<\/p><p>Max Bandwidth <strong>100Mbps<\/strong><\/p><p>CPU <strong>Quad-Core<\/strong><\/p><p>Memory <strong>512MB<\/strong><\/p><p>Power Consumption <strong>1W<\/strong><\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "BUY NOW",
+        "button_link": "shopify:\/\/products\/deeper-connect-pico-wi-fi-adapter",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "166079193890727fe2": {
+      "type": "section-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Product_wifi_layout.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Deeper Connect Wi-Fi Adapter",
+        "text": "<p>$49.00<\/p><p>Interface <strong>USB Type-C<\/strong><\/p><p>Applicable to <strong>Deeper Connect Pico, Mini<\/strong><\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "BUY NOW",
+        "button_link": "shopify:\/\/products\/deeper-connect-wi-fi-adapter",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663218251b9fc1f61": {
+      "type": "section-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/6921663234277_.pic_hd.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "3-Port USB Cooling Base for Deeper Connect Mini",
+        "text": "<p>$29.00<\/p><p>Input<strong> USB-A: 5V\/1A\/2A<\/strong><\/p><p>Output<strong> 5\/500mA<\/strong><\/p><p>USB Port <strong>USA-A *2 + USB-C*1<\/strong><\/p><p>USB version <strong>2.0<\/strong><\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "BUY NOW",
+        "button_link": "shopify:\/\/products\/cooling-base",
+        "button_style": "btn",
+        "button_color": "btn--primary",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1660792590a3aa8189": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n@media (max-width: 767px){\n.bricks{\nmin-height: 0px !important;\n}\n}\n\n#shopify-section-template--14654956568646__16607919199714a5e5 p:nth-child(1),#shopify-section-template--14654956568646__166079192922701924 p:nth-child(1),#shopify-section-template--14654956568646__166079193890727fe2 p:nth-child(1),#shopify-section-template--14654956568646__1663218251b9fc1f61  p:nth-child(1){\ndisplay:inline-block;\nfont-weight: 600;\nfont-size: 22px;\nmargin:0px;\n}\n\n\n<\/style>"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "1660801136c11961ff",
+    "16607919199714a5e5",
+    "166079192922701924",
+    "166079193890727fe2",
+    "1663218251b9fc1f61",
+    "1660792590a3aa8189"
+  ]
+}

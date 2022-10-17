@@ -1,0 +1,419 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_show_vendor": false,
+            "show_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "auto",
+            "show_quantity": true,
+            "show_remaining": true,
+            "enable_payment_button": true,
+            "subscriptions_enable_selectors": true,
+            "info_page": ""
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "icon-recycled",
+            "icon_color": "#5d9386",
+            "text": "<p>Made with recycled fabrics<\/p>"
+          }
+        },
+        "icon-2": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "icon-sewing-machine",
+            "icon_color": "#5d9386",
+            "text": "<p>Certified fair trade product<\/p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "read_more": false,
+            "style": "accordions",
+            "description_icon": "",
+            "title_1": "Specification",
+            "icon_name_1": "",
+            "raw_content_1": "<p>{{ product.metafields.my_fields.datasize | metafield_tag }}<\/p>",
+            "title_2": "Warranty & Return Policy",
+            "icon_name_2": "",
+            "raw_content_2": "<p>1-Year limited warranty.<br\/>7-Day return or exchange guarantee.<br\/>Orders are eligible for same-business-day cancellation.<br\/>This product can't ship to China Mainland.<br\/>*Return,Cancellation and Warranty Policy.<\/p>",
+            "title_3": "",
+            "icon_name_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "icon_name_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": ""
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "product": ""
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "41a0eb11-62d6-472e-a511-d70791deedad": {
+          "type": "text",
+          "settings": {
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "form",
+        "icon-1",
+        "icon-2",
+        "description",
+        "upsell",
+        "pickup",
+        "sharing",
+        "41a0eb11-62d6-472e-a511-d70791deedad"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image-left": {
+      "type": "section-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pico_page_lifetime.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "Absolutely No Annual Fees or Subscriptions",
+        "text": "<p>Coming fully loaded with DPN (Decentralized VPN), Ad blocking and Cybersecurity features,<br\/>Deeper Connect Mini can save you over $600 USD a year compared to subscribing to similar individual services.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "1653058411ad948df0": {
+      "type": "section-home-plug-and-play",
+      "blocks": {
+        "16530584115a3cb8a2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pico-_-mode1.gif",
+            "image_link": ""
+          }
+        },
+        "16530584115a3cb8a2-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pico-_-mode2.gif",
+            "image_link": ""
+          }
+        },
+        "16530584115a3cb8a2-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Total_product_page__pico__connect03.gif",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16530584115a3cb8a2-0",
+        "16530584115a3cb8a2-1",
+        "16530584115a3cb8a2-2"
+      ],
+      "settings": {
+        "padding_top": 140,
+        "padding_bottom": 0,
+        "width": "wrapper",
+        "overlay_color": "#000",
+        "flex_align": "align--middle-left",
+        "color_bg": "hero__content--transparent"
+      }
+    },
+    "16528824138c8e8ccc": {
+      "type": "section-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pico_page_VPN_DPN_1499ee8e-6d2f-465b-af43-8fb6cfd39ae3.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "It is not VPN, it is the better DPN",
+        "text": "<p>The worldwide network of Deeper Connect devices enables a fully decentralized VPN experience (DPN) with Multi-Routing, Smart Routing, and unrestricted access to content from any country without sacrificing Internet speed.<br\/>DPN offer the benefits of VPNs, but with additional advantages that exclude a central point of control.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16528824717c9814e8": {
+      "type": "section-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pico_page_Enterprise-grade_Cybersecurity.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "Enterprise-grade Cybersecurity",
+        "text": "<p>Deeper Connect comes with a fully-featured suite of enterprise-grade security functions to keep you safe while online and protect all your IoT devices. <\/p><p>The most unique lock-free operating system running on Deeper Connect, AtomOS, provides a 7-layer firewall with deep packet inspection, anti-tracking, intrusion prevention, and more.<br\/><\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165288288513d4f103": {
+      "type": "section-columns",
+      "blocks": {
+        "165288288553e62ddf-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/mini-page_Blocking-All-Ads_8f988332-fa30-4ac9-ae1a-3bd540235fea.gif",
+            "title": "Blocking All Ads",
+            "text": "<p>Deeper Connect is capable of blocking ALL ads, even including pesky YouTube ads (save $144\/year). Never again deal with annoying interruptions while you are browsing or watching videos.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "165288288553e62ddf-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Pico_page_One-click_Parental_Control.png",
+            "title": "One-click Parental Control",
+            "text": "<p>Keep your children safe from inappropriate or dangerous content on the internet with a single click. Enable filtering to block these websites and even set up your own custom lists to control what content can be accessed.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165288288553e62ddf-0",
+        "165288288553e62ddf-1"
+      ],
+      "settings": {
+        "title": "",
+        "color_bg": "palette--light bg--neutral",
+        "align_text": "text-left",
+        "grid": 2,
+        "aspect_ratio": 0.5,
+        "width": "wrapper",
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    },
+    "1652883730a47dcabd": {
+      "type": "section-video-player",
+      "blocks": {
+        "e56326fe-016f-4a02-ba5d-b3ea99a9325e": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Blockchain Mining<\/p>",
+            "text_size": 10
+          }
+        },
+        "4c446a22-1b49-435a-ba89-6ae33abcc45a": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>We do not own any centralized servers as every Deeper Connect is in essence a server and a client. All these devices distribute around the world to communicate and share bandwidth with each other.<\/p><p>Mining as you surf the web, get passive income for sharing your extra bandwidth.<\/p>",
+            "enable_caps": false,
+            "text_size": 5
+          }
+        }
+      },
+      "block_order": [
+        "e56326fe-016f-4a02-ba5d-b3ea99a9325e",
+        "4c446a22-1b49-435a-ba89-6ae33abcc45a"
+      ],
+      "settings": {
+        "video_link": "https:\/\/www.youtube.com\/watch?v=J-aSuNYmTlk",
+        "ratio": "0.5626",
+        "show_image_placeholder": false,
+        "button_width": 122,
+        "button_color": "text--primary",
+        "bg_position": "center-center",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "video_link_bg": "",
+        "object_position": "center-center",
+        "flex_align": "align--top-left",
+        "color": "text--neutral",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165288373502f6f73c": {
+      "type": "section-hero",
+      "settings": {
+        "image": "{{ product.metafields.my_fields.indegogo.value }}",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-left",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "165288402691f6bdea": {
+      "type": "section-hero",
+      "settings": {
+        "image": "{{ product.metafields.my_fields.inbox.value }}",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "flex_align": "align--top-left",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "16530365415e0f047f": {
+      "type": "section-collection-grid",
+      "blocks": {
+        "1653036541134d5dbe-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Setup Guide <\/p>",
+            "collection_image": "shopify:\/\/shop_images\/11101653034298_.pic.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=8MABZWV0MrE",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "1653036541134d5dbe-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Function Test<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/11091653034297_.pic.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=wRrpnndq9Zc",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1653036541134d5dbe-0",
+        "1653036541134d5dbe-1"
+      ],
+      "settings": {
+        "title": "Set-up Guide & Function Test",
+        "description": "",
+        "grid": 2,
+        "color_bg": "palette--light bg--neutral",
+        "enable_slider": true,
+        "aspect_ratio": 0.5,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "related_products_enable": true,
+        "limit": 1,
+        "product_recommendations_heading": "You may also like",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1653058414e6e1ce57": {
+      "type": "section-row",
+      "settings": {
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image-left",
+    "1653058411ad948df0",
+    "16528824138c8e8ccc",
+    "16528824717c9814e8",
+    "165288288513d4f103",
+    "1652883730a47dcabd",
+    "165288373502f6f73c",
+    "165288402691f6bdea",
+    "16530365415e0f047f",
+    "related",
+    "1653058414e6e1ce57"
+  ]
+}

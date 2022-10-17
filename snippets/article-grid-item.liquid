@@ -1,0 +1,87 @@
+<!-- /snippets/article-grid-item.liquid -->
+
+{% comment %}
+    Renders list of articles in grid layout
+
+    Accepts:
+    - article: {Object} currenct collection
+    - grid_strings: {String} contains a string of grid offset
+
+    (Optional) arguments:
+    - show_excerpt
+    - show_meta
+    - show_tags
+    - show_comments
+
+    Usage:
+    {% render 'article-grid-item', article: article, grid_strings: grid_strings, show_excerpt: section.settings.show_excerpt, show_meta: section.settings.show_meta, show_tags: section.settings.show_tags, show_comments: section.settings.show_comments %}
+{% endcomment %}
+
+<div class="mobile--hide grid__item {{ grid_strings }}" {% if block %}{{ block.shopify_attributes }}{% endif %}>
+  <div class="article__card{% if article.image %} article__card--image{% endif %}" >
+    <div class="article__card__content">
+      {% if show_meta %}
+      <p class="article__card__meta {% if show_comments and article.comments_count > 0 %}article__card__meta--comments{% endif %}">
+        <span class="meta--light">{{ 'blogs.article.by' | t }}</span>
+        <span class="meta--dark">{{ article.author }}</span>
+        <span class="meta--light">{{ 'blogs.article.on' | t }}</span>
+        <span class="meta--dark">{{ article.published_at | date: "%b %d, %Y" }}</span>
+      </p>
+    {% endif %}
+    <a href="{{ article.url }}" class="h5--body article__card__title">{{ article.title }}</a>
+    <div class="article__card__text">
+      {% if article.excerpt == blank %}
+        <p class="rte">{{ article.content | strip_html | truncate: 210 }}</p>
+      {% else %}
+        <p class="rte">{{ article.excerpt | strip_html }}</p>
+      {% endif %}
+        <!-- <a class="h6--body border-bottom-link" href="{{ article.url }}">{{ 'blogs.article.read_more' | t }}</a> -->
+    </div>
+    </div>
+
+    {% if article.image %}
+    <div class="article__card__image__wrapper--small" style="margin-top:48px;">
+      {%- render 'image-fill', img_object: article.image, aspect_ratio: 0.5 -%}
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="widescreen--hide large--hide medium--hide small--hide mobile--show grid__item" {% if block %}{{ block.shopify_attributes }}{% endif %} style="margin-bottom: 64px;">
+  {% if article.image%}
+    <div class="mobile--one-whole article__card__image">
+      {%- render 'image-fill', img_object: article.image, aspect_ratio: 0.5 -%}
+    </div>
+    {% if show_meta %}
+    <p class="article__card__meta {% if show_comments and article.comments_count > 0 %}article__card__meta--comments{% endif %}" style="margin-top:24px; margin-bottom:36px;">
+      <span class="meta--light">{{ 'blogs.article.by' | t }}</span>
+      <span class="meta--dark">{{ article.author }}</span>
+      <span class="meta--light">{{ 'blogs.article.on' | t }}</span>
+      <span class="meta--dark">{{ article.published_at | date: "%b %d, %Y" }}</span>
+    </p>
+    {% endif %}
+  {% endif%}
+  
+  
+  <a href="{{ article.url }}" class="h5--body article__card__title">{{ article.title }}</a>
+  {% unless article.image%}
+    {% if show_meta %}
+    <p class="article__card__meta {% if show_comments and article.comments_count > 0 %}article__card__meta--comments{% endif %}" style="margin-top:12px; margin-bottom:12px;">
+      <span class="meta--light">{{ 'blogs.article.by' | t }}</span>
+      <span class="meta--dark">{{ article.author }}</span>
+      <span class="meta--light">{{ 'blogs.article.on' | t }}</span>
+      <span class="meta--dark">{{ article.published_at | date: "%b %d, %Y" }}</span>
+    </p>
+    {% endif %}
+  {% endunless %}
+
+
+    <div class="article__card__text" style="border-bottom: 1px solid #eee ;">
+      {% if article.excerpt == blank %}
+        <p class="rte">{{ article.content | strip_html | truncate: 310 }}</p>
+      {% else %}
+        <p class="rte">{{ article.excerpt | strip_html }}</p>
+      {% endif %}
+        <!-- <a class="h6--body border-bottom-link" href="{{ article.url }}">{{ 'blogs.article.read_more' | t }}</a> -->
+    </div>
+</div>

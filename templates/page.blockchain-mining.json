@@ -1,0 +1,488 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-default",
+      "settings": {
+        "show_title": true,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "1653563344bddedd8f": {
+      "type": "section-hero",
+      "blocks": {
+        "16535633441bbb7de5-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "text_size": 10
+          }
+        },
+        "16535633441bbb7de5-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>This area is used to describe your store<\/p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "16535633441bbb7de5-0",
+        "16535633441bbb7de5-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Affiliate-_3.png",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-left",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1653651367a9c08e61": {
+      "type": "section-text",
+      "blocks": {
+        "1653651367f845c423-0": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p><strong>How to Mine DPR in 4 easy steps<\/strong><\/p>",
+            "enable_caps": false,
+            "text_size": 6
+          }
+        },
+        "1653651367f845c423-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Rich text<\/p>",
+            "text_size": 9
+          }
+        },
+        "1653651367f845c423-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        },
+        "1653651367f845c423-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn More",
+            "button_url": "",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn--soft",
+            "button_color": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "1653651367f845c423-0",
+        "1653651367f845c423-1",
+        "1653651367f845c423-2",
+        "1653651367f845c423-3"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 140,
+        "padding_bottom": 32
+      }
+    },
+    "16536513323533afce": {
+      "type": "section-timeline-tree",
+      "blocks": {
+        "1653651332e6567a44-0": {
+          "type": "episode",
+          "settings": {
+            "title": "Step 1.Buy a Deeper Connect",
+            "date": "",
+            "story": "<p>• Buy a Deeper Connect Mini or Pico at <a href=\"https:\/\/shop.deeper.network\" title=\"Deeper Network Official Store\">https:\/\/shop.deeper.network<\/a><\/p>",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        },
+        "1653651332e6567a44-1": {
+          "type": "episode",
+          "settings": {
+            "title": "Step 2. Buy DPR",
+            "date": "",
+            "story": "<p>• Buy DPR coin at Kucoin or Gate.io or check out other markets here:<br\/><a href=\"https:\/\/coinmarketcap.com\/currencies\/deeper-network\/markets\" target=\"_blank\" title=\"Buy DPR - Deeper Network\">https:\/\/coinmarketcap.com\/currencies\/deeper-network\/markets<\/a><\/p>",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        },
+        "43e50839-6d1c-4588-9342-ed559ea1bc9c": {
+          "type": "episode",
+          "settings": {
+            "title": "Step 3. Stake DPR",
+            "date": "",
+            "story": "<p>• Staking link:  <a href=\"\/blogs\/tutorials\/deeper-network-staking-tutorial-for-binance-smart-chain-bsc-pc-version\" title=\"Deeper Network Staking Tutorial for Binance Smart Chain (BSC)-PC VERSION\">https: \/\/device-bsc.deeper.network<\/a><\/p>",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        },
+        "1653651332e6567a44-2": {
+          "type": "episode",
+          "settings": {
+            "title": "Step 4. Start Mining",
+            "date": "",
+            "story": "<p>• Check your mining rewards under the DPR tab on AtomOS at 34.34.34.34<\/p>",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        },
+        "24a592b1-8ecb-4fe4-9521-5364890d3be1": {
+          "type": "episode",
+          "disabled": true,
+          "settings": {
+            "title": "REFERENCES",
+            "date": "",
+            "story": "<p>Important rules and tutorials can be found here: <a href=\"https:\/\/deeper-network.medium.com\/\" title=\"https:\/\/deeper-network.medium.com\/\">https:\/\/deeper-network.medium.com\/<\/a><\/p>",
+            "link_text": "Continued...",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653651332e6567a44-0",
+        "1653651332e6567a44-1",
+        "43e50839-6d1c-4588-9342-ed559ea1bc9c",
+        "1653651332e6567a44-2",
+        "24a592b1-8ecb-4fe4-9521-5364890d3be1"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "16536703356aa9292f": {
+      "type": "section-text",
+      "disabled": true,
+      "blocks": {
+        "16536703351eb57849-0": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "<p>Introducing<\/p>",
+            "enable_caps": false,
+            "text_size": 5
+          }
+        },
+        "16536703351eb57849-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>REFERENCES<\/p>",
+            "text_size": 9
+          }
+        },
+        "16536703351eb57849-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Important rules and tutorials can be found here: <a href=\"https:\/\/deeper-network.medium.com\/\" title=\"https:\/\/deeper-network.medium.com\/\">https:\/\/deeper-network.medium.com\/<\/a><\/p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        },
+        "16536703351eb57849-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn More",
+            "button_url": "",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn--soft",
+            "button_color": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "16536703351eb57849-0",
+        "16536703351eb57849-1",
+        "16536703351eb57849-2",
+        "16536703351eb57849-3"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1653670510b1c19ba7": {
+      "type": "section-text",
+      "blocks": {
+        "1653670510d380be7a-0": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p><strong>For more information:<\/strong><\/p>",
+            "enable_caps": false,
+            "text_size": 6
+          }
+        },
+        "1653670510d380be7a-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Get more<\/p>",
+            "text_size": 9
+          }
+        },
+        "1653670510d380be7a-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Mining rewards calculator<\/p><p><a href=\"https:\/\/dpr.deeper.network\/calculator\" target=\"_blank\" title=\"https:\/\/dpr.deeper.network\/calculator\">https:\/\/dpr.deeper.network\/calculator<\/a><\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "399030d5-eb85-4f2a-b2b5-92149b2170f2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>How to mine without staking<\/p><p><a href=\"https:\/\/www.youtube.com\/watch?v=AbG6stgUOT8\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=AbG6stgUOT8\">https:\/\/www.youtube.com\/watch?v=AbG6stgUOT8<\/a><\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "f3edf5cb-d9f6-490b-94d2-5358f762d4b2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Basic Mining<\/p><p><a href=\"https:\/\/deeper-network.medium.com\/deeper-network-basic-mining-rules-and-rewards-57dce89e34d6\" target=\"_blank\" title=\"https:\/\/deeper-network.medium.com\/deeper-network-basic-mining-rules-and-rewards-57dce89e34d6\">https:\/\/deeper-network.medium.com\/deeper-network-basic-mining-rules-and-rewards-57dce89e34d6<\/a><\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "869f7516-d1d3-4d24-b819-153aa95830b8": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Basic Mining Update<\/p><p><a href=\"https:\/\/deeper-network.medium.com\/deeper-network-basic-mining-2-0-mining-updates-for-genesis-and-basic-mining-2ec2f112cfd4\" target=\"_blank\" title=\"https:\/\/deeper-network.medium.com\/deeper-network-basic-mining-2-0-mining-updates-for-genesis-and-basic-mining-2ec2f112cfd4\">https:\/\/deeper-network.medium.com\/deeper-network-basic-mining-2-0-mining-updates-for-genesis-and-basic-mining-2ec2f112cfd4<\/a><\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "f5d40492-a48f-4e7d-a864-8a4dadde9d72": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Tutorials and Updates<\/p><p><a href=\"https:\/\/deeper-network.medium.com\/\" target=\"_blank\" title=\"https:\/\/deeper-network.medium.com\/\">https:\/\/deeper-network.medium.com\/<\/a><\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "cbabd1ed-698d-4eef-b267-a19b1dd78010": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>YouTube<\/p><p><a href=\"https:\/\/www.youtube.com\/c\/DeeperNetwork\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/c\/DeeperNetwork\">https:\/\/www.youtube.com\/c\/DeeperNetwork<\/a><\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "1653670510d380be7a-0",
+        "1653670510d380be7a-1",
+        "1653670510d380be7a-2",
+        "399030d5-eb85-4f2a-b2b5-92149b2170f2",
+        "f3edf5cb-d9f6-490b-94d2-5358f762d4b2",
+        "869f7516-d1d3-4d24-b819-153aa95830b8",
+        "f5d40492-a48f-4e7d-a864-8a4dadde9d72",
+        "cbabd1ed-698d-4eef-b267-a19b1dd78010"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "1654237929d746d1df": {
+      "type": "section-icons",
+      "blocks": {
+        "165423792973bc1aed-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_alt": "shopify:\/\/shop_images\/Frame_1087426bm-ico-1.png",
+            "icon_color": "#4f8bf2",
+            "title": "Mining rewards calculator",
+            "text": "<p><a href=\"https:\/\/dpr.deeper.network\/calculator\" target=\"_blank\" title=\"Mining rewards calculator - Deeper Network\">https:\/\/dpr.deeper.network\/calculator<\/a><\/p>"
+          }
+        },
+        "165423792973bc1aed-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify:\/\/shop_images\/Frame_1087427bmico-2.png",
+            "icon_color": "#51c88e",
+            "title": "How to mine without staking",
+            "text": "<p><a href=\"https:\/\/www.youtube.com\/watch?v=AbG6stgUOT8\" target=\"_blank\" title=\"How to mine without staking - Deeper Network\">https:\/\/www.youtube.com\/watch?v=AbG6stgUOT8<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165423792973bc1aed-0",
+        "165423792973bc1aed-1"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "icon_size": "icon--small",
+        "alignment": "text-left",
+        "grid": 2,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "16542411102f1138d8": {
+      "type": "section-icons",
+      "blocks": {
+        "1654241110ff5f96d8-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_alt": "shopify:\/\/shop_images\/Frame_1087429.png",
+            "icon_color": "#4f8bf2",
+            "title": "Basic mining",
+            "text": "<p><a href=\"https:\/\/shop.deeper.network\/blogs\/news\/deeper-network-basic-mining-rules-and-rewards\" title=\"https:\/\/shop.deeper.network\/blogs\/news\/deeper-network-basic-mining-rules-and-rewards\">https:\/\/shop.deeper.network\/blogs\/news\/deeper-network-basic-mining-rules-and-rewards<\/a><a href=\"\/blogs\/news\/deeper-network-basic-mining-rules-and-rewards\" target=\"_blank\" title=\"Deeper Network Basic Mining Rules and Rewards\"><br\/><\/a><\/p>"
+          }
+        },
+        "1654241110ff5f96d8-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify:\/\/shop_images\/Frame_1087428.png",
+            "icon_color": "#51c88e",
+            "title": "Basic mining update",
+            "text": "<p><a href=\"https:\/\/shop.deeper.network\/blogs\/news\/deeper-network-basic-mining-2-0-mining-updates-for-genesis-and-basic-mining\" title=\"https:\/\/shop.deeper.network\/blogs\/news\/deeper-network-basic-mining-2-0-mining-updates-for-genesis-and-basic-mining\">https:\/\/shop.deeper.network\/blogs\/news\/deeper-network-basic-mining-2-0-mining-updates-for-genesis-and-basic-mining<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1654241110ff5f96d8-0",
+        "1654241110ff5f96d8-1"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "icon_size": "icon--small",
+        "alignment": "text-left",
+        "grid": 2,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "1654241291f5f9cc7c": {
+      "type": "section-icons",
+      "blocks": {
+        "1654241291bfb94fdb-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_alt": "shopify:\/\/shop_images\/Frame_1087430.png",
+            "icon_color": "#4f8bf2",
+            "title": "How to stake",
+            "text": "<p><a href=\"https:\/\/shop.deeper.network\/blogs\/tutorials\/deeper-network-staking-tutorial-for-binance-smart-chain-bsc-pc-version\" target=\"_blank\" title=\"Deeper Network Staking Tutorial for Binance Smart Chain (BSC)-PC VERSION\">https:\/\/shop.deeper.network\/blogs\/tutorials\/deeper-network-staking-tutorial-for-binance-smart-chain-bsc-pc-version<\/a><\/p>"
+          }
+        },
+        "1654241291bfb94fdb-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify:\/\/shop_images\/icon-tutorials.png",
+            "icon_color": "#51c88e",
+            "title": "Tutorials and updates",
+            "text": "<p><a href=\"\/pages\/blog\" target=\"_blank\" title=\"Blog\">https:\/\/shop.deeper.network\/pages\/blog<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1654241291bfb94fdb-0",
+        "1654241291bfb94fdb-1"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "icon_size": "icon--small",
+        "alignment": "text-left",
+        "grid": 2,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "16542414160010e9db": {
+      "type": "section-icons",
+      "blocks": {
+        "1654241416b10d1a9d-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_alt": "shopify:\/\/shop_images\/Frame_1087432_2.png",
+            "icon_color": "#4f8bf2",
+            "title": "Youtube",
+            "text": "<p><a href=\"https:\/\/www.youtube.com\/c\/DeeperNetwork\" target=\"_blank\" title=\"Deeper Network' YouTube\">https:\/\/www.youtube.com\/c\/DeeperNetwork<\/a><\/p>"
+          }
+        },
+        "e8c486f4-6cfa-4c24-b148-5d8f2a3795d1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_color": "#4f8bf2",
+            "title": "Seed round",
+            "text": "<p><a href=\"https:\/\/archive.deeper.network\/login\" target=\"_blank\">https:\/\/archive.deeper.network\/login<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1654241416b10d1a9d-0",
+        "e8c486f4-6cfa-4c24-b148-5d8f2a3795d1"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "icon_size": "icon--small",
+        "alignment": "text-left",
+        "grid": 2,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1653563344bddedd8f",
+    "1653651367a9c08e61",
+    "16536513323533afce",
+    "16536703356aa9292f",
+    "1653670510b1c19ba7",
+    "1654237929d746d1df",
+    "16542411102f1138d8",
+    "1654241291f5f9cc7c",
+    "16542414160010e9db"
+  ]
+}

@@ -1,0 +1,201 @@
+{% schema %}
+  {
+    "name": "Cost and Destinations",
+    "settings": [
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 0
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Section width",
+        "default": "wrapper--none",
+        "options": [
+          { "value": "wrapper--none", "label": "Full width" },
+          { "value": "wrapper--full", "label": "Full width padded" },
+          { "value": "wrapper", "label": "Page width" },
+          { "value": "wrapper--narrow", "label": "Page width narrow" }
+        ]
+      }
+	  ], 
+    "presets": [
+      {
+          "name": "Cost and Destinations",
+          "category": "My Sections"
+      }
+    ]
+  } 
+{% endschema %}
+
+<div
+  id="cost-destinations"
+  data-section-id="{{ section.id }}" 
+  data-section-type="section-collection" 
+  
+  style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px; "> 
+  <div class="{{ section.settings.width }} section-contact-us">
+    <div class="costDestinations">
+    <h2 style="font-size: 22px;">Cost & Destinations</h2>
+    <p>
+      Currently, we <b>are unable</b> to ship our products to <b>China Mainland</b>.<br />
+      We will provide the tracking number within <b>2-7</b> business days. <br />
+      A confirmation email will be sent once the order has shipped.<br />
+      It may take <b>3-10</b> business days for your shipment to be scanned by the carrier. <br />
+      For any third-party shipping, we cannot provide any additional shipping information or documentation. <br />
+      Any delivery dates provided by Deeper Network are estimates delivery.<br />
+    </p>
+    <!-- <p>
+      Currently,we offer <b>free shipping</b> for all orders; <br />
+      We ship to every country (<b>except Mainland China</b>) <br />
+      *United States: <b>2-5</b> business days excluding custom clearance. <br />
+      *International: <b>5-7</b> business days excluding custom clearance. <br />
+      We are only available for a P.O mailbox in the United States and Hawaiian island delivery. <br />
+    </p> -->
+    <p>
+      We offer <b>free shipping</b> for orders over <b>$100</b> in UK, Germany, Canada, USA, Hong Kong, Taiwan and Macau. <br />
+      For all other destination, we offer free shipping for orders <b>over $400</b>.<br/>
+      For more details, please refer to the below sheet.
+    </p>
+
+    <div class="feeTable">
+      <table>
+        <thead>
+          <tr>
+            <td class="tableHeader">Region</td>
+            <td class="tableHeader">Destination</td>
+            <td class="tableHeader" colspan="2">Shipping Fee</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="width: 25%" rowspan="3">Europe</td>
+            <td style="width: 25%">The United Kindom</td>
+            <td style="width: 25%" rowspan="2">$10</td>
+            <td style="width: 25%" rowspan="2">$0 (orders over $100)</td>
+          </tr>
+          <tr>
+            <td>Germany</td>
+          </tr>
+          <tr>
+            <td>All other Destinations</td>
+            <td>$25</td>
+            <td>$0 (orders over $400)</td>
+          </tr>
+          <tr>
+            <td rowspan="2">North America</td>
+            <td >Canada</td>
+            <td rowspan="5">$10</td>
+            <td rowspan="5">$0 (orders over $100)</td>
+          </tr>
+          <tr>
+            <td>USA</td>
+          </tr>
+          <tr>
+            <td rowspan="5">Asia</td>
+            <td>Hong Kong</td>
+          </tr>
+          <tr>
+            <td>Taiwan</td>
+          </tr>
+          <tr>
+            <td>Macau</td>
+          </tr>
+          <tr>
+            <td>Middle East</td>
+            <td>$30</td>
+            <td rowspan="5">$0 (orders over $400)</td>
+          </tr>
+          <tr>
+            <td>All other Destinations</td>
+            <td>$25</td>
+          </tr>
+          <tr>
+            <td>South America</td>
+            <td>All South America</td>
+            <td>$40</td>
+          </tr>
+          <tr>
+            <td>Oceania </td>
+            <td>All Oceania </td>
+            <td>$25</td>
+          </tr>
+          <tr>
+            <td>Africa </td>
+            <td>All Africa </td>
+            <td>$40</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </div>
+  </div>
+</div>
+
+{% stylesheet %}
+  .feeTable{
+    width: 100%;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .costDestinations{
+    color:#514F6E;
+  }
+  .costDestinations h2 {
+    font-size:18px
+  }
+
+  .costDestinations p {
+    font-size:14px;
+  }
+  .costDestinations table {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+    border-radius: inherit;
+    border: solid 1px #514F6E;
+  }
+  .tableHeader { 
+    background-color: #F7F7FB;
+    font-weight: 500;
+  }
+  .costDestinations table td{
+    font-weight: 400;
+  }
+  .costDestinations table th, .costDestinations table td {
+    border: 1px solid #D9DBE9;
+
+    
+    text-align: center; 
+    /* Button/Secondary */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    text-transform: capitalize;
+    /* Text/强调、正文标题 */
+    color: #170F49;
+
+  }
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

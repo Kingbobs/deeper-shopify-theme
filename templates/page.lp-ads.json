@@ -1,0 +1,461 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-default",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1659017210b762f9c6": {
+      "type": "section-slideshow",
+      "blocks": {
+        "165901721006ed5392-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/web-mini.png",
+            "mobile_image": "shopify:\/\/shop_images\/mini_c07b4840-82b2-47e7-834b-f9e4ec84a68f.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "rgba(0,0,0,0)",
+            "title": "Deeper Connect MINI + Wi-Fi Adapter",
+            "richtext": "",
+            "color_bg": "hero__content--transparent",
+            "text_align": "align--bottom-left",
+            "text_color": "text--white",
+            "link_text": "buy now",
+            "link": "shopify:\/\/products\/deeper-connect-mini",
+            "button_size": "",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--primary"
+          }
+        },
+        "165901721006ed5392-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/web-pico.png",
+            "mobile_image": "shopify:\/\/shop_images\/pico_ef5f8e67-3df3-4257-85cc-cafd3b5e4394.png",
+            "bg_position": "center-bottom",
+            "overlay_opacity": 15,
+            "overlay_color": "rgba(0,0,0,0)",
+            "title": "Deeper Connect Pico Wi-Fi Adapter",
+            "richtext": "",
+            "color_bg": "hero__content--transparent",
+            "text_align": "align--bottom-left",
+            "text_color": "text--white",
+            "link_text": "buy now",
+            "link": "shopify:\/\/products\/deeper-connect-pico-wi-fi-adapter",
+            "button_size": "",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "165901721006ed5392-0",
+        "165901721006ed5392-1"
+      ],
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 8,
+        "dots_position": "dots--center",
+        "height": "use_image",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    },
+    "1659029797c6bc6e74": {
+      "type": "section-ads-pay-once",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "width": "wrapper"
+      }
+    },
+    "16590174424ac8dc8b": {
+      "type": "section-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Total_product_page__6-1__Real_scene.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "",
+        "text": "<p><em>Upgrade your router<\/em><\/p><p>Protect all your IoT devices all at once<br\/>Set up a <strong>1-Gbps Deeper Connect Mini <\/strong>to encrypt and secure your home or office network. This includes your mobile phones, laptops, tablets, PCs, TVs, consoles, smart appliances, network extensions and more.<\/p><p><em>Connect your laptop<\/em><\/p><p>Plug a <strong>100Mbps Deeper Pico<\/strong> to your laptop. Surf the open web safely without the risk of being hacked or tracked.<br\/><\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "165902205642607eb5": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\n#shopify-section-template--14639809232966__16590174424ac8dc8b .section--rte p, #shopify-section-template--14639809232966__16590175889a3404d5 .section--rte p{\n  color: #514F6E !important;\n  font-family: 'Montserrat';\n  font-size:14px !important;\n}\n\n#shopify-section-template--14639809232966__16590174424ac8dc8b .section--rte b, #shopify-section-template--14639809232966__16590175889a3404d5 .section--rte b {\n  font-weight:500 !important;\n}\n\n\n#shopify-section-template--14639809232966__16590174424ac8dc8b .section--rte em,  #shopify-section-template--14639809232966__16590175889a3404d5 .section--rte em{\n font-size: calc(var(--font-5) * var(--FONT-ADJUST-HEADING));\n    font-family: var(--FONT-STACK-HEADING);\n    font-weight: var(--FONT-WEIGHT-HEADING);\n    font-style: var(--FONT-STYLE-HEADING);\n}\n<\/style>"
+      }
+    },
+    "16590175889a3404d5": {
+      "type": "section-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pico_page_lifetime.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "",
+        "text": "<p><em>Enterprise-Class Network Security<\/em><\/p><p>The Deeper Connect has enterprise-level security features to protect you and your loved ones. The unique lock-free AtomOS includes a 7-layer firewall with deep packet inspection preventing tracking and intrusions.<\/p><p><em>$0 subscription VPN for LIFE<\/em><\/p><p>Devices around the world are nodes which make up a decentralized network freeing you from having to pay monthly subscriptions and from the control and risk of failure of centralized VPN servers.<\/p><p><em>Block all ads including YouTube's<\/em><\/p><p>Block ALL ads, even YouTube ads (save $144\/year YouTube Premium). Never again deal with annoying ads while browsing or watching videos.<br\/><\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1659021213e3f24051": {
+      "type": "section-ads-plug-and-play",
+      "blocks": {
+        "16590212137a1b4011-0": {
+          "type": "image",
+          "settings": {
+            "image_link": ""
+          }
+        },
+        "16590212137a1b4011-1": {
+          "type": "image",
+          "settings": {
+            "image_link": ""
+          }
+        },
+        "16590212137a1b4011-2": {
+          "type": "image",
+          "settings": {
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16590212137a1b4011-0",
+        "16590212137a1b4011-1",
+        "16590212137a1b4011-2"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "width": "wrapper",
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-left",
+        "color_bg": "hero__content--transparent"
+      }
+    },
+    "165901836227fbd64e": {
+      "type": "section-collection-grid",
+      "blocks": {
+        "1659018362d1c2e54a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p><strong>Deeper Connect Pico + Wi-Fi<br\/>Adapter<\/strong><\/p><p>&nbsp;&nbsp;<strong>30%OFF<\/strong>&nbsp;&nbsp;<span><b>$173.6<\/b><\/span>&nbsp;&nbsp;<em>$248.0<\/em><\/p>",
+            "collection_image": "shopify:\/\/shop_images\/pico_9afb2755-5629-436e-8831-efa9a2924442.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-wi-fi-adapter",
+            "content_color": "#333333",
+            "content_bg": "rgba(0,0,0,0)"
+          }
+        },
+        "1659018362d1c2e54a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p><strong>Deeper Connect Mini + Wi-Fi<br\/>Adapter <\/strong><\/p><p>$358.00<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/mini_289809db-59a3-498d-8af0-d5007209082f.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-mini",
+            "content_color": "#3b4348",
+            "content_bg": "rgba(0,0,0,0)"
+          }
+        },
+        "86eb8ae4-fdef-48b2-9f04-61126000ece7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p><strong>Deeper Connect Wi-Fi<br\/>Adapter <\/strong><\/p><p>$49.00<\/p><p><\/p>",
+            "collection_image": "shopify:\/\/shop_images\/wifi_11745843-7463-4acb-bac3-c9644cda573b.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-wi-fi-adapter",
+            "content_color": "#333333",
+            "content_bg": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "1659018362d1c2e54a-0",
+        "1659018362d1c2e54a-1",
+        "86eb8ae4-fdef-48b2-9f04-61126000ece7"
+      ],
+      "settings": {
+        "title": "Collection list",
+        "description": "",
+        "grid": 3,
+        "color_bg": "palette--light bg--neutral",
+        "enable_slider": false,
+        "aspect_ratio": 1,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16590241406268af69": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n\n#shopify-section-template--14639809232966__165901836227fbd64e .font-heading p strong{font-size:14px;}\n\n#shopify-section-template--14639809232966__165901836227fbd64e .collection-grid-item__content{\npadding: 8px 16px !important;\n}\n\n#shopify-section-template--14639809232966__165901836227fbd64e .font-heading p:first-child{margin-bottom: 8px;}\n\n#shopify-section-template--14639809232966__165901836227fbd64e .collection-grid-item__title p:nth-child(2) strong{ background-color:#fff !important; border:1px solid #FF5502; color:#FF5502 }\n\n#shopify-section-template--14639809232966__165901836227fbd64e .collection-grid-item__title p em {color:#A0A3BD}\n\n#shopify-section-template--14639809232966__165901836227fbd64e .collection-grid-item__title p:nth-child(3){color:#A0A3BD}\n\n#shopify-section-template--14639809232966__165901836227fbd64e .collection-grid-item__title p span{color:#FF5502}\n\n#shopify-section-template--14639809232966__165901836227fbd64e a { display: inline-block; margin-bottom:6px;}\n<\/style>"
+      }
+    },
+    "16590192373a087f80": {
+      "type": "section-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_4630_1.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "The Power of DPN",
+        "text": "<p>The next-generation of VPN, a DPN is the decentralized version of VPN. <br\/>A peer-to-peer network that uses blockchain technology to maintain data privacy and security. The network is not controlled by any centralized company or organization. The network belongs to you. <br\/><\/p><p><em>• VPN that will never track or leak your precious data<\/em><br\/><em>• Independent IP connections on each device<\/em><br\/><em>• Cryptocurrency mining built-in<\/em><\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1659019405a3e22226": {
+      "type": "section-icons",
+      "blocks": {
+        "165901940568d3cf8c-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_alt": "shopify:\/\/shop_images\/18b770ae4cc2c20dcbcaf4e2b4517c14.png",
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "Fast shipping",
+            "text": ""
+          }
+        },
+        "165901940568d3cf8c-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify:\/\/shop_images\/ec609bbf79ee9ecae423f37032946e6a.png",
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "1 year warranty",
+            "text": ""
+          }
+        },
+        "165901940568d3cf8c-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-lock-shield",
+            "icon_alt": "shopify:\/\/shop_images\/01e1f87306f5a6a950cab51c59cacd73_998bb3a4-adbe-4d1c-bab0-e54fd48af304.png",
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "7 day refunding",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "165901940568d3cf8c-0",
+        "165901940568d3cf8c-1",
+        "165901940568d3cf8c-2"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "icon_size": "icon--medium",
+        "alignment": "text-center",
+        "grid": 3,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 32
+      }
+    },
+    "165902591638cc1699": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n#shopify-section-template--14639809232966__1659019405a3e22226 .icon__column{ background:none;}\n\n#shopify-section-template--14639809232966__16590192373a087f80 em {\nfont-style: normal !important;\n}\n<\/style>"
+      }
+    },
+    "16590198027f5293b6": {
+      "type": "section-collection-grid",
+      "disabled": true,
+      "blocks": {
+        "165292947337f714d7-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Unbox Therapy<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/2_Unbox_Therapy_f87e3e47-2f30-4baf-ad0d-24f8d9dd1c9c.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=J-aSuNYmTlk&t=263s",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "165292947337f714d7-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Jon Rettinger<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/2_Jon_Rettinger.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=Y0tr1eZvGeg",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "49e6982a-e1a6-4576-af9f-bef51564dfdf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Jabber Tech<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/3_Jabber_Tech_8ec8db34-5f7b-493b-b470-f57880b26116.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=SDWMvdLoe6Y",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "a25c0ccf-6b92-4dee-b102-8f988ab24e0a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Full Value Dan<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/4_Full_Value_Dan_69048984-72be-4c1f-bb59-053aed324cf5.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=rieMyHv43zk",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "db3bea90-0277-45d5-b013-65cf95de5298": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Smart Tech<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/5_Smart_Tech_cc57f92a-1e63-47a7-aa6d-b8ba7ef2d557.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=4RoFj4XJV20",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "2ebf21a4-0780-46ba-ab46-aaea43add273": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Action Crypto<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/6_Action_Crypto_156f0fe5-399e-4001-bc77-ac1f7b35bfd4.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=d2b4yAb9KmQ",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "74445f99-e4d1-4e55-8f16-457759c64ddb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Next Time Tech<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/7_NextTimeTech_f30be63b-50da-4ffd-ab09-94727f2a476b.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=Ox3EHqQ7p5Q&t=17s",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "e3ff424d-ccbc-4aec-ac25-4a3df9138873": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>JS 神技能<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/8_JS_e8021b9e-a6b6-400c-abc5-abe3143e119f.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=Ra-xbqynEKQ&t=401s",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        },
+        "5ac9a9f6-a672-4213-862d-de2a942ce82d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "<p>Your Friend Andy<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/9_Your_Friend_Andy_be3c98a0-320d-4d67-af83-7404a554488f.png",
+            "bg_position": "center-center",
+            "link_override": "https:\/\/www.youtube.com\/watch?v=jys0zx9NQUQ&t=71s",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "165292947337f714d7-1",
+        "165292947337f714d7-0",
+        "49e6982a-e1a6-4576-af9f-bef51564dfdf",
+        "a25c0ccf-6b92-4dee-b102-8f988ab24e0a",
+        "db3bea90-0277-45d5-b013-65cf95de5298",
+        "2ebf21a4-0780-46ba-ab46-aaea43add273",
+        "74445f99-e4d1-4e55-8f16-457759c64ddb",
+        "e3ff424d-ccbc-4aec-ac25-4a3df9138873",
+        "5ac9a9f6-a672-4213-862d-de2a942ce82d"
+      ],
+      "settings": {
+        "title": "Take Their Words, Not Ours",
+        "description": "",
+        "grid": 3,
+        "color_bg": "palette--light bg--neutral",
+        "enable_slider": true,
+        "aspect_ratio": 0.6,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1659017210b762f9c6",
+    "1659029797c6bc6e74",
+    "16590174424ac8dc8b",
+    "165902205642607eb5",
+    "16590175889a3404d5",
+    "1659021213e3f24051",
+    "165901836227fbd64e",
+    "16590241406268af69",
+    "16590192373a087f80",
+    "1659019405a3e22226",
+    "165902591638cc1699",
+    "16590198027f5293b6"
+  ]
+}

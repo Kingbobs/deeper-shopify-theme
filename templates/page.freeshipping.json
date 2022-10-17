@@ -1,0 +1,179 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-default",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "aboutusmenu",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1658846351b918738c": {
+      "type": "section-text",
+      "blocks": {
+        "16588463515ec78a3a-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Shipping Policy<\/p>",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "16588463515ec78a3a-1"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "1661332204f3382910": {
+      "type": "section-text",
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "166133204986a77ee1": {
+      "type": "section-deeper-cost-destinations",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "width": "wrapper"
+      }
+    },
+    "1658852687d463f44f": {
+      "type": "section-freeshipping",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 28,
+        "width": "wrapper"
+      }
+    },
+    "16588535633ffbb47a": {
+      "type": "section-text",
+      "blocks": {
+        "1658853563842471be-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please refer to the <a href=\"https:\/\/shop.deeper.network\/pages\/return-cancellation-and-warranty-policy\" target=\"_blank\" title=\"https:\/\/shop.deeper.network\/pages\/return-cancellation-and-warranty-policy\">*Return,Cancellation and Warranty Policy<\/a> if you have inquiries regarding the shipping.<br\/>Please contact us through <a href=\"https:\/\/support.deeper.network\" target=\"_blank\" title=\"https:\/\/support.deeper.network\">Support.deeper.network<\/a> if you have any inquiries.<\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "1658853563842471be-2"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "1658853838d451d8ca": {
+      "type": "section-text",
+      "blocks": {
+        "16588538384f8a5dc7-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Our six warehouses <\/p>",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "16588538384f8a5dc7-1"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 48,
+        "padding_bottom": 24
+      }
+    },
+    "165885387461b5cd36": {
+      "type": "section-hero",
+      "blocks": {
+        "1658853874ffbfb58f-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "text_size": 10
+          }
+        },
+        "1658853874ffbfb58f-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>This area is used to describe your store<\/p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        },
+        "1658853874ffbfb58f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn More",
+            "button_url": "",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "1658853874ffbfb58f-0",
+        "1658853874ffbfb58f-1",
+        "1658853874ffbfb58f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Huge_Global.png",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "rgba(0,0,0,0)",
+        "flex_align": "align--middle-left",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    },
+    "165900352508268c17": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n#shopify-section-template--14638342144070__16588535633ffbb47a .standard__rte p a {\ncolor:#495AF5 !important;\ntext-decoration: none !important;\n}\n<\/style>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1658846351b918738c",
+    "1661332204f3382910",
+    "166133204986a77ee1",
+    "1658852687d463f44f",
+    "16588535633ffbb47a",
+    "1658853838d451d8ca",
+    "165885387461b5cd36",
+    "165900352508268c17"
+  ]
+}
