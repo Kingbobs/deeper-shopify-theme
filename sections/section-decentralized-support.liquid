@@ -1,0 +1,155 @@
+<!-- /sections/section-row.liquid -->
+
+<div class="section-row {{ section.settings.color_bg }}" 
+  style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px;">
+  <div class="{{ section.settings.width }} section-padding">
+    <div class="overlap">
+      <div class="overlap__item overlap__text">
+        <div id="supports" class="overlap__content__wrapper">          
+          <ul class="mobile--hide small-down--hide small-hide medium--show large--show widescreen--show">
+            <li class="one-seventh">
+              <img  src="{{ 'iocn_iPhoneiPad.png'  | asset_url }}" >
+              <p>iPhone/iPad</p>
+            </li>
+            <li class="one-seventh">
+              <img  src="{{ 'iocn_Android.png'  | asset_url }}" >
+              <p>Android</p>
+            </li>
+            <li class="one-seventh">
+              <img  src="{{ 'icon_Windows.png'  | asset_url }}" >
+              <p>Windows</p>
+            </li>
+            <li class="one-seventh">
+              <img  src="{{ 'icon_Mac.png'  | asset_url }}" >
+              <p>Mac</p>
+            </li>
+            <li class="one-seventh">
+              <img  src="{{ 'icon_Router.png'  | asset_url }}" >
+              <p>Router</p>
+            </li>
+            <li class="one-seventh">
+              <img  src="{{ 'icon_Game_Consoles.png'  | asset_url }}" >
+              <p>Game Consoles</p>
+            </li>
+            <li class="one-seventh">
+              <img  src="{{ 'icon_Smart_TV.png'  | asset_url }}" >
+              <p>Smart TV</p>
+            </li>
+          </ul>
+           <ul class="mobile--show small-down--show small-show medium--hide large--hide widescreen--hide">
+            <li class="one-quarter">
+              <img  src="{{ 'iocn_iPhoneiPad.png'  | asset_url }}" >
+              <p>iPhone/iPad</p>
+            </li>
+            <li class="one-quarter">
+              <img  src="{{ 'iocn_Android.png'  | asset_url }}" >
+              <p>Android</p>
+            </li>
+            <li class="one-quarter">
+              <img  src="{{ 'icon_Windows.png'  | asset_url }}" >
+              <p>Windows</p>
+            </li>
+            <li class="one-quarter">
+              <img  src="{{ 'icon_Mac.png'  | asset_url }}" >
+              <p>Mac</p>
+            </li>
+            <li class="one-quarter">
+              <img  src="{{ 'icon_Router.png'  | asset_url }}" >
+              <p>Router</p>
+            </li>
+            <li class="one-quarter">
+              <img  src="{{ 'icon_Game_Consoles.png'  | asset_url }}" >
+              <p>Game Consoles</p>
+            </li>
+            <li class="one-quarter">
+              <img  src="{{ 'icon_Smart_TV.png'  | asset_url }}" >
+              <p>Smart TV</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  #supports{
+    margin:0;
+    padding: 0;
+  }
+  #supports ul {
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #supports ul li {
+    float: left;
+    text-align: center;
+  }
+
+  #supports ul li img { 
+  }
+
+  #supports ul li p {
+    /* Button/Primary */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin:0px;
+    padding:0px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    /* Text/强调、正文标题 */
+    color: #170F49;
+
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "Decentralized Support",
+    "class": "section-section",
+    "settings": [
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wrapper",
+        "options": [
+          { "value": "wrapper--full", "label": "Full width padded" },
+          { "value": "wrapper", "label": "Page width" },
+          { "value": "wrapper--narrow", "label": "Page width narrow" }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 36
+      }
+    ],
+    "presets": [
+      {
+        "name": "Decentralized Support",
+        "category": "Image"
+      }
+    ]
+  }
+{% endschema %}
