@@ -305,6 +305,84 @@
         "padding_bottom": 0
       }
     },
+    "f4e41124-e167-4d53-935f-868ab1da88bc": {
+      "type": "section-collection-product-grid",
+      "blocks": {
+        "template--14681911951430__f4e41124-e167-4d53-935f-868ab1da88bc-16660635064e40abe5-0": {
+          "type": "featured_collection",
+          "settings": {
+            "heading": "<p>Deeper Connect Pico + Wi-Fi Adapter<\/p>",
+            "text": "<p><strong>-20%<\/strong> $198.40 <em>$248.00<\/em><\/p>",
+            "bandwidth": "100Mbps",
+            "cpu": "Quad-Core",
+            "memory": "512MB",
+            "powerconsumption": "1W",
+            "tips": "Limited time deal",
+            "interface": "",
+            "applicable": "",
+            "collection_image": "shopify:\/\/shop_images\/pico.b7106b34.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-pico-wi-fi-adapter",
+            "content_color": "#333333"
+          }
+        },
+        "template--14681911951430__f4e41124-e167-4d53-935f-868ab1da88bc-16660635064e40abe5-1": {
+          "type": "featured_collection",
+          "settings": {
+            "heading": "<p>Deeper Connect Mini + Wi-Fi Adapter<\/p>",
+            "text": "<p><strong>-35%<\/strong> $233.35 <em>$359.00<\/em><\/p>",
+            "bandwidth": "1Gbps",
+            "cpu": "Quad-Core",
+            "memory": "2GB",
+            "powerconsumption": "10W",
+            "tips": "Limited time deal",
+            "interface": "",
+            "applicable": "",
+            "collection_image": "shopify:\/\/shop_images\/mini.bcc15209.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-mini",
+            "content_color": "#333333"
+          }
+        },
+        "4fb3859a-4c5a-4211-b1e5-32b39f6b1777": {
+          "type": "featured_collection",
+          "settings": {
+            "heading": "<p>Deeper Connect Wi-Fi Adapter<\/p>",
+            "text": "<p>$29.00<\/p>",
+            "bandwidth": "",
+            "cpu": "",
+            "memory": "",
+            "powerconsumption": "",
+            "tips": "",
+            "interface": "USB Type-C",
+            "applicable": "Deeper Connect Mini, Pico, Nano",
+            "collection_image": "shopify:\/\/shop_images\/adapter.097739fb.png",
+            "bg_position": "center-center",
+            "link_override": "shopify:\/\/products\/deeper-connect-wi-fi-adapter",
+            "content_color": "#333333"
+          }
+        }
+      },
+      "block_order": [
+        "template--14681911951430__f4e41124-e167-4d53-935f-868ab1da88bc-16660635064e40abe5-0",
+        "template--14681911951430__f4e41124-e167-4d53-935f-868ab1da88bc-16660635064e40abe5-1",
+        "4fb3859a-4c5a-4211-b1e5-32b39f6b1777"
+      ],
+      "settings": {
+        "title": "",
+        "description": "<p><strong>Top Collections<\/strong><\/p>",
+        "grid": 3,
+        "color_bg": "palette--light bg--neutral",
+        "enable_slider": false,
+        "aspect_ratio": 1,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "165902205642607eb5": {
       "type": "section-liquid",
       "settings": {
@@ -607,84 +685,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "f4e41124-e167-4d53-935f-868ab1da88bc": {
-      "type": "section-collection-product-grid",
-      "blocks": {
-        "template--14681911951430__f4e41124-e167-4d53-935f-868ab1da88bc-16660635064e40abe5-0": {
-          "type": "featured_collection",
-          "settings": {
-            "heading": "<p>Deeper Connect Pico + Wi-Fi Adapter<\/p>",
-            "text": "<p><strong>-20%<\/strong> $198.40 <em>$248.00<\/em><\/p>",
-            "bandwidth": "100Mbps",
-            "cpu": "Quad-Core",
-            "memory": "512MB",
-            "powerconsumption": "1W",
-            "tips": "Limited time deal",
-            "interface": "",
-            "applicable": "",
-            "collection_image": "shopify:\/\/shop_images\/pico.b7106b34.png",
-            "bg_position": "center-center",
-            "link_override": "shopify:\/\/products\/deeper-connect-pico-wi-fi-adapter",
-            "content_color": "#333333"
-          }
-        },
-        "template--14681911951430__f4e41124-e167-4d53-935f-868ab1da88bc-16660635064e40abe5-1": {
-          "type": "featured_collection",
-          "settings": {
-            "heading": "<p>Deeper Connect Mini + Wi-Fi Adapter<\/p>",
-            "text": "<p><strong>-35%<\/strong> $233.35 <em>$359.00<\/em><\/p>",
-            "bandwidth": "1Gbps",
-            "cpu": "Quad-Core",
-            "memory": "2GB",
-            "powerconsumption": "10W",
-            "tips": "Limited time deal",
-            "interface": "",
-            "applicable": "",
-            "collection_image": "shopify:\/\/shop_images\/mini.bcc15209.png",
-            "bg_position": "center-center",
-            "link_override": "shopify:\/\/products\/deeper-connect-mini",
-            "content_color": "#333333"
-          }
-        },
-        "4fb3859a-4c5a-4211-b1e5-32b39f6b1777": {
-          "type": "featured_collection",
-          "settings": {
-            "heading": "<p>Deeper Connect Wi-Fi Adapter<\/p>",
-            "text": "<p>$29.00<\/p>",
-            "bandwidth": "",
-            "cpu": "",
-            "memory": "",
-            "powerconsumption": "",
-            "tips": "",
-            "interface": "USB Type-C",
-            "applicable": "Deeper Connect Mini, Pico, Nano",
-            "collection_image": "shopify:\/\/shop_images\/adapter.097739fb.png",
-            "bg_position": "center-center",
-            "link_override": "",
-            "content_color": "#333333"
-          }
-        }
-      },
-      "block_order": [
-        "template--14681911951430__f4e41124-e167-4d53-935f-868ab1da88bc-16660635064e40abe5-0",
-        "template--14681911951430__f4e41124-e167-4d53-935f-868ab1da88bc-16660635064e40abe5-1",
-        "4fb3859a-4c5a-4211-b1e5-32b39f6b1777"
-      ],
-      "settings": {
-        "title": "",
-        "description": "<p><strong>Top Collections<\/strong><\/p>",
-        "grid": 3,
-        "color_bg": "palette--light bg--neutral",
-        "enable_slider": false,
-        "aspect_ratio": 1,
-        "place_text": "flex-column",
-        "align_text": "text-center",
-        "use_font": "font-heading",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -703,13 +703,13 @@
     "dd6ec11e-f84b-493a-b686-95c86c9abdeb",
     "bf01007a-4229-4d90-b1cf-e8cd4e369aab",
     "240cd6ab-da11-4331-8f13-f3c8f8d56043",
+    "f4e41124-e167-4d53-935f-868ab1da88bc",
     "165902205642607eb5",
     "16590241406268af69",
     "16590192373a087f80",
     "165902591638cc1699",
     "16590198027f5293b6",
     "aef3cba4-373d-47fe-a368-fb500cad6b86",
-    "9aac9cf4-16b5-4f64-8986-298a1de98f2a",
-    "f4e41124-e167-4d53-935f-868ab1da88bc"
+    "9aac9cf4-16b5-4f64-8986-298a1de98f2a"
   ]
 }
