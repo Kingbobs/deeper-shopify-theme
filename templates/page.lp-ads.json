@@ -460,6 +460,45 @@
         "padding_bottom": 40
       }
     },
+    "aef3cba4-373d-47fe-a368-fb500cad6b86": {
+      "type": "section-collection-talking-aboutus-grid",
+      "blocks": {
+        "template--14681911951430__aef3cba4-373d-47fe-a368-fb500cad6b86-1666062753cc700a81-0": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "",
+            "from": "",
+            "text": ""
+          }
+        },
+        "template--14681911951430__aef3cba4-373d-47fe-a368-fb500cad6b86-1666062753cc700a81-1": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "",
+            "from": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14681911951430__aef3cba4-373d-47fe-a368-fb500cad6b86-1666062753cc700a81-0",
+        "template--14681911951430__aef3cba4-373d-47fe-a368-fb500cad6b86-1666062753cc700a81-1"
+      ],
+      "settings": {
+        "title": "What Users Say about Deeper Connect",
+        "description": "",
+        "grid": 3,
+        "color_bg": "palette--light bg--neutral",
+        "enable_slider": true,
+        "aspect_ratio": 1,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "9aac9cf4-16b5-4f64-8986-298a1de98f2a": {
       "type": "section-collection-faq-grid",
       "settings": {
@@ -496,6 +535,7 @@
     "16590192373a087f80",
     "165902591638cc1699",
     "16590198027f5293b6",
+    "aef3cba4-373d-47fe-a368-fb500cad6b86",
     "9aac9cf4-16b5-4f64-8986-298a1de98f2a"
   ]
 }
