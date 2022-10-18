@@ -102,7 +102,7 @@
     "165902205642607eb5": {
       "type": "section-liquid",
       "settings": {
-        "custom_liquid": "<style>\n\n#shopify-section-template--14639809232966__16590174424ac8dc8b .section--rte p, #shopify-section-template--14639809232966__16590175889a3404d5 .section--rte p{\n  color: #514F6E !important;\n  font-family: 'Montserrat';\n  font-size:14px !important;\n}\n\n#shopify-section-template--14639809232966__16590174424ac8dc8b .section--rte b, #shopify-section-template--14639809232966__16590175889a3404d5 .section--rte b {\n  font-weight:500 !important;\n}\n\n\n#shopify-section-template--14639809232966__16590174424ac8dc8b .section--rte em,  #shopify-section-template--14639809232966__16590175889a3404d5 .section--rte em{\n font-size: calc(var(--font-5) * var(--FONT-ADJUST-HEADING));\n    font-family: var(--FONT-STACK-HEADING);\n    font-weight: var(--FONT-WEIGHT-HEADING);\n    font-style: var(--FONT-STYLE-HEADING);\n}\n\n\n.reason_index{\ndisplay: flex;\nflex-direction: column;\njustify-content: center;\nalign-items: center;\npadding: 10px;\ngap: 10px;\nwidth: 48px;\nheight: 48px;\nbackground: rgba(73, 90, 245, 0.08);\nborder-radius: 16px 16px 2px 16px;\n\/* Inside auto layout *\/\nflex: none;\norder: 0;\nflex-grow: 0;\nfont-weight:\n}\n<\/style>"
+        "custom_liquid": "<style>\n\n#shopify-section-template--14639809232966__16590174424ac8dc8b .section--rte p, #shopify-section-template--14639809232966__16590175889a3404d5 .section--rte p{\n  color: #514F6E !important;\n  font-family: 'Montserrat';\n  font-size:14px !important;\n}\n\n#shopify-section-template--14639809232966__16590174424ac8dc8b .section--rte b, #shopify-section-template--14639809232966__16590175889a3404d5 .section--rte b {\n  font-weight:500 !important;\n}\n\n\n#shopify-section-template--14639809232966__16590174424ac8dc8b .section--rte em,  #shopify-section-template--14639809232966__16590175889a3404d5 .section--rte em{\n font-size: calc(var(--font-5) * var(--FONT-ADJUST-HEADING));\n    font-family: var(--FONT-STACK-HEADING);\n    font-weight: var(--FONT-WEIGHT-HEADING);\n    font-style: var(--FONT-STYLE-HEADING);\n}\n\n\n.reason_index{\ndisplay: flex;\nflex-direction: column;\njustify-content: center;\nalign-items: center;\npadding: 10px;\ngap: 10px;\nwidth: 48px;\nheight: 48px;\nbackground: rgba(73, 90, 245, 0.08);\nborder-radius: 16px 16px 2px 16px;\n\/* Inside auto layout *\/\nflex: none;\norder: 0;\nflex-grow: 0;\nfont-weight:600;\n}\n<\/style>"
       }
     },
     "16590175889a3404d5": {
@@ -355,6 +355,26 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "f348fee3-d24c-44f9-9024-4f56a5b63624": {
+      "type": "section-image-and-html",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2No_Monthly_VPN_Subscription_for_Lifetime.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -369,6 +389,7 @@
     "16590241406268af69",
     "16590192373a087f80",
     "165902591638cc1699",
-    "16590198027f5293b6"
+    "16590198027f5293b6",
+    "f348fee3-d24c-44f9-9024-4f56a5b63624"
   ]
 }
