@@ -516,6 +516,22 @@
           "settings": {
             "title": "<p>TechyInvestor<\/p>",
             "from": "Twitter",
+            "text": "<p>The more I think about it, PoCr is such a genius incentive to build out a solid network 🧠 .<\/p><p>The fact that the practical application is executed perfectly using the hardware and AtomOS is nothing short of amazing! <\/p><p>… Oh yeah, then there’s the coming Web 3 ecosystem as well 💎🚀<\/p><p>- The Techy Investor.<\/p>"
+          }
+        },
+        "d26fc067-eb81-487c-9d23-0e9dba019a9d": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "<p>Dan<\/p>",
+            "from": "Youtube",
+            "text": "<p>I have had my deeper device running and contributing to the network\/project for almost 6 months now. <\/p><p>It is great, no issues. You can log into the AtomOs software and literally see all the negative things it is blocking from entering your network. <\/p><p>There are so many positive attributes about this project. <\/p><p>I personally do not invest in just anything, I did my due dilligence and I'm sooo glad I have invested in the great project...<\/p>"
+          }
+        },
+        "01da6fe2-1b9c-40f3-a35c-f55592034016": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "",
+            "from": "",
             "text": ""
           }
         }
@@ -527,7 +543,9 @@
         "618003e1-dd5e-48f5-9b92-31b459ff9377",
         "05e22bcb-f1bc-4ac0-b6f6-0f6919bc75be",
         "202f69b7-ea1d-4ad7-82b3-ab8358e5f1ae",
-        "79354be5-4289-475b-b26d-b0a228763ff4"
+        "79354be5-4289-475b-b26d-b0a228763ff4",
+        "d26fc067-eb81-487c-9d23-0e9dba019a9d",
+        "01da6fe2-1b9c-40f3-a35c-f55592034016"
       ],
       "settings": {
         "title": "What Users Say about Deeper Connect",
