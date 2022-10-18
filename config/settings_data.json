@@ -89,7 +89,7 @@
         "type": "footer",
         "settings": {
           "logo_max_width": 250,
-          "footer_description": "<p>Deeper Connect Pico +  Wi-Fi Adapter * 3<\/p>",
+          "footer_description": "<p>This area is used to describe your store.<\/p>",
           "footer_linklist": "footer-menu",
           "footer_second_linklist": "footer-menu-2",
           "footer_third_linklist": "foot-menu-3",
