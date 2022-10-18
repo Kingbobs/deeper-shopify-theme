@@ -637,10 +637,11 @@
             "bandwidth": "1Gbps",
             "cpu": "Quad-Core",
             "memory": "2GB",
-            "powerconsumption": "",
-            "tips": "",
+            "powerconsumption": "10W",
+            "tips": "Limited time deal",
             "interface": "",
             "applicable": "",
+            "collection_image": "shopify:\/\/shop_images\/mini.bcc15209.png",
             "bg_position": "center-center",
             "link_override": "",
             "content_color": "#333333"
