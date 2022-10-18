@@ -289,66 +289,6 @@
         "custom_liquid": "<style>\n\n#shopify-section-template--14639809232966__16590174424ac8dc8b .section--rte p, #shopify-section-template--14639809232966__16590175889a3404d5 .section--rte p{\n  color: #514F6E !important;\n  font-family: 'Montserrat';\n  font-size:14px !important;\n}\n\n#shopify-section-template--14639809232966__16590174424ac8dc8b .section--rte b, #shopify-section-template--14639809232966__16590175889a3404d5 .section--rte b {\n  font-weight:500 !important;\n}\n\n\n#shopify-section-template--14639809232966__16590174424ac8dc8b .section--rte em,  #shopify-section-template--14639809232966__16590175889a3404d5 .section--rte em{\n font-size: calc(var(--font-5) * var(--FONT-ADJUST-HEADING));\n    font-family: var(--FONT-STACK-HEADING);\n    font-weight: var(--FONT-WEIGHT-HEADING);\n    font-style: var(--FONT-STYLE-HEADING);\n}\n\n\n.reason_index{\ndisplay: flex;\nflex-direction: column;\njustify-content: center;\nalign-items: center;\npadding: 10px;\ngap: 10px;\nwidth: 48px;\nheight: 48px;\nbackground: rgba(73, 90, 245, 0.08);\nborder-radius: 16px 16px 2px 16px;\n\/* Inside auto layout *\/\nflex: none;\norder: 0;\nflex-grow: 0;\nfont-weight:600;\n}\n<\/style>"
       }
     },
-    "165901836227fbd64e": {
-      "type": "section-collection-grid",
-      "blocks": {
-        "1659018362d1c2e54a-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "text": "<p><strong>Deeper Connect Pico + Wi-Fi<br\/>Adapter<\/strong><\/p><p>&nbsp;&nbsp;<strong>30%OFF<\/strong>&nbsp;&nbsp;<span><b>$173.6<\/b><\/span>&nbsp;&nbsp;<em>$248.0<\/em><\/p>",
-            "collection_image": "shopify:\/\/shop_images\/pico_9afb2755-5629-436e-8831-efa9a2924442.png",
-            "bg_position": "center-center",
-            "link_override": "shopify:\/\/products\/deeper-connect-wi-fi-adapter",
-            "content_color": "#333333",
-            "content_bg": "rgba(0,0,0,0)"
-          }
-        },
-        "1659018362d1c2e54a-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "text": "<p><strong>Deeper Connect Mini + Wi-Fi<br\/>Adapter <\/strong><\/p><p>$358.00<\/p>",
-            "collection_image": "shopify:\/\/shop_images\/mini_289809db-59a3-498d-8af0-d5007209082f.png",
-            "bg_position": "center-center",
-            "link_override": "shopify:\/\/products\/deeper-connect-mini",
-            "content_color": "#3b4348",
-            "content_bg": "rgba(0,0,0,0)"
-          }
-        },
-        "86eb8ae4-fdef-48b2-9f04-61126000ece7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "text": "<p><strong>Deeper Connect Wi-Fi<br\/>Adapter <\/strong><\/p><p>$49.00<\/p><p><\/p>",
-            "collection_image": "shopify:\/\/shop_images\/wifi_11745843-7463-4acb-bac3-c9644cda573b.png",
-            "bg_position": "center-center",
-            "link_override": "shopify:\/\/products\/deeper-connect-wi-fi-adapter",
-            "content_color": "#333333",
-            "content_bg": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "1659018362d1c2e54a-0",
-        "1659018362d1c2e54a-1",
-        "86eb8ae4-fdef-48b2-9f04-61126000ece7"
-      ],
-      "settings": {
-        "title": "Collection list",
-        "description": "",
-        "grid": 3,
-        "color_bg": "palette--light bg--neutral",
-        "enable_slider": false,
-        "aspect_ratio": 1,
-        "place_text": "flex-column",
-        "align_text": "text-center",
-        "use_font": "font-heading",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "16590241406268af69": {
       "type": "section-liquid",
       "settings": {
@@ -538,7 +478,6 @@
     "dd6ec11e-f84b-493a-b686-95c86c9abdeb",
     "bf01007a-4229-4d90-b1cf-e8cd4e369aab",
     "165902205642607eb5",
-    "165901836227fbd64e",
     "16590241406268af69",
     "16590192373a087f80",
     "165902591638cc1699",
