@@ -484,6 +484,14 @@
           "settings": {
             "title": "<p>Jatin Kot<\/p>",
             "from": "IGG",
+            "text": "<p>Just ordered the Pico and Mini combo. <\/p><p>Excited to be part of this new and liberating concept of decentralized networks and the future is bright.....<\/p>"
+          }
+        },
+        "618003e1-dd5e-48f5-9b92-31b459ff9377": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "<p>Robert Mulhall<\/p>",
+            "from": "KS",
             "text": ""
           }
         }
@@ -491,7 +499,8 @@
       "block_order": [
         "template--14681911951430__aef3cba4-373d-47fe-a368-fb500cad6b86-1666062753cc700a81-0",
         "template--14681911951430__aef3cba4-373d-47fe-a368-fb500cad6b86-1666062753cc700a81-1",
-        "df5a1ad6-d9aa-44e2-8764-4c02b5a22f42"
+        "df5a1ad6-d9aa-44e2-8764-4c02b5a22f42",
+        "618003e1-dd5e-48f5-9b92-31b459ff9377"
       ],
       "settings": {
         "title": "What Users Say about Deeper Connect",
