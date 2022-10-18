@@ -364,7 +364,7 @@
         "aspect_ratio": 1,
         "layout": "left",
         "title": "",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text": "<div class=\"reason_index\">2<\/div>\n<h2 class=\"h3\">No Monthly VPN Subscription for Lifetime<\/h2>\n<p>Our decentralized network allows you to have free and secure access to VPN for a lifetime. Never again pay monthly subscriptions for your VPN.<\/p>",
         "color_text_bg": "palette--light bg--accent",
         "button_label": "",
         "button_link": "",
