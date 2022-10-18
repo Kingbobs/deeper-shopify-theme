@@ -139,6 +139,26 @@
         "padding_bottom": 36
       }
     },
+    "f0d59f9e-6710-4b6d-b129-07b27d786db3": {
+      "type": "section-image-and-html",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4Enterprise_Grade_Cybersecurity_bbdb0b08-53ff-49af-8cfa-0508ff3c0e5f.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "",
+        "text": "<div class=\"reason_index\">4<\/div>\n<h2 class=\"h3\">Enterprise Grade Cybersecurity<\/h2>\n<p>Protect your entire network with Deeper Connect’s enterprise grade cybersecurity. Rest well knowing your data and privacy is protected by a 7-layer firewall with anti-tracking, anti-virus, and intrusion prevention protocols. <\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "165902205642607eb5": {
       "type": "section-liquid",
       "settings": {
@@ -407,6 +427,7 @@
     "33a917cf-894e-42ef-a224-359879eb69b5",
     "f348fee3-d24c-44f9-9024-4f56a5b63624",
     "1f8d9b62-ba85-42be-86cb-f18319ffd360",
+    "f0d59f9e-6710-4b6d-b129-07b27d786db3",
     "165902205642607eb5",
     "16590175889a3404d5",
     "165901836227fbd64e",
