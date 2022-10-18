@@ -502,8 +502,8 @@
     "9aac9cf4-16b5-4f64-8986-298a1de98f2a": {
       "type": "section-collection-faq-grid",
       "settings": {
-        "title": "Collection list",
-        "description": "<p>Use this area to describe the collection.<\/p>",
+        "title": "Frequently asked questions",
+        "description": "",
         "color_bg": "palette--light bg--neutral",
         "aspect_ratio": 0.6,
         "place_text": "flex-column",
