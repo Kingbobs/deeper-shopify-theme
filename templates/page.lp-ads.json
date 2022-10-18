@@ -417,6 +417,25 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "15a3b32e-137f-4c0a-bd66-1a48a1e8da47": {
+      "type": "section-image-and-html",
+      "settings": {
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -434,6 +453,7 @@
     "16590241406268af69",
     "16590192373a087f80",
     "165902591638cc1699",
-    "16590198027f5293b6"
+    "16590198027f5293b6",
+    "15a3b32e-137f-4c0a-bd66-1a48a1e8da47"
   ]
 }
