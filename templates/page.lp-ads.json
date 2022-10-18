@@ -57,6 +57,28 @@
         "padding_bottom": 36
       }
     },
+    "433aec4a-ab0f-43a5-a22d-29ddea40a3b1": {
+      "type": "section-text",
+      "blocks": {
+        "template--14681911951430__433aec4a-ab0f-43a5-a22d-29ddea40a3b1-16660576444a9642e2-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>6 Reasons to Choose Deeper Connect<\/p>",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "template--14681911951430__433aec4a-ab0f-43a5-a22d-29ddea40a3b1-16660576444a9642e2-1"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "16590174424ac8dc8b": {
       "type": "section-row",
       "settings": {
@@ -369,34 +391,13 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
-    },
-    "433aec4a-ab0f-43a5-a22d-29ddea40a3b1": {
-      "type": "section-text",
-      "blocks": {
-        "template--14681911951430__433aec4a-ab0f-43a5-a22d-29ddea40a3b1-16660576444a9642e2-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>6 Reasons to Choose Deeper Connect<\/p>",
-            "text_size": 9
-          }
-        }
-      },
-      "block_order": [
-        "template--14681911951430__433aec4a-ab0f-43a5-a22d-29ddea40a3b1-16660576444a9642e2-1"
-      ],
-      "settings": {
-        "align_text": "text-left",
-        "color_bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "d4407a18-d7bd-4fc2-a5c9-0924ba454b62",
     "2e218d04-e94d-4794-a25b-b03617bf7042",
+    "433aec4a-ab0f-43a5-a22d-29ddea40a3b1",
     "16590174424ac8dc8b",
     "165902205642607eb5",
     "16590175889a3404d5",
@@ -405,7 +406,6 @@
     "16590241406268af69",
     "16590192373a087f80",
     "165902591638cc1699",
-    "16590198027f5293b6",
-    "433aec4a-ab0f-43a5-a22d-29ddea40a3b1"
+    "16590198027f5293b6"
   ]
 }
