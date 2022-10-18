@@ -755,9 +755,10 @@
           "type": "featured_collection",
           "settings": {
             "collection": "",
-            "text": "",
-            "price": "",
-            "save": "",
+            "text": "<p>Deeper Connect Mini + Wi-Fi Adapter * 3<\/p>",
+            "price": "<p>$646.20<\/p>",
+            "save": "<p><strong>40%Off<\/strong> Save $430.80<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/mini_3_6ea5c08f-7c9d-42c0-bc1b-36337a7e5f39.png",
             "bg_position": "center-center",
             "link_override": "",
             "content_color": "#333333",
