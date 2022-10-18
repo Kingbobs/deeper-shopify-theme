@@ -658,7 +658,8 @@
             "powerconsumption": "",
             "tips": "",
             "interface": "USB Type-C",
-            "applicable": "",
+            "applicable": "Deeper Connect Mini, Pico, Nano",
+            "collection_image": "shopify:\/\/shop_images\/adapter.097739fb.png",
             "bg_position": "center-center",
             "link_override": "",
             "content_color": "#333333"
