@@ -217,8 +217,8 @@
         "align_text": "text-left",
         "color_bg": "palette--light bg--neutral",
         "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "b636a56a-0d2c-458a-94cf-01b707a28a00": {
@@ -229,7 +229,26 @@
         "aspect_ratio": 0.7,
         "layout": "left",
         "title": "",
-        "text": "",
+        "text": "<div style=\"font-size:14px\">\n<b>Step 1:  Simply connect the Device via ethernet in between your modem and router<\/b><br>\n<br>\n<b>Step 2:  Power on the Deeper Connect Device by plugging in the included charger and wait several minutes.<\/b><br>\n<br>\n<b>Step 3: Your entire network can now start using dVPN. You may access the AtomOS interface for further customization by entering 11.22.33.44 or 34.34.34.34 into a web browser.<\/b>\n<div style=\"margin-top:12px;margin-left:22px;\">\n<ul style=\"margin:0px;padding:0px;\">\n<li>Deeper Connect is compatible with all routers so there is no need to replace your current setup.<\/li>\n<li>Phones, computers, tablets, smart TVs, game consoles, and all devices in your network can use VPN simultaneously. \n<\/li>\n<\/ul>\n<\/div>\n<\/div>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "bf01007a-4229-4d90-b1cf-e8cd4e369aab": {
+      "type": "section-image-and-html",
+      "settings": {
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
         "color_text_bg": "palette--light bg--accent",
         "button_label": "",
         "button_link": "",
@@ -493,6 +512,7 @@
     "f7aa4ab3-d824-4341-94a9-7866c766c570",
     "385d80fa-64f7-47db-83ca-7910a32816f7",
     "b636a56a-0d2c-458a-94cf-01b707a28a00",
+    "bf01007a-4229-4d90-b1cf-e8cd4e369aab",
     "165902205642607eb5",
     "165901836227fbd64e",
     "16590241406268af69",
