@@ -205,27 +205,6 @@
         "custom_liquid": "<style>\n\n#shopify-section-template--14639809232966__16590174424ac8dc8b .section--rte p, #shopify-section-template--14639809232966__16590175889a3404d5 .section--rte p{\n  color: #514F6E !important;\n  font-family: 'Montserrat';\n  font-size:14px !important;\n}\n\n#shopify-section-template--14639809232966__16590174424ac8dc8b .section--rte b, #shopify-section-template--14639809232966__16590175889a3404d5 .section--rte b {\n  font-weight:500 !important;\n}\n\n\n#shopify-section-template--14639809232966__16590174424ac8dc8b .section--rte em,  #shopify-section-template--14639809232966__16590175889a3404d5 .section--rte em{\n font-size: calc(var(--font-5) * var(--FONT-ADJUST-HEADING));\n    font-family: var(--FONT-STACK-HEADING);\n    font-weight: var(--FONT-WEIGHT-HEADING);\n    font-style: var(--FONT-STYLE-HEADING);\n}\n\n\n.reason_index{\ndisplay: flex;\nflex-direction: column;\njustify-content: center;\nalign-items: center;\npadding: 10px;\ngap: 10px;\nwidth: 48px;\nheight: 48px;\nbackground: rgba(73, 90, 245, 0.08);\nborder-radius: 16px 16px 2px 16px;\n\/* Inside auto layout *\/\nflex: none;\norder: 0;\nflex-grow: 0;\nfont-weight:600;\n}\n<\/style>"
       }
     },
-    "16590175889a3404d5": {
-      "type": "section-row",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Pico_page_lifetime.png",
-        "bg_position": "center-center",
-        "aspect_ratio": 1,
-        "layout": "left",
-        "title": "",
-        "text": "<p><em>Enterprise-Class Network Security<\/em><\/p><p>The Deeper Connect has enterprise-level security features to protect you and your loved ones. The unique lock-free AtomOS includes a 7-layer firewall with deep packet inspection preventing tracking and intrusions.<\/p><p><em>$0 subscription VPN for LIFE<\/em><\/p><p>Devices around the world are nodes which make up a decentralized network freeing you from having to pay monthly subscriptions and from the control and risk of failure of centralized VPN servers.<\/p><p><em>Block all ads including YouTube's<\/em><\/p><p>Block ALL ads, even YouTube ads (save $144\/year YouTube Premium). Never again deal with annoying ads while browsing or watching videos.<br\/><\/p>",
-        "color_text_bg": "palette--light bg--accent",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn",
-        "button_color": "btn--neutral",
-        "color_bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "165901836227fbd64e": {
       "type": "section-collection-grid",
       "blocks": {
@@ -471,7 +450,6 @@
     "15a3b32e-137f-4c0a-bd66-1a48a1e8da47",
     "f7aa4ab3-d824-4341-94a9-7866c766c570",
     "165902205642607eb5",
-    "16590175889a3404d5",
     "165901836227fbd64e",
     "16590241406268af69",
     "16590192373a087f80",
