@@ -199,6 +199,48 @@
         "padding_bottom": 36
       }
     },
+    "385d80fa-64f7-47db-83ca-7910a32816f7": {
+      "type": "section-text",
+      "blocks": {
+        "template--14681911951430__385d80fa-64f7-47db-83ca-7910a32816f7-16660623233fb6b2f5-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>How to Upgrade Your Home or Office Router with dVPN<\/p>",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "template--14681911951430__385d80fa-64f7-47db-83ca-7910a32816f7-16660623233fb6b2f5-1"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b636a56a-0d2c-458a-94cf-01b707a28a00": {
+      "type": "section-image-and-html",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/How_to_Get_dVPN_Instantly_in_an_Open_Wi-Fi_Network_fa00c0df-a873-49ed-85be-a36b0da613ce.gif",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.7,
+        "layout": "left",
+        "title": "",
+        "text": "",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "165902205642607eb5": {
       "type": "section-liquid",
       "settings": {
@@ -436,28 +478,6 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
-    },
-    "385d80fa-64f7-47db-83ca-7910a32816f7": {
-      "type": "section-text",
-      "blocks": {
-        "template--14681911951430__385d80fa-64f7-47db-83ca-7910a32816f7-16660623233fb6b2f5-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>How to Upgrade Your Home or Office Router with dVPN<\/p>",
-            "text_size": 9
-          }
-        }
-      },
-      "block_order": [
-        "template--14681911951430__385d80fa-64f7-47db-83ca-7910a32816f7-16660623233fb6b2f5-1"
-      ],
-      "settings": {
-        "align_text": "text-left",
-        "color_bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -471,12 +491,13 @@
     "f0d59f9e-6710-4b6d-b129-07b27d786db3",
     "15a3b32e-137f-4c0a-bd66-1a48a1e8da47",
     "f7aa4ab3-d824-4341-94a9-7866c766c570",
+    "385d80fa-64f7-47db-83ca-7910a32816f7",
+    "b636a56a-0d2c-458a-94cf-01b707a28a00",
     "165902205642607eb5",
     "165901836227fbd64e",
     "16590241406268af69",
     "16590192373a087f80",
     "165902591638cc1699",
-    "16590198027f5293b6",
-    "385d80fa-64f7-47db-83ca-7910a32816f7"
+    "16590198027f5293b6"
   ]
 }
