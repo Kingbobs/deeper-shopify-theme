@@ -425,7 +425,7 @@
         "aspect_ratio": 1,
         "layout": "right",
         "title": "",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text": "<div class=\"reason_index\">5<\/div>\n<h2 class=\"h3\">User Friendly Set-up<\/h2>\n<p>Whether you want to upgrade your home network or use VPN while travelling, Deeper Connect can be set-up effortlessly within minutes. Simply plug-in our device to your home router or mobile device and enjoy all of Deeper Connect’s benefits.<\/p>",
         "color_text_bg": "palette--light bg--accent",
         "button_label": "",
         "button_link": "",
