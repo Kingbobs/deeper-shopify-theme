@@ -750,13 +750,27 @@
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
+        },
+        "1d80d829-d095-4e26-a0ec-33a0f96e14e4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "",
+            "price": "",
+            "save": "",
+            "bg_position": "center-center",
+            "link_override": "",
+            "content_color": "#333333",
+            "content_bg": "#ffffff"
+          }
         }
       },
       "block_order": [
         "template--14681911951430__324d06df-90ed-453d-a8d8-4e196336cad9-16660644940b4fce04-0",
         "template--14681911951430__324d06df-90ed-453d-a8d8-4e196336cad9-16660644940b4fce04-1",
         "e9b27e4f-01f4-4b5e-84c5-12ce17a257d7",
-        "d2522009-8ab4-4463-b974-2c5b27012da3"
+        "d2522009-8ab4-4463-b974-2c5b27012da3",
+        "1d80d829-d095-4e26-a0ec-33a0f96e14e4"
       ],
       "settings": {
         "title": "Collection Bunding Sale",
