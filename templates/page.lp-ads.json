@@ -324,7 +324,6 @@
     },
     "16590198027f5293b6": {
       "type": "section-collection-grid",
-      "disabled": true,
       "blocks": {
         "165292947337f714d7-1": {
           "type": "featured_collection",
@@ -447,7 +446,7 @@
         "5ac9a9f6-a672-4213-862d-de2a942ce82d"
       ],
       "settings": {
-        "title": "Take Their Words, Not Ours",
+        "title": "They Love",
         "description": "",
         "grid": 3,
         "color_bg": "palette--light bg--neutral",
