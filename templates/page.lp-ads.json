@@ -305,6 +305,12 @@
         "padding_bottom": 0
       }
     },
+    "1275a04e-244a-453f-bcbd-58cefc02849e": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"top_collections\"><\/div>"
+      }
+    },
     "f4e41124-e167-4d53-935f-868ab1da88bc": {
       "type": "section-collection-product-grid",
       "blocks": {
@@ -685,6 +691,56 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "324d06df-90ed-453d-a8d8-4e196336cad9": {
+      "type": "section-collection-bunding-sale-grid",
+      "blocks": {
+        "template--14681911951430__324d06df-90ed-453d-a8d8-4e196336cad9-16660644940b4fce04-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "",
+            "price": "",
+            "save": "",
+            "bg_position": "center-center",
+            "link_override": "",
+            "content_color": "#333333",
+            "content_bg": "#f7f7f7"
+          }
+        },
+        "template--14681911951430__324d06df-90ed-453d-a8d8-4e196336cad9-16660644940b4fce04-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "",
+            "price": "",
+            "save": "",
+            "bg_position": "center-center",
+            "link_override": "",
+            "content_color": "#333333",
+            "content_bg": "#f7f7f7"
+          }
+        }
+      },
+      "block_order": [
+        "template--14681911951430__324d06df-90ed-453d-a8d8-4e196336cad9-16660644940b4fce04-0",
+        "template--14681911951430__324d06df-90ed-453d-a8d8-4e196336cad9-16660644940b4fce04-1"
+      ],
+      "settings": {
+        "title": "Collection Bunding Sale",
+        "description": "<p>Use this area to describe the collection.<\/p>",
+        "grid": 2,
+        "color_bg": "palette--light bg--neutral",
+        "enable_slider": true,
+        "show_button": false,
+        "aspect_ratio": 0.6,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -703,6 +759,7 @@
     "dd6ec11e-f84b-493a-b686-95c86c9abdeb",
     "bf01007a-4229-4d90-b1cf-e8cd4e369aab",
     "240cd6ab-da11-4331-8f13-f3c8f8d56043",
+    "1275a04e-244a-453f-bcbd-58cefc02849e",
     "f4e41124-e167-4d53-935f-868ab1da88bc",
     "165902205642607eb5",
     "16590241406268af69",
@@ -710,6 +767,7 @@
     "165902591638cc1699",
     "16590198027f5293b6",
     "aef3cba4-373d-47fe-a368-fb500cad6b86",
-    "9aac9cf4-16b5-4f64-8986-298a1de98f2a"
+    "9aac9cf4-16b5-4f64-8986-298a1de98f2a",
+    "324d06df-90ed-453d-a8d8-4e196336cad9"
   ]
 }
