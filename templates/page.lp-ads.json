@@ -741,9 +741,9 @@
           "type": "featured_collection",
           "settings": {
             "collection": "",
-            "text": "<p>Deeper Connect Pico + <br\/>Wi-Fi Adapter * 3<\/p>",
-            "price": "",
-            "save": "",
+            "text": "<p>Deeper Connect Pico + Wi-Fi Adapter * 3<\/p>",
+            "price": "<p>$446.40<\/p>",
+            "save": "<p><strong>40%Off<\/strong> Save $297.60<\/p>",
             "collection_image": "shopify:\/\/shop_images\/Bundle_Deals_page_3pico.png",
             "bg_position": "center-center",
             "link_override": "",
