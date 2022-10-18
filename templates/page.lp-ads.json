@@ -540,7 +540,7 @@
           "settings": {
             "title": "<p>Arnold B<\/p>",
             "from": "Youtube",
-            "text": ""
+            "text": "<p>I have the mini since the whole project launched (mine is good as I was an early adopter and does earn a lot more dpr than the ones you can buy now ). <\/p><p>Nothing but good experience with the company, Eric and the device is fast, reliable and keeps my home network safe seamlessly. <\/p><p>The fact that it earns 60 dpr per day for me is a bonus. Love it.<\/p>"
           }
         }
       },
@@ -561,7 +561,7 @@
         "description": "",
         "grid": 3,
         "color_bg": "palette--light bg--neutral",
-        "enable_slider": true,
+        "enable_slider": false,
         "aspect_ratio": 1,
         "place_text": "flex-column",
         "align_text": "text-center",
