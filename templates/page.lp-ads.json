@@ -643,7 +643,7 @@
             "applicable": "",
             "collection_image": "shopify:\/\/shop_images\/mini.bcc15209.png",
             "bg_position": "center-center",
-            "link_override": "",
+            "link_override": "shopify:\/\/products\/deeper-connect-mini",
             "content_color": "#333333"
           }
         },
