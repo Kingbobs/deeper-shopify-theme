@@ -244,11 +244,12 @@
     "bf01007a-4229-4d90-b1cf-e8cd4e369aab": {
       "type": "section-image-and-html",
       "settings": {
+        "image": "shopify:\/\/shop_images\/How_to_Upgrade_Your_Home_or_Office_Router_with_dVPN_b2775c72-f597-4cb4-9a57-9d341c49c20c.gif",
         "bg_position": "center-center",
-        "aspect_ratio": 1,
-        "layout": "left",
+        "aspect_ratio": 0.7,
+        "layout": "right",
         "title": "Image with text",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text": "<div style=\"font-size:14px\">\n<b>Step 1: Power on Deeper Connect.<\/b><br>\n<br>\n<b>Step 2: Configure Deeper Connect to connect to the open Wi-Fi.<\/b><br>\n<br>\n<b>Step 3: Now all your devices can start using VPN.<\/b>\n<div style=\"margin-top:12px;margin-left:22px;\">\n<ul style=\"margin:0px;padding:0px;\">\n<li>Enjoy VPN while traveling or using an Unsecured Wi-Fi network.<\/li>\n<li>Access VPN on all your portable devices with one VPN.<\/li>\n<\/ul>\n<\/div>\n<\/div>",
         "color_text_bg": "palette--light bg--accent",
         "button_label": "",
         "button_link": "",
