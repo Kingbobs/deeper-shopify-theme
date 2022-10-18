@@ -508,6 +508,14 @@
           "settings": {
             "title": "<p>Miro<\/p>",
             "from": "KS",
+            "text": "<p>Two weeks of Pico usage. Everything works perfectly. <\/p><p>I love how the box has 4 USB-C slots. <\/p><p>The support helped me with the setup and I've found all important information on their clearly laid out support website as well. <\/p><p>There are easy to follow tutorials for DPR mining\/staking too....<\/p>"
+          }
+        },
+        "79354be5-4289-475b-b26d-b0a228763ff4": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "<p>TechyInvestor<\/p>",
+            "from": "Twitter",
             "text": ""
           }
         }
@@ -518,7 +526,8 @@
         "df5a1ad6-d9aa-44e2-8764-4c02b5a22f42",
         "618003e1-dd5e-48f5-9b92-31b459ff9377",
         "05e22bcb-f1bc-4ac0-b6f6-0f6919bc75be",
-        "202f69b7-ea1d-4ad7-82b3-ab8358e5f1ae"
+        "202f69b7-ea1d-4ad7-82b3-ab8358e5f1ae",
+        "79354be5-4289-475b-b26d-b0a228763ff4"
       ],
       "settings": {
         "title": "What Users Say about Deeper Connect",
