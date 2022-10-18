@@ -159,6 +159,46 @@
         "padding_bottom": 36
       }
     },
+    "15a3b32e-137f-4c0a-bd66-1a48a1e8da47": {
+      "type": "section-image-and-html",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/5User_Friendly_Set-up_dc5034db-8e94-4334-901d-302cf8e923be.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "right",
+        "title": "",
+        "text": "<div class=\"reason_index\">5<\/div>\n<h2 class=\"h3\">User Friendly Set-up<\/h2>\n<p>Whether you want to upgrade your home network or use VPN while travelling, Deeper Connect can be set-up effortlessly within minutes. Simply plug-in our device to your home router or mobile device and enjoy all of Deeper Connect’s benefits.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f7aa4ab3-d824-4341-94a9-7866c766c570": {
+      "type": "section-image-and-html",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/6Earn_Passive_Income_from_Blockchain_Mining_a411fc44-f7da-433f-b417-033cb057d848.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "",
+        "text": "<div class=\"reason_index\">6<\/div>\n<h2 class=\"h3\">Earn Passive Income from Blockchain Mining<\/h2>\n<p>Use your Deeper Connect device to earn passive income by lending out your unused bandwidth. No additional hardware or software is needed.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "165902205642607eb5": {
       "type": "section-liquid",
       "settings": {
@@ -417,25 +457,6 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
-    },
-    "15a3b32e-137f-4c0a-bd66-1a48a1e8da47": {
-      "type": "section-image-and-html",
-      "settings": {
-        "bg_position": "center-center",
-        "aspect_ratio": 1,
-        "layout": "right",
-        "title": "",
-        "text": "<div class=\"reason_index\">5<\/div>\n<h2 class=\"h3\">User Friendly Set-up<\/h2>\n<p>Whether you want to upgrade your home network or use VPN while travelling, Deeper Connect can be set-up effortlessly within minutes. Simply plug-in our device to your home router or mobile device and enjoy all of Deeper Connect’s benefits.<\/p>",
-        "color_text_bg": "palette--light bg--accent",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn",
-        "button_color": "btn--neutral",
-        "color_bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -447,13 +468,14 @@
     "f348fee3-d24c-44f9-9024-4f56a5b63624",
     "1f8d9b62-ba85-42be-86cb-f18319ffd360",
     "f0d59f9e-6710-4b6d-b129-07b27d786db3",
+    "15a3b32e-137f-4c0a-bd66-1a48a1e8da47",
+    "f7aa4ab3-d824-4341-94a9-7866c766c570",
     "165902205642607eb5",
     "16590175889a3404d5",
     "165901836227fbd64e",
     "16590241406268af69",
     "16590192373a087f80",
     "165902591638cc1699",
-    "16590198027f5293b6",
-    "15a3b32e-137f-4c0a-bd66-1a48a1e8da47"
+    "16590198027f5293b6"
   ]
 }
