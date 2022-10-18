@@ -492,7 +492,15 @@
           "settings": {
             "title": "<p>Robert Mulhall<\/p>",
             "from": "KS",
-            "text": ""
+            "text": "<p>Amazing! Simple to use and pretty cool looking. <\/p><p>I did not notice any slowing down when using it but I don't have a particularly fast internet anyway. <\/p><p>Very Pleased!<\/p>"
+          }
+        },
+        "05e22bcb-f1bc-4ac0-b6f6-0f6919bc75be": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "<p>Daniel<\/p>",
+            "from": "KS",
+            "text": "<p>I recieved mine an had it in use on a business trip to Africa. <\/p><p>It works great and solves problems like country blocking, easy sharing of internet and so on.<\/p><p>Thanks - great product.<\/p>"
           }
         }
       },
@@ -500,7 +508,8 @@
         "template--14681911951430__aef3cba4-373d-47fe-a368-fb500cad6b86-1666062753cc700a81-0",
         "template--14681911951430__aef3cba4-373d-47fe-a368-fb500cad6b86-1666062753cc700a81-1",
         "df5a1ad6-d9aa-44e2-8764-4c02b5a22f42",
-        "618003e1-dd5e-48f5-9b92-31b459ff9377"
+        "618003e1-dd5e-48f5-9b92-31b459ff9377",
+        "05e22bcb-f1bc-4ac0-b6f6-0f6919bc75be"
       ],
       "settings": {
         "title": "What Users Say about Deeper Connect",
