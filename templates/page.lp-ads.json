@@ -283,6 +283,12 @@
         "padding_bottom": 36
       }
     },
+    "1275a04e-244a-453f-bcbd-58cefc02849e": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"top_collections\"><\/div>"
+      }
+    },
     "240cd6ab-da11-4331-8f13-f3c8f8d56043": {
       "type": "section-text",
       "blocks": {
@@ -303,12 +309,6 @@
         "width": "wrapper",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "1275a04e-244a-453f-bcbd-58cefc02849e": {
-      "type": "section-liquid",
-      "settings": {
-        "custom_liquid": "<div id=\"top_collections\"><\/div>"
       }
     },
     "f4e41124-e167-4d53-935f-868ab1da88bc": {
@@ -805,8 +805,8 @@
     "b636a56a-0d2c-458a-94cf-01b707a28a00",
     "dd6ec11e-f84b-493a-b686-95c86c9abdeb",
     "bf01007a-4229-4d90-b1cf-e8cd4e369aab",
-    "240cd6ab-da11-4331-8f13-f3c8f8d56043",
     "1275a04e-244a-453f-bcbd-58cefc02849e",
+    "240cd6ab-da11-4331-8f13-f3c8f8d56043",
     "f4e41124-e167-4d53-935f-868ab1da88bc",
     "324d06df-90ed-453d-a8d8-4e196336cad9",
     "165902205642607eb5",
