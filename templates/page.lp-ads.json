@@ -24,7 +24,7 @@
             "mobile_image": "shopify:\/\/shop_images\/iphone-pico-new.png",
             "bg_position": "center-center",
             "overlay_opacity": 15,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "title": "Image slideshow",
             "richtext": "<p>Tell your brand's story through images.<\/p>",
             "color_bg": "hero__content--transparent",
@@ -49,71 +49,12 @@
         "padding_bottom": 0
       }
     },
-    "1659017210b762f9c6": {
-      "type": "section-slideshow",
-      "disabled": true,
-      "blocks": {
-        "165901721006ed5392-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/web-mini.png",
-            "mobile_image": "shopify:\/\/shop_images\/mini_c07b4840-82b2-47e7-834b-f9e4ec84a68f.png",
-            "bg_position": "center-center",
-            "overlay_opacity": 15,
-            "overlay_color": "rgba(0,0,0,0)",
-            "title": "Deeper Connect MINI + Wi-Fi Adapter",
-            "richtext": "",
-            "color_bg": "hero__content--transparent",
-            "text_align": "align--bottom-left",
-            "text_color": "text--white",
-            "link_text": "buy now",
-            "link": "shopify:\/\/products\/deeper-connect-mini",
-            "button_size": "",
-            "button_style": "hero__btn btn",
-            "button_color": "btn--primary"
-          }
-        },
-        "165901721006ed5392-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/web-pico.png",
-            "mobile_image": "shopify:\/\/shop_images\/pico_ef5f8e67-3df3-4257-85cc-cafd3b5e4394.png",
-            "bg_position": "center-bottom",
-            "overlay_opacity": 15,
-            "overlay_color": "rgba(0,0,0,0)",
-            "title": "Deeper Connect Pico Wi-Fi Adapter",
-            "richtext": "",
-            "color_bg": "hero__content--transparent",
-            "text_align": "align--bottom-left",
-            "text_color": "text--white",
-            "link_text": "buy now",
-            "link": "shopify:\/\/products\/deeper-connect-pico-wi-fi-adapter",
-            "button_size": "",
-            "button_style": "hero__btn btn",
-            "button_color": "btn--primary"
-          }
-        }
-      },
-      "block_order": [
-        "165901721006ed5392-0",
-        "165901721006ed5392-1"
-      ],
+    "2e218d04-e94d-4794-a25b-b03617bf7042": {
+      "type": "section-decentralized-support",
       "settings": {
-        "autoplay": false,
-        "autoplay_speed": 8,
-        "dots_position": "dots--center",
-        "height": "use_image",
-        "width": "wrapper--none",
-        "padding_top": 0,
-        "padding_bottom": 48
-      }
-    },
-    "1659029797c6bc6e74": {
-      "type": "section-ads-pay-once",
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "width": "wrapper"
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "16590174424ac8dc8b": {
@@ -284,55 +225,6 @@
         "padding_bottom": 36
       }
     },
-    "1659019405a3e22226": {
-      "type": "section-icons",
-      "blocks": {
-        "165901940568d3cf8c-0": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-earth",
-            "icon_alt": "shopify:\/\/shop_images\/18b770ae4cc2c20dcbcaf4e2b4517c14.png",
-            "icon_color": "rgba(0,0,0,0)",
-            "title": "Fast shipping",
-            "text": ""
-          }
-        },
-        "165901940568d3cf8c-1": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-basket-return",
-            "icon_alt": "shopify:\/\/shop_images\/ec609bbf79ee9ecae423f37032946e6a.png",
-            "icon_color": "rgba(0,0,0,0)",
-            "title": "1 year warranty",
-            "text": ""
-          }
-        },
-        "165901940568d3cf8c-2": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-lock-shield",
-            "icon_alt": "shopify:\/\/shop_images\/01e1f87306f5a6a950cab51c59cacd73_998bb3a4-adbe-4d1c-bab0-e54fd48af304.png",
-            "icon_color": "rgba(0,0,0,0)",
-            "title": "7 day refunding",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "165901940568d3cf8c-0",
-        "165901940568d3cf8c-1",
-        "165901940568d3cf8c-2"
-      ],
-      "settings": {
-        "bg": "palette--light bg--neutral",
-        "icon_size": "icon--medium",
-        "alignment": "text-center",
-        "grid": 3,
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 32
-      }
-    },
     "165902591638cc1699": {
       "type": "section-liquid",
       "settings": {
@@ -477,13 +369,34 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "433aec4a-ab0f-43a5-a22d-29ddea40a3b1": {
+      "type": "section-text",
+      "blocks": {
+        "template--14681911951430__433aec4a-ab0f-43a5-a22d-29ddea40a3b1-16660576444a9642e2-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>6 Reasons to Choose Deeper Connect<\/p>",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "template--14681911951430__433aec4a-ab0f-43a5-a22d-29ddea40a3b1-16660576444a9642e2-1"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "d4407a18-d7bd-4fc2-a5c9-0924ba454b62",
-    "1659017210b762f9c6",
-    "1659029797c6bc6e74",
+    "2e218d04-e94d-4794-a25b-b03617bf7042",
     "16590174424ac8dc8b",
     "165902205642607eb5",
     "16590175889a3404d5",
@@ -491,8 +404,8 @@
     "165901836227fbd64e",
     "16590241406268af69",
     "16590192373a087f80",
-    "1659019405a3e22226",
     "165902591638cc1699",
-    "16590198027f5293b6"
+    "16590198027f5293b6",
+    "433aec4a-ab0f-43a5-a22d-29ddea40a3b1"
   ]
 }
