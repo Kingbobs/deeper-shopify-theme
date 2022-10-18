@@ -125,42 +125,6 @@
         "padding_bottom": 36
       }
     },
-    "1659021213e3f24051": {
-      "type": "section-ads-plug-and-play",
-      "blocks": {
-        "16590212137a1b4011-0": {
-          "type": "image",
-          "settings": {
-            "image_link": ""
-          }
-        },
-        "16590212137a1b4011-1": {
-          "type": "image",
-          "settings": {
-            "image_link": ""
-          }
-        },
-        "16590212137a1b4011-2": {
-          "type": "image",
-          "settings": {
-            "image_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16590212137a1b4011-0",
-        "16590212137a1b4011-1",
-        "16590212137a1b4011-2"
-      ],
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "width": "wrapper",
-        "overlay_color": "#000000",
-        "flex_align": "align--middle-left",
-        "color_bg": "hero__content--transparent"
-      }
-    },
     "165901836227fbd64e": {
       "type": "section-collection-grid",
       "blocks": {
@@ -401,7 +365,6 @@
     "16590174424ac8dc8b",
     "165902205642607eb5",
     "16590175889a3404d5",
-    "1659021213e3f24051",
     "165901836227fbd64e",
     "16590241406268af69",
     "16590192373a087f80",
