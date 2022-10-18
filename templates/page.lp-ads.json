@@ -446,7 +446,7 @@
         "5ac9a9f6-a672-4213-862d-de2a942ce82d"
       ],
       "settings": {
-        "title": "They Love",
+        "title": "They Love Deeper Connect",
         "description": "",
         "grid": 3,
         "color_bg": "palette--light bg--neutral",
@@ -458,6 +458,21 @@
         "width": "wrapper",
         "padding_top": 40,
         "padding_bottom": 40
+      }
+    },
+    "9aac9cf4-16b5-4f64-8986-298a1de98f2a": {
+      "type": "section-collection-faq-grid",
+      "settings": {
+        "title": "Collection list",
+        "description": "<p>Use this area to describe the collection.<\/p>",
+        "color_bg": "palette--light bg--neutral",
+        "aspect_ratio": 0.6,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -480,6 +495,7 @@
     "16590241406268af69",
     "16590192373a087f80",
     "165902591638cc1699",
-    "16590198027f5293b6"
+    "16590198027f5293b6",
+    "9aac9cf4-16b5-4f64-8986-298a1de98f2a"
   ]
 }
