@@ -646,11 +646,29 @@
             "link_override": "",
             "content_color": "#333333"
           }
+        },
+        "4fb3859a-4c5a-4211-b1e5-32b39f6b1777": {
+          "type": "featured_collection",
+          "settings": {
+            "heading": "<p>Deeper Connect Wi-Fi Adapter<\/p>",
+            "text": "<p>$29.00<\/p>",
+            "bandwidth": "",
+            "cpu": "",
+            "memory": "",
+            "powerconsumption": "",
+            "tips": "",
+            "interface": "USB Type-C",
+            "applicable": "",
+            "bg_position": "center-center",
+            "link_override": "",
+            "content_color": "#333333"
+          }
         }
       },
       "block_order": [
         "template--14681911951430__f4e41124-e167-4d53-935f-868ab1da88bc-16660635064e40abe5-0",
-        "template--14681911951430__f4e41124-e167-4d53-935f-868ab1da88bc-16660635064e40abe5-1"
+        "template--14681911951430__f4e41124-e167-4d53-935f-868ab1da88bc-16660635064e40abe5-1",
+        "4fb3859a-4c5a-4211-b1e5-32b39f6b1777"
       ],
       "settings": {
         "title": "",
