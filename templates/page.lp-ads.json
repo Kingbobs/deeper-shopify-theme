@@ -79,15 +79,15 @@
         "padding_bottom": 0
       }
     },
-    "16590174424ac8dc8b": {
-      "type": "section-row",
+    "33a917cf-894e-42ef-a224-359879eb69b5": {
+      "type": "section-image-and-html",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Total_product_page__6-1__Real_scene.png",
+        "image": "shopify:\/\/shop_images\/1Unlimited_Connections_to_Unlimited_Locations_5fad4faa-9425-447e-8315-b88ebcb92b56.png",
         "bg_position": "center-center",
         "aspect_ratio": 1,
         "layout": "right",
-        "title": "",
-        "text": "<p><em>Upgrade your router<\/em><\/p><p>Protect all your IoT devices all at once<br\/>Set up a <strong>1-Gbps Deeper Connect Mini <\/strong>to encrypt and secure your home or office network. This includes your mobile phones, laptops, tablets, PCs, TVs, consoles, smart appliances, network extensions and more.<\/p><p><em>Connect your laptop<\/em><\/p><p>Plug a <strong>100Mbps Deeper Pico<\/strong> to your laptop. Surf the open web safely without the risk of being hacked or tracked.<br\/><\/p>",
+        "title": "Unlimited Connections to Unlimited Locations",
+        "text": "Deeper Connect offers all the devices under your network unlimited VPN benefits and connection to any location in the world.",
         "color_text_bg": "palette--light bg--accent",
         "button_label": "",
         "button_link": "",
@@ -95,8 +95,8 @@
         "button_color": "btn--neutral",
         "color_bg": "palette--light bg--neutral",
         "width": "wrapper",
-        "padding_top": 48,
-        "padding_bottom": 48
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "165902205642607eb5": {
@@ -362,7 +362,7 @@
     "d4407a18-d7bd-4fc2-a5c9-0924ba454b62",
     "2e218d04-e94d-4794-a25b-b03617bf7042",
     "433aec4a-ab0f-43a5-a22d-29ddea40a3b1",
-    "16590174424ac8dc8b",
+    "33a917cf-894e-42ef-a224-359879eb69b5",
     "165902205642607eb5",
     "16590175889a3404d5",
     "165901836227fbd64e",
