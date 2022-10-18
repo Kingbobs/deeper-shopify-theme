@@ -476,13 +476,22 @@
           "settings": {
             "title": "<p>SlevinScott<\/p>",
             "from": "Twitter",
+            "text": "<p>I second this statement, amazing device. <\/p><p>Been up and running since 2nd September and not touched it since. <\/p><p>Earned 60 DPR daily and tomorrow move up to tier 3 genesis gold and start earning 120 DPR a day.<\/p>"
+          }
+        },
+        "df5a1ad6-d9aa-44e2-8764-4c02b5a22f42": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "<p>Jatin Kot<\/p>",
+            "from": "IGG",
             "text": ""
           }
         }
       },
       "block_order": [
         "template--14681911951430__aef3cba4-373d-47fe-a368-fb500cad6b86-1666062753cc700a81-0",
-        "template--14681911951430__aef3cba4-373d-47fe-a368-fb500cad6b86-1666062753cc700a81-1"
+        "template--14681911951430__aef3cba4-373d-47fe-a368-fb500cad6b86-1666062753cc700a81-1",
+        "df5a1ad6-d9aa-44e2-8764-4c02b5a22f42"
       ],
       "settings": {
         "title": "What Users Say about Deeper Connect",
