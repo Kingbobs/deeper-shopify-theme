@@ -3,7 +3,106 @@
 <div id="section-feature-protect-your-iot-devices" class="section-row {{ section.settings.color_bg }}" 
   style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px;">
   <div class="{{ section.settings.width }} section-padding">
-    Protect Devices
+    <div class="text__standard" style="margin-bottom: {{ section.settings.padding_bottom }}px">
+      <h1 class="h2 standard__heading heading-size-6" >Protect All Your IoT Devices</h1>
+    <div>
+
+    <div class="overlap">
+      <div class="overlap__item overlap__text">
+        <div id="supports" class="overlap__content__wrapper">          
+          <ul class="mobile--hide small-down--hide small-hide medium--show large--show widescreen--show">
+            <li class="one-seventh">
+              <img  src="{{ 'iocn_iPhoneiPad.png'  | asset_url }}" >
+              <p>iPhone/iPad</p>
+            </li>
+            <li class="one-seventh">
+              <img  src="{{ 'iocn_Android.png'  | asset_url }}" >
+              <p>Android</p>
+            </li>
+            <li class="one-seventh">
+              <img  src="{{ 'icon_Windows.png'  | asset_url }}" >
+              <p>Windows</p>
+            </li>
+            <li class="one-seventh">
+              <img  src="{{ 'icon_Mac.png'  | asset_url }}" >
+              <p>Mac</p>
+            </li>
+            <li class="one-seventh">
+              <img  src="{{ 'icon_Router.png'  | asset_url }}" >
+              <p>Router</p>
+            </li>
+             <li class="one-seventh">
+              <img  src="{{ 'icon_Smart_TV.png'  | asset_url }}" >
+              <p>Smart TV</p>
+            </li>
+            <li class="one-seventh">
+              <img  src="{{ 'icon_Game_Consoles.png'  | asset_url }}" >
+              <p>Game Consoles</p>
+            </li>
+          </ul>
+            <ul class="mobile--show small-down--show small-show medium--hide large--hide widescreen--hide">
+            <li class="one-quarter">
+              <img  src="{{ 'iocn_iPhoneiPad.png'  | asset_url }}" >
+              <p>iPhone/iPad</p>
+            </li>
+            <li class="one-quarter">
+              <img  src="{{ 'iocn_Android.png'  | asset_url }}" >
+              <p>Android</p>
+            </li>
+            <li class="one-quarter">
+              <img  src="{{ 'icon_Windows.png'  | asset_url }}" >
+              <p>Windows</p>
+            </li>
+            <li class="one-quarter">
+              <img  src="{{ 'icon_Mac.png'  | asset_url }}" >
+              <p>Mac</p>
+            </li>
+            <li class="one-quarter">
+              <img  src="{{ 'icon_Router.png'  | asset_url }}" >
+              <p>Router</p>
+            </li>
+            <li class="one-quarter">
+              <img  src="{{ 'icon_Smart_TV.png'  | asset_url }}" >
+              <p>Smart TV</p>
+            </li>
+            <li class="one-quarter">
+              <img  src="{{ 'icon_Game_Consoles.png'  | asset_url }}" >
+              <p>Game Consoles</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="overlap" style="margin-top:16px;">
+      <div class="overlap__item overlap__text">
+        <div class="overlap__content__wrapper">
+          <div class="rte-setting section--rte overlap__rte body-size-2">
+            <p>Deeper Connect protects phones, computers, tablets, smart TVs, game consoles, and all devices in your network.</p>
+            <p>Deeper Connect grants peace of mind and prevents malicious actors from gaining access to your personal information, IoT devices, personal computers, and anything else connected to your network. There is no configuration necessary, once the device is powered on your entire network will be secure.</p>
+          </div>
+        </div>
+      </div>
+      <div class="overlap__item overlap__image">
+        {%- assign right_image = 'protect_1.jpg' | asset_url -%}
+        {%- render 'image-fill', img_object: right_image , bg_position: 'Center', aspect_ratio: 0.58 -%}
+      </div>
+    </div>
+
+    <div class="overlap">
+      <div class="overlap__item overlap__image">
+        {%- assign left_image = 'protect_2.jpg' | asset_url -%}
+        {%- render 'image-fill', img_object: left_image , bg_position: 'Center', aspect_ratio: 0.58 -%}
+      </div>
+      <div class="overlap__item overlap__text">
+        <div class="overlap__content__wrapper">
+          <div class="rte-setting section--rte overlap__rte body-size-2">
+            <p>Deeper  Connect has been designed by top-level network security and distributed systems experts. The company's core technical team are veterans from Google, Palo Alto Networks, VMware, and other industry-leading companies.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 
@@ -11,6 +110,47 @@
   #section-feature-protect-your-iot-devices .text__standard{
     color: #170F49 !important;
     font-weight: 400;
+  }
+  #supports{
+    margin:0;
+    padding: 0;
+  }
+  #supports ul {
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #supports ul li {
+    float: left;
+    text-align: center;
+  }
+
+  #supports ul li img { 
+    width: 30% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #supports ul li p {
+    /* Button/Primary */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin:0px;
+    padding:0px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    /* Text/强调、正文标题 */
+    color: #170F49;
+  }
+  .one-quarter ul li {
+    margin-bottom: 10px !important;
+  } 
+  .one-quarter p {
+    font-size: 12px !important;
   }
 </style>
 
