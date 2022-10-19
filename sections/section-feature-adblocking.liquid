@@ -12,7 +12,7 @@
       </div>
     <div>
 
-    <div class="overlap">
+    <div class="overlap" style="margin-bottom: {{ section.settings.padding_bottom }}px">
       <div class="overlap__item overlap__image">
         {%- assign left_image = 'fadblock_1.jpg' | asset_url -%}
         {%- render 'image-fill', img_object: left_image , bg_position: 'Center', aspect_ratio: 0.58 -%}
