@@ -1,0 +1,264 @@
+<!-- /sections/section-feature-plug-and-play-zero-configuration.liquid -->
+
+<div id="section-feature-plug-and-play-zero-configuration" class="section-row {{ section.settings.color_bg }}" 
+  style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px;">
+  <div class="{{ section.settings.width }} section-padding">
+
+    
+    <div class="text__standard" style="margin-bottom: {{ section.settings.padding_bottom }}px">
+      <h1 class="h2 standard__heading heading-size-6" >Plug-and-Play. Zero Configuration</h1>
+      <div class="standard__rte body-size-2" >
+        <p>
+          Deeper connect is a truly all-in-one solution requiring minimal configuration to connect to all your devices. With the included Wi-Fi adapter, setup the device at home or on the go simply by plugging it in.
+        </p>
+      </div>
+    <div>
+ 
+    <div class="text__standard" style="padding:24px; background-color:#F7F7FB; margin-bottom: {{ section.settings.padding_bottom }}px">
+      <h2 class="h5 standard__heading heading-size-6" >A. Examples and key points</h2>
+      <div style="background-color:#F7F7FB; text-align:center; margin-bottom: {{ section.settings.padding_bottom }}px; display: flex; flex-direction: row;justify-content: space-around; flex-wrap: wrap;">
+        <div class="one-third mobile--one-whole ppImage" style="padding:24px;">
+          <img width="32px" height="32px" src="{{ 'fpnp_ico_1.png' | asset_url }}" />
+          <p style="text-align: left; font-size:14px;">The Pico can function in any network setup, whether at home or on the go. AtomOS enables the Pico to be compatible with all routers/modems while the included Wi-Fi adapter provides you a secure and free internet while traveling.</p>
+        </div>
+        <div class="one-third mobile--one-whole ppImage" style="padding:24px;">
+          <img width="32px" height="32px" src="{{ 'fpnp_ico_2.png' | asset_url }}" />
+          <p style="text-align: left; font-size:14px;">The compact and light weight Pico can be carried in your back pocket, protecting your devices everywhere you go. </p>
+        </div>
+        <div class="one-third mobile--one-whole ppImage" style="padding:24px;">
+          <img width="32px" height="32px" src="{{ 'fpnp_ico_3.png' | asset_url }}" />
+          <p style="text-align: left; font-size:14px;">Setup is simple and intuitive, requiring minimal configuration. After connecting the built in Wi-Fi adapter or a set of included of ethernet cables, you are ready to go.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="text__standard" style="padding:24px;background-color:#F7F7FB; margin-bottom: {{ section.settings.padding_bottom }}px">
+      <h2 class="h5 standard__heading heading-size-6" >B. How to use & further information</h2>
+      <div class="standard__rte body-size-2" >
+        <p>The Pico can be setup in 3 functional configurations. Please refer to the below diagrams for more information.</p>
+      </div>
+      <div style="background-color:#F7F7FB; text-align:center; margin-bottom: {{ section.settings.padding_bottom }}px; display: flex; flex-direction: row;justify-content: space-around; flex-wrap: wrap;">
+        <div class="one-third mobile--one-whole ppImage" style="padding:24px;">
+          <img style="border-radius: 10px;" src="{{ '1.gif' | asset_url }}" />
+          <p style="text-align: left; font-size:14px;">Virtual Wire Mode: Connect the Pico in between the modem and the router via ethernet</p>
+        </div>
+        <div class="one-third mobile--one-whole ppImage" style="padding:24px;">
+          <img style="border-radius: 10px;" src="{{ '2.gif' | asset_url }}" />
+          <p style="text-align: left; font-size:14px;">Router Mode: Plug in the included Wi-Fi adapter to the USB port of the PICO and connect the other side to an integrated modem & router all-in-one device via ethernet</p>
+        </div>
+        <div class="one-third mobile--one-whole ppImage" style="padding:24px;">
+          <img style="border-radius: 10px;" src="{{ '3.gif' | asset_url }}" />
+          <p style="text-align: left; font-size:14px;">Wireless Relay Mode: When travelling or when you wish to use public Wi-Fi, connect the included Wi-Fi adapter to the USB port of the Pico and power the Pico with the included charger or from another device. The Pico can connect to the avaliable Wi-Fi and offer all its exciting features to any device that connects via Wi-Fi to the Pico.</p>
+        </div>
+      </div>
+      <div class="standard__rte body-size-2" style="line-height: 24px;">
+        <p>Follow the link for more information on the setup and usage of Deeper Connect family of devices: <a href="https://deeper-network-inc.gitbook.io/deeper-connect-knowledge-base/installation-and-setup/pico-setup" target="_blank">https://deeper-network-inc.gitbook.io/deeper-connect-knowledge-base/installation-and-setup/pico-setup</a></p>
+        <p>Once the device is set up and running, navigate to a web browser and enter 11.22.33.44 or 34.34.34.34 in the URL bar to access the AtomOS interface where all information, controls and configuration options for the device are available.</p>
+        <p>The default username and password for AtomOS is "admin."</p>
+      </div>
+    </div>
+
+    <div class="text__standard" style="padding:24px;background-color:#F7F7FB; margin-bottom: {{ section.settings.padding_bottom }}px">
+      <h2 class="h5 standard__heading heading-size-6" >C. Image and video content</h2>
+      <div class="standard__rte body-size-2" >
+        <p>Atom OS login and dashboard pages:</p>
+        <p><a href="https://deeper-network-inc.gitbook.io/deeper-connect-knowledge-base/atom-os-functions/dashboard" target="_blank">https://deeper-network-inc.gitbook.io/deeper-connect-knowledge-base/atom-os-functions/dashboard</a></p>
+      </div>
+    </div>
+ 
+</div>
+
+<style>
+  #section-feature-plug-and-play-zero-configuration .text__standard{
+    color: #170F49 !important;
+    font-weight: 400;
+  }
+  #section-feature-plug-and-play-zero-configuration .standard__rte p{
+    margin-bottom: 12px;
+  }
+
+  #section-feature-plug-and-play-zero-configuration a{
+    color: #170F49 !important;
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "Feature Plug-and-Play",
+    "class": "section-section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "select",
+        "id": "bg_position",
+        "label": "Position",
+        "default": "center-center",
+        "options": [
+          { "label": "Top", "value": "center-top" },
+          { "label": "Right", "value": "right-center" },
+          { "label": "Center", "value": "center-center" },
+          { "label": "Left", "value": "left-center" },
+          { "label": "Bottom", "value": "center-bottom" }
+        ]
+      }, 
+      {
+        "type": "range",
+        "id": "aspect_ratio",
+        "min": 0.5,
+        "max": 1.5,
+        "step": 0.1,
+        "unit": ":1",
+        "label": "Photo aspect ratio",
+        "info": "Wide to tall",
+        "default": 1
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "label": "Image placement",
+        "default": "left",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Text"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Image with text"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+      },
+      {
+        "type": "select",
+        "id": "color_text_bg",
+        "label": "Background color",
+        "default": "palette--light bg--accent",
+        "options": [
+          { "value": "palette--light bg--neutral", "label": "Default"},
+          { "value": "palette--light bg--accent", "label": "Light"},
+          { "value": "palette--dark bg--invert", "label": "Dark"},
+          { "value": "palette--dark bg--invert--accent", "label": "Dark accent"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Button"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button label"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link"
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Button style",
+        "default": "btn",
+        "options": [
+          { "value": "btn", "label": "Solid button"},
+          { "value": "btn--soft", "label": "Soft button"},
+          { "value": "btn--outline", "label": "Outlined button"}
+        ]
+      },
+      {
+        "type": "select",
+        "id": "button_color",
+        "label": "Color",
+        "default": "btn--neutral",
+        "options": [
+          { "value": "btn--primary", "label": "Primary accent" },
+          { "value": "btn--secondary", "label": "Secondary accent" },
+          { "value": "btn--neutral", "label": "Text color" },
+          { "value": "btn--black", "label": "Black" },
+          { "value": "btn--white", "label": "White" }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Style"
+      },
+      {
+        "type": "select",
+        "id": "color_bg",
+        "label": "Background color",
+        "default": "palette--light bg--neutral",
+        "options": [
+          { "value": "palette--light bg--neutral", "label": "Default"},
+          { "value": "palette--light bg--accent", "label": "Light"},
+          { "value": "palette--dark bg--invert", "label": "Dark"},
+          { "value": "palette--dark bg--invert--accent", "label": "Dark accent"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Section spacing"
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wrapper",
+        "options": [
+          { "value": "wrapper--full", "label": "Full width padded" },
+          { "value": "wrapper", "label": "Page width" },
+          { "value": "wrapper--narrow", "label": "Page width narrow" }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 36
+      }
+    ],
+    "presets": [
+      {
+        "name": "Feature Plug-and-Play",
+        "category": "Deeper Section"
+      } 
+    ]
+  }
+{% endschema %}
