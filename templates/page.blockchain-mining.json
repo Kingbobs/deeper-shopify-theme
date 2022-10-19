@@ -236,7 +236,7 @@
         "1653670510d380be7a-0": {
           "type": "kicker",
           "settings": {
-            "kicker": "<p><strong>For more information:<\/strong><\/p>",
+            "kicker": "<p><strong>Get more<\/strong><\/p>",
             "enable_caps": false,
             "text_size": 6
           }
@@ -319,7 +319,7 @@
         "color_bg": "palette--light bg--neutral",
         "width": "wrapper",
         "padding_top": 36,
-        "padding_bottom": 0
+        "padding_bottom": 30
       }
     },
     "1654237929d746d1df": {
