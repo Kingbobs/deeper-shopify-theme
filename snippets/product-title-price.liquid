@@ -59,7 +59,7 @@
               {{ current_variant.compare_at_price | money  }}
             {%- endif -%}
           </span>
-        
+        {% comment %}}
           {% if product.metafields.custom.bundle_sale != blank -%}
             {% if product.metafields.custom.bundle_sale.value ==0 -%}
               <span style="color:#F53F3F; font-size:14px;">
@@ -71,6 +71,7 @@
            </span>
             {%- endif -%}
           {%- endif -%}
+          {% endcomment %}}
           <script>
             setTimeout(()=>{
               var showDiscount = false;
