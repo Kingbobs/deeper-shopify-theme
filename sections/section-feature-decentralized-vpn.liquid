@@ -1,0 +1,269 @@
+<!-- /sections/section-feature-decentralized-vpn.liquid -->
+
+<div id="section-feature-decentralized-vpn" class="section-row {{ section.settings.color_bg }}" 
+  style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px;">
+  <div class="{{ section.settings.width }} section-padding">
+
+    
+    <div class="text__standard" style="margin-bottom: {{ section.settings.padding_bottom }}px">
+      <h1 class="h2 standard__heading heading-size-6" >Decentralized VPN(DPN)</h1>
+      <div class="standard__rte body-size-2" >It’s DPN, the better VPN. The worldwide network of Deeper Connect devices enables a fully decentralized VPN experience (DPN)</div>
+    <div>
+
+    <div class="overlap" style="margin-bottom: {{ section.settings.padding_bottom }}px">
+      <div class="overlap__item overlap__image">
+        <img src="{{ 'dpn_vs_vpn.jpg' | asset_url }}" />
+      </div>
+    </div>
+
+    <div class="text__standard" style="margin-bottom: {{ section.settings.padding_bottom }}px">
+      <div class="standard__rte body-size-2" >DPN is capable of Multi-Routing, Smart Routing, and instantly removes all geographic restrictions!</div>
+    <div>
+
+    <div style="background-color:#F7F7FB; margin-bottom: {{ section.settings.padding_bottom }}px; display: flex; flex-direction: row;justify-content: space-around; flex-wrap: wrap;">
+        <div class="one-third mobile--one-whole ppImage">
+          <img
+                loading="lazy" 
+                width="100%"
+                src="{{ 'fdv-01.png' | asset_url }}"                
+                sizes="(min-width: 768px), 90vw, 100vw"/>
+        </div>
+        <div class="one-third mobile--one-whole ppImage">
+          <img
+                loading="lazy" 
+                width="100%"
+                src="{{ 'fdv-02.png' | asset_url }}"                
+                sizes="(min-width: 768px), 90vw, 100vw"/>
+        </div>
+        <div class="one-third mobile--one-whole ppImage">
+          <img
+                loading="lazy"  
+                width="100%"
+                src="{{ 'fdv-03.png' | asset_url }}"                
+                sizes="(min-width: 768px), 90vw, 100vw"/>
+        </div>
+    </div>
+
+    <div class="text__standard" style="margin-bottom: {{ section.settings.padding_bottom }}px">
+      <div class="standard__rte body-size-2" >
+        <p>
+          In the Decentralized Private Network (DPN), each device serves as both client and server and their IP address will automatically be changed based on their routing rules. Deeper Connect can establish up to 16 tunnels simultaneously to nodes all over the world. 
+        </p>
+        <p>
+          Multi-routing empowers the Deeper Connect device to access content from any location with faster speeds and no centralized servers. You can stream a show from Europe while you browse for plane tickets from the US or you can stream the French TV show Chefs while at the same time have your family use US Netflix.
+        </p>
+        <p>
+          Smart Routing intelligently removes geographic restrictions on content by connecting you to countries around the world automatically. Smart Route mode will always choose the fastest tunnel available. For example, if you are accessing content from Europe and Asia simultaneously, Smart Routing will automatically connect to the fastest server in each respective region. You may also customize specific websites to be accessed through personally selected locations.To learn more about DPN, please refer to this article "<a href="https://shop.deeper.network/blogs/news/a-101-on-dpn" target="_blank">A 101 on DPN</a>"
+        </p>
+      </div>
+    <div>
+
+    <div class="overlap" style="margin-bottom: {{ section.settings.padding_bottom }}px">
+      <div class="overlap__item overlap__image">
+        <img src="{{ 'fdv-route.jpg' | asset_url }}" />
+      </div>
+    </div>
+
+    <div class="text__standard" style="margin-bottom: {{ section.settings.padding_bottom }}px">
+      <div class="standard__rte body-size-2" >
+        <b>Price Comparison Between Deeper Connect and Monthly VPN Subscriptions</b>
+      </div>
+    <div>
+
+    <div class="overlap" style="margin-bottom: {{ section.settings.padding_bottom }}px">
+      <div class="overlap__item overlap__image">
+        <img src="{{ 'fdv-comparision.jpg' | asset_url }}" />
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+
+<style>
+  #section-feature-decentralized-vpn .text__standard{
+    color: #170F49 !important;
+    font-weight: 400;
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "Feature Decetralized vpn",
+    "class": "section-section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "select",
+        "id": "bg_position",
+        "label": "Position",
+        "default": "center-center",
+        "options": [
+          { "label": "Top", "value": "center-top" },
+          { "label": "Right", "value": "right-center" },
+          { "label": "Center", "value": "center-center" },
+          { "label": "Left", "value": "left-center" },
+          { "label": "Bottom", "value": "center-bottom" }
+        ]
+      }, 
+      {
+        "type": "range",
+        "id": "aspect_ratio",
+        "min": 0.5,
+        "max": 1.5,
+        "step": 0.1,
+        "unit": ":1",
+        "label": "Photo aspect ratio",
+        "info": "Wide to tall",
+        "default": 1
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "label": "Image placement",
+        "default": "left",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Text"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Image with text"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+      },
+      {
+        "type": "select",
+        "id": "color_text_bg",
+        "label": "Background color",
+        "default": "palette--light bg--accent",
+        "options": [
+          { "value": "palette--light bg--neutral", "label": "Default"},
+          { "value": "palette--light bg--accent", "label": "Light"},
+          { "value": "palette--dark bg--invert", "label": "Dark"},
+          { "value": "palette--dark bg--invert--accent", "label": "Dark accent"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Button"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button label"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link"
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Button style",
+        "default": "btn",
+        "options": [
+          { "value": "btn", "label": "Solid button"},
+          { "value": "btn--soft", "label": "Soft button"},
+          { "value": "btn--outline", "label": "Outlined button"}
+        ]
+      },
+      {
+        "type": "select",
+        "id": "button_color",
+        "label": "Color",
+        "default": "btn--neutral",
+        "options": [
+          { "value": "btn--primary", "label": "Primary accent" },
+          { "value": "btn--secondary", "label": "Secondary accent" },
+          { "value": "btn--neutral", "label": "Text color" },
+          { "value": "btn--black", "label": "Black" },
+          { "value": "btn--white", "label": "White" }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Style"
+      },
+      {
+        "type": "select",
+        "id": "color_bg",
+        "label": "Background color",
+        "default": "palette--light bg--neutral",
+        "options": [
+          { "value": "palette--light bg--neutral", "label": "Default"},
+          { "value": "palette--light bg--accent", "label": "Light"},
+          { "value": "palette--dark bg--invert", "label": "Dark"},
+          { "value": "palette--dark bg--invert--accent", "label": "Dark accent"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Section spacing"
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wrapper",
+        "options": [
+          { "value": "wrapper--full", "label": "Full width padded" },
+          { "value": "wrapper", "label": "Page width" },
+          { "value": "wrapper--narrow", "label": "Page width narrow" }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 36
+      }
+    ],
+    "presets": [
+      {
+        "name": "Feature Decetralized vpn",
+        "category": "Deeper Section"
+      }
+    ]
+  }
+{% endschema %}
