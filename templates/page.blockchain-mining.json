@@ -418,7 +418,7 @@
             "icon_alt": "shopify:\/\/shop_images\/icon-tutorials.png",
             "icon_color": "#51c88e",
             "title": "Tutorials and updates",
-            "text": "<p><a href=\"\/pages\/blog\" target=\"_blank\" title=\"Blog\">https:\/\/shop.deeper.network\/pages\/blog<\/a><\/p>"
+            "text": "<p><a href=\"\/pages\/blog\" target=\"_blank\" title=\"Blog\">https:\/\/shop.deeper.network\/pages\/blog<br\/><br\/><\/a><\/p>"
           }
         }
       },
