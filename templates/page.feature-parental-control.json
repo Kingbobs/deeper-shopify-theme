@@ -13,9 +13,29 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "8e2e14bc-52a3-461a-bc26-b216bee6cf81": {
+      "type": "section-feature-control",
+      "settings": {
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "8e2e14bc-52a3-461a-bc26-b216bee6cf81"
   ]
 }
