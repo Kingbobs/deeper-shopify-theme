@@ -473,6 +473,12 @@
         "padding_top": 0,
         "padding_bottom": 20
       }
+    },
+    "5652fa34-6e4b-415e-a0db-4eccf20645c4": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
     }
   },
   "order": [
@@ -485,6 +491,7 @@
     "1654237929d746d1df",
     "16542411102f1138d8",
     "1654241291f5f9cc7c",
-    "16542414160010e9db"
+    "16542414160010e9db",
+    "5652fa34-6e4b-415e-a0db-4eccf20645c4"
   ]
 }
