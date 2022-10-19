@@ -438,6 +438,7 @@
     },
     "16542414160010e9db": {
       "type": "section-icons",
+      "disabled": true,
       "blocks": {
         "1654241416b10d1a9d-0": {
           "type": "icon_block",
