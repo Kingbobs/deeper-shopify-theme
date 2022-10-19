@@ -237,7 +237,7 @@
         "1664432125195aca53-0": {
           "type": "featured_collection",
           "settings": {
-            "heading": "<p>Deeper Connect Pico + Wi-Fi <br\/>Adapter<\/p>",
+            "heading": "<p>Deeper Connect Pico Set<\/p>",
             "text": "<p><strong>-20%<\/strong> $198.40 <em>$248.00<\/em><\/p>",
             "bandwidth": "100Mbps",
             "cpu": "Quad-Core",
@@ -255,7 +255,7 @@
         "1664432125195aca53-1": {
           "type": "featured_collection",
           "settings": {
-            "heading": "<p>Deeper Connect Mini + Wi-Fi<br\/>Adapter<\/p>",
+            "heading": "<p>Deeper Connect Mini Set<\/p>",
             "text": "<p><strong>-35%<\/strong> $233.35 <em>$359.00<\/em><\/p>",
             "bandwidth": "1Gbps",
             "cpu": "Quad-Core",
@@ -273,7 +273,7 @@
         "76dc3f18-ed77-4e05-a887-504377a3a81b": {
           "type": "featured_collection",
           "settings": {
-            "heading": "<p>Deeper Connect Wi-Fi<br\/>Adapter<\/p>",
+            "heading": "<p>Deeper Connect Wi-Fi Adapter<\/p>",
             "text": "<p>$29.00<\/p>",
             "bandwidth": "",
             "cpu": "",
@@ -316,7 +316,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "",
-            "text": "<p>Deeper Connect Pico+Wi-Fi Adapter <br\/>Deeper Connect Mini+Wi-Fi Adapter <\/p>",
+            "text": "<p>Deeper Connect Pico Set & Mini Set<\/p>",
             "price": "<p><strong>-35%<\/strong> $394.55<\/p>",
             "save": "<p>Save $212.45<\/p>",
             "collection_image": "shopify:\/\/shop_images\/pico_mini_512d0610-c00d-467c-8ec3-951111489da8.png",
@@ -330,7 +330,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "",
-            "text": "<p>Deeper Connect Pico + <br\/>Wi-Fi Adapter * 10<\/p>",
+            "text": "<p>Deeper Connect Pico Set * 10<\/p>",
             "price": "<p><strong>-50%<\/strong> $1240.00<\/p>",
             "save": "<p>Save $1240.00<\/p>",
             "collection_image": "shopify:\/\/shop_images\/pico_10_f26d5a8f-3495-4636-bf9d-bee0e893fba3.png",
@@ -344,7 +344,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "",
-            "text": "<p>Deeper Connect Mini + <br\/>Wi-Fi Adapter * 10<\/p>",
+            "text": "<p>Deeper Connect Mini Set * 10<\/p>",
             "price": "<p><strong>-50%<\/strong> $1795.00<\/p>",
             "save": "<p>Save $1795.00<\/p>",
             "collection_image": "shopify:\/\/shop_images\/mini_10_db36c1eb-6f93-4cc4-8253-b0279bcfbe13.png",
@@ -358,7 +358,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "",
-            "text": "<p>Deeper Connect Pico + <br\/>Wi-Fi Adapter * 3<\/p>",
+            "text": "<p>Deeper Connect Pico Set * 3<\/p>",
             "price": "<p><strong>-40%<\/strong> $446.40<\/p>",
             "save": "<p>Save $297.60<\/p>",
             "collection_image": "shopify:\/\/shop_images\/piao_3_fcbda668-a8e3-41d0-9f9b-002be7847612.png",
@@ -372,7 +372,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "",
-            "text": "<p>Deeper Connect Mini + <br\/>Wi-Fi Adapter * 3<\/p>",
+            "text": "<p>Deeper Connect Mini Set * 3<\/p>",
             "price": "<p><strong>-40%<\/strong> $646.20<\/p>",
             "save": "<p>Save $430.80<\/p>",
             "collection_image": "shopify:\/\/shop_images\/mini_3_6ea5c08f-7c9d-42c0-bc1b-36337a7e5f39.png",
