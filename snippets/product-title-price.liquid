@@ -24,13 +24,6 @@
       </div>
     {%- endif -%}
   </div>
-   {% if  product.metafields.custom.bundle_sale.value ==0  -%}
-   <style>
-    .pico-sale{display: block !important;padding-bottom: 20px;}
-     .product__price__wrap{margin-bottom: 0 !important;}
-     @media (max-width:767px){.pico-sale{padding-top:20px;}}
-   </style>
-     {%- endif -%}
 
   {%- if product.metafields.theme.cutline != blank and product.metafields.theme.cutline.type == 'single_line_text_field' -%}
     <p class="product__cutline">{{ product.metafields.theme.cutline.value }}</p>
