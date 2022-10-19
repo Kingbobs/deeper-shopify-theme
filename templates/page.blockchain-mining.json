@@ -433,7 +433,7 @@
         "grid": 2,
         "width": "wrapper",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 74
       }
     },
     "16542414160010e9db": {
@@ -477,7 +477,7 @@
     "5652fa34-6e4b-415e-a0db-4eccf20645c4": {
       "type": "section-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"section-default-page palette--light bg--neutral\" >\n<div class=\"wrapper section-padding\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0256\/1038\/7504\/files\/diff.jpg?v=1666190354\" \/>\n<\/div>"
+        "custom_liquid": "<div class=\"section-default-page palette--light bg--neutral\" >\n<div class=\"wrapper section-padding\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0256\/1038\/7504\/files\/diff.jpg?v=1666190354\" \/>\n<\/div>\n<\/div>"
       }
     }
   },
