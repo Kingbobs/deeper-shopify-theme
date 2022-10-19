@@ -1,0 +1,216 @@
+<!-- /sections/section-feature-enterprise-grade-security.liquid -->
+
+<div id="section-feature-enterprise-grade-security" class="section-row {{ section.settings.color_bg }}" 
+  style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px;">
+  <div class="{{ section.settings.width }} section-padding">
+
+    
+    <div class="text__standard" style="margin-bottom: {{ section.settings.padding_bottom }}px">
+      <h1 class="h2 standard__heading heading-size-6" >Enterprise grade Security</h1>
+      <div class="standard__rte body-size-2" >
+        <p>Enterprise-grade Cybersecurity that keeps your online data safe and protects all your devices</p>
+        <p>Deeper Connect's enterprise-grade cybersecurity comes with a 7-layer firewall and deep packet inspection that protects your entire family from viruses, Trojans, tracking, and other malicious activities.</p>
+      </div>
+    <div>
+
+    <div class="text__standard" style="margin-bottom: {{ section.settings.padding_bottom }}px">
+      <div class="standard__rte body-size-2" >
+        <p>Deeper Connect comes with a fully featured suite of enterprise-grade security functions to keep you safe while online and protect your IoT devices. Never again worry about you and your family’s safety while browsing online and rest easy knowing that every device in your network is secure.</p>
+        <p>AtomOS, the lock-free operating system running on the Deeper Connect, provides a 7-layer firewall with deep packet inspection, anti-tracking, intrusion prevention and more. These features are typically only found in enterprise-grade cybersecurity products that costs several times more than the Deeper Connect.</p>
+        <p>There is no configuration necessary. Simply power the device on and have peace of mind knowing that your personal information, IoT devices, and anything connected on your network is fully protected by our suite of cybersecurity features. </p>
+      </div>
+    <div>
+ 
+
+    
+
+  </div>
+</div>
+
+<style>
+  #section-feature-enterprise-grade-security .text__standard{
+    color: #170F49 !important;
+    font-weight: 400;
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "Feature Enterprise Grade Security",
+    "class": "section-section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "select",
+        "id": "bg_position",
+        "label": "Position",
+        "default": "center-center",
+        "options": [
+          { "label": "Top", "value": "center-top" },
+          { "label": "Right", "value": "right-center" },
+          { "label": "Center", "value": "center-center" },
+          { "label": "Left", "value": "left-center" },
+          { "label": "Bottom", "value": "center-bottom" }
+        ]
+      }, 
+      {
+        "type": "range",
+        "id": "aspect_ratio",
+        "min": 0.5,
+        "max": 1.5,
+        "step": 0.1,
+        "unit": ":1",
+        "label": "Photo aspect ratio",
+        "info": "Wide to tall",
+        "default": 1
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "label": "Image placement",
+        "default": "left",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Text"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Image with text"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+      },
+      {
+        "type": "select",
+        "id": "color_text_bg",
+        "label": "Background color",
+        "default": "palette--light bg--accent",
+        "options": [
+          { "value": "palette--light bg--neutral", "label": "Default"},
+          { "value": "palette--light bg--accent", "label": "Light"},
+          { "value": "palette--dark bg--invert", "label": "Dark"},
+          { "value": "palette--dark bg--invert--accent", "label": "Dark accent"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Button"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button label"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link"
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Button style",
+        "default": "btn",
+        "options": [
+          { "value": "btn", "label": "Solid button"},
+          { "value": "btn--soft", "label": "Soft button"},
+          { "value": "btn--outline", "label": "Outlined button"}
+        ]
+      },
+      {
+        "type": "select",
+        "id": "button_color",
+        "label": "Color",
+        "default": "btn--neutral",
+        "options": [
+          { "value": "btn--primary", "label": "Primary accent" },
+          { "value": "btn--secondary", "label": "Secondary accent" },
+          { "value": "btn--neutral", "label": "Text color" },
+          { "value": "btn--black", "label": "Black" },
+          { "value": "btn--white", "label": "White" }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Style"
+      },
+      {
+        "type": "select",
+        "id": "color_bg",
+        "label": "Background color",
+        "default": "palette--light bg--neutral",
+        "options": [
+          { "value": "palette--light bg--neutral", "label": "Default"},
+          { "value": "palette--light bg--accent", "label": "Light"},
+          { "value": "palette--dark bg--invert", "label": "Dark"},
+          { "value": "palette--dark bg--invert--accent", "label": "Dark accent"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Section spacing"
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wrapper",
+        "options": [
+          { "value": "wrapper--full", "label": "Full width padded" },
+          { "value": "wrapper", "label": "Page width" },
+          { "value": "wrapper--narrow", "label": "Page width narrow" }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 36
+      }
+    ],
+    "presets": [
+      {
+        "name": "Feature Enterprise Grade Security",
+        "category": "Deeper Section"
+      }
+    ]
+  }
+{% endschema %}
