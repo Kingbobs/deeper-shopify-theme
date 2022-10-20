@@ -309,12 +309,6 @@
         "padding_bottom": 36
       }
     },
-    "165305347057e7d7b3": {
-      "type": "section-liquid",
-      "settings": {
-        "custom_liquid": "<div id=\"\"><\/div>"
-      }
-    },
     "1664468210720f7d9c": {
       "type": "section-collection-bunding-sale-grid",
       "blocks": {
@@ -814,7 +808,6 @@
     "165332318422f9656b",
     "default-collection-grid",
     "1664432125ac4903fe",
-    "165305347057e7d7b3",
     "1664468210720f7d9c",
     "default-row",
     "16529285553c7872d6",
