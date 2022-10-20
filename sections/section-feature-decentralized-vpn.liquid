@@ -70,11 +70,20 @@
       </div>
     <div>
 
-    <div class="overlap" style="margin-bottom: {{ section.settings.padding_bottom }}px">
+    
+
+    <div class="overlap mobile--hide small-down--hide small-hide medium--show large--show widescreen--show" style="margin-bottom: {{ section.settings.padding_bottom }}px">
       <div class="overlap__item overlap__image">
         <img src="{{ 'fdv-comparision.jpg' | asset_url }}" />
       </div>
     </div>
+
+    <div class="overlap mobile--show small-down--show small-show medium--hide large--hide widescreen--hide" style="margin-bottom: {{ section.settings.padding_bottom }}px">
+      <div class="overlap__item overlap__image" style="padding-right: 20px;">
+        <img  src="{{ 'fdv-comparision_mobile.jpg' | asset_url }}" />
+      </div>
+    </div>
+
     
 
   </div>
