@@ -398,5 +398,12 @@
   },
   "date_formats": {
     "month_day_year": "%B %d, %Y"
+  },
+  "shopify": {
+    "checkout": {
+      "order_summary": {
+        "expand_order_summary": "Order summary - Click For Discount Entry"
+      }
+    }
   }
 }
