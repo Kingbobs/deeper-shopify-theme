@@ -80,9 +80,10 @@ display: none;
     </style>
 
     <script>
-      $(function(){
+      setTimeOut(function(){
+        console.log('toggle')
         document.querySelector('.order-summary-toggle').click();
-      })
+      },3000)
     </script>
     
   </body>
