@@ -25,7 +25,7 @@
 {% endunless %}
 
 
-  {{ request.path }}
+<!--   {{ request.path }} -->
 
   
   <meta charset="utf-8">
@@ -322,8 +322,10 @@ button.sca_aff_customer_refer_button{
 
 
 {% unless request.page_type contains "customers/reset_password" %}
-  <!-- Shopify app scripts =========================================================== -->
-  {{ content_for_header }}
+  {% unless request.path contains "/pages/blockchain-mining" %}
+    <!-- Shopify app scripts =========================================================== -->
+    {{ content_for_header }}
+  {% endunless %}      
 {% endunless %}  
   
   
