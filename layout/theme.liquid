@@ -22,7 +22,9 @@
 {% endunless %}
 
 {% unless request.page_type contains "customers/reset_password" %}  
-  <script src="{{ 'getFrom.js' | asset_url }}" defer="defer"></script>
+  {% unless request.path contains "/pages/blockchain-mining" %}
+    <script src="{{ 'getFrom.js' | asset_url }}" defer="defer"></script>
+  {% endunless %}
 {% endunless %}
  
   <meta charset="utf-8">
