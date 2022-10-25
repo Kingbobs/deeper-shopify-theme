@@ -329,8 +329,10 @@ button.sca_aff_customer_refer_button{
 {% endunless %}  
   
   
-
-<script src="{{ 'sca_affiliate.js' | asset_url }}" defer="defer"></script>
+{% unless request.path contains "/pages/blockchain-mining" %}
+  <script src="{{ 'sca_affiliate.js' | asset_url }}" defer="defer"></script>
+{% endunless %}      
+   
 
 {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
 
