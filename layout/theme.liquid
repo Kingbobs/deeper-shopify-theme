@@ -203,10 +203,7 @@ button.sca_aff_customer_refer_button{
       &ndash; {{ shop.name }}
     {%- endunless -%}
   {% endcapture %}
-  <title>
-    {{ seo_title }}
-  </title>
-
+  <title>{{ seo_title }}</title>
   {%- if page_description -%}
     <meta name="description" content="{{ page_description | escape }}">
   {% elsif default_description %}
