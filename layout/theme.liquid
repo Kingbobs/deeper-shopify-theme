@@ -387,7 +387,7 @@ button.sca_aff_customer_refer_button{
   {% endunless %}
   
   
-
+{% unless request.path contains "/pages/blockchain-mining" %}
   <script>
     setTimeout(function(){ 
       for(var index=0; index < $(".collection-grid-item__title").length; index++){
@@ -404,7 +404,7 @@ button.sca_aff_customer_refer_button{
       
     },300)
   </script>
-
+{% endunless %}
 
   
   
