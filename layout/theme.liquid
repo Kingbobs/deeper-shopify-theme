@@ -331,14 +331,12 @@ button.sca_aff_customer_refer_button{
   
 {% unless request.path contains "/pages/blockchain-mining" %}
   <script src="{{ 'sca_affiliate.js' | asset_url }}" defer="defer"></script>
+  {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
+  {% render 'sca-aff-refer-customer' %}
+  {% include 'hulk_po_vd.liquid' %}
 {% endunless %}      
-   
 
-{% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
-
-
-{% render 'sca-aff-refer-customer' %}
-{% include 'hulk_po_vd.liquid' %}</head>
+</head>
 
 
 <body id="{{ page_title | handle }}" class="template-{{ template.name | handle }} {{ settings.decoration_style }} {{ settings.default_background }}" data-animations="{{ settings.animations_enable }}">
