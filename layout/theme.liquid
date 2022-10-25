@@ -393,17 +393,14 @@ button.sca_aff_customer_refer_button{
 
   <script>
     setTimeout(function(){ 
-      
       for(var index=0; index < $(".collection-grid-item__title").length; index++){
         var priceTxt = $(".collection-grid-item__title:eq("+index+") p:nth-child(3) em:nth-child(2)").text().toString();
         var priceTxtSplit = priceTxt.split('.');
         $(".collection-grid-item__title:eq("+index+") p:nth-child(3) em:nth-child(2)").html(priceTxtSplit[0]+".<span style='font-size:12px'>"+priceTxtSplit[1]+"</span>");
-
         priceTxt = $(".collection-grid-item__title:eq("+index+") p:nth-child(3) em:nth-child(3)").text().toString();
         priceTxtSplit = priceTxt.split('.');
         $(".collection-grid-item__title:eq("+index+") p:nth-child(3) em:nth-child(3)").html(priceTxtSplit[0]+".<span style='font-size:12px'>"+priceTxtSplit[1]+"</span>");
       }
-      
 	  if(location.href.indexOf('blockchain-mining') !== -1)  {
        document.getElementsByTagName('iframe')[3].style.display = 'none'; 
       }
