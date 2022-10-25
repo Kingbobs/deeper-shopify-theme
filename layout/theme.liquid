@@ -16,9 +16,10 @@
 </script>
 {% endunless %}
 
-
+{% unless request.path contains "/pages/blockchain-mining" %}
   <script src="{{ 'jquery.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'clipboard.js' | asset_url }}" defer="defer"></script>
+{% endunless %}
 
 {% unless request.page_type contains "customers/reset_password" %}  
   <script src="{{ 'getFrom.js' | asset_url }}" defer="defer"></script>
