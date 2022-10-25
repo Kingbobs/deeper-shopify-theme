@@ -23,7 +23,9 @@
 {% unless request.page_type contains "customers/reset_password" %}  
   <script src="{{ 'getFrom.js' | asset_url }}" defer="defer"></script>
 {% endunless %}
-  
+
+
+  {{ request.path }}
 
   
   <meta charset="utf-8">
