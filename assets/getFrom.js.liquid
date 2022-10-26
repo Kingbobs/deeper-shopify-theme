@@ -57,8 +57,7 @@ _set_var('gb_utm_medium', qs['utm_medium']);
 _set_var('gb_utm_campaign', qs['utm_campaign']);
 
 
-function getGa() {
-  console.log('getGA')
+function getGa() { 
   try {
     var storageGa = window.localStorage.getItem('$$_ga$$')
     var cookieGa = document.cookie.split(';').filter(it => it.match('_ga='))[0].split('=')[1]
@@ -72,8 +71,7 @@ function getGa() {
 
 
 function pageView() {
-
-  console.log('track.js')
+ 
   var session_id = window.gb_ga
   var utm_campaign = window.gb_utm_campaign
   if (!window.gb_ga) {
@@ -81,29 +79,29 @@ function pageView() {
     utm_campaign = window.navigator.userAgent
   }
 
-  console.log('session_id', session_id)
-  fetch('https://dsa.deeper.network/d?' + [
-    'utm_source=' + window.gb_utm_source,
-    'session_id=' + session_id,
-    'utm_medium=' + window.gb_utm_medium,
-    'utm_campaign=' + utm_campaign,
-    'event_name=page_view_' + encodeURIComponent(window.location.href),
-    'from=deeper'
-  ].join('&'))
+  // console.log('session_id', session_id)
+  // fetch('https://dsa.deeper.network/d?' + [
+  //   'utm_source=' + window.gb_utm_source,
+  //   'session_id=' + session_id,
+  //   'utm_medium=' + window.gb_utm_medium,
+  //   'utm_campaign=' + utm_campaign,
+  //   'event_name=page_view_' + encodeURIComponent(window.location.href),
+  //   'from=deeper'
+  // ].join('&'))
 
 
   if (window.location.pathname.indexOf('/products') !== -1) {
 
     let pathname = window.location.pathname.split('/');
 
-    fetch('https://dsa.deeper.network/d?' + [
-      'utm_source=' + window.gb_utm_source,
-      'session_id=' + window.gb_ga,
-      'utm_medium=' + window.gb_utm_medium,
-      'utm_campaign=' + window.gb_utm_campaign,
-      'event_name=' + pathname[pathname.length - 1],
-      'from=deeper'
-    ].join('&'))
+    // fetch('https://dsa.deeper.network/d?' + [
+    //   'utm_source=' + window.gb_utm_source,
+    //   'session_id=' + window.gb_ga,
+    //   'utm_medium=' + window.gb_utm_medium,
+    //   'utm_campaign=' + window.gb_utm_campaign,
+    //   'event_name=' + pathname[pathname.length - 1],
+    //   'from=deeper'
+    // ].join('&'))
   }
 
   if (window.location.href.match(/step=payment_method/)) {
@@ -120,15 +118,15 @@ function pageView() {
     } else {
       address = window.localStorage.getItem('$$address$$') || ''
     }
-    fetch('https://dsa.deeper.network/d?' + [
-      'utm_source=' + window.gb_utm_source,
-      'session_id=' + window.gb_ga,
-      'utm_medium=' + window.gb_utm_medium,
-      'utm_campaign=' + window.gb_utm_campaign,
-      'event_value=' + email + ':' + address,
-      'event_name=payment_method',
-      'from=deeper'
-    ].join('&'))
+    // fetch('https://dsa.deeper.network/d?' + [
+    //   'utm_source=' + window.gb_utm_source,
+    //   'session_id=' + window.gb_ga,
+    //   'utm_medium=' + window.gb_utm_medium,
+    //   'utm_campaign=' + window.gb_utm_campaign,
+    //   'event_value=' + email + ':' + address,
+    //   'event_name=payment_method',
+    //   'from=deeper'
+    // ].join('&'))
 
   } else if (window.location.href.match(/step=shipping_method/)) {
     console.log('start shipping')
@@ -144,15 +142,15 @@ function pageView() {
     } else {
       address = window.localStorage.getItem('$$address$$') || ''
     }
-    fetch('https://dsa.deeper.network/d?' + [
-      'utm_source=' + window.gb_utm_source,
-      'session_id=' + window.gb_ga,
-      'utm_medium=' + window.gb_utm_medium,
-      'utm_campaign=' + window.gb_utm_campaign,
-      'event_value=' + email + ':' + address,
-      'event_name=shipping_method',
-      'from=deeper'
-    ].join('&'))
+    // fetch('https://dsa.deeper.network/d?' + [
+    //   'utm_source=' + window.gb_utm_source,
+    //   'session_id=' + window.gb_ga,
+    //   'utm_medium=' + window.gb_utm_medium,
+    //   'utm_campaign=' + window.gb_utm_campaign,
+    //   'event_value=' + email + ':' + address,
+    //   'event_name=shipping_method',
+    //   'from=deeper'
+    // ].join('&'))
 
   }
 
@@ -162,13 +160,13 @@ function pageView() {
       var dataLayerLatest = window.dataLayer.filter(function (it) {
         return it.event == 'purchase'
       })[0]
-      window.gb_purchase_track_url = "https://dsa.deeper.network/d?from=deeper&utm_source=" + window.gb_utm_source +
-        "&session_id=" + window.gb_ga +
-        "&utm_medium=" + window.gb_utm_medium +
-        "&utm_campaign=" + window.gb_utm_campaign +
-        "&event_name=purchase&event_value=" + dataLayerLatest.ecommerce.transaction_id + ":" + dataLayerLatest.ecommerce.value + ":" + dataLayerLatest.ecommerce.products
+      // window.gb_purchase_track_url = "https://dsa.deeper.network/d?from=deeper&utm_source=" + window.gb_utm_source +
+      //   "&session_id=" + window.gb_ga +
+      //   "&utm_medium=" + window.gb_utm_medium +
+      //   "&utm_campaign=" + window.gb_utm_campaign +
+      //   "&event_name=purchase&event_value=" + dataLayerLatest.ecommerce.transaction_id + ":" + dataLayerLatest.ecommerce.value + ":" + dataLayerLatest.ecommerce.products
 
-      fetch(window.gb_purchase_track_url)
+      // fetch(window.gb_purchase_track_url)
     } catch (e) {
       console.log(e)
     }
@@ -176,31 +174,31 @@ function pageView() {
 
   }
   $(document).on('click', function (e) {
-    if (e.target.innerText == 'Pay now') {
-      console.log('start pay now')
-      fetch('https://dsa.deeper.network/d?' + [
-        'utm_source=' + window.gb_utm_source,
-        'session_id=' + window.gb_ga,
-        'utm_medium=' + window.gb_utm_medium,
-        'utm_campaign=' + window.gb_utm_campaign,
-        'event_name=paynow',
-        'from=deeper'
-      ].join('&'))
-    }
+    // if (e.target.innerText == 'Pay now') {
+    //   console.log('start pay now')
+    //   fetch('https://dsa.deeper.network/d?' + [
+    //     'utm_source=' + window.gb_utm_source,
+    //     'session_id=' + window.gb_ga,
+    //     'utm_medium=' + window.gb_utm_medium,
+    //     'utm_campaign=' + window.gb_utm_campaign,
+    //     'event_name=paynow',
+    //     'from=deeper'
+    //   ].join('&'))
+    // }
 
     if (e.target.tagName == 'svg') {
       console.log('click svg')
       try {
         if ($(e.target).prev()[0].innerText == 'Pay now') {
           console.log('start pay now')
-          fetch('https://dsa.deeper.network/d?' + [
-            'utm_source=' + window.gb_utm_source,
-            'session_id=' + window.gb_ga,
-            'utm_medium=' + window.gb_utm_medium,
-            'utm_campaign=' + window.gb_utm_campaign,
-            'event_name=paynow',
-            'from=deeper'
-          ].join('&'))
+          // fetch('https://dsa.deeper.network/d?' + [
+          //   'utm_source=' + window.gb_utm_source,
+          //   'session_id=' + window.gb_ga,
+          //   'utm_medium=' + window.gb_utm_medium,
+          //   'utm_campaign=' + window.gb_utm_campaign,
+          //   'event_name=paynow',
+          //   'from=deeper'
+          // ].join('&'))
         }
       } catch (e) {
         console.log(e)
@@ -208,14 +206,14 @@ function pageView() {
       try {
         if ($(e.target).parent().prev().text() == ' GooglePay') {
           console.log('start google pay')
-          fetch('https://dsa.deeper.network/d?' + [
-            'utm_source=' + window.gb_utm_source,
-            'session_id=' + window.gb_ga,
-            'utm_medium=' + window.gb_utm_medium,
-            'utm_campaign=' + window.gb_utm_campaign,
-            'event_name=google-pay',
-            'from=deeper'
-          ].join('&'))
+          // fetch('https://dsa.deeper.network/d?' + [
+          //   'utm_source=' + window.gb_utm_source,
+          //   'session_id=' + window.gb_ga,
+          //   'utm_medium=' + window.gb_utm_medium,
+          //   'utm_campaign=' + window.gb_utm_campaign,
+          //   'event_name=google-pay',
+          //   'from=deeper'
+          // ].join('&'))
         }
       } catch (e) {
         console.log(e)
@@ -235,51 +233,51 @@ function pageView() {
     if (e.target.innerText == 'Add to Cart') {
       console.log('start add to cart')
       couponCheck()
-      fetch('https://dsa.deeper.network/d?' + [
-        'utm_source=' + window.gb_utm_source,
-        'session_id=' + window.gb_ga,
-        'utm_medium=' + window.gb_utm_medium,
-        'utm_campaign=' + window.gb_utm_campaign,
-        'event_name=add-to-cart',
-        'from=deeper'
-      ].join('&'))
+      // fetch('https://dsa.deeper.network/d?' + [
+      //   'utm_source=' + window.gb_utm_source,
+      //   'session_id=' + window.gb_ga,
+      //   'utm_medium=' + window.gb_utm_medium,
+      //   'utm_campaign=' + window.gb_utm_campaign,
+      //   'event_name=add-to-cart',
+      //   'from=deeper'
+      // ].join('&'))
     }
 
     if (e.target.innerText == ' ShopPay') {
       console.log('start shoppay')
-      fetch('https://dsa.deeper.network/d?' + [
-        'utm_source=' + window.gb_utm_source,
-        'session_id=' + window.gb_ga,
-        'utm_medium=' + window.gb_utm_medium,
-        'utm_campaign=' + window.gb_utm_campaign,
-        'event_name=shop-pay',
-        'from=deeper'
-      ].join('&'))
+      // fetch('https://dsa.deeper.network/d?' + [
+      //   'utm_source=' + window.gb_utm_source,
+      //   'session_id=' + window.gb_ga,
+      //   'utm_medium=' + window.gb_utm_medium,
+      //   'utm_campaign=' + window.gb_utm_campaign,
+      //   'event_name=shop-pay',
+      //   'from=deeper'
+      // ].join('&'))
     }
 
     if (e.target.innerText == ' GooglePay') {
       console.log('start googlepay')
-      fetch('https://dsa.deeper.network/d?' + [
-        'utm_source=' + window.gb_utm_source,
-        'session_id=' + window.gb_ga,
-        'utm_medium=' + window.gb_utm_medium,
-        'utm_campaign=' + window.gb_utm_campaign,
-        'event_name=google-pay',
-        'from=deeper'
-      ].join('&'))
+      // fetch('https://dsa.deeper.network/d?' + [
+      //   'utm_source=' + window.gb_utm_source,
+      //   'session_id=' + window.gb_ga,
+      //   'utm_medium=' + window.gb_utm_medium,
+      //   'utm_campaign=' + window.gb_utm_campaign,
+      //   'event_name=google-pay',
+      //   'from=deeper'
+      // ].join('&'))
     }
 
     if (e.target.innerText.match('Checkout') && !window.$haveClickCheckout) {
       console.log('start fetch checkouts')
       window.$haveClickCheckout = true
-      fetch('https://dsa.deeper.network/d?' + [
-        'utm_source=' + window.gb_utm_source,
-        'session_id=' + window.gb_ga,
-        'utm_medium=' + window.gb_utm_medium,
-        'utm_campaign=' + window.gb_utm_campaign,
-        'event_name=checkout',
-        'from=deeper'
-      ].join('&'))
+      // fetch('https://dsa.deeper.network/d?' + [
+      //   'utm_source=' + window.gb_utm_source,
+      //   'session_id=' + window.gb_ga,
+      //   'utm_medium=' + window.gb_utm_medium,
+      //   'utm_campaign=' + window.gb_utm_campaign,
+      //   'event_name=checkout',
+      //   'from=deeper'
+      // ].join('&'))
     }
   })
 
@@ -300,13 +298,13 @@ function pageView() {
           email = window.localStorage.getItem('$$email$$') || ''
         }
 
-        fetch('https://dsa.deeper.network/c_f?' + [
-          'email=' + email,
-          'session_id=' + window.gb_ga,
-          'code=' + storeCouponCode.split("|")[0]
-        ].join('&')).then(function () {
-          window.localStorage.setItem('$$couponCode$$', '')
-        })
+        // fetch('https://dsa.deeper.network/c_f?' + [
+        //   'email=' + email,
+        //   'session_id=' + window.gb_ga,
+        //   'code=' + storeCouponCode.split("|")[0]
+        // ].join('&')).then(function () {
+        //   window.localStorage.setItem('$$couponCode$$', '')
+        // })
       })
     }
 
@@ -315,19 +313,19 @@ function pageView() {
   $(document).on('click', '#couponCode', function (e) {
     console.log('click copy coupon')
     var currentCouponCode = $('#couponCode').text();
-    copyToClipboard($('#couponCode').text())
-    selectText("couponCode")
+    // copyToClipboard($('#couponCode').text())
+    // selectText("couponCode")
     $("#copiedSpan").remove()
     $("#couponCode").css("position", "relative")
     $("#couponCode").append("<span style='margin: 0 10px;font-weight: bold; position: absolute; bottom: 110%;left: 50%;transform: translateX(-50%);background: #333;border: 1px solid #000;border-radius: 10px;color: #fff;padding: 5px 10px;font-size: 14px;box-shadow: 0 3px 5px #999;' id='copiedSpan'>Copied</span>")
     setTimeout(function() {
     	$("#copiedSpan").remove()
     }, 5000)
-    fetch('https://dsa.deeper.network/c_a?' + [
-      'email=' + email,
-      'session_id=' + window.gb_ga,
-      'code=' + currentCouponCode
-    ].join('&'))
+    // fetch('https://dsa.deeper.network/c_a?' + [
+    //   'email=' + email,
+    //   'session_id=' + window.gb_ga,
+    //   'code=' + currentCouponCode
+    // ].join('&'))
 
   })
   $(document).on('click', '.navlink--cart', function (e) {
@@ -384,23 +382,23 @@ function couponCheck() {
       $('#couponBox').show()
     },3000);
 
-    fetch('https://dsa.deeper.network/c_g?' + [
-      'email=' + email,
-      'session_id=' + window.gb_ga
-    ].join('&'),{
-      headers:{
-        'Content-Type': 'application/json'
-      }
-    }).then(function (res) {
-      return res.json()
-    }).then(function (res) {
-      console.log(res)
-      var resData = res.code + '|' + res.off
-      if (res.code) {
-        window.localStorage.setItem('$$couponCode$$', resData)
-        // showCouponModal(resData, email)
-      }
-    })
+    // fetch('https://dsa.deeper.network/c_g?' + [
+    //   'email=' + email,
+    //   'session_id=' + window.gb_ga
+    // ].join('&'),{
+    //   headers:{
+    //     'Content-Type': 'application/json'
+    //   }
+    // }).then(function (res) {
+    //   return res.json()
+    // }).then(function (res) {
+    //   console.log(res)
+    //   var resData = res.code + '|' + res.off
+    //   if (res.code) {
+    //     window.localStorage.setItem('$$couponCode$$', resData)
+    //     // showCouponModal(resData, email)
+    //   }
+    // })
   } else {
     $('#couponBox').hide()
   }
@@ -411,22 +409,15 @@ function couponCheck() {
 getGa()
 
 $(function () {
-  console.log('ready getFrom')
   getGa()
   pageView()
-  
-  
   if(window.location.href.split('#').length=== 2) {
-
     setTimeout(function(){
       if(window.location.href.split('#')[1]){
         document.querySelector("[id="+window.location.href.split('#')[1]+"]").scrollIntoView(true);
       }
-    },2000);
-    
+    },2000); 
   }
-  
-  
 })
 
 function getCookie(cname){
