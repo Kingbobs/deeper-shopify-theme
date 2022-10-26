@@ -321,15 +321,10 @@ button.sca_aff_customer_refer_button{
 {% if is_show_app %}
   <!-- Shopify app scripts =========================================================== -->
   {{ content_for_header }}
-{% endif %}
- 
-{% unless request.path contains "/pages/blockchain-mining" %}
-  <script src="{{ 'sca_affiliate.js' | asset_url }}" defer="defer"></script>
   {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}
   {% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
-  {% render 'sca-aff-refer-customer' %}
-  {% include 'hulk_po_vd.liquid' %}
-{% endunless %}      
+{% endif %}
+  
 
 {%- comment -%} Show affiliate {%- endcomment -%}
 {%- assign is_show_app = true -%} 
