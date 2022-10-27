@@ -728,7 +728,7 @@
             "collection_image": "shopify:\/\/shop_images\/6_Action_Crypto_156f0fe5-399e-4001-bc77-ac1f7b35bfd4.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=d2b4yAb9KmQ",
-            "link_override_new_window": false,
+            "link_override_new_window": true,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
