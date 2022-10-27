@@ -108,7 +108,7 @@
         "8caa6896-106c-4be0-a11e-e58996dd7a52": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/web-pico-new.png",
+            "image": "shopify:\/\/shop_images\/web-pico-new.jpg",
             "mobile_image": "shopify:\/\/shop_images\/iphone-pico-new_fcff1ce0-6922-4099-89df-cde72d656d0b.png",
             "bg_position": "center-center",
             "overlay_opacity": 15,
