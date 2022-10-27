@@ -715,7 +715,7 @@
             "collection_image": "shopify:\/\/shop_images\/5_Smart_Tech_cc57f92a-1e63-47a7-aa6d-b8ba7ef2d557.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=4RoFj4XJV20",
-            "link_override_new_window": false,
+            "link_override_new_window": true,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
