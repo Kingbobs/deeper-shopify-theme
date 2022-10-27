@@ -182,6 +182,7 @@
             "collection_image": "shopify:\/\/shop_images\/pico.b7106b34.png",
             "bg_position": "center-center",
             "link_override": "shopify:\/\/products\/deeper-connect-pico-wi-fi-adapter",
+            "link_override_new_window": false,
             "content_color": "#323945",
             "content_bg": "#ffffff"
           }
@@ -194,6 +195,7 @@
             "collection_image": "shopify:\/\/shop_images\/mini.bcc15209.png",
             "bg_position": "center-center",
             "link_override": "shopify:\/\/products\/deeper-connect-mini",
+            "link_override_new_window": false,
             "content_color": "#323945",
             "content_bg": "#ffffff"
           }
@@ -206,6 +208,7 @@
             "collection_image": "shopify:\/\/shop_images\/adapter.097739fb.png",
             "bg_position": "center-center",
             "link_override": "shopify:\/\/products\/deeper-connect-wi-fi-adapter",
+            "link_override_new_window": false,
             "content_color": "#323945",
             "content_bg": "#ffffff"
           }
@@ -660,6 +663,7 @@
             "collection_image": "shopify:\/\/shop_images\/2_Unbox_Therapy_f87e3e47-2f30-4baf-ad0d-24f8d9dd1c9c.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=J-aSuNYmTlk&t=263s",
+            "link_override_new_window": true,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -672,6 +676,7 @@
             "collection_image": "shopify:\/\/shop_images\/2_Jon_Rettinger.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=Y0tr1eZvGeg",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -684,6 +689,7 @@
             "collection_image": "shopify:\/\/shop_images\/3_Jabber_Tech_8ec8db34-5f7b-493b-b470-f57880b26116.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=SDWMvdLoe6Y",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -696,6 +702,7 @@
             "collection_image": "shopify:\/\/shop_images\/4_Full_Value_Dan_69048984-72be-4c1f-bb59-053aed324cf5.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=rieMyHv43zk",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -708,6 +715,7 @@
             "collection_image": "shopify:\/\/shop_images\/5_Smart_Tech_cc57f92a-1e63-47a7-aa6d-b8ba7ef2d557.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=4RoFj4XJV20",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -720,6 +728,7 @@
             "collection_image": "shopify:\/\/shop_images\/6_Action_Crypto_156f0fe5-399e-4001-bc77-ac1f7b35bfd4.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=d2b4yAb9KmQ",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -732,6 +741,7 @@
             "collection_image": "shopify:\/\/shop_images\/7_NextTimeTech_f30be63b-50da-4ffd-ab09-94727f2a476b.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=Ox3EHqQ7p5Q&t=17s",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -744,6 +754,7 @@
             "collection_image": "shopify:\/\/shop_images\/8_JS_e8021b9e-a6b6-400c-abc5-abe3143e119f.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=Ra-xbqynEKQ&t=401s",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -756,6 +767,7 @@
             "collection_image": "shopify:\/\/shop_images\/9_Your_Friend_Andy_be3c98a0-320d-4d67-af83-7404a554488f.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=jys0zx9NQUQ&t=71s",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
