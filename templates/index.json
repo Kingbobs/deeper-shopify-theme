@@ -741,7 +741,7 @@
             "collection_image": "shopify:\/\/shop_images\/7_NextTimeTech_f30be63b-50da-4ffd-ab09-94727f2a476b.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=Ox3EHqQ7p5Q&t=17s",
-            "link_override_new_window": false,
+            "link_override_new_window": true,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -754,7 +754,7 @@
             "collection_image": "shopify:\/\/shop_images\/8_JS_e8021b9e-a6b6-400c-abc5-abe3143e119f.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=Ra-xbqynEKQ&t=401s",
-            "link_override_new_window": false,
+            "link_override_new_window": true,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
