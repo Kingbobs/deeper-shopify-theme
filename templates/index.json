@@ -109,7 +109,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/web-pico-new.png",
-            "mobile_image": "shopify:\/\/shop_images\/iphone-pico-new.png",
+            "mobile_image": "shopify:\/\/shop_images\/iphone-pico-new_fcff1ce0-6922-4099-89df-cde72d656d0b.png",
             "bg_position": "center-center",
             "overlay_opacity": 15,
             "overlay_color": "#000000",
