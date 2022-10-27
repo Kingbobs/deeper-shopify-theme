@@ -23,13 +23,13 @@
   {%- comment -%} <script src="{{ 'clipboard.js' | asset_url }}" defer="defer"></script> {%- endcomment -%}
 {% endunless %}
 
-{%- comment -%} {% unless request.page_type contains "customers/reset_password" %}  
+ {% unless request.page_type contains "customers/reset_password" %}  
   {% unless request.path contains "/pages/blockchain-mining" %}
     {% unless request.path contains "blogs/news" %}
       <script src="{{ 'getFrom.js' | asset_url }}" defer="defer"></script>
     {% endunless %}
   {% endunless %}
-{% endunless %} {%- endcomment -%}
+{% endunless %} 
  
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
