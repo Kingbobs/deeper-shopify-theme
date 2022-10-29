@@ -13,9 +13,8 @@
         },
         "3a04c31a-40f7-4bd2-81b6-b376fe36621a": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "<div class=\"mini-sale mobile--hide medium--show large--show widescreen--hide\" style=\"color:#F53F3F; font-size:14px\">Happy Halloween 35% OFF ends on 11\/05<\/div>"
+            "custom_liquid": "<div class=\"mini-sale mobile--hide medium--show large--show widescreen--hide\" style=\"color:#F53F3F; font-size:14px\">Happy Halloween 35% OFF ends on 11\/05<\/div>\n\n{% if  product.title %}data-slideshow=\"{{ section.settings.grid_large }}\"{% endif %} \n\n\n{{ product.title }}"
           }
         },
         "08b49474-221d-48bd-9790-e0b57b536b01": {
