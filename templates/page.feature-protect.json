@@ -1,5 +1,43 @@
 {
   "sections": {
+    "ddae8a1f-3dea-409c-88ae-03c0d0d2a2b6": {
+      "type": "section-feature-slideshow",
+      "blocks": {
+        "template--14683345682502__ddae8a1f-3dea-409c-88ae-03c0d0d2a2b6-166729368887189b10-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pc-banner-3.png",
+            "mobile_image": "shopify:\/\/shop_images\/phone-banner-3.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "title": "Protect All Your IoT Devices",
+            "mobile_title": "Protect All Your IoT Devices",
+            "richtext": "Prevent malicious actors from accessing your personal <br>information and IoT devices.",
+            "color_bg": "hero__content--transparent",
+            "text_align": "align--bottom-left",
+            "text_color": "text--white",
+            "link_text": "Buy Now",
+            "link": "https:\/\/shop.deeper.network\/#hot-dpn-devices",
+            "button_size": "btn--small",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14683345682502__ddae8a1f-3dea-409c-88ae-03c0d0d2a2b6-166729368887189b10-0"
+      ],
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 8,
+        "dots_position": "dots--right",
+        "height": "use_image",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "page-default",
       "disabled": true,
@@ -35,6 +73,7 @@
     }
   },
   "order": [
+    "ddae8a1f-3dea-409c-88ae-03c0d0d2a2b6",
     "main",
     "b365d749-d4e6-4048-8bb1-ad3b2caf2d7b"
   ]
