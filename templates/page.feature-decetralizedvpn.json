@@ -1,38 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "page-default",
-      "disabled": true,
-      "settings": {
-        "show_title": true,
-        "show_content": true,
-        "alignment": "text-left",
-        "page_nav": "",
-        "bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "448e4fe5-344b-4244-83c7-86f62a4b4c01": {
-      "type": "section-feature-decentralized-vpn",
-      "settings": {
-        "bg_position": "center-center",
-        "aspect_ratio": 1,
-        "layout": "left",
-        "title": "Image with text",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-        "color_text_bg": "palette--light bg--accent",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn",
-        "button_color": "btn--neutral",
-        "color_bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "9428149e-1e0c-4f9f-87c5-07b8f19f0571": {
       "type": "section-feature-slideshow",
       "blocks": {
@@ -70,11 +37,44 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "main": {
+      "type": "page-default",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "448e4fe5-344b-4244-83c7-86f62a4b4c01": {
+      "type": "section-feature-decentralized-vpn",
+      "settings": {
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
+    "9428149e-1e0c-4f9f-87c5-07b8f19f0571",
     "main",
-    "448e4fe5-344b-4244-83c7-86f62a4b4c01",
-    "9428149e-1e0c-4f9f-87c5-07b8f19f0571"
+    "448e4fe5-344b-4244-83c7-86f62a4b4c01"
   ]
 }
