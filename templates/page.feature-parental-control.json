@@ -19,9 +19,9 @@
             "text_color": "text--white",
             "link_text": "Buy Now",
             "link": "https:\/\/shop.deeper.network\/#hot-dpn-devices",
-            "button_size": "btn--large",
+            "button_size": "btn--small",
             "button_style": "hero__btn btn",
-            "button_color": "btn--neutral"
+            "button_color": "btn--primary"
           }
         }
       },
