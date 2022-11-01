@@ -11,17 +11,17 @@
             "bg_position": "center-center",
             "overlay_opacity": 15,
             "overlay_color": "#000",
-            "title": "Image slideshow",
-            "mobile_title": "Image slideshow",
-            "richtext": "Tell your brand's story through images.",
+            "title": "Plug-and-Play with <br>Zero Configuration",
+            "mobile_title": "Plug-and-Play with <br>Zero Configuration",
+            "richtext": "Simply plug in the device to a home router and <br>enjoy all its services within 2 minutes.",
             "color_bg": "hero__content--transparent",
-            "text_align": "align--middle-center",
+            "text_align": "align--bottom-left",
             "text_color": "text--white",
-            "link_text": "View products",
-            "link": "",
-            "button_size": "btn--large",
+            "link_text": "Buy Now",
+            "link": "https:\/\/shop.deeper.network\/#hot-dpn-devices",
+            "button_size": "btn--small",
             "button_style": "hero__btn btn",
-            "button_color": "btn--neutral"
+            "button_color": "btn--primary"
           }
         }
       },
