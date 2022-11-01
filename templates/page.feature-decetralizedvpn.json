@@ -32,10 +32,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "9428149e-1e0c-4f9f-87c5-07b8f19f0571": {
+      "type": "section-feature-slideshow",
+      "blocks": {
+        "template--14683267694662__9428149e-1e0c-4f9f-87c5-07b8f19f0571-1667292556250a4790-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pc-banner-1.png",
+            "mobile_image": "shopify:\/\/shop_images\/phone-banner-1.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "title": "Decentralized Private <br>Network (DPN)",
+            "mobile_title": "Decentralized Private <br> Network (DPN)",
+            "richtext": "A fully decentralized VPN (DPN) experience with <br>unrestricted access to content from any country.",
+            "color_bg": "hero__content--transparent",
+            "text_align": "align--bottom-left",
+            "text_color": "text--white",
+            "link_text": "Buy Now",
+            "link": "https:\/\/shop.deeper.network\/#hot-dpn-devices",
+            "button_size": "btn--small",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14683267694662__9428149e-1e0c-4f9f-87c5-07b8f19f0571-1667292556250a4790-0"
+      ],
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 8,
+        "dots_position": "dots--right",
+        "height": "use_image",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "448e4fe5-344b-4244-83c7-86f62a4b4c01"
+    "448e4fe5-344b-4244-83c7-86f62a4b4c01",
+    "9428149e-1e0c-4f9f-87c5-07b8f19f0571"
   ]
 }
