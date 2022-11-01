@@ -1,5 +1,43 @@
 {
   "sections": {
+    "34e91302-1dd2-497e-8077-04bdcbd36c09": {
+      "type": "section-feature-slideshow",
+      "blocks": {
+        "template--14683388051526__34e91302-1dd2-497e-8077-04bdcbd36c09-16672931717564d748-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pc-banner-5.png",
+            "mobile_image": "shopify:\/\/shop_images\/phone-banner-5.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "title": "Image slideshow",
+            "mobile_title": "Image slideshow",
+            "richtext": "Tell your brand's story through images.",
+            "color_bg": "hero__content--transparent",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "View products",
+            "link": "",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--neutral"
+          }
+        }
+      },
+      "block_order": [
+        "template--14683388051526__34e91302-1dd2-497e-8077-04bdcbd36c09-16672931717564d748-0"
+      ],
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 8,
+        "dots_position": "dots--right",
+        "height": "use_image",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "page-default",
       "disabled": true,
@@ -35,6 +73,7 @@
     }
   },
   "order": [
+    "34e91302-1dd2-497e-8077-04bdcbd36c09",
     "main",
     "d62006e5-12ae-476c-879d-9668400a5204"
   ]
