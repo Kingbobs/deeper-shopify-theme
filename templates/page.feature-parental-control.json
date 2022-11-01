@@ -1,5 +1,43 @@
 {
   "sections": {
+    "f79e0738-2b80-4772-96c7-f8d59e2f2a65": {
+      "type": "section-feature-slideshow",
+      "blocks": {
+        "template--14683382808646__f79e0738-2b80-4772-96c7-f8d59e2f2a65-16672928337badad33-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pc-banner-2.png",
+            "mobile_image": "shopify:\/\/shop_images\/phone-banner-2.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "title": "One-click <br>Parental Control",
+            "mobile_title": "One-click <br>Parental Control",
+            "richtext": "Tell your brand's story through images.",
+            "color_bg": "hero__content--transparent",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "View products",
+            "link": "",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--neutral"
+          }
+        }
+      },
+      "block_order": [
+        "template--14683382808646__f79e0738-2b80-4772-96c7-f8d59e2f2a65-16672928337badad33-0"
+      ],
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 8,
+        "dots_position": "dots--right",
+        "height": "use_image",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "page-default",
       "disabled": true,
@@ -35,6 +73,7 @@
     }
   },
   "order": [
+    "f79e0738-2b80-4772-96c7-f8d59e2f2a65",
     "main",
     "8e2e14bc-52a3-461a-bc26-b216bee6cf81"
   ]
