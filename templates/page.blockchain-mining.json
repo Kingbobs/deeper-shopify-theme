@@ -1,5 +1,43 @@
 {
   "sections": {
+    "4eb27ac7-1cb0-4f07-ba0d-ac1a6b4a9c0f": {
+      "type": "section-feature-slideshow",
+      "blocks": {
+        "template--14681911722054__4eb27ac7-1cb0-4f07-ba0d-ac1a6b4a9c0f-166729333690bbce2d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pc-banner-6.png",
+            "mobile_image": "shopify:\/\/shop_images\/phone-banner-6.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "title": "Blockchain Mining",
+            "mobile_title": "Blockchain Mining",
+            "richtext": "Earn passive income (DPR) by sharing unused <br>internet bandwidth.",
+            "color_bg": "hero__content--transparent",
+            "text_align": "align--bottom-left",
+            "text_color": "text--white",
+            "link_text": "Buy Now",
+            "link": "https:\/\/shop.deeper.network\/#hot-dpn-devices",
+            "button_size": "btn--small",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14681911722054__4eb27ac7-1cb0-4f07-ba0d-ac1a6b4a9c0f-166729333690bbce2d-0"
+      ],
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 8,
+        "dots_position": "dots--right",
+        "height": "use_image",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "page-default",
       "settings": {
@@ -483,6 +521,7 @@
     }
   },
   "order": [
+    "4eb27ac7-1cb0-4f07-ba0d-ac1a6b4a9c0f",
     "main",
     "1653563344bddedd8f",
     "1653651367a9c08e61",
