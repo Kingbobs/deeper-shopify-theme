@@ -1,5 +1,43 @@
 {
   "sections": {
+    "230b7a8f-0e5c-49a7-95f8-4c4e035354b1": {
+      "type": "section-feature-slideshow",
+      "blocks": {
+        "template--14683268612166__230b7a8f-0e5c-49a7-95f8-4c4e035354b1-1667293008001cfb63-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pc-banner-4.png",
+            "mobile_image": "shopify:\/\/shop_images\/phone-banner-4.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "title": "Enterprise-class <br>Cybersecurity",
+            "mobile_title": "Enterprise-class <br>Cybersecurity",
+            "richtext": "With Atom OS and a 7-layer firewall, never <br>worry about your family’s safety online.",
+            "color_bg": "hero__content--transparent",
+            "text_align": "align--bottom-left",
+            "text_color": "text--white",
+            "link_text": "Buy Now",
+            "link": "https:\/\/shop.deeper.network\/#hot-dpn-devices",
+            "button_size": "btn--small",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--14683268612166__230b7a8f-0e5c-49a7-95f8-4c4e035354b1-1667293008001cfb63-0"
+      ],
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 8,
+        "dots_position": "dots--right",
+        "height": "use_image",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "page-default",
       "disabled": true,
@@ -35,6 +73,7 @@
     }
   },
   "order": [
+    "230b7a8f-0e5c-49a7-95f8-4c4e035354b1",
     "main",
     "5eb09644-6bca-4053-bbff-c1d6fbfa10c5"
   ]
