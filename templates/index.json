@@ -234,6 +234,12 @@
         "padding_bottom": 0
       }
     },
+    "3e09aed8-6925-4f9e-8f1c-4447d0b15790": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"hot-dpn-devices\"><\/div>"
+      }
+    },
     "1664432125ac4903fe": {
       "type": "section-collection-product-grid",
       "blocks": {
@@ -813,18 +819,13 @@
         "padding_top": 36,
         "padding_bottom": 80
       }
-    },
-    "3e09aed8-6925-4f9e-8f1c-4447d0b15790": {
-      "type": "section-liquid",
-      "settings": {
-        "custom_liquid": "<div id=\"hot-dpn-devices\"><\/div>"
-      }
     }
   },
   "order": [
     "165305279976bef1ea",
     "165332318422f9656b",
     "default-collection-grid",
+    "3e09aed8-6925-4f9e-8f1c-4447d0b15790",
     "1664432125ac4903fe",
     "1664468210720f7d9c",
     "default-row",
@@ -834,7 +835,6 @@
     "1653057495bc8e242d",
     "1652929141ae5debd0",
     "1652929473fc354603",
-    "16644680684ba41a4f",
-    "3e09aed8-6925-4f9e-8f1c-4447d0b15790"
+    "16644680684ba41a4f"
   ]
 }
