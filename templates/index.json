@@ -436,6 +436,43 @@
         "padding_bottom": 0
       }
     },
+    "eb95b840-5725-453b-bb78-226c4e4903bb": {
+      "type": "section-collection-flash-sale-grid",
+      "blocks": {
+        "template--14683250393158__eb95b840-5725-453b-bb78-226c4e4903bb-166748909511181e5f-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text": "",
+            "price": "",
+            "save": "",
+            "end_date": "2022-12-12",
+            "bg_position": "center-center",
+            "link_override": "",
+            "content_color": "#333333",
+            "content_bg": "#f7f7f7"
+          }
+        }
+      },
+      "block_order": [
+        "template--14683250393158__eb95b840-5725-453b-bb78-226c4e4903bb-166748909511181e5f-0"
+      ],
+      "settings": {
+        "title": "Flash Sale",
+        "description": "<p>Use this area to describe the collection.<\/p>",
+        "grid": 3,
+        "color_bg": "palette--light bg--neutral",
+        "enable_slider": true,
+        "show_button": false,
+        "aspect_ratio": 0.6,
+        "place_text": "flex-column",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16529285553c7872d6": {
       "type": "section-row",
       "disabled": true,
@@ -829,6 +866,7 @@
     "1664432125ac4903fe",
     "1664468210720f7d9c",
     "default-row",
+    "eb95b840-5725-453b-bb78-226c4e4903bb",
     "16529285553c7872d6",
     "16529289311b345b44",
     "1664468206d47d2904",
