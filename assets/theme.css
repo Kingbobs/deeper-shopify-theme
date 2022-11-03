@@ -14918,7 +14918,7 @@ form .errors ul,
   /* line-height: 22px; */
 }
 
-.collection-grid-bunding__save p {
+.collection-grid-bunding__save p, .collection-grid-flash-sale__countdown, .collection-grid-flash-sale__claimed {
   color: #F53F3F;
   font-weight:600;
   font-size:14px;
