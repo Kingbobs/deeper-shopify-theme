@@ -342,7 +342,7 @@
       ],
       "settings": {
         "title": "Flash Sale",
-        "description": "<p>Use this area to describe the collection.<\/p>",
+        "description": "",
         "grid": 3,
         "color_bg": "palette--light bg--neutral",
         "enable_slider": true,
