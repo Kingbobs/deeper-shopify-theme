@@ -3,26 +3,6 @@
     "165305279976bef1ea": {
       "type": "section-slideshow",
       "blocks": {
-        "a2c96330-f222-469f-ba45-2e2f678a6fc5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Halloween_banner-1.png",
-            "mobile_image": "shopify:\/\/shop_images\/Halloween_banner-2.png",
-            "bg_position": "center-center",
-            "overlay_opacity": 15,
-            "overlay_color": "#000000",
-            "title": "halloween-1",
-            "richtext": "<p>Protect your friends and family from internet<br\/>spooks this Halloween!<\/p>",
-            "color_bg": "hero__content--transparent",
-            "text_align": "align--bottom-left",
-            "text_color": "text--white",
-            "link_text": "Buy now",
-            "link": "shopify:\/\/products\/deeper-connect-mini",
-            "button_size": "",
-            "button_style": "hero__btn btn",
-            "button_color": "btn--primary"
-          }
-        },
         "0aa4ab41-0922-4de0-bab1-632942de1d64": {
           "type": "image",
           "settings": {
@@ -127,7 +107,6 @@
         }
       },
       "block_order": [
-        "a2c96330-f222-469f-ba45-2e2f678a6fc5",
         "0aa4ab41-0922-4de0-bab1-632942de1d64",
         "1653052799599a52f8-1",
         "1653052799599a52f8-0",
