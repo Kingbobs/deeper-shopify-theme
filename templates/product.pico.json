@@ -39,6 +39,12 @@
             "title": "<p><strong>Last Summer Day 30% OFF Ends on 10\/12<\/strong><\/p>"
           }
         },
+        "60527cdb-92fc-41f5-95c6-846933a1553a": {
+          "type": "flashsale",
+          "settings": {
+            "end_date": "2022-11-10"
+          }
+        },
         "form": {
           "type": "form",
           "settings": {
@@ -124,6 +130,7 @@
         "41a0eb11-62d6-472e-a511-d70791deedad",
         "d99cbd0f-e24a-4a21-98ea-e8c5f2714732",
         "e790ab12-91b7-4b4a-8eb7-bd158f68711b",
+        "60527cdb-92fc-41f5-95c6-846933a1553a",
         "form",
         "7d2b643c-499d-4616-98ab-6f379379f32b",
         "icon-1",
@@ -441,6 +448,7 @@
             "collection_image": "shopify:\/\/shop_images\/11101653034298_.pic.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=8MABZWV0MrE",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -453,6 +461,7 @@
             "collection_image": "shopify:\/\/shop_images\/11091653034297_.pic.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=wRrpnndq9Zc",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -500,6 +509,7 @@
             "collection_image": "shopify:\/\/shop_images\/2_Unbox_Therapy_f87e3e47-2f30-4baf-ad0d-24f8d9dd1c9c.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=J-aSuNYmTlk&t=263s",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -512,6 +522,7 @@
             "collection_image": "shopify:\/\/shop_images\/2_Jon_Rettinger.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=Y0tr1eZvGeg",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -524,6 +535,7 @@
             "collection_image": "shopify:\/\/shop_images\/3_Jabber_Tech_8ec8db34-5f7b-493b-b470-f57880b26116.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=SDWMvdLoe6Y",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -536,6 +548,7 @@
             "collection_image": "shopify:\/\/shop_images\/4_Full_Value_Dan_69048984-72be-4c1f-bb59-053aed324cf5.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=rieMyHv43zk",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -548,6 +561,7 @@
             "collection_image": "shopify:\/\/shop_images\/5_Smart_Tech_cc57f92a-1e63-47a7-aa6d-b8ba7ef2d557.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=4RoFj4XJV20",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -560,6 +574,7 @@
             "collection_image": "shopify:\/\/shop_images\/6_Action_Crypto_156f0fe5-399e-4001-bc77-ac1f7b35bfd4.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=d2b4yAb9KmQ",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }

@@ -116,6 +116,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "330a2944-651e-48a1-a1d0-9e2cc0899381": {
+          "type": "flashsale",
+          "settings": {
+            "end_date": ""
+          }
         }
       },
       "block_order": [
@@ -131,7 +137,8 @@
         "upsell",
         "description",
         "pickup",
-        "sharing"
+        "sharing",
+        "330a2944-651e-48a1-a1d0-9e2cc0899381"
       ],
       "settings": {
         "bg": "palette--light bg--neutral",
