@@ -11,12 +11,6 @@
             "show_rating_count": false
           }
         },
-        "3a04c31a-40f7-4bd2-81b6-b376fe36621a": {
-          "type": "liquid",
-          "settings": {
-            "custom_liquid": "{% if product.title == \"Deeper Connect Mini Set\" %} \n    <div class=\"mini-sale mobile--hide small--show medium--show large--show widescreen--show\" style=\"color:#F53F3F; font-size:14px;margin-bottom: 10px;\">Happy Halloween 35% OFF ends on 11\/05<\/div>\n{% endif %}"
-          }
-        },
         "08b49474-221d-48bd-9790-e0b57b536b01": {
           "type": "text",
           "disabled": true,
@@ -126,7 +120,6 @@
       },
       "block_order": [
         "title",
-        "3a04c31a-40f7-4bd2-81b6-b376fe36621a",
         "08b49474-221d-48bd-9790-e0b57b536b01",
         "9705c893-fec1-40ee-b298-f7977ac1d017",
         "icon-1",

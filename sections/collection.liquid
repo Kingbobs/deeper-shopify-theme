@@ -152,7 +152,9 @@
         {% endif %}
         <div class="grid grid--uniform">
           {% for product in collection.products %}  
-            {% render 'product-grid-item', product: product, grid_strings: grid_strings %}              
+            {% unless product.url contains "50-off" %}
+              {% render 'product-grid-item', product: product, grid_strings: grid_strings %}              
+            {% endunless %}
           {% else %}
             <div class="grid__item">
               <p>{{ 'collections.general.no_matches' | t }}</p>
