@@ -300,44 +300,6 @@
         "padding_bottom": 36
       }
     },
-    "eb95b840-5725-453b-bb78-226c4e4903bb": {
-      "type": "section-collection-flash-sale-grid",
-      "blocks": {
-        "template--14683250393158__eb95b840-5725-453b-bb78-226c4e4903bb-166748909511181e5f-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "text": "<p>Deeper Connect Pico Set & Mini Set<\/p>",
-            "price": "<p>$198.40 <em>$248.00<\/em><\/p>",
-            "save": "",
-            "collection_image": "shopify:\/\/shop_images\/pico.b7106b34.png",
-            "end_date": "2022-11-10",
-            "bg_position": "center-center",
-            "link_override": "",
-            "content_color": "#333333",
-            "content_bg": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "template--14683250393158__eb95b840-5725-453b-bb78-226c4e4903bb-166748909511181e5f-0"
-      ],
-      "settings": {
-        "title": "Flash Sale",
-        "description": "",
-        "grid": 3,
-        "color_bg": "palette--light bg--neutral",
-        "enable_slider": true,
-        "show_button": false,
-        "aspect_ratio": 0.6,
-        "place_text": "flex-column",
-        "align_text": "text-center",
-        "use_font": "font-heading",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1664468210720f7d9c": {
       "type": "section-collection-bunding-sale-grid",
       "blocks": {
@@ -847,7 +809,6 @@
     "default-collection-grid",
     "3e09aed8-6925-4f9e-8f1c-4447d0b15790",
     "1664432125ac4903fe",
-    "eb95b840-5725-453b-bb78-226c4e4903bb",
     "1664468210720f7d9c",
     "default-row",
     "16529285553c7872d6",
