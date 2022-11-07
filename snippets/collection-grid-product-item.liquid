@@ -50,8 +50,33 @@
     <a href="{{ collection_link }}" class="link-over-image" aria-label="{{ collection_title | strip_html | escape }}">
     </a>
     
-    {%- if img_object != blank -%}
-      {%- render 'image-fill', img_object: img_object, aspect_ratio: aspect_ratio, bg_position: block.settings.bg_position -%}
+    {%- if img_object != blank -%} 
+      {%- assign default_image = 'blank.svg' | asset_url -%}
+      {%- assign image = img_object | default: default_image -%}
+      {%- assign bg_position = block.settings.bg_position | default: "center-top" -%}
+
+      <div class="image__fill" {% if image contains 'blank.svg' %}
+        {%- assign aspect_ratio = aspect_ratio | default: 1 -%}
+        style="padding-top: {{ aspect_ratio | times: 100 }}%;
+                    filter: brightness(.95);"{% elsif aspect_ratio %}
+        style="padding-top: {{ aspect_ratio | times: 100 }}%;
+                    background-image: url('{{ image | img_url: '1x1' }}');"{% else %}
+        style="padding-top: {{ 1 | divided_by: image.aspect_ratio | times: 100 }}%;
+                    background-image: url('{{ image | img_url: '1x1' }}');"{% endif %} data-wipe-background>
+        <div class="background-size-cover lazyload" data-bgset="{% render 'bgset', image: image %}" style="background-position: {{ bg_position | replace: '-', ' ' }};" role="img" aria-label="{{ image.alt | strip_html | escape }}">
+
+          {%- if block.settings.end_date != blank -%}
+          <div style="float:left;margin:10px;">
+            <img width="119px" height="24px" src="{{ "flash-sale-icon.png" | asset_url }}" />
+          </div>
+          {%- endif -%}
+          
+        </div>
+        <noscript>
+          <img src="{{ image | img_url: '720x' }}" alt="{{ image.alt | strip_html | escape }}" class="responsive-wide-image"/>
+        </noscript>
+      </div>
+
     {%- else -%}
       <div class="image__fill" style="padding-top: {{ aspect_ratio | times: 100 }}%">
         <div class="background-size-cover">
@@ -71,6 +96,57 @@
           {%- if block.settings.tips != blank -%}
             <span class="product-limited-time-deal">{{block.settings.tips}}</span>
           {%- endif -%}
+
+          {%- if block.settings.end_date != blank -%}
+            <span id="sale__countdown-item-{{ forloop.index0 }}" class="product-count-down" ></span>
+
+            <script>
+                countDown_flash_sale__{{ forloop.index0  }}();
+
+                function countDown_flash_sale__{{ forloop.index0 }}(){
+                  function addZero(i) {
+                    return i < 10 ? "0" + i : i;
+                  }
+
+                  let activityText = document.querySelector('#sale__countdown-item-{{ forloop.index0 }}');
+                  // let outOfClaimed = document.querySelector('#sale__countdown-flash-sale-claimed-{{ forloop.index0 }}');
+                  let timer = null;
+                  const startTime = new Date();
+                  const endTime = new Date('{{ block.settings.end_date }} 23:59:59');
+                  const nowTime = new Date();
+                  const beginDiff = parseInt((startTime.getTime() - nowTime.getTime()) / 1000);
+                  const endDiff = parseInt((endTime.getTime() - nowTime.getTime()) / 1000);
+                  const leftTime = beginDiff > 0 ? beginDiff : endDiff;
+                  let day = parseInt(leftTime / (24 * 60 * 60))
+                  let hour = parseInt(leftTime / (60 * 60) % 24);
+                  let minute = parseInt(leftTime / 60 % 60);
+                  let second = parseInt(leftTime % 60);
+
+                  // outOfClaimed.innerText = `${1000 - parseInt( leftTime / 60 % 1000)  }`;
+
+                  day = addZero(day);
+                  hour = addZero(hour);
+                  minute = addZero(minute);
+                  second = addZero(second);
+                  let hours = Number(day * 24) + Number(hour);
+
+                  if (beginDiff > 0) {
+                    activityText.innerHTML = `Ends In <b>${hours}</b>&nbsp;:&nbsp;<b>${minute}</b>&nbsp;:&nbsp;<b>${second}</b>`;
+                    timer = setTimeout(countDown_flash_sale__{{ forloop.index0  }}, 1000);
+                  } else if (leftTime <= 0) {
+                    activityText.innerHTML = '00:00:00';
+                    clearTimeout(timer);
+                  } else {
+                    activityText.innerHTML = `Ends In <b>${hours}</b>&nbsp;:&nbsp;<b>${minute}</b>&nbsp;:&nbsp;<b>${second}</b>`;
+                    timer = setTimeout(countDown_flash_sale__{{ forloop.index0  }}, 1000);
+                  }
+                  
+                }
+              </script>
+              
+          {%- endif -%}
+
+          
         </div> 
         <div class="collection-grid-item__spec">
           <ul>
@@ -99,4 +175,4 @@
       </div>
     </div>
   </div>
-</div>
+</div> 

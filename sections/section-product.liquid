@@ -107,6 +107,10 @@
             {% case block.type %}
               {%- when '@app' -%}
                 {% render block %}
+              {% when 'flashsale' %}
+                <div>
+                  <img src="{{"product-flash-sale-icon.png" | asset_url }}" width="119px" height="24px" />
+                </div>
               {% when 'title' %}
                 {% render 'product-title-price', product: product, block: block, section: section, classes: 'product__headline--desktop' %}
               {% when 'form' %}
@@ -747,6 +751,17 @@
         {
           "type": "paragraph",
           "content": "Show customers where they can pick up the product. [Learn more](https://help.shopify.com/en/manual/shipping/setting-up-and-managing-your-shipping/local-methods/local-pickup#show-pickup-availability-to-your-customers)"
+        }
+      ]
+    },
+    {
+      "type":"flashsale",
+      "name":"Flash Sale",
+      "settings":[
+        {
+          "type": "text",
+          "id": "end_date",
+          "label": "End Date"
         }
       ]
     },

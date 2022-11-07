@@ -169,13 +169,13 @@
       {%- endif -%}
      
       <p class="drawer__bottom__meta small"><em>{{ 'cart.general.shipping_at_checkout' | t }}</em></p>
-      <!-- {% if settings.cart_custom_message_enable and settings.cart_custom_message_text != blank %}
+      {% if settings.cart_custom_message_enable and settings.cart_custom_message_text != blank %}
         <div class="drawer__announcement__bar cart--hidden " data-cart-bar style="display: flex; font-size:20px; justify-content:space-between">
           <div>
             <b>FREE SHIPPING</b>
           </div>
         </div>
-      {% endif %} -->
+      {% endif %} 
 
       <div class="drawer__footer__subtotal" data-cart-subtotal>
         {% render 'cart-subtotal' %}

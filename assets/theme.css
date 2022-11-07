@@ -14891,6 +14891,22 @@ form .errors ul,
   background-color: rgba(245, 63, 63, 0.1);;
 }
 
+.product-count-down {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 12px;
+  margin-left:auto;
+  margin-right:auto;
+  color: #F53F3F;
+}
+
+.product-count-down b{
+  background-color: #F53F3F;
+  color: #fff;
+  padding: 2px;
+  font-weight:500;
+}
+
 .collection-grid-item__price{
   height: 30px;
   vertical-align: middle;
