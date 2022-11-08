@@ -99,7 +99,7 @@
     }
 
     let activityText = document.querySelector('#sale__countdown-item-{{ forloop.index }}');
-    let outOfClaimed = document.querySelector('#sale__countdown-flash-sale-claimed-{{ forloop.index }}');
+    // let outOfClaimed = document.querySelector('#sale__countdown-flash-sale-claimed-{{ forloop.index }}');
     let timer = null; 
 
     const startTime = new Date((new Date().getTime() - 15 * 3600 * 1000));
@@ -114,7 +114,7 @@
     let minute = parseInt(leftTime / 60 % 60);
     let second = parseInt(leftTime % 60);
 
-    outOfClaimed.innerText = `${1000 - parseInt( leftTime / 60 % 1000)  }`;
+    //outOfClaimed.innerText = `${1000 - parseInt( leftTime / 60 % 1000)  }`;
 
     day = addZero(day);
     hour = addZero(hour);

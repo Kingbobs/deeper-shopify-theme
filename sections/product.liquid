@@ -170,7 +170,7 @@
                             return i < 10 ? "0" + i : i;
                           }
                           let activityText = document.querySelector('#sale__countdown-item-one-half');
-                          let outOfClaimed = document.querySelector('#sale__countdown-flash-sale-claimed');
+                          // let outOfClaimed = document.querySelector('#sale__countdown-flash-sale-claimed');
                           let timer = null;
                           const startTime = new Date((new Date().getTime() - 15 * 3600 * 1000));
                           const endTime = new Date((new Date('{{ block.settings.end_date }} 23:59:59') - 15 * 3600 * 1000 ));
@@ -184,7 +184,7 @@
                           let minute = parseInt(leftTime / 60 % 60);
                           let second = parseInt(leftTime % 60);
 
-                          outOfClaimed.innerText = `${199 + parseInt( leftTime / 60 % 10)} Left`;
+                          // outOfClaimed.innerText = `${199 + parseInt( leftTime / 60 % 10)} Left`;
 
                           day = addZero(day);
                           hour = addZero(hour);
