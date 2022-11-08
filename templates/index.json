@@ -67,6 +67,7 @@
         },
         "1653052799599a52f8-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/web-mini-new.jpg",
             "mobile_image": "shopify:\/\/shop_images\/iphone-mini-new_c44299d2-ee27-4a8d-9f33-4997c6742033.png",
@@ -108,6 +109,7 @@
         },
         "8caa6896-106c-4be0-a11e-e58996dd7a52": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/web-pico-new.jpg",
             "mobile_image": "shopify:\/\/shop_images\/iphone-pico-new_fcff1ce0-6922-4099-89df-cde72d656d0b.png",
