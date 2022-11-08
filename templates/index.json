@@ -3,6 +3,26 @@
     "165305279976bef1ea": {
       "type": "section-slideshow",
       "blocks": {
+        "4d7aad36-a3e6-4c8e-8bab-92e3092986e8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black-friday-1.png",
+            "mobile_image": "shopify:\/\/shop_images\/black-friday-2.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "title": "",
+            "richtext": "",
+            "color_bg": "hero__content--transparent",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn",
+            "button_color": "btn--neutral"
+          }
+        },
         "0aa4ab41-0922-4de0-bab1-632942de1d64": {
           "type": "image",
           "settings": {
@@ -107,6 +127,7 @@
         }
       },
       "block_order": [
+        "4d7aad36-a3e6-4c8e-8bab-92e3092986e8",
         "0aa4ab41-0922-4de0-bab1-632942de1d64",
         "1653052799599a52f8-1",
         "1653052799599a52f8-0",
