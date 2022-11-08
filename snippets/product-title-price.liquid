@@ -33,14 +33,15 @@
     <div class="product__price__main" data-price-wrapper>
       <span class="product__price">
         <!-- <span style="text-decoration:line-through" {% if current_variant.compare_at_price > current_variant.price %} class="product__price--sale"{% endif %}> -->
-<!--           {%- if settings.currency_code_enable -%}
+        {%- if settings.currency_code_enable -%}
             {{ current_variant.price | money_with_currency }}
           {%- else -%}
             {{ current_variant.price | money }}
           {%- endif -%} 
- -->
-<!--           <b class="product__price_sale_off" style="display:none ;">-30%</b> -->
-          &nbsp;
+
+  <b class="product__price_sale_off" style="display:none ;">-30%</b>
+        -->
+          
         <span class="product__price_sale_price">
               {{ current_variant.price | money }}
         </span>
@@ -51,7 +52,7 @@
               {%- else -%}
               {{ current_variant.compare_at_price | money  }}
             {%- endif -%}
-          </span>
+          </span>&nbsp;
           {% if product.metafields.custom.bundle_sale != blank -%}
     {% if product.metafields.custom.bundle_sale.value ==0 -%}
      <span class="product__price_sale_off product__price_sale_price" >-{{ current_variant.compare_at_price | minus: current_variant.price | times: 100 | divided_by:current_variant.compare_at_price }}% </span>
