@@ -38,10 +38,11 @@
                         }
 
                         let activityText = document.querySelector('#sale__countdown-item');
-                        let timer = null;
-                        const startTime = new Date();
-                        const endTime = new Date('{{ block.settings.end_date }} 23:59:59');
-                        const nowTime = new Date();
+                        let timer = null; 
+                        const startTime = new Date((new Date().getTime() - 15 * 3600 * 1000));
+                        const endTime = new Date((new Date('{{ block.settings.end_date }} 23:59:59') - 15 * 3600 * 1000 ));
+                        const nowTime = new Date((new Date().getTime() - 15 * 3600 * 1000));
+
                         const beginDiff = parseInt((startTime.getTime() - nowTime.getTime()) / 1000);
                         const endDiff = parseInt((endTime.getTime() - nowTime.getTime()) / 1000);
                         const leftTime = beginDiff > 0 ? beginDiff : endDiff;
@@ -171,10 +172,10 @@
                           let activityText = document.querySelector('#sale__countdown-item-one-half');
                           let outOfClaimed = document.querySelector('#sale__countdown-flash-sale-claimed');
                           let timer = null;
-                          const startTime = new Date();
-                          const endTime = new Date('{{ block.settings.end_date }} 23:59:59');
-                          console.log(`{{ block.settings.end_date }}`);
-                          const nowTime = new Date();
+                          const startTime = new Date((new Date().getTime() - 15 * 3600 * 1000));
+                          const endTime = new Date((new Date('{{ block.settings.end_date }} 23:59:59') - 15 * 3600 * 1000 ));
+                          const nowTime = new Date((new Date().getTime() - 15 * 3600 * 1000));
+                         
                           const beginDiff = parseInt((startTime.getTime() - nowTime.getTime()) / 1000);
                           const endDiff = parseInt((endTime.getTime() - nowTime.getTime()) / 1000);
                           const leftTime = beginDiff > 0 ? beginDiff : endDiff;

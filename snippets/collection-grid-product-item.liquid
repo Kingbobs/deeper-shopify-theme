@@ -111,9 +111,10 @@
                   let activityText = document.querySelector('#sale__countdown-item-{{ forloop.index0 }}');
                   // let outOfClaimed = document.querySelector('#sale__countdown-flash-sale-claimed-{{ forloop.index0 }}');
                   let timer = null;
-                  const startTime = new Date();
-                  const endTime = new Date('{{ block.settings.end_date }} 23:59:59');
-                  const nowTime = new Date();
+                  const startTime = new Date((new Date().getTime() - 15 * 3600 * 1000));
+                  const endTime = new Date((new Date('{{ block.settings.end_date }} 23:59:59') - 15 * 3600 * 1000 ));
+                  const nowTime = new Date((new Date().getTime() - 15 * 3600 * 1000));
+
                   const beginDiff = parseInt((startTime.getTime() - nowTime.getTime()) / 1000);
                   const endDiff = parseInt((endTime.getTime() - nowTime.getTime()) / 1000);
                   const leftTime = beginDiff > 0 ? beginDiff : endDiff;
