@@ -170,10 +170,8 @@
      
       <p class="drawer__bottom__meta small"><em>{{ 'cart.general.shipping_at_checkout' | t }}</em></p>
       {% if settings.cart_custom_message_enable and settings.cart_custom_message_text != blank %}
-        <div class="drawer__announcement__bar cart--hidden " data-cart-bar style="display: flex; font-size:20px; justify-content:space-between">
-          <div>
-            <b>FREE SHIPPING</b>
-          </div>
+        <div class="drawer__announcement__bar cart--hidden " data-cart-bar style="border:none !important; padding: 0px !important; background:none !important;display: flex; font-size:20px; justify-content:space-between">
+          <img src="{{ 'freeshipping.jpg' | asset_url }}" style="width:99%" />
         </div>
       {% endif %} 
 
