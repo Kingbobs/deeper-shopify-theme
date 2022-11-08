@@ -25,7 +25,7 @@
             {% when 'title' %}
               {% render 'product-title-price', product: product, block: block, section: section, classes: 'product__headline--mobile' %}
             {% when 'flashsale' %}
-              {% if product.title === 'Deeper Connect Pico Set' %}
+              {% if product.title == 'Deeper Connect Pico Set' %}
                 <div>
                   <img src="{{ "product-flash-sale-icon.png" | asset_url}}" width="119px" height="24px">
                   <div id="sale__countdown-item"></div>
@@ -158,7 +158,7 @@
                   {% render 'product-form', product: product, block: block, section: section %}
                 </div>
               {% when 'flashsale' %}
-                {% if product.title === 'Deeper Connect Pico Set' %}
+                {% if product.title == 'Deeper Connect Pico Set' %}
                   <div class="product-countdown">
                     <img src="{{ "product-flash-sale-icon.png" | asset_url}}" width="119px" height="24px">
                     <div id="sale__countdown-item-one-half" class="product-countdown-box"></div>
@@ -183,7 +183,7 @@
                           let minute = parseInt(leftTime / 60 % 60);
                           let second = parseInt(leftTime % 60);
 
-                          outOfClaimed.innerText = `${199 + parseInt( leftTime / 60 % 1000)} Left`;
+                          outOfClaimed.innerText = `${199 + parseInt( leftTime / 60 % 10)} Left`;
 
                           day = addZero(day);
                           hour = addZero(hour);
