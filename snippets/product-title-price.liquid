@@ -45,7 +45,7 @@
         <span class="product__price_sale_off">
           {{ current_variant.price | money }}
         </span>
-        &nbsp; 
+
           <span class="product__price_sale_compare_price" style="margin:0 10px;">
           {% if product.metafields.custom.bundle_sale != blank and product.metafields.custom.bundle_sale.value !=0 -%}
            {{ current_variant.price | divided_by:product.metafields.custom.bundle_sale | times: 100 | money }}
