@@ -32,13 +32,6 @@
   <div class="product__price__wrap">
     <div class="product__price__main" data-price-wrapper>
       <span class="product__price">
-  {% if product.metafields.custom.bundle_sale != blank -%}
-    {% if product.metafields.custom.bundle_sale.value ==0 -%}
-     <span class="product__price_sale_off" >-{{ current_variant.compare_at_price | minus: current_variant.price | times: 100 | divided_by:current_variant.compare_at_price }}% </span>
-    {%- else -%}
-        <span class="product__price_sale_off" >-{{ 100 | minus: product.metafields.custom.bundle_sale.value | append: "%" }}</span>
-    {%- endif -%}
-  {%- endif -%}
         <!-- <span style="text-decoration:line-through" {% if current_variant.compare_at_price > current_variant.price %} class="product__price--sale"{% endif %}> -->
 <!--           {%- if settings.currency_code_enable -%}
             {{ current_variant.price | money_with_currency }}
@@ -59,6 +52,13 @@
               {{ current_variant.compare_at_price | money  }}
             {%- endif -%}
           </span>
+          {% if product.metafields.custom.bundle_sale != blank -%}
+    {% if product.metafields.custom.bundle_sale.value ==0 -%}
+     <span class="product__price_sale_price" >-{{ current_variant.compare_at_price | minus: current_variant.price | times: 100 | divided_by:current_variant.compare_at_price }}% </span>
+    {%- else -%}
+        <span class="product__price_sale_price" >-{{ 100 | minus: product.metafields.custom.bundle_sale.value | append: "%" }}</span>
+    {%- endif -%}
+  {%- endif -%}
         {% comment %}}
           {% if product.metafields.custom.bundle_sale != blank -%}
             {% if product.metafields.custom.bundle_sale.value ==0 -%}
