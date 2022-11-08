@@ -319,6 +319,7 @@
         },
         "1664468209e6fd3f24-1": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "text": "<p>Deeper Connect Pico Set * 10<\/p>",
@@ -333,6 +334,7 @@
         },
         "cd451d0d-13ba-47c0-990a-772c642b66f2": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "text": "<p>Deeper Connect Mini Set * 10<\/p>",
