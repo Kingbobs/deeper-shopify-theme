@@ -130,10 +130,41 @@
       <div data-cart-form data-cart-loading>
         <div data-line-items>
         </div>
+        
       </div>
       <div id="couponBox" style="font-size: 22px;text-align: center;margin-top:50px;">
 <!--         <div><img src="{{ 'cart.jpg' | asset_url }}" style="width:90%" /></div> -->
-        <!-- <div id="couponCode"></div> -->
+        <div class="drawer__announcement__bar cart--hidden " data-cart-bar style="border:none !important;   background:none !important; font-size:20px; justify-content:space-between">
+          <div id="couponCode" onclick="copyToClipboard('FREESHIP');" style="margin:10px;">
+            Enjoy Free Shipping code: <span style="color:#f00;text-decoration:underline !important;">FREESHIP</span>
+          </div>
+          <div>
+            <img src="{{ 'freeshipping.jpg' | asset_url }}" style="width:99%" />
+          </div>
+        </div>
+        <script>
+          function copyToClipboard(text) {
+              if (navigator.clipboard) {
+                  // clipboard api 复制
+                  navigator.clipboard.writeText(text);
+              } else {
+                  var textarea = document.createElement('textarea');
+                  document.body.appendChild(textarea);
+                  // 隐藏此输入框
+                  textarea.style.position = 'fixed';
+                  textarea.style.clip = 'rect(0 0 0 0)';
+                  textarea.style.top = '10px';
+                  // 赋值
+                  textarea.value = text;
+                  // 选中
+                  textarea.select();
+                  // 复制
+                  document.execCommand('copy', true);
+                  // 移除输入框
+                  document.body.removeChild(textarea);
+              }
+            }
+        </script>
       </div>
  
       
@@ -170,9 +201,7 @@
      
       <p class="drawer__bottom__meta small"><em>{{ 'cart.general.shipping_at_checkout' | t }}</em></p>
       {% if settings.cart_custom_message_enable and settings.cart_custom_message_text != blank %}
-        <div class="drawer__announcement__bar cart--hidden " data-cart-bar style="border:none !important; padding: 0px !important; background:none !important;display: flex; font-size:20px; justify-content:space-between">
-          <img src="{{ 'freeshipping.jpg' | asset_url }}" style="width:99%" />
-        </div>
+        <div class="drawer__announcement__bar cart--hidden " data-cart-bar style="display: flex; font-size:20px; justify-content:space-between"></div>
       {% endif %} 
 
       <div class="drawer__footer__subtotal" data-cart-subtotal>

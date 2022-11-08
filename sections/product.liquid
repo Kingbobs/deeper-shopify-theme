@@ -25,55 +25,54 @@
             {% when 'title' %}
               {% render 'product-title-price', product: product, block: block, section: section, classes: 'product__headline--mobile' %}
             {% when 'flashsale' %}
-              <div>
-                <img src="{{ "product-flash-sale-icon.png" | asset_url}}" width="119px" height="24px">
+              {% if product.title === 'Deeper Connect Pico Set' %}
+                <div>
+                  <img src="{{ "product-flash-sale-icon.png" | asset_url}}" width="119px" height="24px">
+                  <div id="sale__countdown-item"></div>
+                  <script>
+                      countDown_flash_sale();
 
-                <div id="sale__countdown-item">111</div>
+                      function countDown_flash_sale(){ 
+                        function addZero(i) {
+                          return i < 10 ? "0" + i : i;
+                        }
 
-                <script>
-                    countDown_flash_sale();
+                        let activityText = document.querySelector('#sale__countdown-item');
+                        let timer = null;
+                        const startTime = new Date();
+                        const endTime = new Date('{{ block.settings.end_date }} 23:59:59');
+                        const nowTime = new Date();
+                        const beginDiff = parseInt((startTime.getTime() - nowTime.getTime()) / 1000);
+                        const endDiff = parseInt((endTime.getTime() - nowTime.getTime()) / 1000);
+                        const leftTime = beginDiff > 0 ? beginDiff : endDiff;
+                        let day = parseInt(leftTime / (24 * 60 * 60))
+                        let hour = parseInt(leftTime / (60 * 60) % 24);
+                        let minute = parseInt(leftTime / 60 % 60);
+                        let second = parseInt(leftTime % 60);
 
-                    function countDown_flash_sale(){ 
-                      function addZero(i) {
-                        return i < 10 ? "0" + i : i;
+                        // outOfClaimed.innerText = `${1000 - parseInt( leftTime / 60 % 1000)  }`;
+
+                        day = addZero(day);
+                        hour = addZero(hour);
+                        minute = addZero(minute);
+                        second = addZero(second);
+                        let hours = Number(day * 24) + Number(hour);
+
+                        if (beginDiff > 0) {
+                          activityText.innerHTML = `Ends In <b>${hours}</b>&nbsp;:&nbsp;<b>${minute}</b>&nbsp;:&nbsp;<b>${second}</b>`;
+                          timer = setTimeout(countDown_flash_sale, 1000);
+                        } else if (leftTime <= 0) {
+                          activityText.innerHTML = '00:00:00';
+                          clearTimeout(timer);
+                        } else {
+                          activityText.innerHTML = `Ends In <b>${hours}</b>&nbsp;:&nbsp;<b>${minute}</b>&nbsp;:&nbsp;<b>${second}</b>`;
+                          timer = setTimeout(countDown_flash_sale, 1000);
+                        }
+                        
                       }
-
-                      let activityText = document.querySelector('#sale__countdown-item');
-                      let timer = null;
-                      const startTime = new Date();
-                      const endTime = new Date('{{ block.settings.end_date }} 23:59:59');
-                      const nowTime = new Date();
-                      const beginDiff = parseInt((startTime.getTime() - nowTime.getTime()) / 1000);
-                      const endDiff = parseInt((endTime.getTime() - nowTime.getTime()) / 1000);
-                      const leftTime = beginDiff > 0 ? beginDiff : endDiff;
-                      let day = parseInt(leftTime / (24 * 60 * 60))
-                      let hour = parseInt(leftTime / (60 * 60) % 24);
-                      let minute = parseInt(leftTime / 60 % 60);
-                      let second = parseInt(leftTime % 60);
-
-                      // outOfClaimed.innerText = `${1000 - parseInt( leftTime / 60 % 1000)  }`;
-
-                      day = addZero(day);
-                      hour = addZero(hour);
-                      minute = addZero(minute);
-                      second = addZero(second);
-                      let hours = Number(day * 24) + Number(hour);
-
-                      if (beginDiff > 0) {
-                        activityText.innerHTML = `Ends In <b>${hours}</b>&nbsp;:&nbsp;<b>${minute}</b>&nbsp;:&nbsp;<b>${second}</b>`;
-                        timer = setTimeout(countDown_flash_sale, 1000);
-                      } else if (leftTime <= 0) {
-                        activityText.innerHTML = '00:00:00';
-                        clearTimeout(timer);
-                      } else {
-                        activityText.innerHTML = `Ends In <b>${hours}</b>&nbsp;:&nbsp;<b>${minute}</b>&nbsp;:&nbsp;<b>${second}</b>`;
-                        timer = setTimeout(countDown_flash_sale, 1000);
-                      }
-                      
-                    }
-                  </script>
-                  
-              </div>
+                    </script>
+                </div>
+              {% endif %}
             {% when 'text' %} 
               <div class="product__subheading product__subheading--rte" {{ block.shopify_attributes }}>
                 {% if block.settings.title != '' %}
@@ -159,84 +158,83 @@
                   {% render 'product-form', product: product, block: block, section: section %}
                 </div>
               {% when 'flashsale' %}
-                <div class="product-countdown">
-                  <img src="{{ "product-flash-sale-icon.png" | asset_url}}" width="119px" height="24px">
-                  <div id="sale__countdown-item-one-half" class="product-countdown-box"></div>
-                  <script>
-                      countDown_flash_sale();
+                {% if product.title === 'Deeper Connect Pico Set' %}
+                  <div class="product-countdown">
+                    <img src="{{ "product-flash-sale-icon.png" | asset_url}}" width="119px" height="24px">
+                    <div id="sale__countdown-item-one-half" class="product-countdown-box"></div>
+                    <script>
+                        countDown_flash_sale();
+                        function countDown_flash_sale(){
+                          function addZero(i) {
+                            return i < 10 ? "0" + i : i;
+                          }
+                          let activityText = document.querySelector('#sale__countdown-item-one-half');
+                          let outOfClaimed = document.querySelector('#sale__countdown-flash-sale-claimed');
+                          let timer = null;
+                          const startTime = new Date();
+                          const endTime = new Date('{{ block.settings.end_date }} 23:59:59');
+                          console.log(`{{ block.settings.end_date }}`);
+                          const nowTime = new Date();
+                          const beginDiff = parseInt((startTime.getTime() - nowTime.getTime()) / 1000);
+                          const endDiff = parseInt((endTime.getTime() - nowTime.getTime()) / 1000);
+                          const leftTime = beginDiff > 0 ? beginDiff : endDiff;
+                          let day = parseInt(leftTime / (24 * 60 * 60))
+                          let hour = parseInt(leftTime / (60 * 60) % 24);
+                          let minute = parseInt(leftTime / 60 % 60);
+                          let second = parseInt(leftTime % 60);
 
-                      function countDown_flash_sale(){
- 
-                        function addZero(i) {
-                          return i < 10 ? "0" + i : i;
+                          outOfClaimed.innerText = `${199 + parseInt( leftTime / 60 % 1000)} Left`;
+
+                          day = addZero(day);
+                          hour = addZero(hour);
+                          minute = addZero(minute);
+                          second = addZero(second);
+                          let hours = Number(day * 24) + Number(hour);
+
+                          if (beginDiff > 0) {
+                            activityText.innerHTML = `Ends In <b>${hours}</b>&nbsp;:&nbsp;<b>${minute}</b>&nbsp;:&nbsp;<b>${second}</b>`;
+                            timer = setTimeout(countDown_flash_sale, 1000);
+                          } else if (leftTime <= 0) {
+                            activityText.innerHTML = '00:00:00';
+                            clearTimeout(timer);
+                          } else {
+                            activityText.innerHTML = `Ends In <b>${hours}</b>&nbsp;:&nbsp;<b>${minute}</b>&nbsp;:&nbsp;<b>${second}</b>`;
+                            timer = setTimeout(countDown_flash_sale, 1000);
+                          }
+                          
+                        }
+                      </script>
+                      <style>
+                        .product-countdown{
+                          display: flex;
+                          flex-direction: row;
+                          justify-content: flex-start;
+                          margin-top:10px;
+                          margin-bottom:10px;
+                        } 
+                        .product-countdown-box, #sale__countdown-flash-sale-claimed { 
+                          padding: 2px 8px;
+                          font-size: 12px; 
+                          color: #F53F3F;
+                          font-weight: 500;
                         }
 
-                        let activityText = document.querySelector('#sale__countdown-item-one-half');
-                        let outOfClaimed = document.querySelector('#sale__countdown-flash-sale-claimed');
-                        let timer = null;
-                        const startTime = new Date();
-                        const endTime = new Date('{{ block.settings.end_date }} 23:59:59');
-                        console.log(`{{ block.settings.end_date }}`);
-                        const nowTime = new Date();
-                        const beginDiff = parseInt((startTime.getTime() - nowTime.getTime()) / 1000);
-                        const endDiff = parseInt((endTime.getTime() - nowTime.getTime()) / 1000);
-                        const leftTime = beginDiff > 0 ? beginDiff : endDiff;
-                        let day = parseInt(leftTime / (24 * 60 * 60))
-                        let hour = parseInt(leftTime / (60 * 60) % 24);
-                        let minute = parseInt(leftTime / 60 % 60);
-                        let second = parseInt(leftTime % 60);
-
-                        outOfClaimed.innerText = `${1000 - parseInt( leftTime / 60 % 1000)} Left`;
-
-                        day = addZero(day);
-                        hour = addZero(hour);
-                        minute = addZero(minute);
-                        second = addZero(second);
-                        let hours = Number(day * 24) + Number(hour);
-
-                        if (beginDiff > 0) {
-                          activityText.innerHTML = `Ends In <b>${hours}</b>&nbsp;:&nbsp;<b>${minute}</b>&nbsp;:&nbsp;<b>${second}</b>`;
-                          timer = setTimeout(countDown_flash_sale, 1000);
-                        } else if (leftTime <= 0) {
-                          activityText.innerHTML = '00:00:00';
-                          clearTimeout(timer);
-                        } else {
-                          activityText.innerHTML = `Ends In <b>${hours}</b>&nbsp;:&nbsp;<b>${minute}</b>&nbsp;:&nbsp;<b>${second}</b>`;
-                          timer = setTimeout(countDown_flash_sale, 1000);
+                        #sale__countdown-flash-sale-claimed {
+                          font-size: 16px;
+                          margin-top: 10px;
+                          margin-bottom: 10px;;
                         }
-                        
-                      }
-                    </script>
-                    <style>
-                      .product-countdown{
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: flex-start;
-                        margin-top:10px;
-                        margin-bottom:10px;
-                      } 
-                      .product-countdown-box, #sale__countdown-flash-sale-claimed { 
-                        padding: 2px 8px;
-                        font-size: 12px; 
-                        color: #F53F3F;
-                        font-weight: 500;
-                      }
 
-                      #sale__countdown-flash-sale-claimed {
-                        font-size: 16px;
-                        margin-top: 10px;
-                        margin-bottom: 10px;
-                      }
-
-                      .product-countdown-box b{
-                        background-color: #F53F3F;
-                        color: #fff;
-                        padding: 2px;
-                        font-weight:500;
-                      }
-                    </style>
-                </div>
-                <div id="sale__countdown-flash-sale-claimed"></div>
+                        .product-countdown-box b{
+                          background-color: #F53F3F;
+                          color: #fff;
+                          padding: 2px;
+                          font-weight:500;
+                        }
+                      </style>
+                  </div>
+                  <div id="sale__countdown-flash-sale-claimed"></div>
+                {% endif %}
               {% when 'description' %}
                 <div class="product-description rte rte--column accordion-neighbor" {{ block.shopify_attributes }}>
                   {%- assign product_description_content = product.description | strip -%}
