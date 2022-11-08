@@ -11,6 +11,12 @@
             "show_rating_count": false
           }
         },
+        "efe0444b-8fee-4877-8894-5eb87c29b8dc": {
+          "type": "flashsale",
+          "settings": {
+            "end_date": "2022-11-10"
+          }
+        },
         "fc01ffd4-68c5-49a4-968d-b296c2aac7b5": {
           "type": "liquid",
           "disabled": true,
@@ -37,12 +43,6 @@
           "disabled": true,
           "settings": {
             "title": "<p><strong>Last Summer Day 30% OFF Ends on 10\/12<\/strong><\/p>"
-          }
-        },
-        "60527cdb-92fc-41f5-95c6-846933a1553a": {
-          "type": "flashsale",
-          "settings": {
-            "end_date": "2022-11-10"
           }
         },
         "form": {
@@ -126,11 +126,11 @@
       },
       "block_order": [
         "title",
+        "efe0444b-8fee-4877-8894-5eb87c29b8dc",
         "fc01ffd4-68c5-49a4-968d-b296c2aac7b5",
         "41a0eb11-62d6-472e-a511-d70791deedad",
         "d99cbd0f-e24a-4a21-98ea-e8c5f2714732",
         "e790ab12-91b7-4b4a-8eb7-bd158f68711b",
-        "60527cdb-92fc-41f5-95c6-846933a1553a",
         "form",
         "7d2b643c-499d-4616-98ab-6f379379f32b",
         "icon-1",
