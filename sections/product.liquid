@@ -117,12 +117,16 @@
                 </div>
               {% when 'flashsale' %}
                 {% if product.title == 'Deeper Connect Pico Set' %}
+                  <script src="{{ 'moment.min.js' | asset_url }}" ></script>
+                  <script src="{{ 'moment-timezone.min.js' | asset_url }}"></script>
+                  
                   <div class="product-countdown mobile--hide small--hide">
                     <img src="{{ "product-flash-sale-icon.png" | asset_url}}" width="119px" height="24px">
                     <span id="sale__countdown-item" class="product-countdown-box"></span>
                   </div>
                   <script>
                         countDown_flash_sale();
+                        console.log('countDown_flash_sale');
                         function countDown_flash_sale(){
                           function addZero(i) {
                             return i < 10 ? "0" + i : i;
@@ -131,13 +135,28 @@
                           let mobileactivityText = document.querySelector('#sale__countdown-item-one-half');
                           // let outOfClaimed = document.querySelector('#sale__countdown-flash-sale-claimed');
                           let timer = null;
-                          const startTime = new Date((new Date().getTime() - 15 * 3600 * 1000));
-                          const endTime = new Date((new Date('{{ block.settings.end_date }} 23:59:59') - 15 * 3600 * 1000 ));
-                          const nowTime = new Date((new Date().getTime() - 15 * 3600 * 1000));
-                         
-                          const beginDiff = parseInt((startTime.getTime() - nowTime.getTime()) / 1000);
-                          const endDiff = parseInt((endTime.getTime() - nowTime.getTime()) / 1000);
+                          moment.tz.add('America/Los_Angeles|PST PDT|80 70|0101|1Lzm0 1zb0 Op0');
+                          let startTime = moment().tz('America/Los_Angeles');
+                          startTime.set('year',2022);
+                          startTime.set('month',10)
+                          startTime.set('date',8)
+                          startTime = startTime.startOf('day');
+
+                          const endDateStr = "{{block.settings.end_date}}".split('-');
+                          let endTime = moment().tz('America/Los_Angeles');
+                          endTime.set('year',endDateStr[0]);
+                          endTime.set('month',Number(endDateStr[1]-1))
+                          endTime.set('date',endDateStr[2])
+                          endTime = endTime.endOf('day');
+                          
+                          const nowTime =  moment().tz('America/Los_Angeles');
+                          
+                          
+                          const beginDiff = startTime.diff(nowTime,'seconds');
+                          const endDiff = endTime.diff(nowTime,'seconds');
+ 
                           const leftTime = beginDiff > 0 ? beginDiff : endDiff;
+                          
                           let day = parseInt(leftTime / (24 * 60 * 60))
                           let hour = parseInt(leftTime / (60 * 60) % 24);
                           let minute = parseInt(leftTime / 60 % 60);
