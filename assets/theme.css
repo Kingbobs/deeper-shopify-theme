@@ -14917,9 +14917,11 @@ form .errors ul,
   font-style: normal;
   text-decoration-line: line-through;
   margin-left:6px;
+  font-weight: 400 !important;
 }
 .collection-grid-item__price p {
   margin:0px;
+  font-weight: 600 ;
 }
 .collection-grid-item__price p strong { 
   font-weight: 600 !important;
@@ -14928,7 +14930,7 @@ form .errors ul,
   color: #FF5502;
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400 !important;
   font-size: 18px;
   margin-right: 6px;
   /* line-height: 22px; */
