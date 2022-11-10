@@ -92,7 +92,7 @@
             "raw_content_1": "<p>Weight:    172 g<\/p><p>Dimensions:    13 × 6.7 × 2 cm<\/p><p>Speed:    1Gbps<\/p><p>CPU:    ARM64 4 cores<\/p><p>Memory:    2GB<\/p><p>Package weight:    456 g<br\/>Dimensions:    16.3 × 11.1 × 6 cm<\/p>",
             "title_2": "Warranty & Return Policy",
             "icon_name_2": "",
-            "raw_content_2": "<p>1-Year limited warranty.<br\/>7-Day return or exchange guarantee.<br\/>Orders are eligible for same-business-day cancellation.<br\/>Custom duties are to be paid by the recipient. Duties levied differ across regions.<br\/>This product ships to every country (except Mainland China).<br\/><a href=\"\/pages\/return-cancellation-and-warranty-policy\" target=\"_blank\" title=\"Return, Cancellation and Warranty Policy\">*Return,Cancellation and Warranty Policy.<\/a><\/p><p>Please keep an accurate personal record of the official order information as our customer service team needs to authenticate the order information in order to provide better after-sales service, including tech support, warranty and\/ or replacement.<\/p>",
+            "raw_content_2": "<p><strong>FREE SHIPPING on orders over $99 | Limited Time offer<\/strong><\/p><p><strong>1-Year<\/strong> limited warranty.<br\/><strong>7-Day <\/strong>return or exchange guarantee.<br\/>Orders are eligible for <strong>same-business-day <\/strong>cancellation.<br\/>Custom duties are to be paid by the recipient. Duties levied differ across regions.<br\/>This product ships to every country (except Mainland China).<br\/><a href=\"\/pages\/return-cancellation-and-warranty-policy\" target=\"_blank\" title=\"Return, Cancellation and Warranty Policy\">*Return,Cancellation and Warranty Policy.<\/a><\/p><p>Please keep an accurate personal record of the official order information as our customer service team needs to authenticate the order information in order to provide better after-sales service, including tech support, warranty and\/ or replacement.<\/p>",
             "title_3": "",
             "icon_name_3": "",
             "raw_content_3": "",
@@ -116,12 +116,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "330a2944-651e-48a1-a1d0-9e2cc0899381": {
-          "type": "flashsale",
-          "settings": {
-            "end_date": ""
-          }
         }
       },
       "block_order": [
@@ -137,8 +131,7 @@
         "upsell",
         "description",
         "pickup",
-        "sharing",
-        "330a2944-651e-48a1-a1d0-9e2cc0899381"
+        "sharing"
       ],
       "settings": {
         "bg": "palette--light bg--neutral",
