@@ -65,7 +65,7 @@
             "raw_content_1": "<p>{{ product.metafields.my_fields.datasize | metafield_tag }}<\/p>",
             "title_2": "Warranty & Return Policy",
             "icon_name_2": "",
-            "raw_content_2": "<p>1-Year limited warranty.<br\/>7-Day return or exchange guarantee.<br\/>Orders are eligible for same-business-day cancellation.<br\/>Custom duties are to be paid by the recipient. Duties levied differ across regions.<br\/>This product ships to every country (except Mainland China).<br\/><br\/><a href=\"\/pages\/return-cancellation-and-warranty-policy\" target=\"_blank\" title=\"Return, Cancellation and Warranty Policy\">*Return,Cancellation and Warranty Policy.<\/a><\/p><p>Please keep an accurate personal record of the official order information as our customer service team needs to authenticate the order information in order to provide better after-sales service, including tech support, warranty and\/ or replacement.<\/p>",
+            "raw_content_2": "<p><strong>FREE SHIPPING on orders over $99 | Limited Time offer.<\/strong><\/p><p><strong>1-Year<\/strong> limited warranty.<br\/><strong>7-Day<\/strong> return or exchange guarantee.<br\/>Orders are eligible for <strong>same-business-day <\/strong>cancellation.<br\/>Custom duties are to be paid by the recipient. Duties levied differ across regions.<br\/>This product ships to every country (except Mainland China).<br\/><br\/><a href=\"\/pages\/return-cancellation-and-warranty-policy\" target=\"_blank\" title=\"Return, Cancellation and Warranty Policy\">*Return,Cancellation and Warranty Policy.<\/a><\/p><p>Please keep an accurate personal record of the official order information as our customer service team needs to authenticate the order information in order to provide better after-sales service, including tech support, warranty and\/ or replacement.<\/p>",
             "title_3": "",
             "icon_name_3": "",
             "raw_content_3": "",
@@ -395,6 +395,7 @@
             "collection_image": "shopify:\/\/shop_images\/11101653034298_.pic.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=8MABZWV0MrE",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -407,6 +408,7 @@
             "collection_image": "shopify:\/\/shop_images\/11091653034297_.pic.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=wRrpnndq9Zc",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -455,6 +457,7 @@
             "collection_image": "shopify:\/\/shop_images\/1_Jon_Rettinger.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=Y0tr1eZvGeg",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -467,6 +470,7 @@
             "collection_image": "shopify:\/\/shop_images\/2_Unbox_Therapy.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=J-aSuNYmTlk&t=263s",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -479,6 +483,7 @@
             "collection_image": "shopify:\/\/shop_images\/3_Jabber_Tech.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=SDWMvdLoe6Y",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -491,6 +496,7 @@
             "collection_image": "shopify:\/\/shop_images\/4_Full_Value_Dan.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=rieMyHv43zk",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -503,6 +509,7 @@
             "collection_image": "shopify:\/\/shop_images\/5_Smart_Tech.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=4RoFj4XJV20",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -515,6 +522,7 @@
             "collection_image": "shopify:\/\/shop_images\/6_Action_Crypto.png",
             "bg_position": "center-center",
             "link_override": "https:\/\/www.youtube.com\/watch?v=d2b4yAb9KmQ",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -554,6 +562,7 @@
             "collection_image": "shopify:\/\/shop_images\/Total_product_page__pico_b9279d04-1349-4662-8c7c-172a22538d08.png",
             "bg_position": "center-center",
             "link_override": "shopify:\/\/products\/deeper-connect-pico-wi-fi-adapter",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
@@ -566,6 +575,7 @@
             "collection_image": "shopify:\/\/shop_images\/21751653485504_.pic_hd.png",
             "bg_position": "center-center",
             "link_override": "shopify:\/\/products\/deeper-connect-mini",
+            "link_override_new_window": false,
             "content_color": "#333333",
             "content_bg": "#ffffff"
           }
