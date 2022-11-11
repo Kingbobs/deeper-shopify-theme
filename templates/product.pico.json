@@ -13,6 +13,7 @@
         },
         "efe0444b-8fee-4877-8894-5eb87c29b8dc": {
           "type": "flashsale",
+          "disabled": true,
           "settings": {
             "end_date": "2022-11-10"
           }
