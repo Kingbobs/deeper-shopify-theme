@@ -11,6 +11,12 @@
             "show_rating_count": false
           }
         },
+        "28dc1f86-99f9-4896-bc39-6b6719673e0b": {
+          "type": "flashsale",
+          "settings": {
+            "end_date": "2022-11-13"
+          }
+        },
         "08b49474-221d-48bd-9790-e0b57b536b01": {
           "type": "text",
           "disabled": true,
@@ -120,6 +126,7 @@
       },
       "block_order": [
         "title",
+        "28dc1f86-99f9-4896-bc39-6b6719673e0b",
         "08b49474-221d-48bd-9790-e0b57b536b01",
         "9705c893-fec1-40ee-b298-f7977ac1d017",
         "icon-1",
