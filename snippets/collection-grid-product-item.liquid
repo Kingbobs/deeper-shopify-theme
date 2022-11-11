@@ -113,7 +113,6 @@
                   let activityText = document.querySelector('#sale__countdown-item-{{ forloop.index0 }}');
                   // let outOfClaimed = document.querySelector('#sale__countdown-flash-sale-claimed-{{ forloop.index0 }}');
                   let timer = null;
-                  moment.tz.add('America/Los_Angeles|PST PDT|80 70|0101|1Lzm0 1zb0 Op0');
                   let startTime = moment().tz('America/Los_Angeles');
                   startTime.set('year',2022);
                   startTime.set('month',10)
@@ -132,7 +131,7 @@
                   
                   const beginDiff = startTime.diff(nowTime,'seconds');
                   const endDiff = endTime.diff(nowTime,'seconds');
-
+ 
                   const leftTime = beginDiff > 0 ? beginDiff : endDiff;
                   
                   let day = parseInt(leftTime / (24 * 60 * 60))
