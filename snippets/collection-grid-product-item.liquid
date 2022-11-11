@@ -63,13 +63,26 @@
                     background-image: url('{{ image | img_url: '1x1' }}');"{% else %}
         style="padding-top: {{ 1 | divided_by: image.aspect_ratio | times: 100 }}%;
                     background-image: url('{{ image | img_url: '1x1' }}');"{% endif %} data-wipe-background>
-        <div class="background-size-cover lazyload" data-bgset="{% render 'bgset', image: image %}" style="background-position: {{ bg_position | replace: '-', ' ' }};" role="img" aria-label="{{ image.alt | strip_html | escape }}">
+        <div class="background-size-cover lazyload" data-bgset="{% render 'bgset', image: image %}" 
+            style="background-position: {{ bg_position | replace: '-', ' ' }};" 
+            role="img" aria-label="{{ image.alt | strip_html | escape }}"
+          >
 
-          {%- if block.settings.end_date != blank -%}
-          <div style="float:left;margin:10px;">
-            <img width="119px" height="24px" src="{{ "flash-sale-icon.png" | asset_url }}" />
+          <div style="width: 100%; height: 100%; position:relative">
+              {%- if block.settings.end_date != blank -%}
+                <div style="position:absolute; top: 15px; left: 15px;">
+                  <img width="119px" height="24px" src="{{ "flash-sale-icon.png" | asset_url }}" />
+                </div>
+              {%- endif -%}
+              {%- if block.settings.show_freeshipping  -%}
+                <div style="position:absolute; bottom: 0px; left: 10px;">
+                  <img width="100px" src="{{ "grid-product-freeshipping-ico.png" | asset_url }}" />
+                </div>
+              {%- endif -%}
           </div>
-          {%- endif -%}
+        
+
+          
           
         </div>
         <noscript>
