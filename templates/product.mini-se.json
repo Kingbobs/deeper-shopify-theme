@@ -334,7 +334,14 @@
     },
     "16530596145abf441e": {
       "type": "section-text",
+      "disabled": true,
       "blocks": {
+        "b19f77f9-7550-468b-b7dd-afb26024ff9f": {
+          "type": "image",
+          "settings": {
+            "image_max_limit": 120
+          }
+        },
         "16530596148d82640d-1": {
           "type": "heading",
           "settings": {
@@ -362,6 +369,7 @@
         }
       },
       "block_order": [
+        "b19f77f9-7550-468b-b7dd-afb26024ff9f",
         "16530596148d82640d-1",
         "16530596148d82640d-2",
         "d79578bb-3ec7-4867-be0d-a7023f599fd4"
@@ -376,6 +384,7 @@
     },
     "1652883730a47dcabd": {
       "type": "section-video-player",
+      "disabled": true,
       "settings": {
         "video_link": "https:\/\/www.youtube.com\/watch?v=J-aSuNYmTlk",
         "ratio": "0.5626",
