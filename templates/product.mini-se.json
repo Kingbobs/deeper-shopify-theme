@@ -362,7 +362,7 @@
         "aspect_ratio": 0.7,
         "layout": "left",
         "title": "Blockchain Mining",
-        "text": "<p>We do not own any centralized servers as every Deeper Connect is in essence a server and a client. All these devices are distributed around the world to communicate and share bandwidth with each other.<\/p>\n<p>Mining as you surf the web, get passive income for sharing your extra bandwidth.<\/p>\n\n<a class=\"overlap__button btn btn--primary\" href=\"#\">Join Us Now<\/a>",
+        "text": "<p>We do not own any centralized servers as every Deeper Connect is in essence a server and a client. All these devices are distributed around the world to communicate and share bandwidth with each other.<\/p>\n<p>Mining as you surf the web, get passive income for sharing your extra bandwidth.<\/p>\n\n<a class=\"overlap__button btn btn--primary\" href=\"https:\/\/shop.deeper.network\/pages\/blockchain-mining\" target=\"_blank\">Join Us Now<\/a>",
         "color_text_bg": "palette--light bg--accent",
         "button_label": "",
         "button_link": "",
