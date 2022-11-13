@@ -332,56 +332,6 @@
         "padding_bottom": 0
       }
     },
-    "16530596145abf441e": {
-      "type": "section-text",
-      "disabled": true,
-      "blocks": {
-        "b19f77f9-7550-468b-b7dd-afb26024ff9f": {
-          "type": "image",
-          "settings": {
-            "image_max_limit": 120
-          }
-        },
-        "16530596148d82640d-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Blockchain Mining<\/p>",
-            "text_size": 6
-          }
-        },
-        "16530596148d82640d-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We do not own any centralized servers as every Deeper Connect is in essence a server and a client. All these devices distribute around the world to communicate and share bandwidth with each other.<br\/>Share unused bandwidth to earn DPR rewards and exchange them for services in the Deeper Network ecosystem. Easily mine crypto, earn passive income just by participating.<\/p>",
-            "text_size": 4,
-            "text_columns": 1
-          }
-        },
-        "d79578bb-3ec7-4867-be0d-a7023f599fd4": {
-          "type": "button",
-          "settings": {
-            "button_text": "Explore More",
-            "button_url": "shopify:\/\/pages\/blockchain-mining",
-            "button_size": "",
-            "button_style": "hero__btn btn",
-            "button_color": "btn--primary"
-          }
-        }
-      },
-      "block_order": [
-        "b19f77f9-7550-468b-b7dd-afb26024ff9f",
-        "16530596148d82640d-1",
-        "16530596148d82640d-2",
-        "d79578bb-3ec7-4867-be0d-a7023f599fd4"
-      ],
-      "settings": {
-        "align_text": "text-left",
-        "color_bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "1652883730a47dcabd": {
       "type": "section-video-player",
       "disabled": true,
@@ -402,6 +352,26 @@
         "width": "wrapper",
         "padding_top": 40,
         "padding_bottom": 0
+      }
+    },
+    "e2ad5c5b-790e-4d3b-8f84-369f3aa00759": {
+      "type": "section-image-and-html",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2022-05-12_10.12_1_1.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.6,
+        "layout": "left",
+        "title": "Blockchain Mining",
+        "text": "<p>We do not own any centralized servers as every Deeper Connect is in essence a server and a client. All these devices are distributed around the world to communicate and share bandwidth with each other.<\/p>\n<p>Mining as you surf the web, get passive income for sharing your extra bandwidth.<\/p>\n\n<a href=\"#\">Join Us Now<\/a>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1653060019b2169265": {
@@ -514,8 +484,8 @@
     "16536735095f699f53",
     "16528824717c9814e8",
     "165288288513d4f103",
-    "16530596145abf441e",
     "1652883730a47dcabd",
+    "e2ad5c5b-790e-4d3b-8f84-369f3aa00759",
     "1653060019b2169265",
     "165288402691f6bdea",
     "related",
