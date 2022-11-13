@@ -132,10 +132,9 @@
         <button class="accordion__title accordion-is-open" data-accordion-trigger="{{ block_id }}" aria-controls="{{ block_id }}" aria-haspopup="true" aria-expanded="false">
           {%- render 'icons', filename: block.settings.description_icon -%}
           {{ 'products.general.description' | t }}
-          {% if product.title contains "Mini SE"%}
+          {%  if product.title contains "Mini SE"%}
             （There is NO wifi-adapter within the box of this device.）
           {% endif %}
-
         </button>
 
         <div class="accordion__body" id="{{ block_id }}" data-accordion-body>
