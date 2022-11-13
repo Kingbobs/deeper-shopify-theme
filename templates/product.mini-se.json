@@ -279,7 +279,7 @@
         "aspect_ratio": 1,
         "layout": "right",
         "title": "Enterprise-grade Cybersecurity",
-        "text": "<p>Deeper Connect comes with a fully-featured suite of enterprise-grade security functions to keep you safe while online and protect all your IoT devices. <\/p><p>The most unique lock-free operating system running on Deeper Connect, AtomOS, provides a 7-layer firewall with deep packet inspection, anti-tracking, intrusion prevention, and more.<br\/><\/p>",
+        "text": "<p>Deeper Connect comes with a fully-featured suite of enterprise-grade security functions to keep you safe while online and protect all your IoT devices. <\/p><p>The most unique <strong>lock-free operating system<\/strong> running on Deeper Connect, <strong>AtomOS<\/strong>, provides a <strong>7-layer firewall<\/strong> with deep packet inspection, anti-tracking, intrusion prevention, and more.<br\/><\/p>",
         "color_text_bg": "palette--light bg--accent",
         "button_label": "",
         "button_link": "",
