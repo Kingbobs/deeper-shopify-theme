@@ -11,12 +11,6 @@
             "show_rating_count": false
           }
         },
-        "28dc1f86-99f9-4896-bc39-6b6719673e0b": {
-          "type": "flashsale",
-          "settings": {
-            "end_date": "2022-11-13"
-          }
-        },
         "08b49474-221d-48bd-9790-e0b57b536b01": {
           "type": "text",
           "disabled": true,
@@ -65,22 +59,6 @@
             "info_page": ""
           }
         },
-        "b726cf4c-e667-499f-b14a-bead9c36d9c0": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<h6 style=\"margin-top:24px;margin-bottom:12px;font-size:14px;font-weight:500\">Guaranteed Safe Checkout:<\/h6>\n{% assign enabled_payment_types = 'visa,master,american_express,discover,diners_club,shopify_pay,apple_pay,metapay,google_pay' | remove: ' ' | split: ',' %}\n\n<div style=\"display:flex; flex-direction: row; justify-content: space-between;\">\n{% for type in enabled_payment_types %}\n    <div class=\"price--payment\">{{ type | payment_type_svg_tag: class: 'payment-icon' }}<span class=\"visually-hidden\">{{ type | capitalize | replace: '_', ' ' }}<\/span><\/div>\n{% endfor %}\n<div class=\"price--payment\"><img  src=\"{{ 'alipay.png'  | asset_url }}\" width=\"38\" height=\"24\"><\/div>\n<div class=\"price--payment\"><img  src=\"{{ 'unionPay.png'  | asset_url }}\" width=\"38\" height=\"24\" ><\/div>\n<div class=\"price--payment\"><img  src=\"{{ 'wire_transfer.png'  | asset_url }}\" width=\"38\" height=\"24\" ><\/div>\n<\/div>"
-          }
-        },
-        "icon-2": {
-          "type": "icon",
-          "disabled": true,
-          "settings": {
-            "icon_name": "icon-sewing-machine",
-            "icon_color": "#5d9386",
-            "text": "<p>Certified fair trade product<\/p>"
-          }
-        },
         "upsell": {
           "type": "upsell",
           "settings": {
@@ -126,15 +104,12 @@
       },
       "block_order": [
         "title",
-        "28dc1f86-99f9-4896-bc39-6b6719673e0b",
         "08b49474-221d-48bd-9790-e0b57b536b01",
         "9705c893-fec1-40ee-b298-f7977ac1d017",
         "icon-1",
         "0c83906b-6e4b-4a15-831e-82f7208f0a64",
         "41a0eb11-62d6-472e-a511-d70791deedad",
         "form",
-        "b726cf4c-e667-499f-b14a-bead9c36d9c0",
-        "icon-2",
         "upsell",
         "description",
         "pickup",
