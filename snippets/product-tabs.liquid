@@ -10,7 +10,7 @@
   {%- assign tab_links_html = '' -%}
   {%- assign tab_contents_html = '' -%}
   {%- assign count = 0 -%}
-  
+
   {%- if product_description_content != blank -%}
     {%- capture tab_links_html -%}
       <button type="button" class="tab-link tab-link-0" data-block-id="{{ section.id | append: '-0' }}" data-focus-element data-tab="0" tabindex="0" data-attributes-placeholder>
@@ -21,7 +21,7 @@
 
     {%- capture tab_contents_html -%}
       <div class="tab-content tab-content-0">
-        <div class="tab-content__holder {% if block.settings.read_more %}tab-content__holder--truncate{% endif %}" {% if block.settings.read_more %}data-truncated-holder{% endif %} >
+        <div class="tab-content__holder {% if block.settings.read_more %}tab-content__holder--truncate{% endif %}" {% if block.settings.read_more %}data-truncated-holder{% endif %}>
           <div class="tab-content__inner">
             <div class="tab-content__entry" {% if block.settings.read_more %}data-truncated-content="tab-content__entry--truncate"{% endif %}>
               {% if block.settings.read_more %}
@@ -32,7 +32,7 @@
             </div>
           </div>
 
-          {% if block.settings.read_more %}  
+          {% if block.settings.read_more %}
             <div class="tab-content__actions">
               {{ truncate_html }}
             </div>
@@ -73,8 +73,8 @@
       {%- assign count = count | plus: 1 -%}
     {%- endif -%}
   {%- endfor -%}
-  
-  {%- if tab_contents_html -%}  
+
+  {%- if tab_contents_html -%}
     <div class="product-tabs" data-tabs-holder>
       <div class="tabs__head product-tabs__head">
         <div class="tabs product-tabs-title" data-scrollbar data-scrollbar-slider>
@@ -89,14 +89,14 @@
           <span class="visually-hidden">{{ 'general.accessibility.see_all' | t }}</span>
         </button>
       </div>
-      
+
       {{ tab_contents_html }}
     </div>
   {%- endif -%}
 {%- elsif block.settings.style == 'accordions' -%}
   <div class="product-accordion" data-accordion-group>
     {%- assign accordion_blocks_html = '' -%}
-    
+
     {%- for i in (1..5) -%}
       {%- assign _title = 'title_' | append: forloop.index -%}
       {%- assign _title = block.settings[_title] -%}
@@ -110,11 +110,7 @@
         {%- capture accordion_blocks_html -%}
           {{ accordion_blocks_html }}
           <div class="accordion__wrapper">
-            <button class="accordion__title"
-              data-accordion-trigger="{{ block_id }}"
-              aria-controls="{{ block_id }}"
-              aria-haspopup="true" 
-              aria-expanded="false">
+            <button class="accordion__title" data-accordion-trigger="{{ block_id }}" aria-controls="{{ block_id }}" aria-haspopup="true" aria-expanded="false">
               {%- assign icon_name = 'icon_name_' | append: i -%}
               {%- render 'icons', filename: block.settings[icon_name] -%}
 
@@ -128,18 +124,18 @@
         {%- endcapture -%}
       {%- endif -%}
     {%- endfor -%}
-    
+
 
     {%- if product_description_content != blank -%}
       {% assign block_id = block.id | append: '-main' %}
       <div class="accordion__wrapper">
-        <button class="accordion__title accordion-is-open"
-          data-accordion-trigger="{{ block_id }}"
-          aria-controls="{{ block_id }}"
-          aria-haspopup="true" 
-          aria-expanded="false">
+        <button class="accordion__title accordion-is-open" data-accordion-trigger="{{ block_id }}" aria-controls="{{ block_id }}" aria-haspopup="true" aria-expanded="false">
           {%- render 'icons', filename: block.settings.description_icon -%}
           {{ 'products.general.description' | t }}
+          {% if product.title contains "Mini SE"%}
+            （There is NO wifi-adapter within the box of this device.）
+          {% endif %}
+
         </button>
 
         <div class="accordion__body" id="{{ block_id }}" data-accordion-body>
@@ -147,14 +143,14 @@
             <div class="accordion__body__inner">
               <div class="accordion__body__entry" {% if block.settings.read_more %}data-truncated-content="accordion__body__entry--truncate"{% endif %}>
                 {% if block.settings.read_more %}
-                  {{ product_description_content }}  
+                  {{ product_description_content }}
                 {% else %}
-                  {{ product.description }}  
+                  {{ product.description }}
                 {% endif %}
               </div>
             </div>
 
-            {% if block.settings.read_more %}  
+            {% if block.settings.read_more %}
               <div class="accordion__body__actions">
                 {{ truncate_html }}
               </div>
